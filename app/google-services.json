@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "829544249468",
+    "firebase_url": "https://foodfullchucnangcodedoan-default-rtdb.firebaseio.com",
+    "project_id": "foodfullchucnangcodedoan",
+    "storage_bucket": "foodfullchucnangcodedoan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829544249468:android:0849276efb302aefafb1f9",
+        "android_client_info": {
+          "package_name": "com.example.doanfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829544249468:android:122fdb10e7bd5537afb1f9",
+        "android_client_info": {
+          "package_name": "com.example.heroPetShop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

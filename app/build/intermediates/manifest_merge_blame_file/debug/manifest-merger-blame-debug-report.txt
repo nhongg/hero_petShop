@@ -1,0 +1,506 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.doanfood"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:12:5-65
+16-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:12:22-62
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:13:5-79
+17-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:14:22-64
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:15:5-81
+19-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:15:22-78
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:16:5-79
+20-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:16:22-76
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:17:5-81
+21-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:17:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:18:5-80
+22-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:18:22-77
+23    <uses-permission
+23-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:19:5-20:38
+24        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+24-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:19:22-79
+25        android:minSdkVersion="30" />
+25-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:20:9-35
+26
+27    <queries>
+27-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:13:5-16:15
+28        <package android:name="com.mservice.momotransfer" />
+28-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:14:9-61
+28-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:14:18-58
+29        <package android:name="vn.momo.platform.test" />
+29-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:15:9-57
+29-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:15:18-54
+30        <!-- Needs to be explicitly declared on Android R+ -->
+31        <package android:name="com.google.android.apps.maps" />
+31-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+31-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+32    </queries>
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+36        android:required="true" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+36-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+38        android:name="android.hardware.camera"
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+41        android:name="android.hardware.camera.front"
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+42        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+43    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+44    <uses-feature
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+45        android:name="android.hardware.camera.autofocus"
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+46        android:required="false" />
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+47    <uses-feature
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+48        android:name="android.hardware.camera.flash"
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+49        android:required="false" />
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+50    <uses-feature
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+51        android:name="android.hardware.screen.landscape"
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+52        android:required="false" />
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+54        android:name="android.hardware.wifi"
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+56
+57    <uses-permission android:name="android.permission.WAKE_LOCK" />
+57-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+57-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+58    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+58-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+58-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+59    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+59-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+59-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+60
+61    <application
+61-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:22:5-112:19
+62        android:allowBackup="true"
+62-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:23:9-35
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.5.0] C:\Users\whyso\.gradle\caches\transforms-3\c79b777adf6ba90bc8e57c603f55207f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:extractNativeLibs="false"
+66        android:hardwareAccelerated="true"
+66-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:19:9-43
+67        android:icon="@mipmap/ic_food2"
+67-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:24:9-40
+68        android:label="@string/app_name"
+68-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:25:9-41
+69        android:roundIcon="@mipmap/ic_food2_round"
+69-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:26:9-51
+70        android:supportsRtl="true"
+70-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:27:9-35
+71        android:testOnly="true"
+72        android:theme="@style/Theme.DoAn_TMDT"
+72-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:28:9-47
+73        android:usesCleartextTraffic="true" >
+73-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:29:9-44
+74        <activity android:name="com.example.heroPetShop.View.CartActivity" />
+74-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:31:9-87
+74-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:31:19-75
+75        <activity android:name="com.example.heroPetShop.View.OrderSuccessActivity" />
+75-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:32:9-86
+75-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:32:19-83
+76        <activity
+76-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:33:9-38:48
+77            android:name="com.example.heroPetShop.View.ChatActivity"
+77-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:34:13-69
+78            android:excludeFromRecents="true"
+78-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:38:13-46
+79            android:exported="true"
+79-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:35:13-36
+80            android:launchMode="singleTask"
+80-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:36:13-44
+81            android:taskAffinity="" />
+81-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:37:13-36
+82        <activity android:name="com.example.heroPetShop.View.MessageActivity" />
+82-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:39:9-81
+82-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:39:19-78
+83        <activity android:name="com.example.heroPetShop.View.DanhGiaActivity" />
+83-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:40:9-81
+83-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:40:19-78
+84        <activity android:name="com.example.heroPetShop.View.FavoriteActivity" />
+84-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:41:9-82
+84-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:41:19-79
+85        <activity android:name="com.example.heroPetShop.View.CommentActivity" />
+85-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:42:9-81
+85-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:42:19-78
+86        <activity android:name="com.example.heroPetShop.View.DetailSPActivity" />
+86-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:43:9-82
+86-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:43:19-79
+87        <activity android:name="com.example.heroPetShop.View.Admin.AdminUsersActivity" />
+87-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:44:9-90
+87-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:44:19-87
+88        <activity android:name="com.example.heroPetShop.View.SearchActivity" />
+88-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:45:9-80
+88-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:45:19-77
+89        <!--
+90             The API key for Google Maps-based APIs is defined as a string resource.
+91             (See the file "res/values/google_maps_api.xml").
+92             Note that the API key is linked to the encryption key used to sign the APK.
+93             You need a different API key for each encryption key, including the release key that is used to
+94             sign the APK for publishing.
+95             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+96        -->
+97        <meta-data
+97-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:54:9-56:55
+98            android:name="com.google.android.geo.API_KEY"
+98-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:55:13-58
+99            android:value="@string/google_maps_key" />
+99-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:56:13-52
+100
+101        <activity android:name="com.example.heroPetShop.View.Admin.AdminCTHDActivity" />
+101-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:58:9-89
+101-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:58:19-86
+102        <activity android:name="com.example.heroPetShop.View.Admin.AdminAddLoaiSPActivity" />
+102-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:59:9-94
+102-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:59:19-91
+103        <activity android:name="com.example.heroPetShop.View.Admin.AdminAddSPActivity" />
+103-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:60:9-90
+103-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:60:19-87
+104        <activity android:name="com.example.heroPetShop.View.Admin.AdminProductActivity" />
+104-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:61:9-92
+104-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:61:19-89
+105        <activity android:name="com.example.heroPetShop.View.Admin.AdminChartBillActivity" />
+105-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:62:9-94
+105-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:62:19-91
+106        <activity
+106-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:63:9-65:39
+107            android:name="com.example.heroPetShop.View.Admin.AdminBillMainActivity"
+107-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:64:13-84
+108            android:exported="true" />
+108-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:65:13-36
+109        <activity
+109-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:66:9-68:39
+110            android:name="com.example.heroPetShop.View.Admin.AdminHomeActivity"
+110-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:67:13-80
+111            android:exported="true" />
+111-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:68:13-36
+112        <activity
+112-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:69:9-71:39
+113            android:name="com.example.heroPetShop.View.CTHDActivity"
+113-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:70:13-69
+114            android:exported="true" />
+114-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:71:13-36
+115        <activity
+115-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:72:9-74:39
+116            android:name="com.example.heroPetShop.View.CategoryActivity"
+116-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:73:13-73
+117            android:exported="true" />
+117-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:74:13-36
+118        <activity
+118-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:75:9-77:39
+119            android:name="com.example.heroPetShop.View.ForgotPasswordActivity"
+119-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:76:13-79
+120            android:exported="true" />
+120-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:77:13-36
+121        <activity
+121-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:78:9-80:39
+122            android:name="com.example.heroPetShop.View.SignUpActivity"
+122-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:79:13-71
+123            android:exported="true" />
+123-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:80:13-36
+124        <activity
+124-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:81:9-89:20
+125            android:name="com.example.heroPetShop.SplashActivity"
+125-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:82:13-66
+126            android:exported="true" >
+126-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:83:13-36
+127            <intent-filter>
+127-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:84:13-88:29
+128                <action android:name="android.intent.action.MAIN" />
+128-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:85:17-69
+128-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:85:25-66
+129
+130                <category android:name="android.intent.category.LAUNCHER" />
+130-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:87:17-77
+130-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:87:27-74
+131            </intent-filter>
+132        </activity>
+133        <activity
+133-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:90:9-92:39
+134            android:name="com.example.heroPetShop.MainActivity"
+134-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:91:13-64
+135            android:exported="true" />
+135-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:92:13-36
+136        <activity
+136-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:93:9-95:39
+137            android:name="com.example.heroPetShop.View.SignInActivity"
+137-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:94:13-71
+138            android:exported="true" />
+138-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:95:13-36
+139        <activity
+139-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:98:9-102:57
+140            android:name="com.example.heroPetShop.View.CaptureAct"
+140-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:99:13-67
+141            android:screenOrientation="portrait"
+141-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:100:13-49
+142            android:stateNotNeeded="true"
+142-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:101:13-42
+143            android:theme="@style/zxing_CaptureTheme" />
+143-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:102:13-54
+144
+145        <receiver
+145-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:104:9-111:20
+146            android:name="com.example.heroPetShop.ultil.MyReceiver"
+146-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:105:13-68
+147            android:exported="true" >
+147-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:106:13-36
+148            <intent-filter>
+148-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:107:13-110:29
+149                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+149-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:108:17-79
+149-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:108:25-76
+150                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+150-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:109:17-78
+150-->C:\Users\whyso\Downloads\hero_petShop-main\hero_petShop-main\app\src\main\AndroidManifest.xml:109:25-75
+151            </intent-filter>
+152        </receiver>
+153        <!-- Needs to be explicitly declared on P+ -->
+154        <uses-library
+154-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+155            android:name="org.apache.http.legacy"
+155-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+156            android:required="false" />
+156-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+157
+158        <activity
+158-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+159            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+159-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+160            android:excludeFromRecents="true"
+160-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+161            android:exported="true"
+161-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+162            android:launchMode="singleTask"
+162-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+163-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+164            <intent-filter>
+164-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+165                <action android:name="android.intent.action.VIEW" />
+165-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+165-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+167-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+168                <category android:name="android.intent.category.BROWSABLE" />
+168-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+168-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+169
+170                <data
+170-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+171                    android:host="firebase.auth"
+171-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+172                    android:path="/"
+172-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+173                    android:scheme="genericidp" />
+173-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+174            </intent-filter>
+175        </activity>
+176        <activity
+176-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+177            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+177-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+178            android:excludeFromRecents="true"
+178-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+179            android:exported="true"
+179-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+180            android:launchMode="singleTask"
+180-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+181-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+182            <intent-filter>
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+183                <action android:name="android.intent.action.VIEW" />
+183-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+183-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+187
+188                <data
+188-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+189                    android:host="firebase.auth"
+189-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+190                    android:path="/"
+190-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+191                    android:scheme="recaptcha" />
+191-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+192            </intent-filter>
+193        </activity>
+194
+195        <service
+195-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+196            android:name="com.google.firebase.components.ComponentDiscoveryService"
+196-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+199            <meta-data
+199-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+200                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+200-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\whyso\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
+203                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+203-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\whyso\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\whyso\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\whyso\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+206                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+206-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\whyso\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\whyso\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-database:20.1.0] C:\Users\whyso\.gradle\caches\transforms-3\7999ce509f05799c7a4908a905671bbc\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+209                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+209-->[com.google.firebase:firebase-database:20.1.0] C:\Users\whyso\.gradle\caches\transforms-3\7999ce509f05799c7a4908a905671bbc\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-database:20.1.0] C:\Users\whyso\.gradle\caches\transforms-3\7999ce509f05799c7a4908a905671bbc\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+211            <meta-data
+211-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+212                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+212-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\9a2fd8e32b31e52a80bbbfcea60f4470\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\whyso\.gradle\caches\transforms-3\4621e1981673e74e8bbe36c242ada36d\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+215                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+215-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\whyso\.gradle\caches\transforms-3\4621e1981673e74e8bbe36c242ada36d\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\whyso\.gradle\caches\transforms-3\4621e1981673e74e8bbe36c242ada36d\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+217        </service>
+218
+219        <provider
+219-->[com.squareup.picasso:picasso:2.71828] C:\Users\whyso\.gradle\caches\transforms-3\722f76b11e144157aeb371c6516c830a\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+220            android:name="com.squareup.picasso.PicassoProvider"
+220-->[com.squareup.picasso:picasso:2.71828] C:\Users\whyso\.gradle\caches\transforms-3\722f76b11e144157aeb371c6516c830a\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+221            android:authorities="com.example.doanfood.com.squareup.picasso"
+221-->[com.squareup.picasso:picasso:2.71828] C:\Users\whyso\.gradle\caches\transforms-3\722f76b11e144157aeb371c6516c830a\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+222            android:exported="false" />
+222-->[com.squareup.picasso:picasso:2.71828] C:\Users\whyso\.gradle\caches\transforms-3\722f76b11e144157aeb371c6516c830a\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+223
+224        <activity
+224-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+225            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+225-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+226            android:clearTaskOnLaunch="true"
+226-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+227            android:screenOrientation="sensorLandscape"
+227-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+228            android:stateNotNeeded="true"
+228-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+229            android:theme="@style/zxing_CaptureTheme"
+229-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+230            android:windowSoftInputMode="stateAlwaysHidden" />
+230-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+231
+232        <provider
+232-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+233            android:name="com.google.firebase.provider.FirebaseInitProvider"
+233-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+234            android:authorities="com.example.doanfood.firebaseinitprovider"
+234-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+235            android:directBootAware="true"
+235-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+236            android:exported="false"
+236-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+237            android:initOrder="100" />
+237-->[com.google.firebase:firebase-common:20.2.0] C:\Users\whyso\.gradle\caches\transforms-3\972d158df1b2bfcf8ac73b95af7c382e\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+238
+239        <activity
+239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\whyso\.gradle\caches\transforms-3\a3f0316b2f73763be342296edfdef9b2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+240            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+240-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\whyso\.gradle\caches\transforms-3\a3f0316b2f73763be342296edfdef9b2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+241            android:exported="false"
+241-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\whyso\.gradle\caches\transforms-3\a3f0316b2f73763be342296edfdef9b2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+242-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\whyso\.gradle\caches\transforms-3\a3f0316b2f73763be342296edfdef9b2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+243
+244        <receiver
+244-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+245            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+245-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+246            android:enabled="true"
+246-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+247            android:exported="false" >
+247-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+248        </receiver>
+249
+250        <service
+250-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+251            android:name="com.google.android.gms.measurement.AppMeasurementService"
+251-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+252            android:enabled="true"
+252-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+253            android:exported="false" />
+253-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+254        <service
+254-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+255            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+255-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+256            android:enabled="true"
+256-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+258            android:permission="android.permission.BIND_JOB_SERVICE" />
+258-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\whyso\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+259
+260        <meta-data
+260-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\366241b5fa9fe3755be74a09fb12d711\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+261            android:name="com.google.android.gms.version"
+261-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\366241b5fa9fe3755be74a09fb12d711\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+262            android:value="@integer/google_play_services_version" />
+262-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\whyso\.gradle\caches\transforms-3\366241b5fa9fe3755be74a09fb12d711\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+263    </application>
+264
+265</manifest>

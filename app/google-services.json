@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829544249468",
+    "firebase_url": "https://foodfullchucnangcodedoan-default-rtdb.firebaseio.com",
+    "project_id": "foodfullchucnangcodedoan",
+    "storage_bucket": "foodfullchucnangcodedoan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829544249468:android:fb77a8f5f75ab3b1afb1f9",
+        "android_client_info": {
+          "package_name": "com.example.doanfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829544249468-oujd72thhs9248rj0k0d8q12pauu4e7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doanfood",
+            "certificate_hash": "bbd507a6d41eee9419428f90ee442302842cae65"
+          }
+        },
+        {
+          "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name = "DoAn_TMDT"
+include ':app'

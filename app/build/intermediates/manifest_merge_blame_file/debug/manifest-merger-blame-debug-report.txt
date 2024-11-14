@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+8-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+9-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
@@ -16,32 +16,32 @@
 14    -->
 15
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:12:5-65
-16-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:12:22-62
+16-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:12:5-65
+16-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:12:22-62
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:13:5-79
-17-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:13:22-76
+17-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:13:5-79
+17-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:13:22-76
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:14:5-67
-18-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:14:22-64
+18-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:14:22-64
 19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-19-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:15:5-81
-19-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:15:22-78
+19-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:15:5-81
+19-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:15:22-78
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:16:5-79
-20-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:16:22-76
+20-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:16:5-79
+20-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:16:22-76
 21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-21-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:17:5-81
-21-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:17:22-78
+21-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:17:5-81
+21-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:17:22-78
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:18:5-80
-22-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:18:22-77
+22-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:18:5-80
+22-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:18:22-77
 23    <uses-permission
-23-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:19:5-20:38
+23-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:19:5-20:38
 24        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
-24-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:19:22-79
+24-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:19:22-79
 25        android:minSdkVersion="30" />
-25-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:20:9-35
+25-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:20:9-35
 26
 27    <queries>
 27-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:13:5-16:15
@@ -112,9 +112,9 @@
 59-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\3525ee30a4762806edbf5699c18d5632\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
 60
 61    <application
-61-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:22:5-112:19
+61-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:22:5-112:19
 62        android:allowBackup="true"
-62-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:23:9-35
+62-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:23:9-35
 63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 63-->[androidx.core:core:1.5.0] C:\Users\ADMIN\.gradle\caches\transforms-3\c79b777adf6ba90bc8e57c603f55207f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 64        android:debuggable="true"
@@ -122,57 +122,57 @@
 66        android:hardwareAccelerated="true"
 66-->[com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:19:9-43
 67        android:icon="@mipmap/ic_food2"
-67-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:24:9-40
+67-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:24:9-40
 68        android:label="@string/app_name"
-68-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:25:9-41
+68-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:25:9-41
 69        android:roundIcon="@mipmap/ic_food2_round"
-69-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:26:9-51
+69-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:26:9-51
 70        android:supportsRtl="true"
-70-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:27:9-35
+70-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:27:9-35
 71        android:testOnly="true"
 72        android:theme="@style/Theme.DoAn_TMDT"
-72-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:28:9-47
+72-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:28:9-47
 73        android:usesCleartextTraffic="true" >
-73-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:29:9-44
+73-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:29:9-44
 74        <activity android:name="com.example.heroPetShop.View.CartActivity" />
-74-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:31:9-87
-74-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:31:19-75
+74-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:31:9-87
+74-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:31:19-75
 75        <activity android:name="com.example.heroPetShop.View.OrderSuccessActivity" />
-75-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:32:9-86
-75-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:32:19-83
+75-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:32:9-86
+75-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:32:19-83
 76        <activity
-76-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:33:9-38:48
+76-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:33:9-38:48
 77            android:name="com.example.heroPetShop.View.ChatActivity"
-77-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:34:13-69
+77-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:34:13-69
 78            android:excludeFromRecents="true"
-78-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:38:13-46
+78-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:38:13-46
 79            android:exported="true"
-79-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:35:13-36
+79-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:35:13-36
 80            android:launchMode="singleTask"
-80-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:36:13-44
+80-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:36:13-44
 81            android:taskAffinity="" />
-81-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:37:13-36
+81-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:37:13-36
 82        <activity android:name="com.example.heroPetShop.View.MessageActivity" />
-82-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:39:9-81
-82-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:39:19-78
+82-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:39:9-81
+82-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:39:19-78
 83        <activity android:name="com.example.heroPetShop.View.DanhGiaActivity" />
-83-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:40:9-81
-83-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:40:19-78
+83-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:40:9-81
+83-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:40:19-78
 84        <activity android:name="com.example.heroPetShop.View.FavoriteActivity" />
-84-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:41:9-82
-84-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:41:19-79
+84-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:41:9-82
+84-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:41:19-79
 85        <activity android:name="com.example.heroPetShop.View.CommentActivity" />
-85-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:42:9-81
-85-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:42:19-78
+85-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:42:9-81
+85-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:42:19-78
 86        <activity android:name="com.example.heroPetShop.View.DetailSPActivity" />
-86-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:43:9-82
-86-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:43:19-79
+86-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:43:9-82
+86-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:43:19-79
 87        <activity android:name="com.example.heroPetShop.View.Admin.AdminUsersActivity" />
-87-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:44:9-90
-87-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:44:19-87
+87-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:44:9-90
+87-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:44:19-87
 88        <activity android:name="com.example.heroPetShop.View.SearchActivity" />
-88-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:45:9-80
-88-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:45:19-77
+88-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:45:9-80
+88-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:45:19-77
 89        <!--
 90             The API key for Google Maps-based APIs is defined as a string resource.
 91             (See the file "res/values/google_maps_api.xml").
@@ -182,117 +182,117 @@
 95             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 96        -->
 97        <meta-data
-97-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:54:9-56:55
+97-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:54:9-56:55
 98            android:name="com.google.android.geo.API_KEY"
-98-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:55:13-58
+98-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:55:13-58
 99            android:value="@string/google_maps_key" />
-99-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:56:13-52
+99-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:56:13-52
 100
 101        <activity android:name="com.example.heroPetShop.View.Admin.AdminCTHDActivity" />
-101-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:58:9-89
-101-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:58:19-86
+101-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:58:9-89
+101-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:58:19-86
 102        <activity android:name="com.example.heroPetShop.View.Admin.AdminAddLoaiSPActivity" />
-102-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:59:9-94
-102-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:59:19-91
+102-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:59:9-94
+102-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:59:19-91
 103        <activity android:name="com.example.heroPetShop.View.Admin.AdminAddSPActivity" />
-103-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:60:9-90
-103-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:60:19-87
+103-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:60:9-90
+103-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:60:19-87
 104        <activity android:name="com.example.heroPetShop.View.Admin.AdminProductActivity" />
-104-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:61:9-92
-104-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:61:19-89
+104-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:61:9-92
+104-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:61:19-89
 105        <activity android:name="com.example.heroPetShop.View.Admin.AdminChartBillActivity" />
-105-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:62:9-94
-105-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:62:19-91
+105-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:62:9-94
+105-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:62:19-91
 106        <activity
-106-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:63:9-65:39
+106-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:63:9-65:39
 107            android:name="com.example.heroPetShop.View.Admin.AdminBillMainActivity"
-107-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:64:13-84
+107-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:64:13-84
 108            android:exported="true" />
-108-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:65:13-36
+108-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:65:13-36
 109        <activity
-109-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:66:9-68:39
+109-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:66:9-68:39
 110            android:name="com.example.heroPetShop.View.Admin.AdminHomeActivity"
-110-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:67:13-80
+110-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:67:13-80
 111            android:exported="true" />
-111-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:68:13-36
+111-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:68:13-36
 112        <activity
-112-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:69:9-71:39
+112-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:69:9-71:39
 113            android:name="com.example.heroPetShop.View.CTHDActivity"
-113-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:70:13-69
+113-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:70:13-69
 114            android:exported="true" />
-114-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:71:13-36
+114-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:71:13-36
 115        <activity
-115-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:72:9-74:39
+115-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:72:9-74:39
 116            android:name="com.example.heroPetShop.View.CategoryActivity"
-116-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:73:13-73
+116-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:73:13-73
 117            android:exported="true" />
-117-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:74:13-36
+117-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:74:13-36
 118        <activity
-118-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:75:9-77:39
+118-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:75:9-77:39
 119            android:name="com.example.heroPetShop.View.ForgotPasswordActivity"
-119-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:76:13-79
+119-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:76:13-79
 120            android:exported="true" />
-120-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:77:13-36
+120-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:77:13-36
 121        <activity
-121-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:78:9-80:39
+121-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:78:9-80:39
 122            android:name="com.example.heroPetShop.View.SignUpActivity"
-122-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:79:13-71
+122-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:79:13-71
 123            android:exported="true" />
-123-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:80:13-36
+123-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:80:13-36
 124        <activity
-124-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:81:9-89:20
+124-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:81:9-89:20
 125            android:name="com.example.heroPetShop.SplashActivity"
-125-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:82:13-66
+125-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:82:13-66
 126            android:exported="true" >
-126-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:83:13-36
+126-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:83:13-36
 127            <intent-filter>
-127-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:84:13-88:29
+127-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:84:13-88:29
 128                <action android:name="android.intent.action.MAIN" />
-128-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:85:17-69
-128-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:85:25-66
+128-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:85:17-69
+128-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:85:25-66
 129
 130                <category android:name="android.intent.category.LAUNCHER" />
-130-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:87:17-77
-130-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:87:27-74
+130-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:87:17-77
+130-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:87:27-74
 131            </intent-filter>
 132        </activity>
 133        <activity
-133-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:90:9-92:39
+133-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:90:9-92:39
 134            android:name="com.example.heroPetShop.MainActivity"
-134-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:91:13-64
+134-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:91:13-64
 135            android:exported="true" />
-135-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:92:13-36
+135-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:92:13-36
 136        <activity
-136-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:93:9-95:39
+136-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:93:9-95:39
 137            android:name="com.example.heroPetShop.View.SignInActivity"
-137-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:94:13-71
+137-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:94:13-71
 138            android:exported="true" />
-138-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:95:13-36
+138-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:95:13-36
 139        <activity
-139-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:98:9-102:57
+139-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:98:9-102:57
 140            android:name="com.example.heroPetShop.View.CaptureAct"
-140-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:99:13-67
+140-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:99:13-67
 141            android:screenOrientation="portrait"
-141-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:100:13-49
+141-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:100:13-49
 142            android:stateNotNeeded="true"
-142-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:101:13-42
+142-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:101:13-42
 143            android:theme="@style/zxing_CaptureTheme" />
-143-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:102:13-54
+143-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:102:13-54
 144
 145        <receiver
-145-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:104:9-111:20
+145-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:104:9-111:20
 146            android:name="com.example.heroPetShop.ultil.MyReceiver"
-146-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:105:13-68
+146-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:105:13-68
 147            android:exported="true" >
-147-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:106:13-36
+147-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:106:13-36
 148            <intent-filter>
-148-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:107:13-110:29
+148-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:107:13-110:29
 149                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-149-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:108:17-79
-149-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:108:25-76
+149-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:108:17-79
+149-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:108:25-76
 150                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-150-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:109:17-78
-150-->C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:109:25-75
+150-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:109:17-78
+150-->C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:109:25-75
 151            </intent-filter>
 152        </receiver>
 153        <!-- Needs to be explicitly declared on P+ -->
@@ -421,13 +421,13 @@
 217        </service>
 218
 219        <provider
-219-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+219-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 220            android:name="com.squareup.picasso.PicassoProvider"
-220-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+220-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 221            android:authorities="com.example.doanfood.com.squareup.picasso"
-221-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+221-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 222            android:exported="false" />
-222-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+222-->[com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 223
 224        <activity
 224-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADMIN\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63

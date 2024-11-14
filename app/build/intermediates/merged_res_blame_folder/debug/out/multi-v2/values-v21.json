@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-3\\a7645ef55700fb7cb5b962cae51b2cfd\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",

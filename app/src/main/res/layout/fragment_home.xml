@@ -196,7 +196,7 @@
                 android:layout_width="370dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="20dp"
-                android:background="@drawable/x2" />
+                android:background="@drawable/banner" />
             <TextView
                 android:layout_marginTop="5dp"
                 android:id="@+id/txtsp"

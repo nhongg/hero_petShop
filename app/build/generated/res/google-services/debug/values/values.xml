@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://foodfullchucnangcodedoan-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">829544249468</string>
     <string name="google_api_key" translatable="false">AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA</string>
-    <string name="google_app_id" translatable="false">1:829544249468:android:fb77a8f5f75ab3b1afb1f9</string>
+    <string name="google_app_id" translatable="false">1:829544249468:android:0849276efb302aefafb1f9</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA</string>
     <string name="google_storage_bucket" translatable="false">foodfullchucnangcodedoan.appspot.com</string>
     <string name="project_id" translatable="false">foodfullchucnangcodedoan</string>

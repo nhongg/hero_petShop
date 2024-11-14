@@ -1946,6 +1946,7 @@ drawable background_left
 drawable background_right
 drawable background_sign_up
 drawable background_signin_user
+drawable banner
 drawable banner1
 drawable banner2
 drawable banner3
@@ -2131,6 +2132,7 @@ drawable layout_bg4
 drawable logo
 drawable logo3
 drawable logodasua2
+drawable mancho
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2185,6 +2187,7 @@ drawable rcq
 drawable rect_btn_selector
 drawable rounded_corner
 drawable search_view_bg
+drawable shadow_gradient
 drawable shadow_imageview
 drawable suggestion_item_background
 drawable test_custom_background

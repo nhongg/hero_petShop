@@ -6,11 +6,16 @@
     android:orientation="vertical"
     android:background="@drawable/background_signin_user">
 
-<ImageView
-    android:layout_width="130dp"
-    android:layout_height="130dp"
-    android:background="@drawable/rcq"
-    android:layout_marginLeft="130dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logopetshop"
+        android:background="@drawable/circle_shape"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:clipToOutline="true" />
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="370dp"

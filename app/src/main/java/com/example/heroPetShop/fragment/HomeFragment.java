@@ -9,6 +9,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -254,35 +255,33 @@ public class HomeFragment extends Fragment {
         arr_sp_gy = new ArrayList<>();
     }
     // Danh sách Product
-    public  void  GetDataDSSanPham(){
-        firestore.collection("SanPham").
-                whereEqualTo("type",1).
-                get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        arr_ds_sp.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productDSAdapter = new ProductAdapter(getContext(), arr_ds_sp, 1, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
-
-                            // Do something
-                            product = arr_ds_sp.get(position);
-                            TruyenData();
+    public void GetDataDSSanPham() {
+        firestore.collection("SanPham")
+                .whereEqualTo("type", 1)
+                .get()
+                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if (queryDocumentSnapshots.size() > 0) {
+                            for (QueryDocumentSnapshot d : queryDocumentSnapshots) {
+                                arr_ds_sp.add(new Product(d.getId(), d.getString("tensp"),
+                                        d.getLong("giatien"), d.getString("hinhanh"),
+                                        d.getString("loaisp"), d.getString("mota"),
+                                        d.getLong("soluong"), d.getString("hansudung"),
+                                        d.getLong("type"), d.getString("trongluong")));
+                            }
+                            productDSAdapter = new ProductAdapter(getContext(), arr_ds_sp, 1, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
+                                    product = arr_ds_sp.get(position);
+                                    TruyenData();
+                                }
+                            });
+                            rcvDSSP.setLayoutManager(new GridLayoutManager(getContext(), 2));
+                            rcvDSSP.setAdapter(productDSAdapter);
                         }
-                    });
-                    rcvDSSP.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvDSSP.setAdapter(productDSAdapter);
-                }
-
-            }
-        });
+                    }
+                });
     }
 
 

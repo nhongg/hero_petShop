@@ -30,7 +30,15 @@ public class HoaDon implements Serializable {
     private IHoaDon callback;
     private FirebaseFirestore db;
 
-
+    public HoaDon(String phuongthuc, String ngaydat, String hoten, String diachi, String ghichu, String uid, String id) {
+        this.phuongthuc = phuongthuc;
+        this.ngaydat = ngaydat;
+        this.hoten = hoten;
+        this.diachi = diachi;
+        this.ghichu = ghichu;
+        this.uid = uid;
+        this.id = id;
+    }
 
     public HoaDon(IHoaDon callback) {
         this.callback=callback;

@@ -21,9 +21,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_food2"
+        android:icon="@mipmap/ic_logo_heropetshop"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_food2_round"
+        android:roundIcon="@mipmap/ic_logo_heropetshop_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoAn_TMDT"
         android:usesCleartextTraffic="true"

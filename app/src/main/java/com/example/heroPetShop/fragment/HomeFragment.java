@@ -591,10 +591,10 @@ public class HomeFragment extends Fragment {
         viewPager = view.findViewById(R.id.viewpager);
         circleIndicator = view.findViewById(R.id.circle_indicator);
 
-        rcvLoaiProduct = view.findViewById(R.id.rcv_loai_product);
+//        rcvLoaiProduct = view.findViewById(R.id.rcv_loai_product);
         loaiProductAdapter = new LoaiProductAdapter();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
-        rcvLoaiProduct.setLayoutManager(linearLayoutManager);
+//        rcvLoaiProduct.setLayoutManager(linearLayoutManager);
         loaiProductAdapter.setData(getListLoaiProduct(), new IClickLoaiProduct() {
             @Override
             public void onClickItemLoaiProduct(int position) {
@@ -623,7 +623,7 @@ public class HomeFragment extends Fragment {
             public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
                 for(QueryDocumentSnapshot d : queryDocumentSnapshots){
                     mlistproduct.add(new LoaiProduct(d.getString("tenloai"), d.getString("hinhanhloai")));
-                    rcvLoaiProduct.setAdapter(loaiProductAdapter);
+//                    rcvLoaiProduct.setAdapter(loaiProductAdapter);
                 }
 
             }

@@ -1988,6 +1988,7 @@ drawable circle_radius_selected
 drawable circle_radius_unselected
 drawable circle_red
 drawable circle_shape
+drawable circle_shape_yellow
 drawable circular_progress_bar
 drawable com
 drawable common_full_open_on_phone
@@ -2024,6 +2025,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable discount_balloons
 drawable divider_background
+drawable edittext
 drawable facebook
 drawable fg
 drawable flashs
@@ -2545,6 +2547,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageIllustration
 id image_add
 id image_add_product
 id image_add_users
@@ -2756,6 +2759,7 @@ id rcv_ds_sanpham
 id rcv_favorite
 id rcv_giohang
 id rcv_lichsu
+id rcv_loai_product
 id rcv_message
 id rcv_search_monan
 id rcv_sp_douong

@@ -8,9 +8,9 @@
     android:id="@+id/item_loai_product">
 
     <ImageView
-        android:background="@drawable/hj"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:background="@drawable/circle_shape_yellow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:id="@+id/img_loai_product"
         android:layout_gravity="center"/>
 

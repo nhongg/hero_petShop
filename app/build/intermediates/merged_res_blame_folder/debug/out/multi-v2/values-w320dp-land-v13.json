@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\hero_petShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+            "outputFile": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Minh Long\\.gradle\\caches\\transforms-3\\bba2c720aa9956d64f936257f7f796c1\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-3\\bba2c720aa9956d64f936257f7f796c1\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

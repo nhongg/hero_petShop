@@ -4,17 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
+    android:background="#D4D4D4"
     android:gravity="center">
-
-
 
     <ImageView
         android:id="@+id/imageIllustration"
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:src="@drawable/mancho"
-        android:contentDescription="Illustration Image"
         android:layout_gravity="center"
         android:scaleType="centerInside" />
 

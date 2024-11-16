@@ -307,7 +307,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/favorite/baseline_favorite_24.xml" />
+                                      <entry key="url" value="file:/C:/Users/Minh%20Long/AppData/Local/Android/Sdk/icons/material/materialicons/date_range/baseline_date_range_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -317,8 +317,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="f32323" />
-                            <entry key="outputName" value="baseline_favorite_24" />
+                            <entry key="outputName" value="icondate" />
                             <entry key="sourceFile" value="C:\Users\Admin\Downloads\DoAnTMDT\DoAnTMDT" />
                           </map>
                         </option>

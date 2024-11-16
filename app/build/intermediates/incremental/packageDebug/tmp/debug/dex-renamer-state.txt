@@ -1,7 +1,7 @@
-#Thu Nov 14 22:08:15 ICT 2024
-base.2=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.1=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sat Nov 16 22:07:57 ICT 2024
+base.2=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.1=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.9=8/classes.dex
 path.8=7/classes.dex
 path.7=6/classes.dex
@@ -26,15 +26,15 @@ renamed.12=classes13.dex
 renamed.11=classes12.dex
 renamed.10=classes11.dex
 path.12=classes3.dex
-base.12=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.12=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.11=classes2.dex
-base.11=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.11=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.10=9/classes.dex
-base.10=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.9=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.8=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.7=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.6=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.5=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.4=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.10=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.9=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.8=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.7=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.6=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.5=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=D\:\\hero_petShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

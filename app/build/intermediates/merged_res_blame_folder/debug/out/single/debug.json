@@ -8,12 +8,12 @@
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_admin.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\layout_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_on_ver2.png.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_on_ver2.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\layout_bg.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_food2.xml.flat",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_users.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_users.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_users.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_users.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_account_30.png.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\background_right.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_update_trangthai.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_update_trangthai.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_logo_heropetshop_round.xml.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo_heropetshop_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_update_trangthai.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_update_trangthai.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_progress_bar.xml.flat",
@@ -208,6 +208,10 @@
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_favorite.xml"
     },
     {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_schedule.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_schedule.xml"
+    },
+    {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin3.jpg.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_admin3.jpg"
     },
@@ -258,6 +262,10 @@
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_schedule_list.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_schedule_list.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.png.flat",
@@ -752,6 +760,10 @@
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_comment.xml"
     },
     {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\menu_schedule_menu.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\menu\\schedule_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_item.xml.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\user_item.xml"
     },
@@ -1120,6 +1132,10 @@
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_sign_out.xml"
     },
     {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_schedule.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\item_schedule.xml"
+    },
+    {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_2.png.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_2.png"
     },
@@ -1142,6 +1158,10 @@
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_imageview.xml.flat",
         "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\shadow_imageview.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_schedule.xml.flat",
+        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_edit_schedule.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background5.xml.flat",

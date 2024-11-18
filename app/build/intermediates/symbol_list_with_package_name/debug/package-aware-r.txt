@@ -2270,7 +2270,9 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_delete
 id action_divider
+id action_edit
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -2350,8 +2352,11 @@ id btn_plus_giohang
 id btn_qr_product
 id btn_refresh
 id btn_save
+id btn_select_date
+id btn_select_time
 id btn_send_message
 id btn_sign_up_dangky
+id btn_submit
 id btn_thanhtoan
 id btn_them_loai
 id btn_tinh_doanh_thu
@@ -2470,6 +2475,7 @@ id edt_bill_from_date
 id edt_bill_to_date
 id edt_danhgia_khac
 id edt_date
+id edt_description
 id edt_diachi
 id edt_email_forgot
 id edt_email_user
@@ -2493,6 +2499,7 @@ id edt_sign_up_password
 id edt_soluongsp
 id edt_tensp
 id edt_them_loai
+id edt_title
 id edt_trongluongsp
 id edt_typesp
 id elastic
@@ -2501,6 +2508,10 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_date
+id et_description
+id et_time
+id et_title
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2778,6 +2789,7 @@ id rdo_group
 id rdo_nam
 id rdo_nu
 id rectangles
+id recycler_view
 id recycler_view_chat
 id relative_item_binhluan
 id relative_item_story
@@ -2955,8 +2967,10 @@ id tv_admin_statushd
 id tv_admin_totalhd
 id tv_binhluan
 id tv_category
+id tv_date
 id tv_date_hoadon
 id tv_date_users
+id tv_description
 id tv_diachi
 id tv_diachi_cthd
 id tv_diachi_hoadon
@@ -3041,6 +3055,7 @@ id tv_ten_cthd
 id tv_ten_favorite
 id tv_ten_giohang
 id tv_ten_product
+id tv_time
 id tv_title
 id tv_tongtien
 id tv_tongtien_cthd
@@ -3186,11 +3201,13 @@ layout activity_comment
 layout activity_cthdactivity
 layout activity_danh_gia
 layout activity_detail_spactivity
+layout activity_edit_schedule
 layout activity_favorite
 layout activity_forgot_password
 layout activity_main
 layout activity_message
 layout activity_order_success
+layout activity_schedule_list
 layout activity_search
 layout activity_sign_in
 layout activity_sign_up
@@ -3259,6 +3276,8 @@ layout fragment_favorite
 layout fragment_home
 layout fragment_notify
 layout fragment_profile
+layout fragment_schedule
+layout item_schedule
 layout layout_loading
 layout layout_persistent_bottom_sheet
 layout material_chip_input_combo
@@ -3350,6 +3369,7 @@ layout zxing_barcode_scanner
 layout zxing_capture
 menu customer_nav
 menu menu_love
+menu schedule_menu
 menu toolbar_menu
 mipmap ic_food2
 mipmap ic_food2_foreground

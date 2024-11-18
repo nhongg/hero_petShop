@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\2b4a2dec14cf96d656810b9efb61a9f7\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:2:1-14:12
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1d303550f22a4cfa41687be2336a6b91\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bba2c720aa9956d64f936257f7f796c1\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\ADMIN\.gradle\caches\transforms-3\e2c02353f50ad115f15cfec13a899174\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a2ac906339632a42684e86c8d9a5bb85\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\83b35dca83a226910680991aa34d0659\transformed\jetified-viewpropertyobjectanimator-1.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\ed387c699582865e4b4d328c090a7738\transformed\jetified-viewpropertyobjectanimator-1.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0b697cf76adbfc0e468f65f48eaba2d6\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
 MERGED from [me.relex:circleindicator:2.1.6] C:\Users\ADMIN\.gradle\caches\transforms-3\c87b18e0be23c1adcd8b74df097a2f8d\transformed\jetified-circleindicator-2.1.6\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\ec4fb01daec22ad54d64e69b665f0ce7\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:2:1-25:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\b53999d8247533581744e884aa2ecf2e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\ADMIN\.gradle\caches\transforms-3\6d16e2f08b159831621cab7de0f37807\transformed\jetified-glide-4.13.0\AndroidManifest.xml:2:1-12:12
@@ -88,37 +88,37 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ADMIN\.
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1b9ad0365b6ff7f1a75e7e5e1892d6cd\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:2:1-11:12
 MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] C:\Users\ADMIN\.gradle\caches\transforms-3\aecfe337d3622bda4b8354d6dcf4718a\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a0225c74611cc40a9d04c2aedb387e4b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
 	package
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:1-114:12
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-114:12
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:12:5-65
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:12:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADMIN\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADMIN\.gradle\caches\transforms-3\3911a1c26f2000407ecace1e517ec8bb\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:14:5-67
 MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:11:5-67
 MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
@@ -142,13 +142,13 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\3b8b7ee69592d07ee35e8a7cd79459e5\transformed\jetified-play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\3b8b7ee69592d07ee35e8a7cd79459e5\transformed\jetified-play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:14:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:15:5-81
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:15:22-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:16:5-79
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:16:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
@@ -172,25 +172,25 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1b9ad0365b6ff7f1a75e7e5e1892d6cd\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1b9ad0365b6ff7f1a75e7e5e1892d6cd\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:17:22-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:17:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:18:5-80
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:18:5-80
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:18:22-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:18:22-77
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:19:5-20:38
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:19:5-20:38
 	android:minSdkVersion
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:20:9-35
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:19:22-79
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:19:22-79
 application
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:22:5-112:19
-MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\2b4a2dec14cf96d656810b9efb61a9f7\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:12:5-20
-MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\2b4a2dec14cf96d656810b9efb61a9f7\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:12:5-20
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:22:5-112:19
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1d303550f22a4cfa41687be2336a6b91\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:12:5-20
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1d303550f22a4cfa41687be2336a6b91\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:12:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bba2c720aa9956d64f936257f7f796c1\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bba2c720aa9956d64f936257f7f796c1\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\ADMIN\.gradle\caches\transforms-3\e2c02353f50ad115f15cfec13a899174\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -205,8 +205,8 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ADMIN\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:15:5-23:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\ADMIN\.gradle\caches\transforms-3\6d16e2f08b159831621cab7de0f37807\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
@@ -258,194 +258,194 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AD
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\ADMIN\.gradle\caches\transforms-3\c79b777adf6ba90bc8e57c603f55207f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:27:9-35
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:27:9-35
 	android:label
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:25:9-41
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:25:9-41
 	android:hardwareAccelerated
 		ADDED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:19:9-43
 	android:roundIcon
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:26:9-62
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:26:9-62
 	android:icon
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:24:9-51
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:24:9-51
 	android:allowBackup
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:23:9-35
 	android:theme
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:28:9-47
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:28:9-47
 		REJECTED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:22:9-40
 	tools:replace
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:30:9-38
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:30:9-38
 	android:usesCleartextTraffic
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:29:9-44
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:29:9-44
 activity#com.example.heroPetShop.View.CartActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:31:9-87
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:31:9-87
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:31:19-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:31:19-75
 activity#com.example.heroPetShop.View.OrderSuccessActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:32:9-86
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:32:9-86
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:32:19-83
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:32:19-83
 activity#com.example.heroPetShop.View.ChatActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:33:9-38:48
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:33:9-38:48
 	android:excludeFromRecents
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:38:13-46
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:38:13-46
 	android:launchMode
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:36:13-44
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:36:13-44
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:35:13-36
 	android:taskAffinity
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:34:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:34:13-69
 activity#com.example.heroPetShop.View.MessageActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:39:9-81
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:39:9-81
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:39:19-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:39:19-78
 activity#com.example.heroPetShop.View.DanhGiaActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:40:9-81
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:40:9-81
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:40:19-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:40:19-78
 activity#com.example.heroPetShop.View.FavoriteActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:41:9-82
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:41:9-82
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:41:19-79
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:41:19-79
 activity#com.example.heroPetShop.View.CommentActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:42:9-81
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:42:9-81
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:42:19-78
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:42:19-78
 activity#com.example.heroPetShop.View.DetailSPActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:43:9-82
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:43:9-82
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:43:19-79
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:43:19-79
 activity#com.example.heroPetShop.View.Admin.AdminUsersActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:44:9-90
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:44:9-90
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:44:19-87
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:44:19-87
 activity#com.example.heroPetShop.View.SearchActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:45:9-80
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:45:9-80
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:45:19-77
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:45:19-77
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:54:9-56:55
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:54:9-56:55
 	android:value
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:56:13-52
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:56:13-52
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:55:13-58
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:55:13-58
 activity#com.example.heroPetShop.View.Admin.AdminCTHDActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:58:9-89
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:58:9-89
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:58:19-86
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:58:19-86
 activity#com.example.heroPetShop.View.Admin.AdminAddLoaiSPActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:59:9-94
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:59:9-94
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:59:19-91
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:59:19-91
 activity#com.example.heroPetShop.View.Admin.AdminAddSPActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:60:9-90
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:60:9-90
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:60:19-87
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:60:19-87
 activity#com.example.heroPetShop.View.Admin.AdminProductActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:61:9-92
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:61:9-92
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:61:19-89
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:61:19-89
 activity#com.example.heroPetShop.View.Admin.AdminChartBillActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:62:9-94
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:62:9-94
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:62:19-91
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:62:19-91
 activity#com.example.heroPetShop.View.Admin.AdminBillMainActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:63:9-65:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:63:9-65:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:65:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:65:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:64:13-84
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:64:13-84
 activity#com.example.heroPetShop.View.Admin.AdminHomeActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:66:9-68:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:66:9-68:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:68:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:67:13-80
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:67:13-80
 activity#com.example.heroPetShop.View.CTHDActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:69:9-71:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:69:9-71:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:71:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:71:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:70:13-69
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:70:13-69
 activity#com.example.heroPetShop.View.CategoryActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:72:9-74:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:72:9-74:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:74:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:73:13-73
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:73:13-73
 activity#com.example.heroPetShop.View.ForgotPasswordActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:75:9-77:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:75:9-77:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:77:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:77:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:76:13-79
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:76:13-79
 activity#com.example.heroPetShop.View.SignUpActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:78:9-80:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:78:9-80:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:80:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:80:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:79:13-71
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:79:13-71
 activity#com.example.heroPetShop.SplashActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:81:9-89:20
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:81:9-89:20
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:83:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:83:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:82:13-66
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:82:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:84:13-88:29
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:84:13-88:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:85:17-69
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:85:17-69
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:85:25-66
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:85:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:87:17-77
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:87:17-77
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:87:27-74
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:87:27-74
 activity#com.example.heroPetShop.MainActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:90:9-92:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:90:9-92:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:92:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:92:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:91:13-64
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:91:13-64
 activity#com.example.heroPetShop.View.SignInActivity
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:93:9-95:39
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:93:9-95:39
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:95:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:95:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:94:13-71
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:94:13-71
 activity#com.example.heroPetShop.View.CaptureAct
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:98:9-102:57
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:98:9-102:57
 	android:screenOrientation
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:100:13-49
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:100:13-49
 	android:stateNotNeeded
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:101:13-42
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:101:13-42
 	android:theme
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:102:13-54
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:102:13-54
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:99:13-67
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:99:13-67
 receiver#com.example.heroPetShop.ultil.MyReceiver
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:104:9-111:20
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:104:9-111:20
 	android:exported
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:106:13-36
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:106:13-36
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:105:13-68
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:105:13-68
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:107:13-110:29
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:107:13-110:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:108:17-79
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:108:17-79
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:108:25-76
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:108:25-76
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:109:17-78
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:109:17-78
 	android:name
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml:109:25-75
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:109:25-75
 uses-sdk
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\2b4a2dec14cf96d656810b9efb61a9f7\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\2b4a2dec14cf96d656810b9efb61a9f7\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1d303550f22a4cfa41687be2336a6b91\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\ADMIN\.gradle\caches\transforms-3\1d303550f22a4cfa41687be2336a6b91\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bba2c720aa9956d64f936257f7f796c1\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bba2c720aa9956d64f936257f7f796c1\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\ADMIN\.gradle\caches\transforms-3\e2c02353f50ad115f15cfec13a899174\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
@@ -454,8 +454,8 @@ MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\cac
 MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a2ac906339632a42684e86c8d9a5bb85\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a2ac906339632a42684e86c8d9a5bb85\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\83b35dca83a226910680991aa34d0659\transformed\jetified-viewpropertyobjectanimator-1.2.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\83b35dca83a226910680991aa34d0659\transformed\jetified-viewpropertyobjectanimator-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\ed387c699582865e4b4d328c090a7738\transformed\jetified-viewpropertyobjectanimator-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\ed387c699582865e4b4d328c090a7738\transformed\jetified-viewpropertyobjectanimator-1.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0b697cf76adbfc0e468f65f48eaba2d6\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0b697cf76adbfc0e468f65f48eaba2d6\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
@@ -468,8 +468,8 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ADMIN\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\338afeb31369a19a638d63f329409e23\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\b53999d8247533581744e884aa2ecf2e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\b53999d8247533581744e884aa2ecf2e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
 MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:19:5-21:41
@@ -612,16 +612,16 @@ MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] C:\Users\ADMIN\.gradle\ca
 MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] C:\Users\ADMIN\.gradle\caches\transforms-3\aecfe337d3622bda4b8354d6dcf4718a\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a0225c74611cc40a9d04c2aedb387e4b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a0225c74611cc40a9d04c2aedb387e4b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADMIN\Desktop\DoAnTMDT - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADMIN\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 queries
 ADDED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\ADMIN\.gradle\caches\transforms-3\8c3f741fc43628515eac6f9df2261409\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:13:5-16:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\0d6af85a8efec2684b43a78ca5feaf1a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
@@ -733,13 +733,13 @@ ADDED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradl
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\a88142703c63d3d86205fe88406bf3af\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\5947b312e60c952e3d6d151a2fc8de08\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ADMIN\.gradle\caches\transforms-3\c96a4b2097cfe087fa756d5128d66d87\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
 ADDED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\ADMIN\.gradle\caches\transforms-3\e5034512acc06d2e16df686500207eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
 	android:value

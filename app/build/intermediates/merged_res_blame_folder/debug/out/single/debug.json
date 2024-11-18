@@ -1,1206 +1,1206 @@
 [
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x2.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\x2.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_admin.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_like.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\layout_bg.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_hoadon_khac.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_hoadon_khac.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_on_ver2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_on_ver2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_food2.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_food2.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dang_xu_ly.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_dang_xu_ly.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_loading.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\layout_loading.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plus.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\plus.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_food2_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_food2_round.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_add_loai_spactivity.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_add_loai_spactivity.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_edittext.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\custom_edittext.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_chat.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flashs.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\flashs.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_add_product_admin.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_add_product_admin.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner1.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\banner1.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_custom_edt_shape.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\custom_edt_shape.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contact.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_contact.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_facebook.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_cthd_admin.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_cthd_admin.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\circle_shape.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background2.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\btn_background2.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_1.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_1.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food2_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x3.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\x3.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cart.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_cart.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mic.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_mic.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cart_background2.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\cart_background2.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_menu_layout.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\profile_menu_layout.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo3.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\logo3.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hot.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\hot.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_users.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_users.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_danhgia.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dialog_danhgia.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_account_30.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_account_30.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x1.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\x1.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\logo.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_money.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_money.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_do_uong.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_do_uong.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_cthd_admin.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_cthd_admin.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner1.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\banner1.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_edittext.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\custom_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_border5.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\border5.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\edittext.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_minus.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\minus.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food2_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_food2_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_check_black_24dp.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_check_black_24dp.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_right.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\background_right.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_info_users.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dialog_info_users.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_update_trangthai.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_update_trangthai.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_cart.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_add_cart.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_logo_heropetshop_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo_heropetshop_round.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_on_ver2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star_on_ver2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_progress_bar.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\custom_progress_bar.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner2.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\banner2.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dang_giao.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_dang_giao.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_food2_foreground.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_shutdown.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_shutdown.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_email.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_email.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\baseline_home_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_banner.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_banner.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backgroundpet1.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\backgroundpet1.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\com.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_hoadon_dagiao.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_hoadon_dagiao.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background3.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\btn_background3.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notify.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_notify.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_shape_yellow.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\circle_shape_yellow.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_view_bg.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\search_view_bg.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_notification.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tune.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_tune.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_blue.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_blue.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_item_right.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\chat_item_right.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qr.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_qr.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\button.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_shutdown.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_shutdown.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_heropetshop_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_logo_heropetshop_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_loai_product.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_loai_product.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background3.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background3.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discount_balloons.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\discount_balloons.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_product.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_product.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star_off.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_heropetshop.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_camera.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baner_logo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\baner_logo.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_user.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favorite.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_favorite.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_add_users.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dialog_add_users.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin3.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_admin3.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_do_uong.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_do_uong.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_email.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cthdactivity.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_cthdactivity.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\layout_bg.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background4.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\btn_background4.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_curve_bottom.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\curve_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_info_users.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_info_users.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_4.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_4.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_da_giao.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_da_giao.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_refresh_black_24dp.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_refresh_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_gender.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_gender.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ctr_bg.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ctr_bg.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_food2_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_unlike.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_unlike.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_promo.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\promo.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_sign_up.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_sign_up.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dashboard2.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\dashboard2.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_comment.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_comment.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_chart_bill.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_chart_bill.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_search_product.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_search_product.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dong_auto_text.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\custom_dong_auto_text.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_star_off.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icon_star_off.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_search.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boder_score.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\boder_score.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\camera.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_logout_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_baseline_logout_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner3.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\banner3.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_food2_foreground.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_radius_selected.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\circle_radius_selected.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_blue.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_blue.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_iconpromo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\iconpromo.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_home.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_home.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ratingbar_full_empty.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ratingbar_full_empty.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart3.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_cart3.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_shape.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\circle_shape.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_food2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_prott.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\prott.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_5.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_5.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_admin_product.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_admin_product.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorite.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_yeuthich.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_yeuthich.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_border3.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\border3.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_product_noibat.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_product_noibat.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boder2.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\boder2.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_like.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_food2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_money.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_money.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_promc.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\promc.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_loai_product.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_loai_product.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_category.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_category.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_success.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dang_giao.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_dang_giao.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rating.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_rating.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_message.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_message.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_cart2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_drop_down_black_24dp.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_arrow_drop_down_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\baseline_favorite_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_product.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_product.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_cart.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\profile.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hj.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\hj.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fg.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\fg.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_users.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_users.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_hoadon_dagiao.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_hoadon_dagiao.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_food2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brcq.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\brcq.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pl.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\pl.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_drop_down_black_24dp.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_arrow_drop_down_black_24dp.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\menu_customer_nav.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\menu\\customer_nav.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_ratingbar_selector.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\custom_ratingbar_selector.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tune.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_tune.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_lichsu_search.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_lichsu_search.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizzahead.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\pizzahead.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mancho.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\mancho.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_food2_foreground.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_cart2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_food2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_food2_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_search_product.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_search_product.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_spactivity.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_detail_spactivity.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_danhgia.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_danhgia.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_header_8.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_header_8.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_item_left.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\chat_item_left.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rcq.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\rcq.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_food2_foreground.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_border3.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\border3.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg3.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\layout_bg3.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_food2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baner_logo.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\baner_logo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_message.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_message.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_signin_user.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\background_signin_user.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_add_loai_spactivity.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_add_loai_spactivity.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_food2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_item_right.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\chat_item_right.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_gradient.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\shadow_gradient.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_category.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_star.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icon_star.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_background.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\top_background.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_food2_foreground.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_bill.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_bill.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_facebook.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\facebook.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorite.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\bg_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_star_off.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icon_star_off.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_custom_edt_shape.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\custom_edt_shape.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg2.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\layout_bg2.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_calendar.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_calendar.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner3.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\banner3.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_chitiet_hoadon.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_chitiet_hoadon.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boder1.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\boder1.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bill.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\bill.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_cart.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_add_cart.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_da_giao.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_da_giao.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_heropetshop.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_supervised_user_circle_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\baseline_supervised_user_circle_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_btn.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_btn.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_giohang.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_giohang.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbar_menu.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\menu\\toolbar_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_avatar_default.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_avatar_default.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background2.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background2.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_spactivity.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_detail_spactivity.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_none_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_baseline_notifications_none_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\button.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bill.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_bill.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_pie_chart_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_baseline_pie_chart_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_success2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pop_1.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\pop_1.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back_white.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_back_white.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cart_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\cart_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rating.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_rating.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_success.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_order_success.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\camera.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hot.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\hot.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_radius_selected.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\circle_radius_selected.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_back_white.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icon_back_white.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_iconpromo.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\iconpromo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_google.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\google.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_all_comment.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_all_comment.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_add_users.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_add_users.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_back_white.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icon_back_white.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\edittext.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icondate.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icondate.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_goiy.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_goiy.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_food2_foreground.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\btn_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_food2_foreground.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_view_bg.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\search_view_bg.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_food1.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\food1.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_clear.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_account_30.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_account_30.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brcq.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\brcq.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_add_spactivity.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_add_spactivity.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_add_spactivity.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_add_spactivity.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pop_1.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\pop_1.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cart_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\cart_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ratingbar_full_empty.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ratingbar_full_empty.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_banner.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_banner.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_chart_bill.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_chart_bill.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x2.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\x2.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logopetshop.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\logopetshop.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_next.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_next.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off_2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star_off_2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_ds_product.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_ds_product.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg4.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\layout_bg4.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_back.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_weight.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_weight.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_hanquoc.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_sp_hanquoc.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_weight.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_weight.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_refresh_black_24dp.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_refresh_black_24dp.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_item.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\user_item.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_camera.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_food2_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dang_xu_ly.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_dang_xu_ly.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logodasua2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\logodasua2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_thanhtoan.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dialog_thanhtoan.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_iphone_se_30.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_iphone_se_30.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_goiy.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_goiy.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_banner4.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\banner4.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_like.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icon_like.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_left.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\background_left.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_yeuthich.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_sp_yeuthich.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_calendar.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_calendar.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_category.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_like.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icon_like.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_back_black_24dp.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_arrow_back_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_admin_users.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_admin_users.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_back_black_24dp.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_arrow_back_black_24dp.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bill.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_bill.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_iphone_se_30.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_iphone_se_30.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off_2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_off_2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_header_8.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_header_8.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_sign_up.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_sign_up.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_selector.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\toggle_selector.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\custom_button.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_love.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\menu\\menu_love.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off_3.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star_off_3.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_micay.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_sp_micay.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_favorite_50.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_favorite_50.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ctr_bg.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ctr_bg.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rcq.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\rcq.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_search.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_logo_heropetshop_round.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo_heropetshop_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_5.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_5.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_minus.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\minus.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_lichsu_search.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_lichsu_search.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_logo_heropetshop.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo_heropetshop.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_food_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite_red.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_favorite_red.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_food2.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_food2.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_4.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_4.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discount_balloons.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\discount_balloons.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_profile.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite_red.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_favorite_red.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_food2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_right.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\background_right.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_goiy.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_sp_goiy.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_red.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\circle_red.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_gofood.gif.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\img_gofood.gif"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logopetshop.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\logopetshop.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rating.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\rating.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_all_comment.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_all_comment.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_cthdactivity.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_cthdactivity.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_signin_user.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\background_signin_user.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_chitiet_hoadon.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_chitiet_hoadon.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_goiy.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_sp_goiy.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_location_30.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_location_30.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background6.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background6.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backgroundpet1.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\backgroundpet1.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bill.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_bill.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x3.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\x3.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_avatar_default.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_avatar_default.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo3.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\logo3.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dong_auto_text.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\custom_dong_auto_text.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_ratingbar_selector.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\custom_ratingbar_selector.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_admin_product.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_admin_product.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_micay.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_sp_micay.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kem.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\kem.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_comment.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_comment.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_food2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_item.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\user_item.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logodasua2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\logodasua2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off_3.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_off_3.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kem.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\kem.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_next.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_next.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_cthdactivity.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_cthdactivity.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin3.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_admin3.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_background.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\top_background.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back_white.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_back_white.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off_ver2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_off_ver2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_ds_product.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_ds_product.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_food2_foreground.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_logo_heropetshop.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_logout_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_baseline_logout_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contact.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_3.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_3.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x1.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\x1.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_gradient.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\shadow_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\profile.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo_heropetshop.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bill.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_bill.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_update_trangthai.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dialog_update_trangthai.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbar_menu.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\menu\\toolbar_menu.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_item_left.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\chat_item_left.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_hanquoc.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_sp_hanquoc.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\custom_button.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_persistent_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\layout_persistent_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_lau.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_sp_lau.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart4.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_cart4.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_success.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_order_success.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food2_foreground.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_action_name.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg3.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\layout_bg3.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qr.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_qr.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_on.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star_on.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_favorite.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-mdpi\\ic_food2_foreground.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_discount.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_discount.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_border_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_border_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_success2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_unlike.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icon_unlike.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_banner4.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\banner4.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_selector.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\toggle_selector.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bcakground_title_article.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\bcakground_title_article.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mic.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_mic.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toolbar_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\toolbar_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_shape_yellow.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\circle_shape_yellow.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sign_out.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_sign_out.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_food1.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\food1.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_edit_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg4.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\layout_bg4.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mancho.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\mancho.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_loading.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\layout_loading.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_boder_score.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\boder_score.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_bill_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_bill_main.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_food2_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_home.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_admin_home.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favorite.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_hoadon_khac.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_hoadon_khac.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_bill_main.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_admin_bill_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bill.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\bill.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boder1.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\boder1.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button2.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\button2.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_favorite_50.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_favorite_50.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_imageview.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\shadow_imageview.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background6.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\btn_background6.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background5.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background5.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fg.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\fg.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_btn.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_btn.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ratingbar_full_filled.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ratingbar_full_filled.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pl.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\pl.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange_button.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\orange_button.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_left.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\background_left.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button2.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\button2.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\banner.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_da_huy.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_da_huy.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_binhluan.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_binhluan.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\menu_customer_nav.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\menu\\customer_nav.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\user.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_heropetshop_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_logo_heropetshop_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart3.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_cart3.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off_ver2.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star_off_ver2.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_food_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\com.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_persistent_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\layout_persistent_bottom_sheet.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_cart.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_food2_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange_button.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\orange_button.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_product_noibat.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_product_noibat.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_thanhtoan.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dialog_thanhtoan.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\banner.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_none_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_baseline_notifications_none_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_gofood.gif.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\img_gofood.gif"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_google.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\google.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg2.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\layout_bg2.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_promo.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\promo.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_curve_bottom.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\curve_bottom.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_binhluan.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_binhluan.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_hoadon.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_hoadon.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_location_30.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_location_30.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_star.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icon_star.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_yeuthich.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_sp_yeuthich.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hj.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\hj.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_food2_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_1.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_1.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background4.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background4.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart4.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_cart4.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo_heropetshop.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_bill.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_bill.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_description_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_baseline_description_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_da_huy.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_da_huy.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_edt_search.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_edt_search.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_radius_unselected.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\circle_radius_unselected.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_hoadon.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_hoadon.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_off.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_off.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\bg_round.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_food2_round.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_food2_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icondate.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icondate.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_border5.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\border5.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_border_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_discount.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_discount.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\background_admin.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_on.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_star_on.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_giohang.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_giohang.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_home.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner2.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\banner2.jpg"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dashboard2.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\dashboard2.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_description_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_baseline_description_24.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_unlike.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icon_unlike.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_food2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rating.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\rating.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cthdactivity.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_cthdactivity.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_food2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_gender.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\icons8_gender.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_danh_gia.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_danh_gia.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_check_black_24dp.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_check_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_red.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\circle_red.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ratingbar_full_filled.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ratingbar_full_filled.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boder2.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\boder2.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toolbar_background.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\toolbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_message.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\activity_message.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_3.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_3.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dialog_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_radius_unselected.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\circle_radius_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_heropetshop.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flashs.jpg.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\flashs.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_unlike.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_unlike.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\logo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sign_out.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_sign_out.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_2.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_2.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_baseline_pie_chart_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_baseline_pie_chart_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contact.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_contact.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_food2_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_food2_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_supervised_user_circle_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\baseline_supervised_user_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-hdpi\\ic_food2_round.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cart_background2.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\cart_background2.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_edt_search.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\background_edt_search.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_love.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\menu\\menu_love.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_imageview.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\shadow_imageview.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_cart.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background5.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\btn_background5.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_category.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_category.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_email.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\icons8_email.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_user.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_logo_heropetshop.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo_heropetshop.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notify.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_notify.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bcakground_title_article.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\bcakground_title_article.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_favorite.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\dong_favorite.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_add_product_admin.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\ic_add_product_admin.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_action_name.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_action_name.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_menu_layout.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\profile_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food2_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_food2_background.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\baseline_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_yeuthich.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_yeuthich.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_success.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_danh_gia.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\activity_danh_gia.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\ic_back.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_admin_users.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_admin_users.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plus.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable\\plus.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizzahead.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\pizzahead.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_message.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_message.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_promc.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\drawable-v24\\promc.png"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_prott.png.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\prott.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_sp_lau.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\layout\\dong_sp_lau.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_progress_bar.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\src\\main\\res\\drawable\\custom_progress_bar.xml"
     }
 ]

@@ -4,23 +4,23 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D4D4D4"
+    android:background="@drawable/mancho"
     android:gravity="center">
 
-    <ImageView
-        android:id="@+id/imageIllustration"
-        android:layout_width="300dp"
-        android:layout_height="250dp"
-        android:src="@drawable/mancho"
-        android:layout_gravity="center"
-        android:scaleType="centerInside" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#51000000"
+        android:orientation="vertical">
 
-    <androidx.cardview.widget.CardView
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="370dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="250dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp">
         <LinearLayout
@@ -31,7 +31,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:layout_margin="15dp"
-                android:background="@drawable/edittext">
+                android:textColorHint="#FBFBFB"
+                app:errorTextColor="#E91010"
+                android:textColor="#F8F4F4"
+              >
 
                 <EditText
                     android:id="@+id/edt_email_user"
@@ -41,6 +44,7 @@
                     android:drawableRight="@drawable/ic_email"
                     android:hint="Nhập Email"
                     android:singleLine="true"
+                    android:textColor="#F8F4F4"
                     android:textColorHint="#FFFFFF"
                     />
             </com.google.android.material.textfield.TextInputLayout>
@@ -49,13 +53,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:layout_margin="15dp"
-                android:background="@drawable/edittext"
+                android:textColorHint="#FBFBFB"
+                app:errorTextColor="#F40707"
+                android:textColor="#F8F4F4"
                 app:passwordToggleEnabled="true">
 
                 <EditText
                     android:id="@+id/edt_matkhau_user"
                     android:layout_width="match_parent"
                     android:layout_height="65dp"
+                    android:textColor="#F8F4F4"
                     android:background="@drawable/edittext"
                     android:hint="Nhập Mật Khẩu"
                     android:inputType="textPassword"
@@ -64,7 +71,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
-                android:textColor="#2196F3"
+                android:textColor="#E9E5E5"
                 android:id="@+id/tv_forgot_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -103,7 +110,7 @@
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -160,5 +167,6 @@
                 app:civ_border_width="2dp"
                 app:civ_border_color="#FFFFFF"/>
         </LinearLayout>
+    </LinearLayout>
     </LinearLayout>
 </LinearLayout>

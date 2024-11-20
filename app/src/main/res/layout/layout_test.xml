@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_card"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặt lịch"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nhập tiêu đề sự kiện -->
+        <EditText
+            android:id="@+id/et_event_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tiêu đề sự kiện"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Chọn ngày -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn ngày"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn_select_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn ngày"
+            android:background="@color/purple_500"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Chọn giờ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn giờ"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn_select_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn giờ"
+            android:background="@color/purple_500"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nút xác nhận -->
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"
+            android:background="@color/teal_700"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ADMIN\\Desktop\\DoAnTMDT - Copy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+            "outputFile": "C:\\Users\\ADMIN\\AndroidStudioProjects\\hero_petShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ADMIN\\.gradle\\caches\\transforms-3\\366241b5fa9fe3755be74a09fb12d711\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-si\\values.xml",

@@ -16,12 +16,12 @@
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner3.jpg.flat",
-        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\banner3.jpg"
-    },
-    {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_1.png.flat",
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_1.png"
+    },
+    {
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner3.jpg.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\banner3.jpg"
     },
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_logo_heropetshop_round.webp.flat",
@@ -92,36 +92,36 @@
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\google.png"
     },
     {
-        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rcq.png.flat",
-        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\rcq.png"
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_favorite.xml.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\layout\\dong_favorite.xml"
     },
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_discount.png.flat",
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_discount.png"
     },
     {
-        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_favorite.xml.flat",
-        "source": "D:\\hero_petShop\\app\\src\\main\\res\\layout\\dong_favorite.xml"
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rcq.png.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\rcq.png"
     },
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_supervised_user_circle_24.xml.flat",
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\baseline_supervised_user_circle_24.xml"
     },
     {
-        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner2.jpg.flat",
-        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\banner2.jpg"
-    },
-    {
-        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boder1.xml.flat",
-        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\boder1.xml"
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin.jpg.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\background_admin.jpg"
     },
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.png.flat",
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_star.png"
     },
     {
-        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_admin.jpg.flat",
-        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\background_admin.jpg"
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boder1.xml.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\boder1.xml"
+    },
+    {
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner2.jpg.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\banner2.jpg"
     },
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_banner4.jpg.flat",
@@ -926,6 +926,10 @@
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background5.xml.flat",
         "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\btn_background5.xml"
+    },
+    {
+        "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext.xml.flat",
+        "source": "D:\\hero_petShop\\app\\src\\main\\res\\drawable\\edittext.xml"
     },
     {
         "merged": "D:\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

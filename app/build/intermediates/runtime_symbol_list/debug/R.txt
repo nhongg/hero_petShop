@@ -1939,6 +1939,7 @@ int drawable background_admin 0x7f070058
 int drawable background_admin3 0x7f070059
 int drawable background_blue 0x7f07005a
 int drawable background_btn 0x7f07005b
+int drawable background_card 0x7f070169
 int drawable background_edt_search 0x7f07005c
 int drawable background_header_8 0x7f07005d
 int drawable background_left 0x7f07005e
@@ -1952,6 +1953,10 @@ int drawable banner1 0x7f070065
 int drawable banner2 0x7f070066
 int drawable banner3 0x7f070067
 int drawable banner4 0x7f070068
+int drawable banner_pet_1 0x7f07016a
+int drawable banner_pet_2 0x7f07016b
+int drawable banner_pet_3 0x7f07016c
+int drawable banner_pet_4 0x7f07016d
 int drawable baseline_favorite_24 0x7f070069
 int drawable baseline_home_24 0x7f07006a
 int drawable baseline_supervised_user_circle_24 0x7f07006b
@@ -2025,6 +2030,7 @@ int drawable design_snackbar_background 0x7f0700ae
 int drawable discount_balloons 0x7f0700af
 int drawable divider_background 0x7f0700b0
 int drawable edittext 0x7f0700b1
+int drawable edittext_background 0x7f07016e
 int drawable facebook 0x7f0700b2
 int drawable fg 0x7f0700b3
 int drawable flashs 0x7f0700b4
@@ -2330,6 +2336,7 @@ int id btn_cancel 0x7f080076
 int id btn_cancel_users 0x7f080077
 int id btn_capnhat_cthd 0x7f080078
 int id btn_capnhat_dialog 0x7f080079
+int id btn_confirm 0x7f08037d
 int id btn_dangky 0x7f08007a
 int id btn_dangnhap 0x7f08007b
 int id btn_danhgia_gui 0x7f08007c
@@ -2349,6 +2356,8 @@ int id btn_plus_giohang 0x7f080089
 int id btn_qr_product 0x7f08008a
 int id btn_refresh 0x7f08008b
 int id btn_save 0x7f08008c
+int id btn_select_date 0x7f08037e
+int id btn_select_time 0x7f08037f
 int id btn_send_message 0x7f08008d
 int id btn_sign_up_dangky 0x7f08008e
 int id btn_thanhtoan 0x7f08008f
@@ -2500,6 +2509,7 @@ int id endToStart 0x7f080120
 int id end_padder 0x7f080121
 int id enterAlways 0x7f080122
 int id enterAlwaysCollapsed 0x7f080123
+int id et_event_title 0x7f080380
 int id exitUntilCollapsed 0x7f080124
 int id expand_activities_button 0x7f080125
 int id expanded_menu 0x7f080126
@@ -3260,6 +3270,7 @@ int layout fragment_notify 0x7f0b0073
 int layout fragment_profile 0x7f0b0074
 int layout layout_loading 0x7f0b0075
 int layout layout_persistent_bottom_sheet 0x7f0b0076
+int layout layout_test 0x7f0b00ce
 int layout material_chip_input_combo 0x7f0b0077
 int layout material_clock_display 0x7f0b0078
 int layout material_clock_display_divider 0x7f0b0079

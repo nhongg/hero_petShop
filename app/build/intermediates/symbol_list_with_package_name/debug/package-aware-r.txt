@@ -1940,6 +1940,7 @@ drawable background_admin
 drawable background_admin3
 drawable background_blue
 drawable background_btn
+drawable background_card
 drawable background_edt_search
 drawable background_header_8
 drawable background_left
@@ -1953,6 +1954,10 @@ drawable banner1
 drawable banner2
 drawable banner3
 drawable banner4
+drawable banner_pet_1
+drawable banner_pet_2
+drawable banner_pet_3
+drawable banner_pet_4
 drawable baseline_favorite_24
 drawable baseline_home_24
 drawable baseline_supervised_user_circle_24
@@ -2026,6 +2031,7 @@ drawable design_snackbar_background
 drawable discount_balloons
 drawable divider_background
 drawable edittext
+drawable edittext_background
 drawable facebook
 drawable fg
 drawable flashs
@@ -2331,6 +2337,7 @@ id btn_cancel
 id btn_cancel_users
 id btn_capnhat_cthd
 id btn_capnhat_dialog
+id btn_confirm
 id btn_dangky
 id btn_dangnhap
 id btn_danhgia_gui
@@ -2350,6 +2357,8 @@ id btn_plus_giohang
 id btn_qr_product
 id btn_refresh
 id btn_save
+id btn_select_date
+id btn_select_time
 id btn_send_message
 id btn_sign_up_dangky
 id btn_thanhtoan
@@ -2501,6 +2510,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_event_title
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3261,6 +3271,7 @@ layout fragment_notify
 layout fragment_profile
 layout layout_loading
 layout layout_persistent_bottom_sheet
+layout layout_test
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

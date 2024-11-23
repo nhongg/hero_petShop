@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "com.example.heroPetShop.app-mergeDebugResources-32:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\a2ac906339632a42684e86c8d9a5bb85\\transformed\\appcompat-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\whyso\\.gradle\\caches\\transforms-3\\2fbdecdb3a7907224faff29f57bc1fcf\\transformed\\core-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\whyso\\.gradle\\caches\\transforms-3\\9dd548c5b9a1b36ed22e171c88579577\\transformed\\appcompat-1.3.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\c79b777adf6ba90bc8e57c603f55207f\\transformed\\core-1.5.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

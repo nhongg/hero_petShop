@@ -10,10 +10,11 @@ import android.view.View;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.View.ChatActivity;
 import com.example.heroPetShop.View.SignInActivity;
+import com.example.heroPetShop.sildeshow.ManageImagesActivity;
 
 public class AdminHomeActivity extends AppCompatActivity {
 
-    private CardView cHoaDon, cThongKe, cAddProduct, cSignOut, cAddUser, cChat;
+    private CardView cHoaDon, cThongKe, cAddProduct, cSignOut, cAddUser, cChat, cslideshow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,6 +75,14 @@ public class AdminHomeActivity extends AppCompatActivity {
                 finish();
             }
         });
+        cslideshow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminHomeActivity.this, ManageImagesActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     private void Init() {
@@ -83,5 +92,6 @@ public class AdminHomeActivity extends AppCompatActivity {
         cThongKe = findViewById(R.id.cThongKe);
         cAddProduct = findViewById(R.id.cAddProduct);
         cSignOut = findViewById(R.id.cSignOut);
+        cslideshow = findViewById(R.id.cSlideshow);
     }
 }

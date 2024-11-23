@@ -2376,12 +2376,14 @@ id btn_update_profile
 id btn_xacnhan
 id btn_xuat_excel
 id btn_xuat_pdf_hoadon
+id button
 id buttonPanel
 id cAddProduct
 id cAddUser
 id cChat
 id cHoaDon
 id cSignOut
+id cSlideshow
 id cThongKe
 id cache_measures
 id callMeasure
@@ -2480,6 +2482,7 @@ id easeInOut
 id easeOut
 id east
 id editButton
+id editText
 id edit_query
 id edt_add_confirm_users
 id edt_add_email_users
@@ -3102,6 +3105,7 @@ id urlTextView
 id useLogo
 id vertical
 id vertical_only
+id viewPager
 id view_Pager
 id view_animation
 id view_end_animation
@@ -3235,6 +3239,7 @@ layout activity_search
 layout activity_sign_in
 layout activity_sign_up
 layout activity_splash
+layout activity_user_demochat
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout chat_item_left

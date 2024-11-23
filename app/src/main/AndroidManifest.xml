@@ -79,8 +79,12 @@
             android:name="com.example.heroPetShop.View.SignUpActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.heroPetShop.sildeshow.ManageImagesActivity"
+            android:exported="true"/>
+        <activity
             android:name="com.example.heroPetShop.SplashActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

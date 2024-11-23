@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Handler;
 import android.util.Log;
@@ -42,6 +43,7 @@ import com.example.heroPetShop.View.SearchActivity;
 import com.example.heroPetShop.my_interface.IClickCTHD;
 import com.example.heroPetShop.my_interface.IClickLoaiProduct;
 import com.example.heroPetShop.my_interface.IClickOpenBottomSheet;
+import com.example.heroPetShop.sildeshow.ImageSliderAdapter;
 import com.example.heroPetShop.ultil.NetworkUtil;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -96,6 +98,14 @@ public class HomeFragment extends Fragment {
 
     private TextView tvNumberCart;
 
+
+    private ViewPager2 viewPager2;
+    private ImageSliderAdapter adapter;
+    private List<String> imageUrls;
+    private FirebaseFirestore db;
+    private Handler sliderHandler;
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_home, container, false);
@@ -116,10 +126,73 @@ public class HomeFragment extends Fragment {
             GetDataSPLau();
             GetDataSPGoiY();
             LoadFavorite();
+            setupSlideshow();
         }
 
         return view;
     }
+
+
+
+
+    private void setupSlideshow() {
+        viewPager2 = view.findViewById(R.id.viewPager);
+        imageUrls = new ArrayList<>();
+        adapter = new ImageSliderAdapter(getContext(), imageUrls);
+        viewPager2.setAdapter(adapter);
+
+        db = FirebaseFirestore.getInstance();
+        sliderHandler = new Handler();
+
+        loadImagesFromFirestore();
+        startAutoSlide();
+    }
+
+    private void loadImagesFromFirestore() {
+        db.collection("images") // Tên collection trong Firestore
+                .get()
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        for (QueryDocumentSnapshot document : task.getResult()) {
+                            String url = document.getString("url");
+                            if (url != null && !url.isEmpty()) {
+                                imageUrls.add(url); // Thêm URL vào danh sách
+                            }
+                        }
+                        adapter.notifyDataSetChanged(); // Cập nhật adapter
+                    } else {
+                        Log.e("Firestore", "Error getting documents: ", task.getException());
+                    }
+                });
+    }
+
+    private void startAutoSlide() {
+        Runnable slideRunnable = new Runnable() {
+            @Override
+            public void run() {
+                if (imageUrls.size() > 0) { // Kiểm tra danh sách không rỗng
+                    int currentItem = viewPager2.getCurrentItem();
+                    int nextItem = (currentItem + 1) % imageUrls.size(); // Lặp lại từ đầu khi hết ảnh
+                    viewPager2.setCurrentItem(nextItem, true); // Chuyển đến ảnh tiếp theo
+                }
+                sliderHandler.postDelayed(this, 3000); // Chuyển ảnh sau 3 giây
+            }
+        };
+        sliderHandler.postDelayed(slideRunnable, 3000);
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        if (sliderHandler != null) {
+            sliderHandler.removeCallbacksAndMessages(null); // Ngừng tự động chuyển slide
+        }
+    }
+
+
+
+
+
 
     private void LoadFavorite() {
         firestore.collection("Favorite").document(FirebaseAuth.getInstance().getCurrentUser().getUid())

@@ -82,4 +82,6 @@ dependencies {
 
     // Excel
     implementation 'org.apache.poi:poi:3.17'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
 }

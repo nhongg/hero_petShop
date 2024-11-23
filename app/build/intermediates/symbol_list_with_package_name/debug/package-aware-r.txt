@@ -1940,6 +1940,7 @@ drawable background_admin
 drawable background_admin3
 drawable background_blue
 drawable background_btn
+drawable background_card
 drawable background_edt_search
 drawable background_header_8
 drawable background_left
@@ -1953,6 +1954,10 @@ drawable banner1
 drawable banner2
 drawable banner3
 drawable banner4
+drawable banner_pet_1
+drawable banner_pet_2
+drawable banner_pet_3
+drawable banner_pet_4
 drawable baseline_favorite_24
 drawable baseline_home_24
 drawable baseline_supervised_user_circle_24
@@ -1982,6 +1987,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button
 drawable button2
 drawable camera
+drawable card_background
 drawable cart_background
 drawable cart_background2
 drawable circle_radius_selected
@@ -2026,6 +2032,7 @@ drawable design_snackbar_background
 drawable discount_balloons
 drawable divider_background
 drawable edittext
+drawable edittext_background
 drawable facebook
 drawable fg
 drawable flashs
@@ -2033,6 +2040,7 @@ drawable food1
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable header_background
 drawable hj
 drawable hot
 drawable ic_1
@@ -2333,6 +2341,7 @@ id btn_cancel
 id btn_cancel_users
 id btn_capnhat_cthd
 id btn_capnhat_dialog
+id btn_confirm
 id btn_dangky
 id btn_dangnhap
 id btn_danhgia_gui
@@ -2510,6 +2519,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id et_date
 id et_description
+id et_event_title
 id et_time
 id et_title
 id exitUntilCollapsed
@@ -2542,6 +2552,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id header
 id header_title
 id hideable
 id home
@@ -2558,7 +2569,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageIllustration
 id image_add
 id image_add_product
 id image_add_users
@@ -2965,6 +2975,7 @@ id tv_admin_namehd
 id tv_admin_sdthd
 id tv_admin_statushd
 id tv_admin_totalhd
+id tv_app_name
 id tv_binhluan
 id tv_category
 id tv_date
@@ -3047,6 +3058,8 @@ id tv_seen
 id tv_show_msg
 id tv_soluong_bottom
 id tv_songuoi_danhgia
+id tv_subtitle
+id tv_tagline
 id tv_taomaqr
 id tv_ten_admin
 id tv_ten_bottom
@@ -3068,6 +3081,7 @@ id tv_trongluong_category
 id tv_trongluong_detail
 id tv_trongluong_giohang
 id tv_username_message
+id tv_welcome
 id txtdiachi
 id txthoadon
 id txtnoidung
@@ -3218,6 +3232,8 @@ layout chat_item_left
 layout chat_item_right
 layout custom_dialog
 layout custom_dong_auto_text
+layout demo_layout1
+layout demo_layout2
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3280,6 +3296,7 @@ layout fragment_schedule
 layout item_schedule
 layout layout_loading
 layout layout_persistent_bottom_sheet
+layout layout_test
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3349,6 +3366,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout test
 layout test_action_chip
 layout test_chip_zero_corner_radius
 layout test_design_checkbox

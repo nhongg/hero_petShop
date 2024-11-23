@@ -2033,6 +2033,7 @@ drawable discount_balloons
 drawable divider_background
 drawable edittext
 drawable edittext_background
+drawable error_image
 drawable facebook
 drawable fg
 drawable flashs
@@ -2190,6 +2191,7 @@ drawable orange_button
 drawable oval_btn_selector
 drawable pizzahead
 drawable pl
+drawable placeholder
 drawable plus
 drawable pop_1
 drawable profile
@@ -2331,6 +2333,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAddImage
 id btn_add_back
 id btn_add_users
 id btn_addcart_detail
@@ -2445,6 +2448,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2475,6 +2479,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editButton
 id edit_query
 id edt_add_confirm_users
 id edt_add_email_users
@@ -2569,6 +2574,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id image_add
 id image_add_product
 id image_add_users
@@ -2799,6 +2805,7 @@ id rdo_group
 id rdo_nam
 id rdo_nu
 id rectangles
+id recyclerView
 id recycler_view
 id recycler_view_chat
 id relative_item_binhluan
@@ -3091,6 +3098,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id urlTextView
 id useLogo
 id vertical
 id vertical_only
@@ -3219,6 +3227,7 @@ layout activity_edit_schedule
 layout activity_favorite
 layout activity_forgot_password
 layout activity_main
+layout activity_manage_images
 layout activity_message
 layout activity_order_success
 layout activity_schedule_list
@@ -3293,6 +3302,8 @@ layout fragment_home
 layout fragment_notify
 layout fragment_profile
 layout fragment_schedule
+layout image_slider_item
+layout item_image
 layout item_schedule
 layout layout_loading
 layout layout_persistent_bottom_sheet

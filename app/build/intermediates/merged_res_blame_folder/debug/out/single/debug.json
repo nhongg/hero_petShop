@@ -8,12 +8,12 @@
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\fragment_cart.xml"
     },
     {
-        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
-        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\activity_search.xml"
-    },
-    {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_iconpromo.png.flat",
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\iconpromo.png"
+    },
+    {
+        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -80,12 +80,20 @@
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable-v24\\button.xml"
     },
     {
+        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_slider_item.xml.flat",
+        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\image_slider_item.xml"
+    },
+    {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart.xml.flat",
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_image.xml.flat",
+        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\item_image.xml"
     },
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flashs.jpg.flat",
@@ -118,6 +126,10 @@
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_goiy.png.flat",
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable\\ic_goiy.png"
+    },
+    {
+        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_error_image.png.flat",
+        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable\\error_image.png"
     },
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category.xml.flat",
@@ -546,6 +558,10 @@
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_header_8.png.flat",
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable\\background_header_8.png"
+    },
+    {
+        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manage_images.xml.flat",
+        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\layout\\activity_manage_images.xml"
     },
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_add_product_admin.xml.flat",
@@ -1214,6 +1230,10 @@
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_logo_heropetshop_round.webp.flat",
         "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_heropetshop_round.webp"
+    },
+    {
+        "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.png.flat",
+        "source": "D:\\DATN\\hero_petShop\\app\\src\\main\\res\\drawable\\placeholder.png"
     },
     {
         "merged": "D:\\DATN\\hero_petShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_arrow_back_black_24dp.xml.flat",

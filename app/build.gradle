@@ -27,6 +27,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.example.heroPetShop'
 }
 
 dependencies {
@@ -82,4 +83,6 @@ dependencies {
 
     // Excel
     implementation 'org.apache.poi:poi:3.17'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
 }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:padding="16dp">
+
+    <!-- Ảnh Banner -->
+    <ImageView
+        android:id="@+id/banner_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Banner" />
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner_image"
+        android:text="Chào mừng đến với ứng dụng của bạn!"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Nội dung -->
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:text="Khám phá các tính năng thú vị và tận hưởng trải nghiệm tốt nhất."
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Danh sách nút chức năng -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_text"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <!-- Nút 1 -->
+        <Button
+            android:id="@+id/btn_feature1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tính năng 1"
+            android:background="@drawable/button"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp" />
+
+        <!-- Nút 2 -->
+        <Button
+            android:id="@+id/btn_feature2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tính năng 2"
+            android:background="@drawable/button2"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.heroPetShop">
+    xmlns:tools="http://schemas.android.com/tools">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -79,8 +78,12 @@
             android:name="com.example.heroPetShop.View.SignUpActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.heroPetShop.sildeshow.ManageImagesActivity"
+            android:exported="true"/>
+        <activity
             android:name="com.example.heroPetShop.SplashActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

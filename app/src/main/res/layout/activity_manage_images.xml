@@ -54,12 +54,11 @@
     <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_below="@id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/cardViewAddProduct"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_below="@id/viewPager"
+
+        android:layout_marginTop="10dp" />
 
     <!-- Floating CardView for Add Product -->
     <androidx.cardview.widget.CardView
@@ -77,7 +76,9 @@
             android:layout_height="50dp"
             android:background="#FF5722"
             app:tint="#FFFFFF"
-            app:srcCompat="@drawable/ic_add_product_admin" />
+
+            app:srcCompat="@drawable/ic_add_product_admin"
+            />
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

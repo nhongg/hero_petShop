@@ -56,7 +56,7 @@
             android:paddingStart="8dp"
             android:background="@null"
             android:textColor="#333333"
-            android:hintTextColor="#999999" />
+           />
     </LinearLayout>
 
     <!-- Nội dung chính -->

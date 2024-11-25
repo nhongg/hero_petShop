@@ -5,43 +5,43 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/titleTextView"
+        android:id="@+id/cartTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trang Chủ"
+        android:text="Giỏ Hàng"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nút 1"
-        android:layout_marginBottom="16dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nút 2"
-        android:layout_below="@id/button1"
-        android:layout_marginBottom="16dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nút 3"
-        android:layout_below="@id/button2"
-        android:layout_marginBottom="16dp" />
-
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/recyclerViewCart"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_below="@id/button3"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:layout_above="@id/totalPriceLayout" />
+
+    <LinearLayout
+        android:id="@+id/totalPriceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/totalPriceTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tổng tiền: 0 VNĐ"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/checkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh Toán" />
+    </LinearLayout>
 
 </RelativeLayout>

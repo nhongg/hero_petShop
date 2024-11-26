@@ -135,15 +135,48 @@ public class FavoriteFragment extends Fragment implements ProductView, FavoriteV
 
     }
 
+//    @Override
+//    public void getDataProduct(String id, String ten, Long gia, String hinhanh, String loaisp, String mota, Long soluong, String hansudung, Long type, String trongluong) {
+//        mlistProduct.add(new Product(id, ten, gia, hinhanh, loaisp, mota, soluong, hansudung, type, trongluong));
+//        if (mlistFavorite.size() != 0){
+//            tvNullFavorite.setVisibility(View.GONE);
+//        } else {
+//            tvNullFavorite.setVisibility(View.VISIBLE);
+//        }
+////        progressBar.setVisibility(View.GONE);
+//        adapter = new FavoriteAdapter(getContext(), mlistProduct, new IClickCTHD() {
+//            @Override
+//            public void onClickCTHD(int pos) {
+//                Product product = mlistProduct.get(pos);
+//                Intent intent = new Intent(getContext(), DetailSPActivity.class);
+//                intent.putExtra("search", product);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        rcvFavorite.setLayoutManager(new LinearLayoutManager(getContext(), RecyclerView.VERTICAL, false));
+//        rcvFavorite.setAdapter(adapter);
+//    }
+
     @Override
     public void getDataProduct(String id, String ten, Long gia, String hinhanh, String loaisp, String mota, Long soluong, String hansudung, Long type, String trongluong) {
+        if (id == null || ten == null || gia == null || hinhanh == null || loaisp == null || mota == null || soluong == null || hansudung == null || type == null || trongluong == null) {
+            // Ghi log để xác định giá trị nào bị null
+            String logMessage = String.format("Null value found: id=%s, ten=%s, gia=%s, hinhanh=%s, loaisp=%s, mota=%s, soluong=%s, hansudung=%s, type=%s, trongluong=%s",
+                    id, ten, gia, hinhanh, loaisp, mota, soluong, hansudung, type, trongluong);
+            System.out.println(logMessage);
+            return; // Bỏ qua sản phẩm bị lỗi
+        }
+
+        // Tiếp tục nếu không có giá trị nào bị null
         mlistProduct.add(new Product(id, ten, gia, hinhanh, loaisp, mota, soluong, hansudung, type, trongluong));
-        if (mlistFavorite.size() != 0){
+
+        if (mlistFavorite.size() != 0) {
             tvNullFavorite.setVisibility(View.GONE);
         } else {
             tvNullFavorite.setVisibility(View.VISIBLE);
         }
-//        progressBar.setVisibility(View.GONE);
+
         adapter = new FavoriteAdapter(getContext(), mlistProduct, new IClickCTHD() {
             @Override
             public void onClickCTHD(int pos) {
@@ -157,4 +190,5 @@ public class FavoriteFragment extends Fragment implements ProductView, FavoriteV
         rcvFavorite.setLayoutManager(new LinearLayoutManager(getContext(), RecyclerView.VERTICAL, false));
         rcvFavorite.setAdapter(adapter);
     }
+
 }

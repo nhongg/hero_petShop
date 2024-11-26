@@ -1,11 +1,14 @@
 package com.example.heroPetShop.sildeshow;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -15,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.heroPetShop.R;
+import com.example.heroPetShop.View.Admin.AdminHomeActivity;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 
@@ -28,7 +32,7 @@ public class ManageImagesActivity extends AppCompatActivity {
     private FirebaseFirestore db;
 
 
-
+    private ImageView imgBackUsers;
     private ViewPager2 viewPager2;
     private ImageSliderAdapter adapter2;
     private List<String> imageUrls;
@@ -66,6 +70,18 @@ public class ManageImagesActivity extends AppCompatActivity {
 
 
         setupSlideshow();
+
+        imgBackUsers = findViewById(R.id.img_back_banner);
+        findViewById(R.id.img_back_banner).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ManageImagesActivity.this, AdminHomeActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+
     }
 
     private void loadImages() {

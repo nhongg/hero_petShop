@@ -328,6 +328,35 @@ public class HomeFragment extends Fragment {
         arr_sp_gy = new ArrayList<>();
     }
     // Danh sách Product
+//    public void GetDataDSSanPham() {
+//        firestore.collection("SanPham")
+//                .whereEqualTo("type", 1)
+//                .get()
+//                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+//                    @Override
+//                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+//                        if (queryDocumentSnapshots.size() > 0) {
+//                            for (QueryDocumentSnapshot d : queryDocumentSnapshots) {
+//                                arr_ds_sp.add(new Product(d.getId(), d.getString("tensp"),
+//                                        d.getLong("giatien"), d.getString("hinhanh"),
+//                                        d.getString("loaisp"), d.getString("mota"),
+//                                        d.getLong("soluong"), d.getString("hansudung"),
+//                                        d.getLong("type"), d.getString("trongluong")));
+//                            }
+//                            productDSAdapter = new ProductAdapter(getContext(), arr_ds_sp, 1, new IClickOpenBottomSheet() {
+//                                @Override
+//                                public void onClickOpenBottomSheet(int position) {
+//                                    product = arr_ds_sp.get(position);
+//                                    TruyenData();
+//                                }
+//                            });
+//                            rcvDSSP.setLayoutManager(new GridLayoutManager(getContext(), 2));
+//                            rcvDSSP.setAdapter(productDSAdapter);
+//                        }
+//                    }
+//                });
+//    }
+
     public void GetDataDSSanPham() {
         firestore.collection("SanPham")
                 .whereEqualTo("type", 1)
@@ -335,13 +364,14 @@ public class HomeFragment extends Fragment {
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                        if (queryDocumentSnapshots.size() > 0) {
+                        if (!queryDocumentSnapshots.isEmpty()) {
                             for (QueryDocumentSnapshot d : queryDocumentSnapshots) {
-                                arr_ds_sp.add(new Product(d.getId(), d.getString("tensp"),
-                                        d.getLong("giatien"), d.getString("hinhanh"),
+                                Long giaTien = d.getLong("giatien") != null ? d.getLong("giatien") : 0;
+                                String tenSP = d.getString("tensp") != null ? d.getString("tensp") : "Không rõ";
+                                arr_ds_sp.add(new Product(d.getId(), tenSP, giaTien, d.getString("hinhanh"),
                                         d.getString("loaisp"), d.getString("mota"),
-                                        d.getLong("soluong"), d.getString("hansudung"),
-                                        d.getLong("type"), d.getString("trongluong")));
+                                        d.getLong("soluong") != null ? d.getLong("soluong") : 0,
+                                        d.getString("hansudung"), d.getLong("type"), d.getString("trongluong")));
                             }
                             productDSAdapter = new ProductAdapter(getContext(), arr_ds_sp, 1, new IClickOpenBottomSheet() {
                                 @Override
@@ -352,11 +382,18 @@ public class HomeFragment extends Fragment {
                             });
                             rcvDSSP.setLayoutManager(new GridLayoutManager(getContext(), 2));
                             rcvDSSP.setAdapter(productDSAdapter);
+                        } else {
+                            Log.e("Firestore", "Không có dữ liệu sản phẩm.");
                         }
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.e("Firestore", "Lỗi khi tải dữ liệu: " + e.getMessage());
                     }
                 });
     }
-
 
     // Sản phẩm nổi bật
     public  void  GetDataSPNoiBat(){

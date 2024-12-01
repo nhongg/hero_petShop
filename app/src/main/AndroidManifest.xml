@@ -66,6 +66,12 @@
             android:name="com.example.heroPetShop.View.Admin.AdminHomeActivity"
             android:exported="true" />
         <activity
+            android:name=".DichVu.ServiceManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DichVu.DetailServiceActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.heroPetShop.View.CTHDActivity"
             android:exported="true" />
         <activity

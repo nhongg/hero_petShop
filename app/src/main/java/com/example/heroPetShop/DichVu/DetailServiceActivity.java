@@ -1,0 +1,48 @@
+package com.example.heroPetShop.DichVu;
+
+
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.heroPetShop.MainActivity;
+import com.example.heroPetShop.R;
+import com.example.heroPetShop.View.Admin.AdminHomeActivity;
+import com.example.heroPetShop.sildeshow.ManageImagesActivity;
+
+public class DetailServiceActivity extends AppCompatActivity {
+    private TextView txtServiceName, txtDescription, txtPrice, txtTime, txtStatus;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_detail_service);
+
+        txtServiceName = findViewById(R.id.txtServiceName);
+        txtDescription = findViewById(R.id.txtDescription);
+        txtPrice = findViewById(R.id.txtPrice);
+        txtTime = findViewById(R.id.txtTime);
+
+        findViewById(R.id.img_back_banner).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DetailServiceActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+        // Nhận dữ liệu từ Intent
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
+            txtServiceName.setText(bundle.getString("tenDichVu"));
+            txtDescription.setText(bundle.getString("moTa"));
+            txtPrice.setText(String.valueOf(bundle.getDouble("gia")) + " VNĐ");
+            txtTime.setText(bundle.getLong("thoiGian") + " phút");
+
+        }
+    }
+}

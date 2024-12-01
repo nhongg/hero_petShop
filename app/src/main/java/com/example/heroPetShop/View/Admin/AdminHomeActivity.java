@@ -1,12 +1,13 @@
 package com.example.heroPetShop.View.Admin;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
+import com.example.heroPetShop.DichVu.ServiceManagementActivity;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.View.ChatActivity;
 import com.example.heroPetShop.View.SignInActivity;
@@ -14,7 +15,7 @@ import com.example.heroPetShop.sildeshow.ManageImagesActivity;
 
 public class AdminHomeActivity extends AppCompatActivity {
 
-    private CardView cHoaDon, cThongKe, cAddProduct, cSignOut, cAddUser, cChat, cslideshow;
+    private CardView cHoaDon, cThongKe, cAddProduct, cSignOut, cAddUser, cChat, cslideshow, cDichVu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +84,15 @@ public class AdminHomeActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        cDichVu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminHomeActivity.this, ServiceManagementActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     private void Init() {
@@ -93,5 +103,6 @@ public class AdminHomeActivity extends AppCompatActivity {
         cAddProduct = findViewById(R.id.cAddProduct);
         cSignOut = findViewById(R.id.cSignOut);
         cslideshow = findViewById(R.id.cSlideshow);
+        cDichVu = findViewById(R.id.cDichVu);
     }
 }

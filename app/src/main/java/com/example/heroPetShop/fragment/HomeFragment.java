@@ -2,6 +2,18 @@ package com.example.heroPetShop.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,22 +28,11 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.os.Handler;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.example.heroPetShop.Adapter.BannerAdapter;
 import com.example.heroPetShop.Adapter.LoaiProductAdapter;
 import com.example.heroPetShop.Adapter.ProductAdapter;
+import com.example.heroPetShop.DichVu.Service;
+import com.example.heroPetShop.DichVu.ServiceAdapter_KH;
 import com.example.heroPetShop.Models.LoaiProduct;
 import com.example.heroPetShop.Models.Product;
 import com.example.heroPetShop.R;
@@ -48,6 +49,7 @@ import com.example.heroPetShop.ultil.NetworkUtil;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
@@ -106,6 +108,16 @@ public class HomeFragment extends Fragment {
     private Handler sliderHandler;
 
 
+
+    private RecyclerView rcv_dv;
+    private ServiceAdapter_KH serviceAdapter;
+    private List<Service> serviceList = new ArrayList<>();
+    private FirebaseFirestore dbdv = FirebaseFirestore.getInstance();
+
+
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_home, container, false);
@@ -127,14 +139,40 @@ public class HomeFragment extends Fragment {
             GetDataSPGoiY();
             LoadFavorite();
             setupSlideshow();
+            setupDichVu();
         }
 
         return view;
     }
 
 
+    private void setupDichVu(){
+        rcv_dv = view.findViewById(R.id.rcv_dichvu);
+//        rcv_dv.setLayoutManager(new LinearLayoutManager(getContext()));
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        rcv_dv.setLayoutManager(layoutManager);
+        serviceAdapter = new ServiceAdapter_KH(serviceList, getContext());
+        rcv_dv.setAdapter(serviceAdapter);
+        loadServicesFromFirestore();
+    }
+    // Hàm lấy danh sách dịch vụ từ Firestore
+    private void loadServicesFromFirestore() {
+        CollectionReference servicesRef = dbdv.collection("services");
+        servicesRef.get()
+                .addOnSuccessListener(queryDocumentSnapshots -> {
+                    for (QueryDocumentSnapshot document : queryDocumentSnapshots) {
+                        Service service = document.toObject(Service.class);
+                        serviceList.add(service);
+                    }
+                    serviceAdapter.notifyDataSetChanged(); // Cập nhật adapter khi dữ liệu đã được tải
+                })
+                .addOnFailureListener(e -> {
+                    // Xử lý lỗi khi lấy dữ liệu từ Firestore
+                });
+    }
 
 
+    //
     private void setupSlideshow() {
         viewPager2 = view.findViewById(R.id.viewPager);
         imageUrls = new ArrayList<>();

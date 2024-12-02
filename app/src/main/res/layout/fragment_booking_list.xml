@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+
     tools:context=".fragment.BookingFragment">
 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Hoạt động"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#C503A9F4"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="3"
+            android:text="Cảm ơn bạn đã tin tưởng sử dụng dịch vụ chúng tôi"
+            android:textSize="25dp"
+            android:textColor="@color/Orange"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clipToOutline="true"
+            android:src="@drawable/logopetshop"
+            android:background="@drawable/circle_shape"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:padding="10dp"
+        android:text="Hãy yên tâm giao thú cưng của bạn cho chúng tôi"
+        />
+
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gần đây"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <androidx.recyclerview.widget.RecyclerView
+       android:layout_marginTop="5dp"
         android:id="@+id/recyclerViewBookings"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -113,7 +113,7 @@ public class BookingActivity extends AppCompatActivity {
 
             // Tạo đối tượng Booking mới
             Booking booking = new Booking();
-            booking.setTenDichVu(tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
+            booking.setTenDichVu("Dịch vụ "+tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
             booking.setTenThuCung(tenThuCung);
             booking.setCanNang(canNang);
             booking.setLoaiThuCung(loaiThuCung);

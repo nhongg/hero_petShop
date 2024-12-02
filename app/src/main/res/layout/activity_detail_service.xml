@@ -4,11 +4,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     >
+
     <RelativeLayout
         android:id="@+id/RelativeLayout"
-        android:background="#FF5722"
+        android:background="#8D00BCD4"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
+        android:layout_height="?attr/actionBarSize"
+        android:padding="8dp">
         <ImageView
             android:layout_centerVertical="true"
             android:layout_marginStart="10dp"
@@ -18,53 +20,126 @@
             android:src="@drawable/ic_back"
             app:tint="#FFFFFF" />
         <TextView
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:layout_centerInParent="true"
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chi tiết dịch vụ"
             android:textColor="#FFFFFF"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium" />
     </RelativeLayout>
-    <TextView
-        android:id="@+id/txtServiceName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="Tên Dịch Vụ" />
 
-    <TextView
-        android:id="@+id/txtDescription"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Mô tả dịch vụ" />
-
-    <TextView
-        android:id="@+id/txtPrice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Giá dịch vụ" />
-
-    <TextView
-        android:id="@+id/txtTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Thời gian" />
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
 
 
-    <Button
-        android:id="@+id/btnDatLich"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Đặt Lịch"
-        android:backgroundTint="@color/purple_500"
-        android:textColor="@android:color/white" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Dịch Vụ: "
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/txtServiceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Tên Dịch Vụ"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mô tả dịch vụ: "
+                android:textColor="#666666" />
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mô tả dịch vụ"
+                android:textColor="#666666" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Giá: "
+                android:textColor="#FF5722"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Giá dịch vụ"
+                android:textColor="#FF5722"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Thời gian: "
+                android:textColor="#444444" />
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Thời gian"
+                android:textColor="#444444" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnDatLich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Đặt Lịch"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp" />
+
+
+    </LinearLayout>
 
 
 </LinearLayout>

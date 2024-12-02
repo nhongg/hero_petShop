@@ -66,6 +66,9 @@
             android:name="com.example.heroPetShop.View.Admin.AdminHomeActivity"
             android:exported="true" />
         <activity
+            android:name=".Booking.BookingActivity"
+            android:exported="true" />
+        <activity
             android:name=".DichVu.ServiceManagementActivity"
             android:exported="true" />
         <activity

@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edtTenThuCung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên thú cưng" />
+
+        <EditText
+            android:id="@+id/edtCanNang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cân nặng thú cưng"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtLoaiThuCung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loại thú cưng" />
+
+        <!-- Hiển thị ngày đặt lịch -->
+        <TextView
+            android:id="@+id/txtChonNgay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chưa chọn ngày"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <!-- Hiển thị giờ đặt lịch -->
+        <TextView
+            android:id="@+id/txtChonGio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chưa chọn giờ"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnDatLich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặt Lịch" />
+    </LinearLayout>
+
+</LinearLayout>

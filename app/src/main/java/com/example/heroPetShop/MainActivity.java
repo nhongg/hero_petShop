@@ -15,11 +15,15 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+
+import com.example.heroPetShop.fragment.BookingFragment;
+
 import com.example.heroPetShop.fragment.bill.ScheduleFragment;
 import com.example.heroPetShop.fragment.BillFragment;
 import com.example.heroPetShop.fragment.FavoriteFragment;
 import com.example.heroPetShop.fragment.HomeFragment;
 import com.example.heroPetShop.fragment.ProfileFragment;
+
 import com.example.heroPetShop.ultil.MyReceiver;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -81,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                             selectedFragment = new BillFragment();
                             break;
                         case R.id.khac:
-                            selectedFragment = new ScheduleFragment();
+                            selectedFragment = new BookingFragment();
                             break;
                         default:
                             // Xử lý trường hợp không xác định

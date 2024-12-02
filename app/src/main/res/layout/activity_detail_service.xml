@@ -57,4 +57,14 @@
         android:text="Thời gian" />
 
 
+    <Button
+        android:id="@+id/btnDatLich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Đặt Lịch"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+
+
 </LinearLayout>

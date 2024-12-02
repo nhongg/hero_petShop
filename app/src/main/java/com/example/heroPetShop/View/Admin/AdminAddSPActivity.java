@@ -205,13 +205,19 @@ public class AdminAddSPActivity extends AppCompatActivity implements AdapterView
                     sp.setLoaisp(spinnerDanhMuc.getSelectedItem().toString());
                     sp.setHinhanh(image);
 
+                    // Thêm sản phẩm vào Firestore
                     db.collection("SanPham").add(sp).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                         @Override
                         public void onSuccess(@NonNull DocumentReference documentReference) {
-                            Toast.makeText(AdminAddSPActivity.this, "Thành công!!!", Toast.LENGTH_SHORT).show();
+                            // Lấy ID tài liệu và gán vào đối tượng
+                            sp.setId(documentReference.getId());
+
+                            // Cập nhật lại tài liệu với ID đã lấy
+                            db.collection("SanPham").document(documentReference.getId()).update("id", sp.getId());
+
+                            Toast.makeText(AdminAddSPActivity.this, "Thành công!!!"+ sp.getId(), Toast.LENGTH_SHORT).show();
                             setResult(RESULT_OK);
                             finish();
-
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
@@ -224,6 +230,7 @@ public class AdminAddSPActivity extends AppCompatActivity implements AdapterView
                 }
             }
         });
+
 
         btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override

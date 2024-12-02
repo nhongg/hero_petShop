@@ -47,7 +47,7 @@ public class ServiceManagementActivity extends AppCompatActivity {
         findViewById(R.id.img_back_banner).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ServiceManagementActivity.this, MainActivity.class);
+                Intent intent = new Intent(ServiceManagementActivity.this, AdminHomeActivity.class);
                 startActivity(intent);
             }
 

@@ -1,66 +1,26 @@
 {
   "project_info": {
-    "project_number": "829544249468",
-    "firebase_url": "https://foodfullchucnangcodedoan-default-rtdb.firebaseio.com",
-    "project_id": "foodfullchucnangcodedoan",
-    "storage_bucket": "foodfullchucnangcodedoan.appspot.com"
+    "project_number": "590368391268",
+    "project_id": "heropetshop-bc414",
+    "storage_bucket": "heropetshop-bc414.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:829544249468:android:0849276efb302aefafb1f9",
-        "android_client_info": {
-          "package_name": "com.example.doanfood"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:829544249468:android:122fdb10e7bd5537afb1f9",
+        "mobilesdk_app_id": "1:590368391268:android:5be4e572fe0c78426edf71",
         "android_client_info": {
           "package_name": "com.example.heroPetShop"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCZjH_VYF7Jtj--YDWhETiF4Z3X-i2VklA"
+          "current_key": "AIzaSyB8YVFMhu-OUndUIVoVYdqtjkJsqCOOZA0"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "829544249468-4l6d36l0hhm2ku71d3iul5uuboo1qchk.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

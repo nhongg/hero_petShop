@@ -7,6 +7,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.example.heroPetShop.R;
+
 import com.example.heroPetShop.DichVu.ServiceManagementActivity;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.View.ChatActivity;
@@ -15,7 +17,7 @@ import com.example.heroPetShop.sildeshow.ManageImagesActivity;
 
 public class AdminHomeActivity extends AppCompatActivity {
 
-    private CardView cHoaDon, cThongKe, cAddProduct, cSignOut, cAddUser, cChat, cslideshow, cDichVu;
+    private CardView cHoaDon, cThongKe, cAddProduct, cSignOut, cAddUser, cChat, cslideshow, cDichVu, cLichdat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,13 @@ public class AdminHomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AdminHomeActivity.this, AdminUsersActivity.class);
+                startActivity(intent);
+            }
+        });
+        cLichdat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminHomeActivity.this, BookingActivity_admin.class);
                 startActivity(intent);
             }
         });
@@ -104,5 +113,6 @@ public class AdminHomeActivity extends AppCompatActivity {
         cSignOut = findViewById(R.id.cSignOut);
         cslideshow = findViewById(R.id.cSlideshow);
         cDichVu = findViewById(R.id.cDichVu);
+        cLichdat = findViewById(R.id.cLichdat);
     }
 }

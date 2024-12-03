@@ -66,6 +66,9 @@
             android:name="com.example.heroPetShop.View.Admin.AdminHomeActivity"
             android:exported="true" />
         <activity
+            android:name=".View.Admin.BookingActivity_admin"
+            android:exported="true" />
+        <activity
             android:name=".Booking.BookingActivity"
             android:exported="true" />
         <activity

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:2:1-126:12
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:2:1-126:12
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:2:1-126:12
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:2:1-126:12
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:1-129:12
 MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\cb8eec87db69464a352893fe1842a700\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\whyso\.gradle\caches\8.9\transforms\c2f4f42ee4093b30cee41e76bf68ae80\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\whyso\.gradle\caches\8.9\transforms\ba544223f2ed925f2565b024a35acbb0\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -89,27 +89,27 @@ MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\whyso\.gradle\caches\8.9\tran
 MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\whyso\.gradle\caches\8.9\transforms\e19d25a0202295362698acf6c8deb77f\transformed\jetified-relinker-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\whyso\.gradle\caches\8.9\transforms\deedd45ebcee2bc4ed4a9c1e0fc662bd\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
-		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:11:5-65
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:11:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\8.9\transforms\4858e6e323eb644f7cafa62ca96a10c9\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\whyso\.gradle\caches\8.9\transforms\4858e6e323eb644f7cafa62ca96a10c9\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:11:22-62
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:11:22-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:12:5-79
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:13:5-67
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:13:5-67
 MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\8.9\transforms\d7933508b2a9e1483e35bb268feee4cf\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:11:5-67
 MERGED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\8.9\transforms\d7933508b2a9e1483e35bb268feee4cf\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\8.9\transforms\38063416081409c7e381ed1c88e1a57b\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
@@ -133,13 +133,13 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\whyso\.gradle\caches\8.9\transforms\4d70d59e52b51963ccf540393166ec14\transformed\jetified-play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\whyso\.gradle\caches\8.9\transforms\4d70d59e52b51963ccf540393166ec14\transformed\jetified-play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:13:22-64
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:14:5-81
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:15:5-79
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:15:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\8.9\transforms\38063416081409c7e381ed1c88e1a57b\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\8.9\transforms\38063416081409c7e381ed1c88e1a57b\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\whyso\.gradle\caches\8.9\transforms\e866fddf3d1164bf874d292750673009\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
@@ -163,24 +163,24 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\whyso\.gradle\caches\8.9\transforms\8c777ee809a722409198282adf8348d6\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\whyso\.gradle\caches\8.9\transforms\8c777ee809a722409198282adf8348d6\transformed\jetified-grpc-android-1.48.1\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:16:5-81
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:16:22-78
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:16:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:17:5-80
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:17:5-80
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:17:22-77
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:17:22-77
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:18:5-19:38
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:18:5-19:38
 	android:minSdkVersion
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:19:9-35
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:18:22-79
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:18:22-79
 application
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:21:5-124:19
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:21:5-124:19
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:21:5-127:19
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:21:5-127:19
 MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\cb8eec87db69464a352893fe1842a700\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:12:5-20
 MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\cb8eec87db69464a352893fe1842a700\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:12:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\whyso\.gradle\caches\8.9\transforms\c2f4f42ee4093b30cee41e76bf68ae80\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
@@ -248,220 +248,226 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\whyso\.gradle
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\04ac0c10efb382a4e2f997d8723e2e4f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\04ac0c10efb382a4e2f997d8723e2e4f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\whyso\.gradle\caches\8.9\transforms\424709aaf483db80d53040335c48524d\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:24:9-41
 	android:hardwareAccelerated
 		ADDED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\8.9\transforms\d7933508b2a9e1483e35bb268feee4cf\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:19:9-43
 	android:roundIcon
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:25:9-62
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:25:9-62
 	android:icon
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:23:9-51
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:23:9-51
 	android:allowBackup
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:27:9-47
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:27:9-47
 		REJECTED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\8.9\transforms\d7933508b2a9e1483e35bb268feee4cf\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:22:9-40
 	tools:replace
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:29:9-38
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:29:9-38
 	android:usesCleartextTraffic
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:28:9-44
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:28:9-44
 activity#com.example.heroPetShop.View.CartActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:30:9-87
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:30:9-87
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:30:19-75
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:30:19-75
 activity#com.example.heroPetShop.View.OrderSuccessActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:31:9-86
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:31:9-86
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:31:19-83
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:31:19-83
 activity#com.example.heroPetShop.View.ChatActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:32:9-37:48
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:32:9-37:48
 	android:excludeFromRecents
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:37:13-46
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:37:13-46
 	android:launchMode
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:35:13-44
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:34:13-36
 	android:taskAffinity
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:33:13-69
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:33:13-69
 activity#com.example.heroPetShop.View.MessageActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:38:9-81
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:38:9-81
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:38:19-78
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:38:19-78
 activity#com.example.heroPetShop.View.DanhGiaActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:39:9-81
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:39:9-81
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:39:19-78
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:39:19-78
 activity#com.example.heroPetShop.View.FavoriteActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:40:9-82
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:40:9-82
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:40:19-79
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:40:19-79
 activity#com.example.heroPetShop.View.CommentActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:41:9-81
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:41:9-81
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:41:19-78
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:41:19-78
 activity#com.example.heroPetShop.View.DetailSPActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:42:9-82
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:42:9-82
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:42:19-79
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:42:19-79
 activity#com.example.heroPetShop.View.Admin.AdminUsersActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:43:9-90
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:43:9-90
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:43:19-87
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:43:19-87
 activity#com.example.heroPetShop.View.SearchActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:44:9-80
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:44:9-80
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:44:19-77
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:44:19-77
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:53:9-55:55
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:53:9-55:55
 	android:value
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:55:13-52
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:55:13-52
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:54:13-58
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:54:13-58
 activity#com.example.heroPetShop.View.Admin.AdminCTHDActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:57:9-89
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:57:9-89
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:57:19-86
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:57:19-86
 activity#com.example.heroPetShop.View.Admin.AdminAddLoaiSPActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:58:9-94
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:58:9-94
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:58:19-91
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:58:19-91
 activity#com.example.heroPetShop.View.Admin.AdminAddSPActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:59:9-90
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:59:9-90
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:59:19-87
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:59:19-87
 activity#com.example.heroPetShop.View.Admin.AdminProductActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:60:9-92
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:60:9-92
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:60:19-89
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:60:19-89
 activity#com.example.heroPetShop.View.Admin.AdminChartBillActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:61:9-94
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:61:9-94
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:61:19-91
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:61:19-91
 activity#com.example.heroPetShop.View.Admin.AdminBillMainActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:62:9-64:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:62:9-64:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:63:13-84
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:63:13-84
 activity#com.example.heroPetShop.View.Admin.AdminHomeActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:65:9-67:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:65:9-67:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:67:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:66:13-80
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:66:13-80
+activity#com.example.heroPetShop.View.Admin.BookingActivity_admin
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:68:9-70:39
+	android:exported
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:70:13-36
+	android:name
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:69:13-61
 activity#com.example.heroPetShop.Booking.BookingActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:68:9-70:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:71:9-73:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:70:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:73:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:69:13-52
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:72:13-52
 activity#com.example.heroPetShop.DichVu.ServiceManagementActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:71:9-73:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:74:9-76:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:73:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:72:13-61
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:75:13-61
 activity#com.example.heroPetShop.DichVu.DetailServiceActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:74:9-76:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:77:9-79:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:79:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:75:13-57
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:78:13-57
 activity#com.example.heroPetShop.View.CTHDActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:77:9-79:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:80:9-82:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:79:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:82:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:78:13-69
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:81:13-69
 activity#com.example.heroPetShop.View.CategoryActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:80:9-82:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:83:9-85:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:82:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:85:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:81:13-73
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:84:13-73
 activity#com.example.heroPetShop.View.ForgotPasswordActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:83:9-85:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:86:9-88:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:85:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:88:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:84:13-79
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:87:13-79
 activity#com.example.heroPetShop.View.SignUpActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:86:9-88:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:89:9-91:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:88:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:91:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:87:13-71
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:90:13-71
 activity#com.example.heroPetShop.sildeshow.ManageImagesActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:89:9-91:38
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:92:9-94:38
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:91:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:90:13-82
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:93:13-82
 activity#com.example.heroPetShop.SplashActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:92:9-101:20
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:95:9-104:20
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:94:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:97:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:93:13-66
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:96:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:96:13-100:29
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:99:13-103:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:97:17-69
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:100:17-69
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:97:25-66
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:100:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:99:17-77
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:102:17-77
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:99:27-74
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:102:27-74
 activity#com.example.heroPetShop.MainActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:102:9-104:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:105:9-107:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:104:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:107:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:103:13-64
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:106:13-64
 activity#com.example.heroPetShop.View.SignInActivity
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:105:9-107:39
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:108:9-110:39
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:107:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:106:13-71
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:109:13-71
 activity#com.example.heroPetShop.View.CaptureAct
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:110:9-114:57
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:113:9-117:57
 	android:screenOrientation
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:112:13-49
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:115:13-49
 	android:stateNotNeeded
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:113:13-42
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:116:13-42
 	android:theme
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:114:13-54
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:117:13-54
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:111:13-67
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:114:13-67
 receiver#com.example.heroPetShop.ultil.MyReceiver
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:116:9-123:20
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:119:9-126:20
 	android:exported
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:118:13-36
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:121:13-36
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:117:13-68
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:120:13-68
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:119:13-122:29
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:122:13-125:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:120:17-79
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:123:17-79
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:120:25-76
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:123:25-76
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:121:17-78
+ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:124:17-78
 	android:name
-		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml:121:25-75
+		ADDED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml:124:25-75
 uses-sdk
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\cb8eec87db69464a352893fe1842a700\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.arimorty:floatingsearchview:2.1.1] C:\Users\whyso\.gradle\caches\8.9\transforms\cb8eec87db69464a352893fe1842a700\transformed\jetified-floatingsearchview-2.1.1\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\whyso\.gradle\caches\8.9\transforms\c2f4f42ee4093b30cee41e76bf68ae80\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
@@ -631,9 +637,9 @@ MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\whyso\.gradle\ca
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\whyso\.gradle\caches\8.9\transforms\deedd45ebcee2bc4ed4a9c1e0fc662bd\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\whyso\.gradle\caches\8.9\transforms\deedd45ebcee2bc4ed4a9c1e0fc662bd\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop03122024\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\whyso\AndroidStudioProjects\hero_petShop\app\src\main\AndroidManifest.xml
 queries
 ADDED from [com.github.momo-wallet:mobile-sdk:1.0.7] C:\Users\whyso\.gradle\caches\8.9\transforms\d7933508b2a9e1483e35bb268feee4cf\transformed\jetified-mobile-sdk-1.0.7\AndroidManifest.xml:13:5-16:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\whyso\.gradle\caches\8.9\transforms\38063416081409c7e381ed1c88e1a57b\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15

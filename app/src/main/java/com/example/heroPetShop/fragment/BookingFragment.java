@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.heroPetShop.Booking.Booking;
+import com.example.heroPetShop.Booking.CTHDBooking;
 import com.example.heroPetShop.Booking.BookingAdapter;
 import com.example.heroPetShop.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -26,7 +26,7 @@ public class BookingFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private BookingAdapter bookingAdapter;
-    private List<Booking> bookingList;
+    private List<CTHDBooking> bookingList;
     private FirebaseFirestore db;
     private String userId;  // Biến lưu trữ id người dùng
 
@@ -70,7 +70,7 @@ public class BookingFragment extends Fragment {
         Toast.makeText(getContext(), ""+userId, Toast.LENGTH_SHORT).show();
         bookingAdapter.setOnItemClickListener(new BookingAdapter.OnItemClickListener() {
             @Override
-            public void onItemLongClick(Booking booking) {
+            public void onItemLongClick(CTHDBooking booking) {
                 // Hiển thị dialog khi long-click vào item
                 BookingAdapter.showOptionsDialog(getContext(), booking);
                 bookingAdapter.notifyDataSetChanged();
@@ -82,8 +82,8 @@ public class BookingFragment extends Fragment {
 
     private void getBookingsFromFirestore() {
         // Lọc booking theo userId
-        db.collection("bookings")
-                .whereEqualTo("idUser", userId) // Lọc theo userId
+        db.collection("CTHDBooking")
+                .whereEqualTo("iduser", userId) // Lọc theo userId
                 .orderBy("thoiGianDatLich", Query.Direction.ASCENDING) // Sắp xếp theo thời gian từ nhỏ nhất lên lớn nhất
                 .get()
                 .addOnCompleteListener(task -> {
@@ -92,7 +92,7 @@ public class BookingFragment extends Fragment {
                         if (querySnapshot != null) {
                             bookingList.clear();
                             for (QueryDocumentSnapshot document : querySnapshot) {
-                                Booking booking = document.toObject(Booking.class);
+                                CTHDBooking booking = document.toObject(CTHDBooking.class);
                                 bookingList.add(booking);
                             }
                             bookingAdapter.notifyDataSetChanged(); // Cập nhật RecyclerView

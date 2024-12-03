@@ -18,7 +18,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingViewHolder> {
+public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_admin.BookingViewHolder> {
 
     private List<CTHDBooking> bookingList;
     private Context context;
@@ -28,7 +28,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         void onItemLongClick(CTHDBooking booking);
     }
 
-    public BookingAdapter(Context context, List<CTHDBooking> bookingList) {
+    public BookingAdapter_admin(Context context, List<CTHDBooking> bookingList) {
         this.context = context;
         this.bookingList = bookingList;
     }
@@ -89,12 +89,15 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
     public static void showOptionsDialog(Context context, CTHDBooking booking) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Chọn hành động")
-                .setItems(new CharSequence[]{"Hủy đặt lịch", "Sửa thông tin"}, (dialog, which) -> {
+                .setItems(new CharSequence[]{"Hủy đặt lịch","Xác nhận đơn", "Sửa thông tin"}, (dialog, which) -> {
                     switch (which) {
                         case 0:  // Hủy đặt lịch
                             cancelBooking(context, booking);
                             break;
-                        case 1:  // Sửa thông tin
+                        case 1:
+                            confirmOrder(context, booking);
+                            break;
+                        case 2:  // Sửa thông tin
 //                            editBooking(context, booking);
                             break;
                     }
@@ -128,5 +131,23 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         // Intent intent = new Intent(context, EditBookingActivity.class);
 //        intent.putExtra("bookingId", booking.getIdBooking());
 //        context.startActivity(intent);
+    }
+
+    // Xác nhận đơn hàng
+    private static void confirmOrder(Context context, CTHDBooking booking) {
+        if (booking.getIdcthdbooking() == null || booking.getIdcthdbooking().isEmpty()) {
+            Toast.makeText(context, "Không thể xác định đơn hàng để xác nhận", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("CTHDBooking").document(booking.getIdcthdbooking())
+                .update("trangThai", "Đã xác nhận")  // Cập nhật trạng thái đơn hàng thành "Đã xác nhận"
+                .addOnSuccessListener(aVoid -> {
+                    Toast.makeText(context, "Đơn hàng đã được xác nhận", Toast.LENGTH_SHORT).show();
+                })
+                .addOnFailureListener(e -> {
+                    Toast.makeText(context, "Không thể xác nhận đơn hàng", Toast.LENGTH_SHORT).show();
+                });
     }
 }

@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.heroPetShop.Booking.Booking;
-import com.example.heroPetShop.Booking.BookingAdapter;
+import com.example.heroPetShop.Booking.CTHDBooking;
+import com.example.heroPetShop.Booking.BookingAdapter_admin;
 import com.example.heroPetShop.R;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
@@ -24,8 +24,8 @@ import java.util.List;
 public class BookingActivity_admin extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private BookingAdapter bookingAdapter;
-    private List<Booking> bookingList;
+    private BookingAdapter_admin bookingAdapter;
+    private List<CTHDBooking> bookingList;
     private FirebaseFirestore db;
 
     @Override
@@ -48,7 +48,7 @@ public class BookingActivity_admin extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         bookingList = new ArrayList<>();
-        bookingAdapter = new BookingAdapter(this, bookingList);
+        bookingAdapter = new BookingAdapter_admin(this, bookingList);
         recyclerView.setAdapter(bookingAdapter);
 
 
@@ -56,19 +56,21 @@ public class BookingActivity_admin extends AppCompatActivity {
         // Lấy danh sách đặt lịch từ Firestore
         getBookingsFromFirestore();
 
+//
+
         // Lắng nghe sự kiện long-click trong RecyclerView
-        bookingAdapter.setOnItemClickListener(new BookingAdapter.OnItemClickListener() {
+        bookingAdapter.setOnItemClickListener(new BookingAdapter_admin.OnItemClickListener() {
             @Override
-            public void onItemLongClick(Booking booking) {
+            public void onItemLongClick(CTHDBooking booking) {
                 // Hiển thị dialog khi long-click vào item
-                BookingAdapter.showOptionsDialog(BookingActivity_admin.this, booking);
+                BookingAdapter_admin.showOptionsDialog(BookingActivity_admin.this, booking);
                 bookingAdapter.notifyDataSetChanged();
             }
         });
     }
 
     private void getBookingsFromFirestore() {
-        db.collection("bookings")
+        db.collection("CTHDBooking")
                 .orderBy("thoiGianDatLich", Query.Direction.ASCENDING) // Sắp xếp theo thời gian từ nhỏ nhất lên lớn nhất
                 .get()
                 .addOnCompleteListener(task -> {
@@ -77,7 +79,7 @@ public class BookingActivity_admin extends AppCompatActivity {
                         if (querySnapshot != null) {
                             bookingList.clear();
                             for (QueryDocumentSnapshot document : querySnapshot) {
-                                Booking booking = document.toObject(Booking.class);
+                                CTHDBooking booking = document.toObject(CTHDBooking.class);
                                 bookingList.add(booking);
                             }
                             bookingAdapter.notifyDataSetChanged(); // Cập nhật RecyclerView

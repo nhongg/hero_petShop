@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:title="Menu two"
+
+
+    <item
+        android:title="Menu two"
         android:id="@+id/menu_two"
         app:actionLayout="@layout/profile_menu_layout"
-        app:showAsAction="always" />
-    <item android:title="Menu one"
+        app:showAsAction="always"
+        android:textColor="@android:color/white" /> <!-- Đổi màu chữ thành trắng -->
+
+    <item
+        android:title="Menu one"
         android:id="@+id/menu_one"
         app:showAsAction="always"
-        android:icon="@drawable/ic_tune"/>
+        android:icon="@drawable/ic_tune"
+        android:tint="@android:color/white" /> <!-- Đổi màu icon thành trắng -->
 </menu>

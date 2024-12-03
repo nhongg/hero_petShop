@@ -51,6 +51,8 @@ public class DetailServiceActivity extends AppCompatActivity {
         btnDatLich.setOnClickListener(v -> {
             Intent intent = new Intent(DetailServiceActivity.this, BookingActivity.class);
             intent.putExtra("tenDichVu", txtServiceName.getText().toString());
+            String serviceId = getIntent().getStringExtra("serviceId");
+            intent.putExtra("serviceId", serviceId); // Gửi ID dịch vụ
             startActivity(intent);
         });
     }

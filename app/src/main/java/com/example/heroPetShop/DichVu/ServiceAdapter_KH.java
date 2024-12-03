@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -60,7 +61,9 @@ public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.Se
                     intent.putExtra("gia", clickedService.getGia());
                     intent.putExtra("thoiGian", clickedService.getThoiGian());
                     intent.putExtra("hoatDong", clickedService.isHoatDong());
+                    intent.putExtra("serviceId", clickedService.getIdDichVu());
                     context.startActivity(intent);
+
                 }
             });
         }

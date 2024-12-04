@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/splat2"
     tools:context=".SplashActivity">
     <!--<ImageView-->
     <!--    android:layout_width="300dp"-->
@@ -16,29 +17,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
+        android:padding="20dp"
         android:orientation="vertical"
-
-        android:layout_margin="16dp"
-        android:background="#FFFFFF">
+        android:background="@color/white"
+        android:layout_margin="16dp">
 
         <!-- Tiêu đề -->
         <TextView
+            android:paddingTop="90dp"
             android:layout_width="208dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Meet your animal needs here"
+            android:text="Meet Your Animal Needs Here"
             android:textColor="#000000"
             android:textSize="34sp" />
 
         <!-- Hình minh họa -->
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-
-            android:src="@drawable/mancho"
-            android:layout_gravity="center"
-            android:layout_marginTop="24dp" />
 
         <!-- Phụ đề -->
         <TextView
@@ -52,12 +47,11 @@
 
     </LinearLayout>
 
-    <!-- Đổ bóng -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/shadow_gradient" />
-
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/splat"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

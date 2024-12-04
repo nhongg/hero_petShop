@@ -489,8 +489,8 @@ public class HomeFragment extends Fragment {
                             TruyenData();
                         }
                     });
-                    rcvSPDoUong.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvSPDoUong.setAdapter(productDUAdapter);
+//                    rcvSPDoUong.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
+//                    rcvSPDoUong.setAdapter(productDUAdapter);
                 }
 
             }
@@ -522,8 +522,8 @@ public class HomeFragment extends Fragment {
                             TruyenData();
                         }
                     });
-                    rcvSPHQ.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvSPHQ.setAdapter(productHQAdapter);
+//                    rcvSPHQ.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
+//                    rcvSPHQ.setAdapter(productHQAdapter);
                 }
 
             }
@@ -553,8 +553,8 @@ public class HomeFragment extends Fragment {
                             TruyenData();
                         }
                     });
-                    rcvSPMC.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvSPMC.setAdapter(productMCAdapter);
+//                    rcvSPMC.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
+//                    rcvSPMC.setAdapter(productMCAdapter);
                 }
 
             }
@@ -584,8 +584,8 @@ public class HomeFragment extends Fragment {
                             TruyenData();
                         }
                     });
-                    rcvSPYT.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvSPYT.setAdapter(productYTAdapter);
+//                    rcvSPYT.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
+//                    rcvSPYT.setAdapter(productYTAdapter);
                 }
 
             }
@@ -616,8 +616,8 @@ public class HomeFragment extends Fragment {
                             TruyenData();
                         }
                     });
-                    rcvSPLau.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvSPLau.setAdapter(productLauAdapter);
+//                    rcvSPLau.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
+//                    rcvSPLau.setAdapter(productLauAdapter);
                 }
 
             }
@@ -648,8 +648,8 @@ public class HomeFragment extends Fragment {
                             TruyenData();
                         }
                     });
-                    rcvSPGY.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.VERTICAL,false));
-                    rcvSPGY.setAdapter(productGYAdapter);
+//                    rcvSPGY.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.VERTICAL,false));
+//                    rcvSPGY.setAdapter(productGYAdapter);
                 }
 
             }
@@ -753,13 +753,13 @@ public class HomeFragment extends Fragment {
         });
 
         rcvDSSP = view.findViewById(R.id.rcv_ds_sanpham);
-        rcvSPNoiBat = view.findViewById(R.id.rcv_sp_noibat);
-        rcvSPDoUong = view.findViewById(R.id.rcv_sp_douong);
-        rcvSPHQ = view.findViewById(R.id.rcv_sp_hanquoc);
-        rcvSPMC = view.findViewById(R.id.rcv_sp_micay);
-        rcvSPYT = view.findViewById(R.id.rcv_sp_yeuthich);
-        rcvSPLau = view.findViewById(R.id.rcv_sp_lau);
-        rcvSPGY = view.findViewById(R.id.rcv_sp_goiy);
+//        rcvSPNoiBat = view.findViewById(R.id.rcv_sp_noibat);
+//        rcvSPDoUong = view.findViewById(R.id.rcv_sp_douong);
+//        rcvSPHQ = view.findViewById(R.id.rcv_sp_hanquoc);
+//        rcvSPMC = view.findViewById(R.id.rcv_sp_micay);
+//        rcvSPYT = view.findViewById(R.id.rcv_sp_yeuthich);
+//        rcvSPLau = view.findViewById(R.id.rcv_sp_lau);
+//        rcvSPGY = view.findViewById(R.id.rcv_sp_goiy);
 
     }
 

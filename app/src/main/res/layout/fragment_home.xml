@@ -217,7 +217,7 @@
                 android:textColor="#228b22"
                 android:textSize="16sp"
                 android:textStyle="bold"
-
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:elevation="5dp"
-                android:text="Bán chạy nhất | Trái cây nhập"
+                android:text="Sản phẩm"
                 android:textColor="#228b22"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -246,157 +246,157 @@
                 android:id="@+id/rcv_ds_sanpham"
                 android:layout_marginStart="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="match_parent"/>
 
-            <TextView
-                android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:elevation="5dp"
-                android:text="Bán chạy nhất | Hộp quà"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:elevation="5dp"-->
+<!--                android:text="Bán chạy nhất | Hộp quà"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_sp_noibat"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv_sp_noibat"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:text="Bán chạy nhất | Thịt cá tươi"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_marginTop="2dp"
-                android:layout_marginStart="20dp"
-                android:id="@+id/rcv_sp_douong"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
-            <ImageView
-                android:layout_marginTop="10dp"
-                android:layout_width="370dp"
-                android:layout_height="130dp"
-                android:layout_marginStart="20dp"
-                android:background="@drawable/x3" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Bán chạy nhất | Thịt cá tươi"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:text="Bán chạy nhất | Rau sạch"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:layout_marginTop="2dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:id="@+id/rcv_sp_douong"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_sp_hanquoc"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+<!--            <ImageView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="370dp"-->
+<!--                android:layout_height="130dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@drawable/x3" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:text="Bán chạy nhất | Đồ khô"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Bán chạy nhất | Rau sạch"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_sp_micay"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv_sp_hanquoc"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
 
-            <ImageView
-                android:layout_width="370dp"
-                android:layout_height="80dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
-                android:background="@drawable/x1"/>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Bán chạy nhất | Đồ khô"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
-                android:text="Bán chạy nhất | Thức uống"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold"/>
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv_sp_micay"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_sp_yeuthich"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+<!--            <ImageView-->
+<!--                android:layout_width="370dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@drawable/x1"/>-->
 
-            <ImageView
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
-                android:layout_width="390dp"
-                android:layout_height="100dp"
-                android:background="@drawable/x1"/>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:text="Bán chạy nhất | Thức uống"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold"/>-->
 
-            <TextView
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bán chạy nhất | Đồ dùng gia đình"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv_sp_yeuthich"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_sp_lau"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+<!--            <ImageView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="390dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:background="@drawable/x1"/>-->
 
-            <ImageView
-                android:layout_width="380dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
-                android:background="@drawable/x3"/>
+<!--            <TextView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Bán chạy nhất | Đồ dùng gia đình"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
-                android:text="Bán chạy nhất | Đồ đóng hộp
-"
-                android:textColor="#228b22"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv_sp_lau"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_sp_goiy"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+<!--            <ImageView-->
+<!--                android:layout_width="380dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:background="@drawable/x3"/>-->
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"/>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:text="Bán chạy nhất | Đồ đóng hộp-->
+<!--"-->
+<!--                android:textColor="#228b22"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv_sp_goiy"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp"/>-->
         </LinearLayout>
     </ScrollView>
 

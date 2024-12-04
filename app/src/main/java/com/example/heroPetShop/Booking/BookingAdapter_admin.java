@@ -53,6 +53,7 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
         holder.txtTenThuCung.setText(booking.getTenThuCung());
         holder.txtThoiGian.setText(formatDate(booking.getThoiGianDatLich().getTime()));
         holder.txtTrangThai.setText(booking.getTrangThai());
+
         // Long-click event listener
         holder.itemView.setOnLongClickListener(v -> {
             if (listener != null) {
@@ -60,7 +61,15 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
             }
             return true;
         });
+
+        // Click item to show detail
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, BookingDetailActivity.class);
+            intent.putExtra("bookingDetail", booking);  // Truyền đối tượng booking sang Activity chi tiết
+            context.startActivity(intent);
+        });
     }
+
 
     @Override
     public int getItemCount() {

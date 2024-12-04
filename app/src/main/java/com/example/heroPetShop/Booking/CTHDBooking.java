@@ -1,8 +1,9 @@
 package com.example.heroPetShop.Booking;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class CTHDBooking {
+public class CTHDBooking implements Serializable {
     private String idcthdbooking;
     private String iduser;
     private String serviceId;

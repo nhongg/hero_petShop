@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTenDichVu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên dịch vụ:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtGiaDichVu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá dịch vụ:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtTenKhachHang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên khách hàng:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtTenThuCung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên thú cưng:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtLoaiThuCung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại thú cưng:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtCanNang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtThoiGianDatLich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian đặt lịch:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtSdtNguoiDung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SĐT người dùng:"
+        android:textSize="18sp"/>
+
+</LinearLayout>

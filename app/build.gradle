@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "30.0.3"
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
 
     defaultConfig {
         applicationId "com.example.heroPetShop"
         minSdkVersion 28
-        targetSdkVersion 31
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
 
@@ -31,59 +31,44 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.google.android.gms:play-services-maps:18.1.0'
-    implementation 'androidx.activity:activity:1.9.3'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'  // Use the latest version
 
-
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
-    // Thư viện indicator:              https://github.com/ongakuer/CircleIndicator
-    implementation 'me.relex:circleindicator:2.1.6'
-
-    // https://github.com/hdodenhof/CircleImageView
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
-
+    // Firebase dependencies (using BOM to handle versions)
     implementation platform('com.google.firebase:firebase-bom:31.0.0')
     implementation 'com.google.firebase:firebase-auth'
-    implementation 'com.google.firebase:firebase-firestore' // lưu dữ liệu firebasestore
-    implementation 'com.github.momo-wallet:mobile-sdk:1.0.7' // APi momo
-    implementation 'com.squareup.picasso:picasso:2.71828' // Picasso xử lý các ImageView trong adapter
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0' // biểu đồ
+    implementation 'com.google.firebase:firebase-firestore'
     implementation 'com.google.firebase:firebase-storage'
-    implementation 'de.hdodenhof:circleimageview:3.1.0' // thong tin ca nhan
-    implementation 'com.github.bumptech.glide:glide:4.13.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'// gg map
-    implementation 'com.google.android.gms:play-services-maps:18.0.0'
-
-    // QR code https://github.com/journeyapps/zxing-android-embedded
-    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
-
-    // Phân tích
     implementation 'com.google.firebase:firebase-analytics'
-    // Cơ sở dữ liệu thời gian thực
     implementation 'com.google.firebase:firebase-database:16.0.6'
 
+    // Retrofit for API calls
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17' // Gif image
+    // Image loading libraries
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.bumptech.glide:glide:4.15.0' // Use latest Glide version
 
-    // Retrofit call API with Chatbot
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    // Other third-party libraries
+    implementation 'com.github.momo-wallet:mobile-sdk:1.0.7'  // MoMo API
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'  // Charting library
+    implementation 'me.relex:circleindicator:2.1.6'  // CircleIndicator for views
+    implementation 'de.hdodenhof:circleimageview:3.1.0'  // CircleImageView for profile images
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'  // QR code scanner
 
+    // Gif support
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
+
+    // Search view
     implementation 'com.github.arimorty:floatingsearchview:2.1.1'
 
-    // Excel
+    // Excel handling
     implementation 'org.apache.poi:poi:3.17'
 
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
+    // Legacy Support
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0' // Avoid duplicates
 }

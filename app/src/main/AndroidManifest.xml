@@ -26,9 +26,7 @@
         android:theme="@style/Theme.DoAn_TMDT"
         android:usesCleartextTraffic="true"
         tools:replace="android:theme">
-        <activity
-            android:name=".Booking.DetailBookingActivity"
-            android:exported="false" />
+
         <activity android:name=".View.CartActivity" />
         <activity android:name=".View.OrderSuccessActivity" />
         <activity

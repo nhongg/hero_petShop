@@ -1,6 +1,7 @@
 package com.example.heroPetShop.View;
 
 import androidx.activity.result.ActivityResultLauncher;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
@@ -244,20 +245,20 @@ public class SearchActivity extends AppCompatActivity implements ProductView, St
     }
 
     // Nhận đầu vào bằng giọng nói và xử lý nó
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable @org.jetbrains.annotations.Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        switch (requestCode){
-            // get text array from voice intent
-            case REQUEST_CODE_SPEECH_INPUT:
-                if (resultCode == RESULT_OK && null != data){
-                    ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                    searchView.setQuery(result.get(0), false);
-                }
-                break;
-        }
-    }
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, @Nullable @org.jetbrains.annotations.Nullable Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//
+//        switch (requestCode){
+//            // get text array from voice intent
+//            case REQUEST_CODE_SPEECH_INPUT:
+//                if (resultCode == RESULT_OK && null != data){
+//                    ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+//                    searchView.setQuery(result.get(0), false);
+//                }
+//                break;
+//        }
+//    }
 
 
 }

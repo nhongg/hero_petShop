@@ -20,7 +20,7 @@ import com.example.heroPetShop.fragment.BookingFragment;
 import com.example.heroPetShop.fragment.BillFragment;
 import com.example.heroPetShop.fragment.FavoriteFragment;
 import com.example.heroPetShop.fragment.HomeFragment;
-import com.example.heroPetShop.fragment.NotifyFragment;
+import com.example.heroPetShop.NotifyActivity;
 import com.example.heroPetShop.fragment.ProfileFragment;
 
 import com.example.heroPetShop.ultil.MyReceiver;

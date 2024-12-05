@@ -29,6 +29,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import com.example.heroPetShop.Models.Product;
 import com.example.heroPetShop.R;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -509,7 +510,6 @@ public class AdminAddSPActivity extends AppCompatActivity implements AdapterView
 
         if (requestCode == LIBRARY_PICKER && resultCode == RESULT_OK && null != data) {
             try {
-
                 dialog.show();
                 Uri uri = data.getData();
                 InputStream inputStream = getContentResolver().openInputStream(uri);
@@ -520,7 +520,7 @@ public class AdminAddSPActivity extends AppCompatActivity implements AdapterView
                 byte[] datas = baos.toByteArray();
                 String filename = System.currentTimeMillis() + "";
                 StorageReference storageReference;
-                storageReference = FirebaseStorage.getInstance("gs://doan-dc57a.appspot.com/").getReference();
+                storageReference = FirebaseStorage.getInstance("gs://heropetshop-bc414.appspot.com/").getReference();
                 storageReference.child("Profile").child(filename + ".jpg").putBytes(datas).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(@NonNull UploadTask.TaskSnapshot taskSnapshot) {

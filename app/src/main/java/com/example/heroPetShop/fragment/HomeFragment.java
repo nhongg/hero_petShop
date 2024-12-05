@@ -35,6 +35,7 @@ import com.example.heroPetShop.DichVu.Service;
 import com.example.heroPetShop.DichVu.ServiceAdapter_KH;
 import com.example.heroPetShop.Models.LoaiProduct;
 import com.example.heroPetShop.Models.Product;
+import com.example.heroPetShop.NotifyActivity;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.View.CartActivity;
 import com.example.heroPetShop.View.CategoryActivity;
@@ -97,7 +98,7 @@ public class HomeFragment extends Fragment {
     //Search Data
     private EditText edtSearchHome;
 
-    private ImageView imgHomeMessage, imgHomeCart;
+    private ImageView imgHomeMessage, imgHomeCart, imgMap;
 
     private TextView tvNumberCart;
 
@@ -332,6 +333,14 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), CartActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        imgMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), NotifyActivity.class);
                 startActivity(intent);
             }
         });
@@ -734,6 +743,7 @@ public class HomeFragment extends Fragment {
 
         toolbarHome = view.findViewById(R.id.toolbar_home);
         cirAvatarHome = view.findViewById(R.id.cir_avatar_home);
+        imgMap = view.findViewById(R.id.img_map);
         tvNameHome = view.findViewById(R.id.tv_name_home);
         tvEmailHome = view.findViewById(R.id.tv_email_home);
         viewPager = view.findViewById(R.id.viewpager);
@@ -770,7 +780,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
                 for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                    mlistproduct.add(new LoaiProduct(d.getString("tenloai"), d.getString("hinhanhloai")));
+                    mlistproduct.add(new LoaiProduct(d.getString("tenloai"), d.getString("hinhanh")));
                     rcvLoaiProduct.setAdapter(loaiProductAdapter);
                 }
 

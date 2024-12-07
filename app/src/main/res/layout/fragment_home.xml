@@ -231,13 +231,29 @@
                 android:layout_height="wrap_content"
                 android:text="Cùng chăm sóc thú cưng của bạn!"
                 />
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcv_dichvu"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="20dp"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv_dichvu"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    />
+                <Button
+                    android:id="@+id/btn_taocombodv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:text="tao combo"/>
+            </LinearLayout>
+
             <TextView
                 android:layout_marginTop="5dp"
                 android:id="@+id/txtsp"

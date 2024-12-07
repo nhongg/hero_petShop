@@ -79,6 +79,9 @@
             android:name=".View.Admin.BookingActivity_admin"
             android:exported="true" />
         <activity
+            android:name=".View.TaoComboDichVu"
+            android:exported="true" />
+        <activity
             android:name=".Booking.BookingActivity"
             android:exported="true" />
         <activity

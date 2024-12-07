@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -42,6 +43,7 @@ import com.example.heroPetShop.View.CategoryActivity;
 import com.example.heroPetShop.View.ChatActivity;
 import com.example.heroPetShop.View.DetailSPActivity;
 import com.example.heroPetShop.View.SearchActivity;
+import com.example.heroPetShop.View.TaoComboDichVu;
 import com.example.heroPetShop.my_interface.IClickCTHD;
 import com.example.heroPetShop.my_interface.IClickLoaiProduct;
 import com.example.heroPetShop.my_interface.IClickOpenBottomSheet;
@@ -117,6 +119,7 @@ public class HomeFragment extends Fragment {
     private FirebaseFirestore dbdv = FirebaseFirestore.getInstance();
 
 
+    Button btntaocbdv;
 
 
 
@@ -142,8 +145,20 @@ public class HomeFragment extends Fragment {
             LoadFavorite();
             setupSlideshow();
             setupDichVu();
+
+
+
         }
 
+
+        btntaocbdv= view.findViewById(R.id.btn_taocombodv);
+        btntaocbdv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), TaoComboDichVu.class);
+                startActivity(intent);
+            }
+        });
         return view;
     }
 

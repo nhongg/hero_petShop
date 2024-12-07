@@ -58,13 +58,10 @@ public class ComBoServiceAdapter extends RecyclerView.Adapter<ComBoServiceAdapte
 
         public void bind(Service service, int position) {
             txtServiceName.setText(service.getTenDichVu());
+            itemView.setBackgroundColor(Color.parseColor("#66CCFF"));  // Màu khi chưa chọn
 
             // Kiểm tra xem item đã được chọn hay chưa để thay đổi màu nền
-            if (selectedPositions.contains(position)) {
-                itemView.setBackgroundColor(Color.parseColor("#FF6600"));  // Màu khi chọn
-            } else {
-                itemView.setBackgroundColor(Color.parseColor("#66CCFF"));  // Màu khi chưa chọn
-            }
+
 
             // Xử lý khi người dùng click vào item
             itemView.setOnClickListener(v -> {
@@ -85,6 +82,11 @@ public class ComBoServiceAdapter extends RecyclerView.Adapter<ComBoServiceAdapte
 
                 // Cập nhật lại giao diện người dùng
                 updateUI();
+                if (selectedPositions.contains(position)) {
+                    itemView.setBackgroundColor(Color.parseColor("#FF6600"));  // Màu khi chọn
+                } else {
+                    itemView.setBackgroundColor(Color.parseColor("#66CCFF"));  // Màu khi chưa chọn
+                }
             });
         }
 

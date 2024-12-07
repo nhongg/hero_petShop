@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:text="Chi tiết hóa đơn"
                     android:textSize="20sp"
-                    android:textColor="#FF5722"
+                    android:textColor="#03A9F4"
                     android:textStyle="bold"/>
             </RelativeLayout>
 
@@ -237,7 +237,7 @@
             android:layout_height="2dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:background="#FF5722" />
+            android:background="#03A9F4" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"

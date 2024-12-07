@@ -51,6 +51,7 @@
             android:id="@+id/btnDatLich"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
             android:text="Đặt Lịch" />
     </LinearLayout>
 

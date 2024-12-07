@@ -14,7 +14,7 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:background="#FF5722"
+            android:background="#FFFFFF"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize">
             <ImageView
@@ -24,7 +24,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/ic_back"
-                app:tint="#FFFFFF" />
+                app:tint="#000000" />
             <TextView
                 android:textSize="20sp"
                 android:layout_centerInParent="true"
@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sản phẩm cửa hàng"
-                android:textColor="#FFFFFF"
+                android:textColor="#03A9F4"
                 android:textStyle="bold" />
         </RelativeLayout>
 

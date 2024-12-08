@@ -37,6 +37,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.heroPetShop.MainActivity;
 import com.example.heroPetShop.R;
+import com.example.heroPetShop.View.PasswordChangeActivity;
 import com.example.heroPetShop.View.SignInActivity;
 import com.example.heroPetShop.ultil.NetworkUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -59,6 +60,7 @@ import com.squareup.picasso.Picasso;
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.net.PasswordAuthentication;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
@@ -75,7 +77,7 @@ public class ProfileFragment extends Fragment {
     private View view;
     private CircleImageView imgAvatar;
     private EditText edtFullName, edtAddress, edtPhoneNumber, edtDate;
-    private TextView tvEmail;
+    private TextView tvEmail, tvdoimk;
     private RadioButton rdoNam, rdoNu;
     private RadioGroup rdoGroup;
     private Button btnUpdateprofile;
@@ -384,6 +386,13 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+        tvdoimk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(getContext(), PasswordChangeActivity.class);
+                startActivity(intent);
+            }
+        });
         tvEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -438,6 +447,7 @@ public class ProfileFragment extends Fragment {
         rdoNu = view.findViewById(R.id.rdo_nu);
         rdoGroup = view.findViewById(R.id.rdo_group);
         tvEmail = view.findViewById(R.id.tv_email_profile);
+        tvdoimk = view.findViewById(R.id.textdmk);
         btnUpdateprofile = view.findViewById(R.id.btn_update_profile);
         layoutLogout = view.findViewById(R.id.layout_logout);
     }

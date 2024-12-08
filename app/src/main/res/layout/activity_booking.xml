@@ -16,12 +16,37 @@
             android:layout_height="wrap_content"
             android:hint="Tên thú cưng" />
 
-        <EditText
-            android:id="@+id/edtCanNang"
+<!--        <EditText-->
+<!--            android:id="@+id/edtCanNang"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Cân nặng thú cưng"-->
+<!--            android:inputType="numberDecimal" />-->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Cân nặng thú cưng"
-            android:inputType="numberDecimal" />
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/edtCanNang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập cân nặng của bạn"
+                android:inputType="numberDecimal"
+                android:importantForAccessibility="yes" />
+
+            <!-- TextView để hiển thị cảnh báo dưới EditText -->
+            <TextView
+                android:id="@+id/weightWarningText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+            android:visibility="gone"
+            android:textSize="14sp" />
+        </LinearLayout>
+
 
         <EditText
             android:id="@+id/edtLoaiThuCung"

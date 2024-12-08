@@ -6,37 +6,110 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:background="#0000BCD4"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/img_back_banner"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            app:tint="#03A9F4" />
+        <TextView
+            android:textSize="22sp"
+            android:layout_centerInParent="true"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Combo cho thú cưng của bạn"
+            android:textColor="#03A9F4"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hãy chọn dịch vụ để tạo combo"
+            android:textSize="18dp"
+            android:textColor="#F80808"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dịch vụ đã chọn: "
+                android:textColor="@color/black"
+
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tvSelectedServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" >
 
     <TextView
-        android:id="@+id/tvSelectedServices"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:text="Giá: "
+        android:textColor="#F20606"
         android:textSize="16sp"
-        android:layout_marginTop="20dp" />
-
+        />
     <TextView
         android:id="@+id/tvTotalPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:textColor="#F20606"
         android:textSize="16sp"
-        android:layout_marginTop="10dp" />
+        />
+</LinearLayout>
+
+
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnSendToBooking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Đặt lịch"
+        android:backgroundTint="#03A9F4"
+        android:layout_gravity="center"
         android:layout_below="@id/tvTotalPrice"
         android:layout_marginTop="16dp"
         android:layout_centerHorizontal="true"/>

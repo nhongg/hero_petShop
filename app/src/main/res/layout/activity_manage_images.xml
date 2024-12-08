@@ -7,7 +7,7 @@
     <!-- Header -->
     <RelativeLayout
         android:id="@+id/RelativeLayout"
-        android:background="#FF5722"
+        android:background="#00FF5722"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
         <ImageView
@@ -17,7 +17,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_back"
-            app:tint="#FFFFFF" />
+            app:tint="#0E0F0F" />
         <TextView
             android:textSize="20sp"
             android:layout_centerInParent="true"
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Banner HeroPet Shop"
-            android:textColor="#FFFFFF"
+            android:textColor="#03A9F4"
             android:textStyle="bold" />
     </RelativeLayout>
 

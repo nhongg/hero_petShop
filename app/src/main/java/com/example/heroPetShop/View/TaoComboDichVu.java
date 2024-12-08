@@ -2,6 +2,7 @@ package com.example.heroPetShop.View;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -15,6 +16,8 @@ import com.example.heroPetShop.Booking.BookingActivity1;
 import com.example.heroPetShop.DichVu.ComBoServiceAdapter;
 import com.example.heroPetShop.DichVu.Service;
 import com.example.heroPetShop.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
@@ -28,6 +31,12 @@ public class TaoComboDichVu extends AppCompatActivity {
     private ComBoServiceAdapter serviceAdapter;
     private List<Service> serviceList = new ArrayList<>();
     private FirebaseFirestore dbdv = FirebaseFirestore.getInstance();
+
+
+    private FirebaseAuth mAuth;
+    private String userId;
+    private FirebaseFirestore db;
+    private FirebaseUser currentUser;
 
     private String accumulatedNames = "";
     private int totalPrice = 0;
@@ -58,14 +67,51 @@ public class TaoComboDichVu extends AppCompatActivity {
                     // Xử lý khi tên dịch vụ hoặc giá không hợp lệ
                     Toast.makeText(TaoComboDichVu.this, "Vui lòng chọn ít nhất một dịch vụ khi tạo combo của chúng tôi", Toast.LENGTH_SHORT).show();
                 } else {
-                    Intent intent = new Intent(TaoComboDichVu.this, BookingActivity1.class);
 
-                    // Đưa dữ liệu vào Intent
-                    intent.putExtra("ten", ten);
-                    intent.putExtra("gia", gia);
 
-                    // Mở BookingActivity1
-                    startActivity(intent);
+                    mAuth = FirebaseAuth.getInstance();
+                    db = FirebaseFirestore.getInstance();
+                    currentUser = mAuth.getCurrentUser();
+                    if (currentUser != null) {
+                        userId = currentUser.getUid(); // Lấy ID người dùng
+                    } else {
+                        Toast.makeText(TaoComboDichVu.this, "Bạn cần đăng nhập", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
+                    db.collection("User").document(userId).collection("Profile").get()
+                            .addOnSuccessListener(querySnapshot -> {
+                                if (!querySnapshot.isEmpty()) {
+                                    // Lấy tài liệu đầu tiên trong collection "Profile"
+                                    String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
+
+                                    // Lấy tên khách hàng từ FirebaseUser
+                                    String tenKhachHang = currentUser.getDisplayName();
+
+                                    if(sdt.isEmpty()||tenKhachHang.isEmpty()){
+
+                                        Toast.makeText(TaoComboDichVu.this, "Bạn cần cập nhập thông tin cá nhân trước khi đặt lịch", Toast.LENGTH_SHORT).show();
+
+                                    }else {
+                                        Intent intent = new Intent(TaoComboDichVu.this, BookingActivity1.class);
+
+                                        // Đưa dữ liệu vào Intent
+                                        intent.putExtra("ten", ten);
+                                        intent.putExtra("gia", gia);
+
+                                        // Mở BookingActivity1
+                                        startActivity(intent);
+                                    }
+
+
+                                } else {
+                                    Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
+                                }
+                            })
+                            .addOnFailureListener(e -> {
+                                Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
+                            });
+
 
 
                 }

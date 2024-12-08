@@ -4,9 +4,12 @@ package com.example.heroPetShop.DichVu;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.heroPetShop.Booking.BookingActivity;
@@ -14,10 +17,17 @@ import com.example.heroPetShop.MainActivity;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.View.Admin.AdminHomeActivity;
 import com.example.heroPetShop.sildeshow.ManageImagesActivity;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class DetailServiceActivity extends AppCompatActivity {
     private TextView txtServiceName, txtDescription, txtPrice, txtTime, txtStatus;
     private Button btnDatLich;
+    private FirebaseAuth mAuth;
+    private String userId;
+    private FirebaseFirestore db;
+    private FirebaseUser currentUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,11 +59,47 @@ public class DetailServiceActivity extends AppCompatActivity {
 
         // Xử lý click nút Đặt Lịch
         btnDatLich.setOnClickListener(v -> {
-            Intent intent = new Intent(DetailServiceActivity.this, BookingActivity.class);
-            intent.putExtra("tenDichVu", txtServiceName.getText().toString());
-            String serviceId = getIntent().getStringExtra("serviceId");
-            intent.putExtra("serviceId", serviceId); // Gửi ID dịch vụ
-            startActivity(intent);
+            mAuth = FirebaseAuth.getInstance();
+            db = FirebaseFirestore.getInstance();
+            currentUser = mAuth.getCurrentUser();
+            if (currentUser != null) {
+                userId = currentUser.getUid(); // Lấy ID người dùng
+            } else {
+                Toast.makeText(DetailServiceActivity.this, "Bạn cần đăng nhập", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            db.collection("User").document(userId).collection("Profile").get()
+                    .addOnSuccessListener(querySnapshot -> {
+                        if (!querySnapshot.isEmpty()) {
+                            // Lấy tài liệu đầu tiên trong collection "Profile"
+                            String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
+
+                            // Lấy tên khách hàng từ FirebaseUser
+                            String tenKhachHang = currentUser.getDisplayName();
+
+                            if(sdt.isEmpty()||tenKhachHang.isEmpty()){
+
+                                Toast.makeText(this, "Bạn cần cập nhập thông tin cá nhân trước khi đặt lịch", Toast.LENGTH_SHORT).show();
+
+                            }else {
+                                Intent intent = new Intent(DetailServiceActivity.this, BookingActivity.class);
+                                intent.putExtra("tenDichVu", txtServiceName.getText().toString());
+                                String serviceId = getIntent().getStringExtra("serviceId");
+                                intent.putExtra("serviceId", serviceId); // Gửi ID dịch vụ
+                                startActivity(intent);
+                            }
+
+
+                        } else {
+                            Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
+                        }
+                    })
+                    .addOnFailureListener(e -> {
+                        Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
+                    });
+
+
         });
     }
 }

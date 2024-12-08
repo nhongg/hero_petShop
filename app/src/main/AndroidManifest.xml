@@ -84,6 +84,9 @@
             android:name=".View.TaoComboDichVu"
             android:exported="true" />
         <activity
+            android:name=".View.PasswordChangeActivity"
+            android:exported="true" />
+        <activity
             android:name=".Booking.BookingActivity"
             android:exported="true" />
         <activity

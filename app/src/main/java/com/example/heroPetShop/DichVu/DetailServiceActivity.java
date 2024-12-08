@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,6 +29,8 @@ public class DetailServiceActivity extends AppCompatActivity {
     private String userId;
     private FirebaseFirestore db;
     private FirebaseUser currentUser;
+    ImageView image;
+    String serviceId ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +41,7 @@ public class DetailServiceActivity extends AppCompatActivity {
         txtPrice = findViewById(R.id.txtPrice);
         txtTime = findViewById(R.id.txtTime);
         btnDatLich =findViewById(R.id.btnDatLich);
+        image = findViewById(R.id.imagedichvu);
         findViewById(R.id.img_back_banner).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,6 +50,10 @@ public class DetailServiceActivity extends AppCompatActivity {
             }
 
         });
+
+
+        Intent intent1 = getIntent();
+        serviceId = intent1.getStringExtra("serviceId");
 
         // Nhận dữ liệu từ Intent
         Bundle bundle = getIntent().getExtras();
@@ -56,6 +64,25 @@ public class DetailServiceActivity extends AppCompatActivity {
             txtTime.setText(bundle.getLong("thoiGian") + " phút");
 
         }
+
+        if ("1733168593657".equals(serviceId)) {
+            // Gán hình ảnh đặc biệt cho dịch vụ có serviceId = "abc"
+            image.setImageResource(R.drawable.image_tam_rua);  // Gán ảnh đặc biệt
+        } else  if ("1733305192175".equals(serviceId)){
+            // Gán hình ảnh mặc định
+            image.setImageResource(R.drawable.image_tia_long);
+        }
+        else  if ("1733305098918".equals(serviceId)){
+            // Gán hình ảnh mặc định
+            image.setImageResource(R.drawable.image_dieu_tri);
+        }
+        else {
+            image.setImageResource(R.drawable.image_tia_long);
+        }
+
+
+
+
 
         // Xử lý click nút Đặt Lịch
         btnDatLich.setOnClickListener(v -> {
@@ -74,6 +101,7 @@ public class DetailServiceActivity extends AppCompatActivity {
                         if (!querySnapshot.isEmpty()) {
                             // Lấy tài liệu đầu tiên trong collection "Profile"
                             String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
+
 
                             // Lấy tên khách hàng từ FirebaseUser
                             String tenKhachHang = currentUser.getDisplayName();

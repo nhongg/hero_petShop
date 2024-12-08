@@ -10,9 +10,10 @@
         android:id="@+id/RelativeLayout"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#FF5722"
+        android:background="#00FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -22,7 +23,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="10dp"
             android:src="@drawable/ic_back"
-            app:tint="#FFFFFF" />
+            app:tint="#03A9F4" />
 
         <TextView
             android:id="@+id/text"
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="Dịch Vụ HeroPet Shop"
-            android:textColor="#FFFFFF"
+            android:textColor="#03A9F4"
             android:textSize="20sp"
             android:textStyle="bold" />
     </RelativeLayout>
@@ -47,8 +48,11 @@
     <Button
         android:id="@+id/btnAddService"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="15dp"
         android:text="Thêm dịch vụ"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginBottom="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 

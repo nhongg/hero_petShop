@@ -14,7 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.heroPetShop.Booking.BookingActivity1;
 import com.example.heroPetShop.DichVu.ComBoServiceAdapter;
+import com.example.heroPetShop.DichVu.DetailServiceActivity;
 import com.example.heroPetShop.DichVu.Service;
+import com.example.heroPetShop.MainActivity;
 import com.example.heroPetShop.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -53,7 +55,14 @@ public class TaoComboDichVu extends AppCompatActivity {
 
         tGiaDv = findViewById(R.id.tvTotalPrice);
         tTenDv = findViewById(R.id.tvSelectedServices);
+        findViewById(R.id.img_back_banner).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TaoComboDichVu.this, MainActivity.class);
+                startActivity(intent);
+            }
 
+        });
         // Tìm Button và xử lý sự kiện click
         Button btnSendToBooking = findViewById(R.id.btnSendToBooking);
         btnSendToBooking.setOnClickListener(new View.OnClickListener() {

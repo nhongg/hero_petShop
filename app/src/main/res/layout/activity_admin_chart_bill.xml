@@ -12,7 +12,7 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             style="@style/ThemeOverlay.AppCompat.Dark"
             android:id="@+id/toolbar"
-            android:background="#FFFFFF"
+            android:background="#00711C1C"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

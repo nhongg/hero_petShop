@@ -3,6 +3,8 @@ package com.example.heroPetShop.Booking;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.heroPetShop.R;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -43,6 +46,43 @@ public class BookingActivity extends AppCompatActivity {
 
         edtTenThuCung = findViewById(R.id.edtTenThuCung);
         edtCanNang = findViewById(R.id.edtCanNang);
+
+        TextView weightWarningText = findViewById(R.id.weightWarningText);
+
+        edtCanNang.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int start, int count, int after) {
+                // Không làm gì ở đây
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                if (charSequence.length() > 0) {
+                    try {
+                        double weight = Double.parseDouble(charSequence.toString());
+
+                        // Kiểm tra cân nặng và hiển thị cảnh báo nếu cân nặng quá lớn
+                        if (weight > 15) {
+                            weightWarningText.setText("Cân nặng quá lớn! Phí dịch vụ của bạn sẽ thêm 50.000");
+                            weightWarningText.setVisibility(View.VISIBLE);  // Hiển thị cảnh báo
+                        } else {
+                            weightWarningText.setVisibility(View.GONE);  // Ẩn cảnh báo khi không có vấn đề
+                        }
+                    } catch (NumberFormatException e) {
+                        weightWarningText.setVisibility(View.GONE);  // Ẩn cảnh báo nếu người dùng nhập không phải số
+                    }
+                } else {
+                    weightWarningText.setVisibility(View.GONE);  // Ẩn cảnh báo nếu chưa nhập gì
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                // Không làm gì ở đây
+            }
+        });
+
+
         edtLoaiThuCung = findViewById(R.id.edtLoaiThuCung);
         txtChonNgay = findViewById(R.id.txtChonNgay);
         txtChonGio = findViewById(R.id.txtChonGio);
@@ -210,9 +250,16 @@ public class BookingActivity extends AppCompatActivity {
                                     db.collection("services").document(serviceId).get()
                                             .addOnSuccessListener(serviceDocument -> {
                                                 String tenDichVu = serviceDocument.getString("tenDichVu");
-                                                double giaDichVu = serviceDocument.getDouble("gia");
 
+
+                                                double giaDichVu = serviceDocument.getDouble("gia");
+                                                if(canNang>15){
+                                                    giaDichVu += 50000;
+                                                    Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
+
+                                                }
                                                 // Truy vấn thông tin từ Firestore
+                                                double finalGiaDichVu = giaDichVu;
                                                 db.collection("User").document(userId).collection("Profile").get()
                                                         .addOnSuccessListener(querySnapshot -> {
                                                             if (!querySnapshot.isEmpty()) {
@@ -228,7 +275,7 @@ public class BookingActivity extends AppCompatActivity {
                                                                 cthdBooking.setServiceId(serviceId);
                                                                 cthdBooking.setIdBooking(idBooking);
                                                                 cthdBooking.setTenDichVu(tenDichVu);
-                                                                cthdBooking.setGiaDichVu(giaDichVu);
+                                                                cthdBooking.setGiaDichVu(finalGiaDichVu);
                                                                 cthdBooking.setTenKhachHang(tenKhachHang);
                                                                 cthdBooking.setTenThuCung(tenThuCung);
                                                                 cthdBooking.setLoaiThuCung(loaiThuCung);

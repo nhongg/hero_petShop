@@ -7,10 +7,10 @@
 
     <RelativeLayout
         android:id="@+id/RelativeLayout"
-        android:background="#8D00BCD4"
+        android:background="#0000BCD4"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:padding="8dp">
+        >
         <ImageView
             android:layout_centerVertical="true"
             android:layout_marginStart="10dp"
@@ -18,7 +18,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_back"
-            app:tint="#FFFFFF" />
+            app:tint="#03A9F4" />
         <TextView
             android:textSize="22sp"
             android:layout_centerInParent="true"
@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chi tiết dịch vụ"
-            android:textColor="#FFFFFF"
+            android:textColor="#03A9F4"
             android:textStyle="bold"
             android:fontFamily="sans-serif-medium" />
     </RelativeLayout>
@@ -34,8 +34,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
+
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagedichvu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/image_tam_rua" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
 
 
         <LinearLayout
@@ -61,33 +76,18 @@
         </LinearLayout>
 
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Cột "Giá" bên trái -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            >
+            android:layout_weight="1">
             <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Mô tả dịch vụ: "
-                android:textColor="#666666" />
-            <TextView
-                android:id="@+id/txtDescription"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Mô tả dịch vụ"
-                android:textColor="#666666" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-            <TextView
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -104,13 +104,14 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+        <!-- Cột "Thời gian" bên phải -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            >
+            android:gravity="end"
+            android:layout_weight="1">
 
             <TextView
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -118,15 +119,37 @@
                 android:textColor="#444444" />
             <TextView
                 android:id="@+id/txtTime"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Thời gian"
                 android:textColor="#444444" />
         </LinearLayout>
 
+    </LinearLayout>
 
-        <Button
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Mô tả : "
+                android:textColor="#666666" />
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Mô tả dịch vụ"
+                android:textColor="#666666" />
+
+            <Button
             android:id="@+id/btnDatLich"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -140,6 +163,7 @@
 
 
     </LinearLayout>
+</LinearLayout>
 
-
+    </LinearLayout>
 </LinearLayout>

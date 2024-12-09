@@ -83,7 +83,7 @@ public class BookingFragment extends Fragment {
     private void getBookingsFromFirestore() {
         // Lọc booking theo userId
         db.collection("CTHDBooking")
-           .whereEqualTo("idUser", userId) // Lọc theo userId
+           .whereEqualTo("iduser", userId) // Lọc theo userId
                 .orderBy("thoiGianDatLich", Query.Direction.ASCENDING) // Sắp xếp theo thời gian từ nhỏ nhất lên lớn nhất
                 .get()
                 .addOnCompleteListener(task -> {

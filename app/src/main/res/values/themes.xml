@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.DoAn_TMDT" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FF5722</item>
-        <item name="colorPrimaryVariant">#FF5722</item>
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryVariant">#03A9F4</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#008EFF</item>

@@ -27,11 +27,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tab_Layout"
-            app:tabSelectedTextColor="#FF5722"
+            app:tabSelectedTextColor="#03A9F4"
             app:tabBackground="@color/white"
             app:tabTextColor="@android:color/darker_gray"
             app:tabIndicatorHeight="2dp"
-            app:tabIndicatorColor="#FF5722"
+            app:tabIndicatorColor="#03A9F4"
             app:tabMode="scrollable"/>
         <androidx.viewpager.widget.ViewPager
             android:layout_width="match_parent"

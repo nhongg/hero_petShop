@@ -5,6 +5,13 @@
     android:padding="16dp">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Dịch vụ:"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
         android:id="@+id/txtTenDichVu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,11 +19,23 @@
         android:textSize="18sp"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá Dịch vụ:"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+    <TextView
         android:id="@+id/txtGiaDichVu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Giá dịch vụ:"
         android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên khách hàng:"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
 
     <TextView
         android:id="@+id/txtTenKhachHang"
@@ -24,7 +43,12 @@
         android:layout_height="wrap_content"
         android:text="Tên khách hàng:"
         android:textSize="18sp"/>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên thú cưng:"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
     <TextView
         android:id="@+id/txtTenThuCung"
         android:layout_width="wrap_content"
@@ -33,11 +57,25 @@
         android:textSize="18sp"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại thú cưng:"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
         android:id="@+id/txtLoaiThuCung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Loại thú cưng:"
         android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng:"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
 
     <TextView
         android:id="@+id/txtCanNang"

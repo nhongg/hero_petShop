@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,6 +29,7 @@ public class BookingActivity extends AppCompatActivity {
     private EditText edtTenThuCung, edtCanNang, edtLoaiThuCung;
     private TextView txtChonNgay, txtChonGio;
     private Button btnDatLich;
+    private ImageButton btnback;
     private FirebaseFirestore db;
     private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
@@ -46,6 +48,7 @@ public class BookingActivity extends AppCompatActivity {
 
         edtTenThuCung = findViewById(R.id.edtTenThuCung);
         edtCanNang = findViewById(R.id.edtCanNang);
+
 
         TextView weightWarningText = findViewById(R.id.weightWarningText);
 
@@ -87,6 +90,7 @@ public class BookingActivity extends AppCompatActivity {
         txtChonNgay = findViewById(R.id.txtChonNgay);
         txtChonGio = findViewById(R.id.txtChonGio);
         btnDatLich = findViewById(R.id.btnDatLich);
+
 
         // Khởi tạo Firebase Auth và Firestore
         mAuth = FirebaseAuth.getInstance();
@@ -180,7 +184,6 @@ public class BookingActivity extends AppCompatActivity {
 
 
 
-
         btnDatLich.setOnClickListener(v -> {
             String tenThuCung = edtTenThuCung.getText().toString();
             String canNangStr = edtCanNang.getText().toString();
@@ -192,6 +195,7 @@ public class BookingActivity extends AppCompatActivity {
                 Toast.makeText(BookingActivity.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
                 return;
             }
+
 
             double canNang = Double.parseDouble(canNangStr);
 
@@ -310,7 +314,15 @@ public class BookingActivity extends AppCompatActivity {
         });
 
 
+        btnback = findViewById(R.id.btnBack);
 
+        btnback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Kết thúc Activity hiện tại và quay lại Activity trước đó
+                finish();
+            }
+        });
 
 
 

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".View.DetailSPActivity"
+    android:backgroundTint="#2196F3"
     android:background="@drawable/ctr_bg">
 
     
@@ -27,14 +28,27 @@
             android:outlineSpotShadowColor="@color/black"
             android:id="@+id/collapsing_toolbar">
 
-            <ImageView
-                android:id="@+id/img_detail"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/banner2"
-                android:scaleType="centerCrop"
-                android:layout_marginBottom="2dp"
-                app:layout_collapseMode="parallax"/>
+                android:layout_height="match_parent">
+
+                <!-- ImageView hiển thị hình ảnh -->
+                <ImageView
+                    android:id="@+id/img_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/banner2"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="2dp"
+                    app:layout_collapseMode="parallax" />
+
+                <!-- Lớp phủ (fade mờ) -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/shadow_gradient" />
+            </FrameLayout>
 
             <androidx.appcompat.widget.AppCompatToggleButton
                 android:textOn=""
@@ -90,14 +104,14 @@
                         android:textSize="16sp"/>
                     <TextView
                         android:id="@+id/tv_gia_detail"
-                        android:textColor="#FF5722"
+                        android:textColor="#F44336"
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="76.000"
                         android:textSize="16sp"/>
                     <TextView
-                        android:textColor="#FF5722"
+                        android:textColor="#F44336"
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -154,7 +168,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#FF5722"/>
+                    android:background="#03A9F4"/>
 
                 <TextView
                     android:textSize="16dp"
@@ -164,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:text="Mô tả"
                     android:textStyle="bold"
-                    android:textColor="#FF5722"/>
+                    android:textColor="#03A9F4"/>
 
                 <TextView
                     android:id="@+id/tv_mota_detail"
@@ -240,8 +254,8 @@
         app:layout_anchor="@id/appbar"
         app:layout_anchorGravity="end|bottom"
         android:layout_marginRight="30dp"
-        app:backgroundTint="#FF5722"
-        android:backgroundTint="#FF5722"/>
+        app:backgroundTint="#F44336"
+        android:backgroundTint="#F44336"/>
 
     <ImageView
         app:layout_anchor="@id/appbar"

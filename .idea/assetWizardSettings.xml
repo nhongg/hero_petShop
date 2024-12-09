@@ -80,7 +80,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="D:\DATN\433006516_392687333625389_993278741946394717_n.jpg" />
+                                                <entry key="imagePath" value="C:\Users\kyanh\Downloads\433006516_392687333625389_993278741946394717_n.jpg" />
                                                 <entry key="scalingPercent" value="67" />
                                               </map>
                                             </option>
@@ -113,6 +113,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="ffffff" />
                                       <entry key="outputName" value="ic_logo_heropetshop2" />
                                     </map>
                                   </option>

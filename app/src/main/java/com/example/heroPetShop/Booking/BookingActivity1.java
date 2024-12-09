@@ -3,7 +3,10 @@ package com.example.heroPetShop.Booking;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -42,6 +45,42 @@ public class BookingActivity1 extends AppCompatActivity {
 
         edtTenThuCung = findViewById(R.id.edtTenThuCung);
         edtCanNang = findViewById(R.id.edtCanNang);
+        TextView weightWarningText = findViewById(R.id.weightWarningText);
+
+        edtCanNang.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int start, int count, int after) {
+                // Không làm gì ở đây
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                if (charSequence.length() > 0) {
+                    try {
+                        double weight = Double.parseDouble(charSequence.toString());
+
+                        // Kiểm tra cân nặng và hiển thị cảnh báo nếu cân nặng quá lớn
+                        if (weight > 15) {
+                            weightWarningText.setText("Cân nặng quá lớn! Phí dịch vụ của bạn sẽ thêm 50.000");
+                            weightWarningText.setVisibility(View.VISIBLE);  // Hiển thị cảnh báo
+                        } else {
+                            weightWarningText.setVisibility(View.GONE);  // Ẩn cảnh báo khi không có vấn đề
+                        }
+                    } catch (NumberFormatException e) {
+                        weightWarningText.setVisibility(View.GONE);  // Ẩn cảnh báo nếu người dùng nhập không phải số
+                    }
+                } else {
+                    weightWarningText.setVisibility(View.GONE);  // Ẩn cảnh báo nếu chưa nhập gì
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                // Không làm gì ở đây
+            }
+        });
+
+
         edtLoaiThuCung = findViewById(R.id.edtLoaiThuCung);
         txtChonNgay = findViewById(R.id.txtChonNgay);
         txtChonGio = findViewById(R.id.txtChonGio);
@@ -66,6 +105,46 @@ public class BookingActivity1 extends AppCompatActivity {
         giaDichvu= getIntent().getDoubleExtra("gia",0.0);
         String serviceId = getIntent().getStringExtra("serviceId");
         // Chọn ngày
+//        txtChonNgay.setOnClickListener(v -> {
+//            Calendar calendar = Calendar.getInstance();
+//            selectedYear = calendar.get(Calendar.YEAR);
+//            selectedMonth = calendar.get(Calendar.MONTH);
+//            selectedDay = calendar.get(Calendar.DAY_OF_MONTH);
+//
+//            DatePickerDialog datePickerDialog = new DatePickerDialog(
+//                    BookingActivity1.this, (view, year, month, dayOfMonth) -> {
+//                selectedYear = year;
+//                selectedMonth = month;
+//                selectedDay = dayOfMonth;
+//                selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
+//                txtChonNgay.setText("Ngày đặt: " + selectedDate);
+//            }, selectedYear, selectedMonth, selectedDay);
+//
+//            datePickerDialog.show();
+//        });
+//
+//        // Chọn giờ
+//        txtChonGio.setOnClickListener(v -> {
+//            Calendar calendar = Calendar.getInstance();
+//            selectedHour = calendar.get(Calendar.HOUR_OF_DAY);
+//            selectedMinute = calendar.get(Calendar.MINUTE);
+//
+//            TimePickerDialog timePickerDialog = new TimePickerDialog(
+//                    BookingActivity1.this, (view, hourOfDay, minute) -> {
+//                selectedHour = hourOfDay;
+//                selectedMinute = minute;
+//                selectedTime = selectedHour + ":" + (selectedMinute < 10 ? "0" + selectedMinute : selectedMinute);
+//                txtChonGio.setText("Giờ đặt: " + selectedTime);
+//            }, selectedHour, selectedMinute, true);
+//
+//            timePickerDialog.show();
+//        });
+
+        // Lấy thời gian hiện tại
+        Calendar currentCalendar = Calendar.getInstance();
+        long currentTimeMillis = currentCalendar.getTimeInMillis();
+
+// Chọn ngày
         txtChonNgay.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
             selectedYear = calendar.get(Calendar.YEAR);
@@ -78,13 +157,25 @@ public class BookingActivity1 extends AppCompatActivity {
                 selectedMonth = month;
                 selectedDay = dayOfMonth;
                 selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
-                txtChonNgay.setText("Ngày đặt: " + selectedDate);
+
+                // Kiểm tra nếu ngày chọn là quá khứ
+                Calendar selectedCalendar = Calendar.getInstance();
+                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+                long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+
+                if (selectedTimeMillis < currentTimeMillis) {
+                    // Nếu thời gian chọn là quá khứ, yêu cầu chọn lại
+                    Toast.makeText(BookingActivity1.this, "Thời gian không hợp lệ. Vui lòng chọn thời gian trong tương lai.", Toast.LENGTH_SHORT).show();
+                    txtChonNgay.setText("");  // Xóa ngày đã chọn
+                } else {
+                    txtChonNgay.setText("Ngày đặt: " + selectedDate);
+                }
             }, selectedYear, selectedMonth, selectedDay);
 
             datePickerDialog.show();
         });
 
-        // Chọn giờ
+// Chọn giờ
         txtChonGio.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
             selectedHour = calendar.get(Calendar.HOUR_OF_DAY);
@@ -95,11 +186,33 @@ public class BookingActivity1 extends AppCompatActivity {
                 selectedHour = hourOfDay;
                 selectedMinute = minute;
                 selectedTime = selectedHour + ":" + (selectedMinute < 10 ? "0" + selectedMinute : selectedMinute);
-                txtChonGio.setText("Giờ đặt: " + selectedTime);
+
+                // Kiểm tra nếu giờ chọn là quá khứ
+                Calendar selectedCalendar = Calendar.getInstance();
+                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+                long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+                long currentTimeMillis1 = System.currentTimeMillis();  // Lấy thời gian hiện tại
+
+                // Kiểm tra nếu thời gian chọn là quá khứ
+                if (selectedTimeMillis < currentTimeMillis1) {
+                    Toast.makeText(BookingActivity1.this, "Thời gian không hợp lệ. Vui lòng chọn thời gian trong tương lai.", Toast.LENGTH_SHORT).show();
+                    txtChonGio.setText("");  // Xóa giờ đã chọn
+                    return;
+                }
+
+                // Kiểm tra giờ trong khoảng 8h sáng đến 8h tối
+                if (selectedHour < 8 || selectedHour > 20 || (selectedHour == 20 && selectedMinute > 0)) {
+                    // Nếu giờ ngoài khoảng hợp lệ (08:00 - 20:00)
+                    Toast.makeText(BookingActivity1.this, "Giờ đặt phải trong khoảng từ 8h sáng đến 8h tối.", Toast.LENGTH_SHORT).show();
+                    txtChonGio.setText("");  // Xóa giờ đã chọn
+                } else {
+                    txtChonGio.setText("Giờ đặt: " + selectedTime);
+                }
             }, selectedHour, selectedMinute, true);
 
             timePickerDialog.show();
         });
+
 
 
 
@@ -117,6 +230,14 @@ public class BookingActivity1 extends AppCompatActivity {
             }
 
             double canNang = Double.parseDouble(canNangStr);
+            if(canNang>15){
+                giaDichvu += 50000;
+                Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
+
+            }
+            // Truy vấn thông tin từ Firestore
+            double finalGiaDichVu = giaDichvu;
+
 
             // Lấy số điện thoại người dùng từ FirebaseUser
             String sdtNguoiDung = currentUser != null ? currentUser.getPhoneNumber() : null;
@@ -170,7 +291,7 @@ public class BookingActivity1 extends AppCompatActivity {
                                                                 cthdBooking.setServiceId(serviceId);
                                                                 cthdBooking.setIdBooking(idBooking);
                                                                 cthdBooking.setTenDichVu(tenDichVu);
-                                                                cthdBooking.setGiaDichVu(giaDichvu);
+                                                                cthdBooking.setGiaDichVu(finalGiaDichVu);
                                                                 cthdBooking.setTenKhachHang(tenKhachHang);
                                                                 cthdBooking.setTenThuCung(tenThuCung);
                                                                 cthdBooking.setLoaiThuCung(loaiThuCung);

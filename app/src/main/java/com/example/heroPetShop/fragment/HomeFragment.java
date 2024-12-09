@@ -459,35 +459,48 @@ public class HomeFragment extends Fragment {
     }
 
     // Sản phẩm nổi bật
-    public  void  GetDataSPNoiBat(){
-        firestore.collection("SanPham").
-                whereEqualTo("type",2).
-                get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        arr_sp_nb.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productNBAdapter = new ProductAdapter(getContext(), arr_sp_nb, 2, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
-                            // Do something
-                            product = arr_sp_nb.get(position);
-                            TruyenData();
-                        }
-                    });
-                    rcvSPNoiBat.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
-                    rcvSPNoiBat.setAdapter(productNBAdapter);
-                }
+    public void GetDataSPNoiBat() {
+        firestore.collection("SanPham")
+                .whereEqualTo("type", 2)
+                .get()
+                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if (queryDocumentSnapshots.size() > 0) {
+                            ArrayList<Product> filteredProducts = new ArrayList<>();
+                            for (QueryDocumentSnapshot d : queryDocumentSnapshots) {
+                                Product product = new Product(d.getId(), d.getString("tensp"),
+                                        d.getLong("giatien"), d.getString("hinhanh"),
+                                        d.getString("loaisp"), d.getString("mota"),
+                                        d.getLong("soluong"), d.getString("hansudung"),
+                                        d.getLong("type"), d.getString("trongluong"));
 
-            }
-        });
+                                Log.d("product", "Soluong: " + product.getSoluong() );
+
+                                // Kiểm tra số lượng, chỉ thêm sản phẩm có số lượng lớn hơn 0
+                                if (product.getSoluong() > 0) {
+                                    filteredProducts.add(product);
+                                }
+                            }
+                            // Cập nhật lại danh sách sau khi lọc
+                            arr_sp_nb.clear();
+                            arr_sp_nb.addAll(filteredProducts);
+
+                            // Cập nhật lại adapter
+                            productNBAdapter = new ProductAdapter(getContext(), arr_sp_nb, 2, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
+                                    product = arr_sp_nb.get(position);
+                                    TruyenData();
+                                }
+                            });
+                            rcvSPNoiBat.setLayoutManager(new LinearLayoutManager(getContext(), RecyclerView.HORIZONTAL, false));
+                            rcvSPNoiBat.setAdapter(productNBAdapter);
+                        }
+                    }
+                });
     }
+
     // Sản phẩm đồ uống
     public  void  GetDataSPDoUong(){
         firestore.collection("SanPham").

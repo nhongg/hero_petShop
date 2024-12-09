@@ -104,7 +104,11 @@ public class BookingActivity extends AppCompatActivity {
         // Nhận dữ liệu từ DetailServiceActivity (Tên dịch vụ)
         tenDichVu = getIntent().getStringExtra("tenDichVu");
         String serviceId = getIntent().getStringExtra("serviceId");
-        // Chọn ngày
+        // Lấy thời gian hiện tại
+        Calendar currentCalendar = Calendar.getInstance();
+        long currentTimeMillis = currentCalendar.getTimeInMillis();
+
+// Chọn ngày
         txtChonNgay.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
             selectedYear = calendar.get(Calendar.YEAR);
@@ -117,12 +121,25 @@ public class BookingActivity extends AppCompatActivity {
                 selectedMonth = month;
                 selectedDay = dayOfMonth;
                 selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
-                txtChonNgay.setText("Ngày đặt: " + selectedDate);
+
+                // Kiểm tra nếu ngày chọn là quá khứ
+                Calendar selectedCalendar = Calendar.getInstance();
+                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+                long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+
+                if (selectedTimeMillis < currentTimeMillis) {
+                    // Nếu thời gian chọn là quá khứ, yêu cầu chọn lại
+                    Toast.makeText(BookingActivity.this, "Thời gian không hợp lệ. Vui lòng chọn thời gian trong tương lai.", Toast.LENGTH_SHORT).show();
+                    txtChonNgay.setText("");  // Xóa ngày đã chọn
+                } else {
+                    txtChonNgay.setText("Ngày đặt: " + selectedDate);
+                }
             }, selectedYear, selectedMonth, selectedDay);
 
             datePickerDialog.show();
         });
 
+// Chọn giờ
         // Chọn giờ
         txtChonGio.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
@@ -134,66 +151,33 @@ public class BookingActivity extends AppCompatActivity {
                 selectedHour = hourOfDay;
                 selectedMinute = minute;
                 selectedTime = selectedHour + ":" + (selectedMinute < 10 ? "0" + selectedMinute : selectedMinute);
-                txtChonGio.setText("Giờ đặt: " + selectedTime);
+
+                // Kiểm tra nếu giờ chọn là quá khứ
+                Calendar selectedCalendar = Calendar.getInstance();
+                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+                long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+                long currentTimeMillis1 = System.currentTimeMillis();  // Lấy thời gian hiện tại
+
+                // Kiểm tra nếu thời gian chọn là quá khứ
+                if (selectedTimeMillis < currentTimeMillis1) {
+                    Toast.makeText(BookingActivity.this, "Thời gian không hợp lệ. Vui lòng chọn thời gian trong tương lai.", Toast.LENGTH_SHORT).show();
+                    txtChonGio.setText("");  // Xóa giờ đã chọn
+                    return;
+                }
+
+                // Kiểm tra giờ trong khoảng 8h sáng đến 8h tối
+                if (selectedHour < 8 || selectedHour > 20 || (selectedHour == 20 && selectedMinute > 0)) {
+                    // Nếu giờ ngoài khoảng hợp lệ (08:00 - 20:00)
+                    Toast.makeText(BookingActivity.this, "Giờ đặt phải trong khoảng từ 8h sáng đến 8h tối.", Toast.LENGTH_SHORT).show();
+                    txtChonGio.setText("");  // Xóa giờ đã chọn
+                } else {
+                    txtChonGio.setText("Giờ đặt: " + selectedTime);
+                }
             }, selectedHour, selectedMinute, true);
 
             timePickerDialog.show();
         });
 
-        // Xử lý nút "Đặt Lịch"
-//        btnDatLich.setOnClickListener(v -> {
-//            String tenThuCung = edtTenThuCung.getText().toString();
-//            String canNangStr = edtCanNang.getText().toString();
-//            String loaiThuCung = edtLoaiThuCung.getText().toString();
-//
-//            // Kiểm tra dữ liệu
-//            if (tenThuCung.isEmpty() || canNangStr.isEmpty() || loaiThuCung.isEmpty() ||
-//                    selectedDate == null || selectedTime == null) {
-//                Toast.makeText(BookingActivity.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
-//                return;
-//            }
-//
-//            double canNang = Double.parseDouble(canNangStr);
-//
-//            // Tạo đối tượng Booking mới
-//            Booking booking = new Booking();
-//            booking.setTenDichVu("Dịch vụ "+tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
-//            booking.setTenThuCung(tenThuCung);
-//            booking.setCanNang(canNang);
-//            booking.setLoaiThuCung(loaiThuCung);
-//            booking.setTrangThai("Chưa xác nhận");
-//            // Tạo thời gian đặt lịch
-//            try {
-//                SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
-//                Date thoiGianDatLich = sdf.parse(selectedDate + " " + selectedTime);
-//                booking.setThoiGianDatLich(thoiGianDatLich);
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//
-//            booking.setTrangThai("Chưa xác nhận");
-//            booking.setIdUser(userId); // ID người dùng
-//
-//            // Lưu vào Firestore
-//            db.collection("bookings")
-//                    .add(booking)
-//                    .addOnSuccessListener(documentReference -> {
-//                        // Gán ID từ Firestore vào booking
-//                        String idBooking = documentReference.getId();
-//                        db.collection("bookings").document(idBooking)
-//                                .update("idBooking", idBooking) // Thêm idBooking vào tài liệu
-//                                .addOnSuccessListener(aVoid -> {
-//                                    Toast.makeText(BookingActivity.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
-//                                    finish();  // Quay lại màn hình trước
-//                                })
-//                                .addOnFailureListener(e -> {
-//                                    Toast.makeText(BookingActivity.this, "Cập nhật ID thất bại", Toast.LENGTH_SHORT).show();
-//                                });
-//                    })
-//                    .addOnFailureListener(e -> {
-//                        Toast.makeText(BookingActivity.this, "Đặt lịch thất bại", Toast.LENGTH_SHORT).show();
-//                    });
-//        });
 
 
 

@@ -290,6 +290,7 @@ public class AdminCTHDActivity extends AppCompatActivity implements GioHangView,
 
 
 
+
                                                             // Tham chiếu tới document sản phẩm
                                                             DocumentReference productRef = db.collection("SanPham").document(idProduct);
 

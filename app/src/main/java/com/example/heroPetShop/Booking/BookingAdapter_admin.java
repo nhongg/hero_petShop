@@ -98,21 +98,24 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
     public static void showOptionsDialog(Context context, CTHDBooking booking) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Chọn hành động")
-                .setItems(new CharSequence[]{"Hủy đặt lịch","Xác nhận đơn", "Sửa thông tin"}, (dialog, which) -> {
+                .setItems(new CharSequence[]{"Hủy đặt lịch","Đang xử lý","Xác nhận đơn"}, (dialog, which) -> {
                     switch (which) {
                         case 0:  // Hủy đặt lịch
                             cancelBooking(context, booking);
                             break;
-                        case 1:
-                            confirmOrder(context, booking);
+                        case 1://Đang sử lý
+                            suLydonHang(context, booking);
                             break;
-                        case 2:  // Sửa thông tin
+                        case 2:  // Xác nhận đơn
+                            confirmOrder(context, booking);
 //                            editBooking(context, booking);
                             break;
+
                     }
                 })
                 .create()
                 .show();
+
     }
 
     // Hủy đặt lịch
@@ -134,6 +137,8 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
                 });
 
     }
+
+
 
     // Mở Activity để sửa thông tin
     private static void editBooking(Context context, Booking booking) {
@@ -159,4 +164,28 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
                     Toast.makeText(context, "Không thể xác nhận đơn hàng", Toast.LENGTH_SHORT).show();
                 });
     }
+
+
+    // xử lý đơn hàng
+    private static void suLydonHang(Context context, CTHDBooking booking) {
+        if (booking.getIdcthdbooking() == null || booking.getIdcthdbooking().isEmpty()) {
+            Toast.makeText(context, "Không thể xử lý đơn hàng để xác nhận", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("CTHDBooking").document(booking.getIdcthdbooking())
+                .update("trangThai", "Đang xử lý")  // Cập nhật trạng thái đơn hàng thành "Đã xác nhận"
+                .addOnSuccessListener(aVoid -> {
+                    Toast.makeText(context, "Đơn hàng đã được xác nhận", Toast.LENGTH_SHORT).show();
+                })
+                .addOnFailureListener(e -> {
+                    Toast.makeText(context, "Không thể xác nhận đơn hàng", Toast.LENGTH_SHORT).show();
+                });
+    }
+
+
+
+
+
 }

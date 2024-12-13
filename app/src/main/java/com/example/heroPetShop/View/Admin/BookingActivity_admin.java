@@ -1,6 +1,5 @@
 package com.example.heroPetShop.View.Admin;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -51,12 +50,8 @@ public class BookingActivity_admin extends AppCompatActivity {
         bookingAdapter = new BookingAdapter_admin(this, bookingList);
         recyclerView.setAdapter(bookingAdapter);
 
-
-
         // Lấy danh sách đặt lịch từ Firestore
         getBookingsFromFirestore();
-
-//
 
         // Lắng nghe sự kiện long-click trong RecyclerView
         bookingAdapter.setOnItemClickListener(new BookingAdapter_admin.OnItemClickListener() {
@@ -64,7 +59,8 @@ public class BookingActivity_admin extends AppCompatActivity {
             public void onItemLongClick(CTHDBooking booking) {
                 // Hiển thị dialog khi long-click vào item
                 BookingAdapter_admin.showOptionsDialog(BookingActivity_admin.this, booking);
-                bookingAdapter.notifyDataSetChanged();
+                // Cập nhật lại danh sách bookings ngay lập tức
+                getBookingsFromFirestore(); // Tải lại dữ liệu sau khi thay đổi
             }
         });
     }

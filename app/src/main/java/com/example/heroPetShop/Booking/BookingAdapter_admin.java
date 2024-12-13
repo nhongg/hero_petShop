@@ -94,28 +94,34 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
         }
     }
 
-    // Hiển thị Dialog với các tùy chọn "Hủy" và "Sửa"
+    // Hiển thị Dialog với các tùy chọn
     public static void showOptionsDialog(Context context, CTHDBooking booking) {
+        // Kiểm tra trạng thái của booking trước khi hiển thị các tùy chọn
+        if ("Đã hủy".equals(booking.getTrangThai())) {
+            Toast.makeText(context, "Booking đã bị hủy, không thể thay đổi trạng thái nữa.", Toast.LENGTH_SHORT).show();
+            return; // Không hiển thị dialog nếu trạng thái là "Đã hủy"
+        }
+
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Chọn hành động")
-                .setItems(new CharSequence[]{"Hủy đặt lịch","Đang xử lý","Xác nhận đơn"}, (dialog, which) -> {
+                .setItems(new CharSequence[]{"Hủy đặt lịch","Xác nhận đơn","Đang xử lý","Hoàn thành"}, (dialog, which) -> {
                     switch (which) {
                         case 0:  // Hủy đặt lịch
                             cancelBooking(context, booking);
                             break;
-                        case 1://Đang sử lý
+                        case 1:  // Xác nhận đơn
+                            confirmOrder(context, booking);
+                            break;
+                        case 2:// Đang xử lý
                             suLydonHang(context, booking);
                             break;
-                        case 2:  // Xác nhận đơn
-                            confirmOrder(context, booking);
-//                            editBooking(context, booking);
+                        case 3:  // Hoàn thành đơn hàng
+                            hoanthanhdonHang(context, booking);
                             break;
-
                     }
                 })
                 .create()
                 .show();
-
     }
 
     // Hủy đặt lịch
@@ -184,7 +190,23 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
                 });
     }
 
+    // hoàn thành đơn hàng
+    private static void hoanthanhdonHang(Context context, CTHDBooking booking) {
+        if (booking.getIdcthdbooking() == null || booking.getIdcthdbooking().isEmpty()) {
+            Toast.makeText(context, "Không thể xử lý đơn hàng để hoàn thành", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("CTHDBooking").document(booking.getIdcthdbooking())
+                .update("trangThai", "Hoàn thành")  // Cập nhật trạng thái đơn hàng thành "Đã xác nhận"
+                .addOnSuccessListener(aVoid -> {
+                    Toast.makeText(context, "Đơn hàng đã được xác nhận", Toast.LENGTH_SHORT).show();
+                })
+                .addOnFailureListener(e -> {
+                    Toast.makeText(context, "Không thể xác nhận đơn hàng", Toast.LENGTH_SHORT).show();
+                });
+    }
 
 
 

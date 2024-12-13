@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Thanh tìm kiếm -->
+    <LinearLayout
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/teal_700"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tìm kiếm dịch vụ, thú cưng..."
+            android:padding="8dp"
+            android:background="@drawable/edittext"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_search"
+            android:background="@android:color/transparent"
+            android:contentDescription="Tìm kiếm"
+             />
+    </LinearLayout>
+
+    <!-- Khu vực giới thiệu / quảng bá -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/bannerViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/searchBar"
+        android:layout_marginTop="8dp" />
+
+    <!-- Danh sách các dịch vụ -->
+    <TextView
+        android:id="@+id/tvServicesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dịch vụ nổi bật"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/bannerViewPager"
+        android:layout_margin="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvServicesTitle"
+        android:padding="16dp"
+        android:clipToPadding="false" />
+
+    <!-- Nút điều hướng nhanh -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/purple_500"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_home"
+            android:contentDescription="Trang chủ"
+
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnServices"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/search_view_bg"
+            android:contentDescription="Dịch vụ"
+
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Hồ sơ"
+
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+</RelativeLayout>

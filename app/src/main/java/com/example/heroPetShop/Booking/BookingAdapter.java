@@ -89,14 +89,14 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
     public static void showOptionsDialog(Context context, CTHDBooking booking) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Chọn hành động")
-                .setItems(new CharSequence[]{"Hủy đặt lịch", "Sửa thông tin"}, (dialog, which) -> {
+                .setItems(new CharSequence[]{"Hủy đặt lịch"}, (dialog, which) -> {
                     switch (which) {
                         case 0:  // Hủy đặt lịch
                             cancelBooking(context, booking);
                             break;
-                        case 1:  // Sửa thông tin
-//                            editBooking(context, booking);
-                            break;
+//                        case 1:  // Sửa thông tin
+////                            editBooking(context, booking);
+//                            break;
                     }
                 })
                 .create()

@@ -215,6 +215,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
                                     HashMap<String,Object> hashMap = new HashMap<>();
                                     hashMap.put("ghichu", ghichu);
                                     hashMap.put("ngaydat", ngaydat);
+                                    hashMap.put("ngaydatfirebase", ngaydat);
                                     hashMap.put("diachi", diachi);
                                     hashMap.put("sdt", sdt);
                                     hashMap.put("hoten", hoten);

@@ -71,14 +71,15 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginStart="20dp"/>
+
             <TextView
                 android:id="@+id/tv_category"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Đồ uống"
-                android:textSize="20dp"
+                android:text="Đồ ăn"
                 android:textColor="#12BDD3"
-                android:textStyle="bold"/>
+                android:textSize="20dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <RelativeLayout

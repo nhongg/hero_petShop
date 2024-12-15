@@ -162,7 +162,7 @@ public class TaoComboDichVu extends AppCompatActivity {
 
     // Hàm này sẽ được gọi khi có sự thay đổi trong lựa chọn dịch vụ
     public void onServiceSelected(String serviceName, int servicePrice) {
-        accumulatedNames += serviceName + " + ";  // Thêm tên dịch vụ vào chuỗi
+        accumulatedNames += serviceName + "  ";  // Thêm tên dịch vụ vào chuỗi
         totalPrice += servicePrice;  // Cộng giá dịch vụ vào tổng
 
         // Cập nhật lại giao diện người dùng

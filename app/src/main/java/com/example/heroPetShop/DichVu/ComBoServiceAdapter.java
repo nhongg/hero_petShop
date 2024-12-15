@@ -76,7 +76,7 @@ public class ComBoServiceAdapter extends RecyclerView.Adapter<ComBoServiceAdapte
                     // Nếu chưa chọn, chọn nó
                     selectedPositions.add(position);
                     // Thêm tên dịch vụ vào chuỗi đã chọn
-                    selectedServiceNames.append(service.getTenDichVu()).append(" + ");
+                    selectedServiceNames.append(service.getTenDichVu()).append(" ");
                     totalPrice += service.getGia();
                 }
 

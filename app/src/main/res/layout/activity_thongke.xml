@@ -1,0 +1,110 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Header Section -->
+    <TextView
+        android:id="@+id/statistics_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Statistics Overview"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="16dp" />
+
+    <!-- Card for Total Sales -->
+    <LinearLayout
+        android:id="@+id/total_sales_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_header"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Sales"
+            android:textSize="18sp"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/total_sales_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$25,000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <!-- Card for Daily Users -->
+    <LinearLayout
+        android:id="@+id/daily_users_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_sales_card"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Users"
+            android:textSize="18sp"
+            android:textStyle="bold"
+      />
+
+        <TextView
+            android:id="@+id/daily_users_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,250"
+            android:textSize="24sp"
+            android:textStyle="bold"
+             />
+
+    </LinearLayout>
+
+    <!-- Card for Revenue Graph -->
+    <LinearLayout
+        android:id="@+id/revenue_graph_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/daily_users_card"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revenue Graph"
+            android:textSize="18sp"
+            android:textStyle="bold"
+     />
+
+        <ImageView
+            android:id="@+id/revenue_graph"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Revenue Graph" />
+
+    </LinearLayout>
+
+</RelativeLayout>

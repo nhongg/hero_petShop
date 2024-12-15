@@ -150,7 +150,7 @@
                         android:textSize="16sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Trọng lượng: "/>
+                        android:text="Hạn sử dụng: "/>
 
                     <TextView
                         android:id="@+id/tv_trongluong_detail"

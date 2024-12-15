@@ -161,8 +161,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
         dialog.setCanceledOnTouchOutside(false);
 
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(CartActivity.this,
-                android.R.layout.simple_list_item_1, s);
+        ArrayAdapter arrayAdapter = new ArrayAdapter(CartActivity.this,android.R.layout.simple_list_item_1, s);
         spinnerPhuongthuc.setAdapter(arrayAdapter);
 
         // Set info dialog
@@ -543,6 +542,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
                     HashMap<String,Object> hashMap2 = new HashMap<>();
                     hashMap2.put("ghichu", ghichu);
                     hashMap2.put("ngaydat",ngaydat);
+                    hashMap2.put("ngaydatfirebase", ngaydat);
                     hashMap2.put("diachi",diachi);
                     hashMap2.put("sdt",sdt);
                     hashMap2.put("hoten",hoten);
@@ -551,71 +551,99 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
                     hashMap2.put("trangthai",1);
                     hashMap2.put("UID",FirebaseAuth.getInstance().getCurrentUser().getUid());
                     db.collection("HoaDon")
-                            .add(hashMap2).addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
-                        @Override
-                        public void onComplete(@NonNull Task<DocumentReference> task) {
-                            if(task.isSuccessful()){
-                                String idhoadon = task.getResult().getId();
-                                for(Product sanPhamModels : listGiohang){
-                                    HashMap<String,Object> map_chitiet = new HashMap<>();
-                                    map_chitiet.put("id_hoadon",task.getResult().getId());
-                                    map_chitiet.put("id_product",sanPhamModels.getIdsp());
-                                    map_chitiet.put("soluong",sanPhamModels.getSoluong());
-                                    db.collection("ChitietHoaDon").document(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                            .collection("ALL").add(map_chitiet).addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<DocumentReference> task) {
-                                            if(task.isSuccessful()){
-                                                db.collection("GioHang").document(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                                        .collection("ALL").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                            .add(hashMap2)
+                            .addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
+                                @Override
+                                public void onComplete(@NonNull Task<DocumentReference> task) {
+                                    if (task.isSuccessful()) {
+                                        // Lấy ID hóa đơn vừa tạo
+                                        String idhoadon = task.getResult().getId();
+
+                                        // Cập nhật lại tài liệu hóa đơn với ID
+                                        db.collection("HoaDon").document(idhoadon)
+                                                .update("id", idhoadon)
+                                                .addOnSuccessListener(new OnSuccessListener<Void>() {
                                                     @Override
-                                                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                                                        for (QueryDocumentSnapshot q : queryDocumentSnapshots){
-                                                            db.collection("GioHang").document(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                                                    .collection("ALL").document(q.getId()).delete().addOnCompleteListener(new OnCompleteListener<Void>() {
-                                                                @Override
-                                                                public void onComplete(@NonNull @NotNull Task<Void> task) {
-                                                                    if (task.isSuccessful()) {
-                                                                        listGiohang.clear();
-                                                                        giohangAdapter.notifyDataSetChanged();
-                                                                        TongTienGioHang();
-                                                                        scrollViewCart.setVisibility(View.INVISIBLE);
-                                                                        tvNullCart.setVisibility(View.VISIBLE);
-                                                                        Log.d("idhoadon", "ID hóa đơn là: " + idhoadon);
-                                                                    } else {
-                                                                        Toast.makeText(CartActivity.this, "Thất bại", Toast.LENGTH_SHORT).show();
-                                                                    }
-                                                                }
-                                                            });
+                                                    public void onSuccess(Void aVoid) {
+                                                        // Thêm chi tiết hóa đơn (sản phẩm vào chi tiết hóa đơn)
+                                                        for (Product sanPhamModels : listGiohang) {
+                                                            HashMap<String, Object> map_chitiet = new HashMap<>();
+                                                            map_chitiet.put("id_hoadon", idhoadon);
+                                                            map_chitiet.put("id_product", sanPhamModels.getIdsp());
+                                                            map_chitiet.put("soluong", sanPhamModels.getSoluong());
+
+                                                            // Thêm chi tiết hóa đơn vào Firestore
+                                                            db.collection("ChitietHoaDon")
+                                                                    .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                                                    .collection("ALL")
+                                                                    .add(map_chitiet)
+                                                                    .addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
+                                                                        @Override
+                                                                        public void onComplete(@NonNull Task<DocumentReference> task) {
+                                                                            if (task.isSuccessful()) {
+                                                                                // Xóa các sản phẩm trong giỏ hàng sau khi đã thêm vào hóa đơn
+                                                                                db.collection("GioHang")
+                                                                                        .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                                                                        .collection("ALL")
+                                                                                        .get()
+                                                                                        .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                                                                                            @Override
+                                                                                            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                                                                                                for (QueryDocumentSnapshot q : queryDocumentSnapshots) {
+                                                                                                    db.collection("GioHang")
+                                                                                                            .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                                                                                            .collection("ALL")
+                                                                                                            .document(q.getId())
+                                                                                                            .delete()
+                                                                                                            .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                                                                @Override
+                                                                                                                public void onComplete(@NonNull Task<Void> task) {
+                                                                                                                    if (task.isSuccessful()) {
+                                                                                                                        listGiohang.clear();
+                                                                                                                        giohangAdapter.notifyDataSetChanged();
+                                                                                                                        TongTienGioHang();
+                                                                                                                        scrollViewCart.setVisibility(View.INVISIBLE);
+                                                                                                                        tvNullCart.setVisibility(View.VISIBLE);
+                                                                                                                    } else {
+                                                                                                                        Toast.makeText(CartActivity.this, "Thất bại", Toast.LENGTH_SHORT).show();
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            });
+                                                                                                }
+                                                                                            }
+                                                                                        });
+                                                                            }
+                                                                        }
+                                                                    });
                                                         }
+
+                                                        // Mở màn hình xác nhận đơn hàng thành công
+                                                        Intent intent = new Intent(CartActivity.this, OrderSuccessActivity.class);
+                                                        intent.putExtra("idhoadon", idhoadon);
+                                                        intent.putExtra("hoten", hoten);
+                                                        intent.putExtra("diachi", diachi);
+                                                        intent.putExtra("sdt", sdt);
+                                                        intent.putExtra("ghichu", ghichu);
+                                                        intent.putExtra("ngaydat", ngaydat);
+                                                        intent.putExtra("phuongthuc", phuongthuc);
+                                                        intent.putExtra("tienthanhtoan", tienthanhtoan);
+                                                        intent.putExtra("sanpham", sanpham);
+                                                        intent.putExtra("serialzable", listGiohang);
+                                                        startActivity(intent);
+                                                        finish();
+                                                    }
+                                                })
+                                                .addOnFailureListener(new OnFailureListener() {
+                                                    @Override
+                                                    public void onFailure(@NonNull Exception e) {
+                                                        Toast.makeText(CartActivity.this, "Cập nhật ID hóa đơn thất bại", Toast.LENGTH_SHORT).show();
                                                     }
                                                 });
-
-                                            }
-
-                                        }
-                                    });
-
+                                    } else {
+                                        Toast.makeText(CartActivity.this, "Thêm hóa đơn thất bại", Toast.LENGTH_SHORT).show();
+                                    }
                                 }
-                                Intent intent = new Intent(CartActivity.this, OrderSuccessActivity.class);
-                                intent.putExtra("idhoadon", idhoadon);
-                                intent.putExtra("hoten", hoten);
-                                intent.putExtra("diachi", diachi);
-                                intent.putExtra("sdt", sdt);
-                                intent.putExtra("ghichu", ghichu);
-                                intent.putExtra("ngaydat", ngaydat);
-                                intent.putExtra("phuongthuc", phuongthuc);
-                                intent.putExtra("tienthanhtoan", tienthanhtoan);
-                                intent.putExtra("sanpham", sanpham);
-                                intent.putExtra("serialzable",listGiohang);
-                                startActivity(intent);
-                                finish();
-                            }else{
-
-                            }
-
-                        }
-                    });
+                            });
 
 
                     String token = data.getStringExtra("data"); //Token response

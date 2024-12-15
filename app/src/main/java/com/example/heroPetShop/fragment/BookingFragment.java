@@ -67,7 +67,7 @@ public class BookingFragment extends Fragment {
 
         // Lấy danh sách đặt lịch từ Firestore
         getBookingsFromFirestore();
-        Toast.makeText(getContext(), ""+userId, Toast.LENGTH_SHORT).show();
+       // Toast.makeText(getContext(), ""+userId, Toast.LENGTH_SHORT).show();
         bookingAdapter.setOnItemClickListener(new BookingAdapter.OnItemClickListener() {
             @Override
             public void onItemLongClick(CTHDBooking booking) {

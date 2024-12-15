@@ -281,15 +281,15 @@ public class BookingActivity extends AppCompatActivity {
                                                                             db.collection("CTHDBooking").document(idCthdBooking)
                                                                                     .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
                                                                                     .addOnSuccessListener(aVoid1 -> {
-                                                                                        Toast.makeText(BookingActivity.this, "Lưu thông tin vào CTHDBooking thành công", Toast.LENGTH_SHORT).show();
+                                                                                     //   Toast.makeText(BookingActivity.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
                                                                                         finish();  // Quay lại màn hình trước
                                                                                     })
                                                                                     .addOnFailureListener(e -> {
-                                                                                        Toast.makeText(BookingActivity.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
+                                                                                       // Toast.makeText(BookingActivity.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
                                                                                     });
                                                                         })
                                                                         .addOnFailureListener(e -> {
-                                                                            Toast.makeText(BookingActivity.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
+                                                                          //  Toast.makeText(BookingActivity.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
                                                                         });
                                                             } else {
                                                                 Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);

@@ -8,7 +8,7 @@
     tools:context=".View.CartActivity">
 
     <ImageView
-        android:id="@+id/img_back_cart"
+        android:id="@+id/img_back"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_width="30dp"

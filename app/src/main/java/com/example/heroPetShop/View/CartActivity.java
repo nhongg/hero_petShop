@@ -26,6 +26,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.heroPetShop.Adapter.GiohangAdapter;
+import com.example.heroPetShop.DichVu.DetailServiceActivity;
+import com.example.heroPetShop.MainActivity;
 import com.example.heroPetShop.Models.Chat;
 import com.example.heroPetShop.Models.Product;
 import com.example.heroPetShop.Presenter.GioHangPresenter;
@@ -101,6 +103,16 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
         DeleteDataGioHang();
         TongTienGioHang();
         Event();
+
+
+        findViewById(R.id.img_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CartActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+
+        });
     }
 
     private void InitWidget() {
@@ -112,7 +124,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
         tvPhiVanChuyen = findViewById(R.id.tv_phivanchuyen);
         tvTongTien = findViewById(R.id.tv_tongtien);
         btnThanhToan = findViewById(R.id.btn_thanhtoan);
-        imgBackCart = findViewById(R.id.img_back_cart);
+        imgBackCart = findViewById(R.id.img_back);
 
         listGiohang = new ArrayList<>();
         gioHangPresenter = new GioHangPresenter(CartActivity.this);

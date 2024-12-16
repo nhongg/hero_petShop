@@ -248,23 +248,20 @@ public class AdminCTHDActivity extends AppCompatActivity implements GioHangView,
         dialog.setContentView(R.layout.dialog_update_trangthai);
         dialog.show();
 
-
         Spinner spiner = dialog.findViewById(R.id.spinerCapNhat);
-        String[] s = {"Chọn Mục","Đang xử lý","Đang giao hàng","Giao hàng thành công","Hủy hàng"} ;
-        ArrayAdapter arrayAdapter  = new ArrayAdapter(this, android.R.layout.simple_list_item_1,s);
-        spiner.setAdapter( arrayAdapter);
+        String[] s = {"Chọn Mục", "Đang xử lý", "Đang giao hàng", "Giao hàng thành công", "Hủy hàng"};
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, s);
+        spiner.setAdapter(arrayAdapter);
         spiner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if(position>0){
-                    hoaDonPreSenter.CapNhatTrangThai(position,hoaDon.getId());
+                if (position > 0) {
+                    hoaDonPreSenter.CapNhatTrangThai(position, hoaDon.getId());
                     adapter.notifyDataSetChanged();
                     tvAdminStatusHD.setText(s[position]);
 
-                    // Kiểm tra nếu trạng thái là "Giao hàng thành công"
-                    if (s[position].equals("Giao hàng thành công")) {
-                        Toast.makeText(AdminCTHDActivity.this, "Giao hàng thành công!", Toast.LENGTH_SHORT).show();
-
+                    if (s[position].equals("Đang giao hàng")) {
+                        // Kiểm tra số lượng sản phẩm trong kho
                         FirebaseFirestore db = FirebaseFirestore.getInstance();
                         DocumentReference docRef = db.collection("HoaDon").document(hoaDon.getId());
 
@@ -274,7 +271,7 @@ public class AdminCTHDActivity extends AppCompatActivity implements GioHangView,
                                         // Lấy giá trị của trường "id"
                                         String uid = documentSnapshot.getString("UID");
                                         Log.d("HoaDon", "ID: " + uid);
-                                        Log.d("HoaDon", "ID: " + hoaDon.getId());
+
                                         db.collection("ChitietHoaDon")
                                                 .document(uid)
                                                 .collection("ALL")
@@ -288,76 +285,148 @@ public class AdminCTHDActivity extends AppCompatActivity implements GioHangView,
                                                             String idProduct = document.getString("id_product");  // Trường "id_product"
                                                             Long soluong = document.getLong("soluong");            // Trường "soluong"
 
-
-
-
                                                             // Tham chiếu tới document sản phẩm
                                                             DocumentReference productRef = db.collection("SanPham").document(idProduct);
 
-// Lấy thông tin của sản phẩm
+                                                            // Lấy thông tin của sản phẩm
                                                             productRef.get()
                                                                     .addOnSuccessListener(documentSnapshot1 -> {
                                                                         if (documentSnapshot1.exists()) {
                                                                             // Lấy giá trị số lượng hiện tại
                                                                             Long soluong1 = documentSnapshot1.getLong("soluong"); // Tên trường phải trùng khớp
-                                                                            if (soluong1 != null && soluong1 > 0) {
-                                                                                // Trừ đi 1
-                                                                                Long updatedSoluong = soluong1 - soluong;
 
-                                                                                // Cập nhật lại giá trị số lượng
-                                                                                productRef.update("soluong", updatedSoluong)
-                                                                                        .addOnSuccessListener(aVoid -> {
-                                                                                            Log.d("Firestore", "Cập nhật số lượng thành công: " + updatedSoluong);
-                                                                                        })
-                                                                                        .addOnFailureListener(e -> {
-                                                                                            Log.e("Firestore", "Lỗi khi cập nhật số lượng", e);
-                                                                                        });
-                                                                            } else {
-                                                                                Log.d("Firestore", "Số lượng không hợp lệ hoặc bằng 0");
+                                                                            // Kiểm tra nếu số lượng sản phẩm = 0 hoặc null
+                                                                            if (soluong1 == null || soluong1 <= 0) {
+                                                                                // Nếu số lượng không đủ (hoặc null), không thay đổi trạng thái
+                                                                                Toast.makeText(AdminCTHDActivity.this, "Không đủ số lượng để giao hàng!", Toast.LENGTH_SHORT).show();
+                                                                                // Chuyển trạng thái lại thành "Đang xử lý"
+                                                                                hoaDonPreSenter.CapNhatTrangThai(1, hoaDon.getId()); // 1 là mã trạng thái "Đang xử lý"
+                                                                                adapter.notifyDataSetChanged();
+                                                                                tvAdminStatusHD.setText(s[1]);  // Cập nhật lại TextView trạng thái
+                                                                                return;  // Dừng quá trình thay đổi trạng thái
                                                                             }
-                                                                        } else {
-                                                                            Log.d("Firestore", "Tài liệu không tồn tại");
+
+                                                                            // Nếu số lượng đủ, tiếp tục thay đổi trạng thái
+                                                                            hoaDonPreSenter.CapNhatTrangThai(position, hoaDon.getId());
+                                                                            adapter.notifyDataSetChanged();
+                                                                            tvAdminStatusHD.setText(s[position]);
                                                                         }
                                                                     })
-                                                                    .addOnFailureListener(e -> Log.e("Firestore", "Lỗi khi lấy thông tin sản phẩm", e));
-                                                            // In ra thông tin (hoặc xử lý theo cách bạn muốn)
-                                                            Log.d("Firestore", "Found product: id_product = " + idProduct + ", soluong = " + soluong);
+                                                                    .addOnFailureListener(e -> {
+                                                                        Log.e("Firestore", "Lỗi khi lấy thông tin sản phẩm: " + e.getMessage());
 
-                                                            // Xử lý thêm nếu cần
+                                                                    });
                                                         }
-                                                    } else {
-                                                        // Nếu không có document nào trùng với id_hoadon
-                                                        Log.d("Firestore", "No documents found with id_hoadon: " );
                                                     }
                                                 })
                                                 .addOnFailureListener(e -> {
-                                                    // Xử lý lỗi nếu có
-                                                    Log.e("Firestore", "Error getting documents", e);
+                                                    Log.e("Firestore", "Lỗi khi lấy chi tiết hóa đơn: " + e.getMessage());
                                                 });
-
-                                    } else {
-                                        Log.d("HoaDon", "Tài liệu không tồn tại");
                                     }
                                 })
-                                .addOnFailureListener(e -> Log.w("HoaDon", "Lỗi truy vấn tài liệu", e));
+                                .addOnFailureListener(e -> {
+                                    Log.e("Firestore", "Lỗi khi lấy thông tin hóa đơn: " + e.getMessage());
 
+                                });
+                        dialog.cancel();
+                    } else {
+                        // Nếu không phải trạng thái "Đang giao hàng", chỉ cần cập nhật trạng thái bình thường
+                        hoaDonPreSenter.CapNhatTrangThai(position, hoaDon.getId());
+                        adapter.notifyDataSetChanged();
+                        tvAdminStatusHD.setText(s[position]);
+                    }
 
+                    // Kiểm tra nếu trạng thái là "Giao hàng thành công"
+                    if (s[position].equals("Giao hàng thành công")) {
+                       // Toast.makeText(AdminCTHDActivity.this, "Giao hàng thành công!", Toast.LENGTH_SHORT).show();
 
-                       }
-                    Toast.makeText(AdminCTHDActivity.this, "Cập nhật thành công"+hoaDon.getId(), Toast.LENGTH_SHORT).show();
-                    dialog.cancel();
+                        FirebaseFirestore db = FirebaseFirestore.getInstance();
+                        DocumentReference docRef = db.collection("HoaDon").document(hoaDon.getId());
 
+                        docRef.get()
+                                .addOnSuccessListener(documentSnapshot -> {
+                                    if (documentSnapshot.exists()) {
+                                        // Lấy giá trị của trường "id"
+                                        String uid = documentSnapshot.getString("UID");
+                                        Log.d("HoaDon", "ID: " + uid);
+                                        Log.d("HoaDon", "ID: " + hoaDon.getId());
 
-        }
+                                        db.collection("ChitietHoaDon")
+                                                .document(uid)
+                                                .collection("ALL")
+                                                .whereEqualTo("id_hoadon", hoaDon.getId())  // So sánh trường "id_hoadon"
+                                                .get()
+                                                .addOnSuccessListener(queryDocumentSnapshots -> {
+                                                    if (!queryDocumentSnapshots.isEmpty()) {
+                                                        // Nếu có document trùng với id_hoadon
+                                                        for (DocumentSnapshot document : queryDocumentSnapshots) {
+                                                            // Lấy thông tin id_product và soluong
+                                                            String idProduct = document.getString("id_product");  // Trường "id_product"
+                                                            Long soluong = document.getLong("soluong");            // Trường "soluong"
+
+                                                            // Tham chiếu tới document sản phẩm
+                                                            DocumentReference productRef = db.collection("SanPham").document(idProduct);
+
+                                                            // Lấy thông tin của sản phẩm
+                                                            productRef.get()
+                                                                    .addOnSuccessListener(documentSnapshot1 -> {
+                                                                        if (documentSnapshot1.exists()) {
+                                                                            // Lấy giá trị số lượng hiện tại
+                                                                            Long soluong1 = documentSnapshot1.getLong("soluong"); // Tên trường phải trùng khớp
+
+                                                                            // Kiểm tra nếu số lượng < 0 hoặc null
+                                                                            if (soluong1 == null || soluong1 <= 0) {
+                                                                                // Nếu số lượng không đủ (hoặc null), không thay đổi trạng thái và chuyển về "Đang xử lý"
+                                                                                Toast.makeText(AdminCTHDActivity.this, "Không đủ số lượng trong kho để cập nhật!", Toast.LENGTH_SHORT).show();
+
+                                                                                // Chuyển trạng thái lại thành "Đang xử lý"
+                                                                                hoaDonPreSenter.CapNhatTrangThai(1, hoaDon.getId()); // 1 là mã trạng thái "Đang xử lý"
+                                                                                adapter.notifyDataSetChanged();
+                                                                                tvAdminStatusHD.setText(s[1]);  // Cập nhật lại TextView trạng thái
+
+                                                                                return;  // Dừng quá trình cập nhật trạng thái
+                                                                            }
+
+                                                                            // Nếu số lượng đủ, trừ số lượng
+                                                                            Long updatedSoluong = soluong1 - soluong;
+
+                                                                            // Cập nhật lại giá trị số lượng
+                                                                            productRef.update("soluong", updatedSoluong)
+                                                                                    .addOnSuccessListener(aVoid -> {
+                                                                                        Log.d("Firestore", "Cập nhật số lượng thành công: " + updatedSoluong);
+                                                                                    })
+                                                                                    .addOnFailureListener(e -> {
+                                                                                        Log.e("Firestore", "Cập nhật số lượng thất bại: " + e.getMessage());
+                                                                                    });
+                                                                        }
+                                                                    })
+                                                                    .addOnFailureListener(e -> {
+                                                                        Log.e("Firestore", "Lỗi khi lấy thông tin sản phẩm: " + e.getMessage());
+                                                                    });
+                                                        }
+                                                    }
+                                                })
+                                                .addOnFailureListener(e -> {
+                                                    Log.e("Firestore", "Lỗi khi truy vấn chi tiết hóa đơn: " + e.getMessage());
+                                                });
+                                    }
+                                })
+                                .addOnFailureListener(e -> {
+                                    Log.e("Firestore", "Lỗi khi lấy thông tin hóa đơn: " + e.getMessage());
+
+                                });
+                        dialog.cancel();
+                    }
+                }
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+                // Do nothing if no item is selected
             }
         });
-
     }
+
 
     private void Init() {
         mlist = new ArrayList<>();

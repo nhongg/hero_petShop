@@ -1145,6 +1145,7 @@ bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
 color Orange
+color Red
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -2657,7 +2658,6 @@ id img_avatar
 id img_back
 id img_back_admin_product
 id img_back_banner
-id img_back_cart
 id img_back_chat
 id img_back_cmt
 id img_back_cthd

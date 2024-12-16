@@ -13,10 +13,13 @@ import android.widget.Toast;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.heroPetShop.R;
+import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_admin.BookingViewHolder> {
 
@@ -198,16 +201,28 @@ public class BookingAdapter_admin extends RecyclerView.Adapter<BookingAdapter_ad
         }
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        // Cập nhật trạng thái đơn hàng thành "Hoàn thành"
         db.collection("CTHDBooking").document(booking.getIdcthdbooking())
-                .update("trangThai", "Hoàn thành")  // Cập nhật trạng thái đơn hàng thành "Đã xác nhận"
+                .update("trangThai", "Hoàn thành")
                 .addOnSuccessListener(aVoid -> {
-                    Toast.makeText(context, "Đơn hàng đã được xác nhận", Toast.LENGTH_SHORT).show();
+                    // Thêm thông báo vào bảng Notifications
+                    Map<String, Object> notification = new HashMap<>();
+                    notification.put("message", "Booking " + booking.getIdcthdbooking() + " Đã hoàn thành.");
+                    notification.put("createdAt", FieldValue.serverTimestamp());
+
+                    db.collection("Notifications")
+                            .add(notification)
+                            .addOnSuccessListener(docRef -> {
+                               // Toast.makeText(context, "Đơn hàng đã được hoàn thành ", Toast.LENGTH_SHORT).show();
+                            })
+                            .addOnFailureListener(e -> {
+                               // Toast.makeText(context, "Cập nhật trạng thái thành công nhưng không thể lưu thông báo.", Toast.LENGTH_SHORT).show();
+                            });
                 })
                 .addOnFailureListener(e -> {
-                    Toast.makeText(context, "Không thể xác nhận đơn hàng", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Không thể hoàn thành đơn hàng", Toast.LENGTH_SHORT).show();
                 });
     }
-
-
 
 }

@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.doanfood"
+    package="com.example.heroPetShop"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="28"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="34" />
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
 
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -33,10 +37,7 @@
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
+        android:required="true" />
     <uses-feature
         android:name="android.hardware.camera.front"
         android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
@@ -64,9 +65,9 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_logo_heropetshop"
+        android:icon="@mipmap/ic_logo_heropetshop2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_logo_heropetshop_round"
+        android:roundIcon="@mipmap/ic_logo_heropetshop2_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.DoAn_TMDT"
@@ -94,9 +95,9 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.geo.API_KEY" -->
+        <!-- android:value="@string/google_maps_key" /> -->
 
         <activity android:name="com.example.heroPetShop.View.Admin.AdminCTHDActivity" />
         <activity android:name="com.example.heroPetShop.View.Admin.AdminAddLoaiSPActivity" />
@@ -108,6 +109,33 @@
             android:exported="true" />
         <activity
             android:name="com.example.heroPetShop.View.Admin.AdminHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.Booking.BookingDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.NotifyActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.View.Admin.BookingActivity_admin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.View.TaoComboDichVu"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.View.PasswordChangeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.Booking.BookingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.Booking.BookingActivity1"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.DichVu.ServiceManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.heroPetShop.DichVu.DetailServiceActivity"
             android:exported="true" />
         <activity
             android:name="com.example.heroPetShop.View.CTHDActivity"
@@ -221,7 +249,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.doanfood.com.squareup.picasso"
+            android:authorities="com.example.heroPetShop.com.squareup.picasso"
             android:exported="false" />
 
         <activity
@@ -234,7 +262,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.doanfood.firebaseinitprovider"
+            android:authorities="com.example.heroPetShop.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />

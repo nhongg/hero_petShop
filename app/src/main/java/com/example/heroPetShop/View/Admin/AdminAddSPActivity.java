@@ -541,7 +541,6 @@ public class AdminAddSPActivity extends AppCompatActivity implements AdapterView
                 Log.d("CHECKED", e.getMessage());
                 dialog.dismiss();
             }
-
         }
     }
 

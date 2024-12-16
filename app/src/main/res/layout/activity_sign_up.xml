@@ -51,7 +51,6 @@
                     android:background="@drawable/edittext2"
                     android:hint="Nhập Email"
                     android:textColor="#F8F4F4"
-
                     android:id="@+id/edt_sign_up_email"
                     android:layout_width="match_parent"
                     android:layout_height="65dp" />

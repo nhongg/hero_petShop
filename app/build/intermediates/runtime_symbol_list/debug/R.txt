@@ -1144,6 +1144,7 @@ int bool abc_action_bar_embed_tabs 0x7f040000
 int bool abc_config_actionMenuItemAllCaps 0x7f040001
 int bool mtrl_btn_textappearance_all_caps 0x7f040002
 int color Orange 0x7f050000
+int color Red 0x7f05010d
 int color abc_background_cache_hint_selector_material_dark 0x7f050001
 int color abc_background_cache_hint_selector_material_light 0x7f050002
 int color abc_btn_colored_borderless_text_material 0x7f050003
@@ -2656,7 +2657,6 @@ int id img_avatar 0x7f08019c
 int id img_back 0x7f08019d
 int id img_back_admin_product 0x7f08019e
 int id img_back_banner 0x7f08019f
-int id img_back_cart 0x7f0801a0
 int id img_back_chat 0x7f0801a1
 int id img_back_cmt 0x7f0801a2
 int id img_back_cthd 0x7f0801a3

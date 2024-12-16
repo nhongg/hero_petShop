@@ -53,13 +53,19 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         holder.txtTenThuCung.setText(booking.getTenThuCung());
         holder.txtThoiGian.setText(formatDate(booking.getThoiGianDatLich().getTime()));
         holder.txtTrangThai.setText(booking.getTrangThai());
-        // Long-click event listener
-        holder.itemView.setOnLongClickListener(v -> {
-            if (listener != null) {
-                listener.onItemLongClick(booking);  // Trigger the long-click action
-            }
-            return true;
-        });
+
+
+        // Kiểm tra trạng thái của booking, nếu là "Hoàn thành" thì không cho phép long-click
+        if (!"Hoàn thành".equals(booking.getTrangThai())) {
+            holder.itemView.setOnLongClickListener(v -> {
+                if (listener != null) {
+                    listener.onItemLongClick(booking);  // Trigger the long-click action
+                }
+                return true;
+            });
+        } else {
+            holder.itemView.setOnLongClickListener(null); // Không cho phép long-click khi trạng thái là "Hoàn thành"
+        }
     }
 
     @Override

@@ -20,8 +20,11 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 public class BookingActivity1 extends AppCompatActivity {
     private EditText edtTenThuCung, edtCanNang, edtLoaiThuCung;
@@ -34,6 +37,7 @@ public class BookingActivity1 extends AppCompatActivity {
     private String selectedDate, selectedTime;
     private String tenDichVu; // Dịch vụ từ DetailServiceActivity
     private double giaDichvu;
+    private  String id;
     private String userId; // ID người dùng
     Date thoiGianDatLichCt;
 
@@ -103,42 +107,12 @@ public class BookingActivity1 extends AppCompatActivity {
         tenDichVu = getIntent().getStringExtra("ten");
 
         giaDichvu= getIntent().getDoubleExtra("gia",0.0);
-        String serviceId = getIntent().getStringExtra("serviceId");
-        // Chọn ngày
-//        txtChonNgay.setOnClickListener(v -> {
-//            Calendar calendar = Calendar.getInstance();
-//            selectedYear = calendar.get(Calendar.YEAR);
-//            selectedMonth = calendar.get(Calendar.MONTH);
-//            selectedDay = calendar.get(Calendar.DAY_OF_MONTH);
-//
-//            DatePickerDialog datePickerDialog = new DatePickerDialog(
-//                    BookingActivity1.this, (view, year, month, dayOfMonth) -> {
-//                selectedYear = year;
-//                selectedMonth = month;
-//                selectedDay = dayOfMonth;
-//                selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
-//                txtChonNgay.setText("Ngày đặt: " + selectedDate);
-//            }, selectedYear, selectedMonth, selectedDay);
-//
-//            datePickerDialog.show();
-//        });
-//
-//        // Chọn giờ
-//        txtChonGio.setOnClickListener(v -> {
-//            Calendar calendar = Calendar.getInstance();
-//            selectedHour = calendar.get(Calendar.HOUR_OF_DAY);
-//            selectedMinute = calendar.get(Calendar.MINUTE);
-//
-//            TimePickerDialog timePickerDialog = new TimePickerDialog(
-//                    BookingActivity1.this, (view, hourOfDay, minute) -> {
-//                selectedHour = hourOfDay;
-//                selectedMinute = minute;
-//                selectedTime = selectedHour + ":" + (selectedMinute < 10 ? "0" + selectedMinute : selectedMinute);
-//                txtChonGio.setText("Giờ đặt: " + selectedTime);
-//            }, selectedHour, selectedMinute, true);
-//
-//            timePickerDialog.show();
-//        });
+        id = getIntent().getStringExtra("id");
+        //String serviceId = getIntent().getStringExtra("serviceId");
+        String[] serviceIdArray = id.split(",\\s*");
+        List<String> serviceIdList = new ArrayList<>(Arrays.asList(serviceIdArray));
+
+
 
         // Lấy thời gian hiện tại
         Calendar currentCalendar = Calendar.getInstance();
@@ -288,7 +262,7 @@ public class BookingActivity1 extends AppCompatActivity {
                                                                 // Tạo đối tượng CTHDBooking
                                                                 CTHDBooking cthdBooking = new CTHDBooking();
                                                                 cthdBooking.setIduser(userId);
-                                                                cthdBooking.setServiceId(serviceId);
+                                                                cthdBooking.setServiceIds(serviceIdList);
                                                                 cthdBooking.setIdBooking(idBooking);
                                                                 cthdBooking.setTenDichVu(tenDichVu);
                                                                 cthdBooking.setGiaDichVu(finalGiaDichVu);

@@ -41,10 +41,12 @@ public class TaoComboDichVu extends AppCompatActivity {
     private FirebaseUser currentUser;
 
     private String accumulatedNames = "";
+    private String accumulatedid = "";
     private int totalPrice = 0;
 
     TextView tTenDv;
     TextView tGiaDv;
+    TextView tIDDv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,7 @@ public class TaoComboDichVu extends AppCompatActivity {
 
         tGiaDv = findViewById(R.id.tvTotalPrice);
         tTenDv = findViewById(R.id.tvSelectedServices);
+        tIDDv = findViewById(R.id.tviddichvu);
         findViewById(R.id.img_back_banner).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,6 +74,7 @@ public class TaoComboDichVu extends AppCompatActivity {
                 // Lấy giá trị từ TextView khi người dùng nhấn nút
                 String ten = tTenDv.getText().toString();  // Lấy tên dịch vụ đã chọn
                 double gia = Double.parseDouble(tGiaDv.getText().toString());  // Lấy tổng giá dịch vụ
+                String id = tIDDv.getText().toString();
 
                 if (ten.isEmpty() || gia <= 0 || Double.isNaN(gia) || Double.isInfinite(gia)) {
                     // Xử lý khi tên dịch vụ hoặc giá không hợp lệ
@@ -107,6 +111,7 @@ public class TaoComboDichVu extends AppCompatActivity {
                                         // Đưa dữ liệu vào Intent
                                         intent.putExtra("ten", ten);
                                         intent.putExtra("gia", gia);
+                                        intent.putExtra("id", id);
 
                                         // Mở BookingActivity1
                                         startActivity(intent);
@@ -156,12 +161,14 @@ public class TaoComboDichVu extends AppCompatActivity {
 
     // Phương thức để cập nhật TextView khi dịch vụ được chọn
     public void updateUI() {
+        tIDDv.setText(accumulatedid);
         tTenDv.setText(accumulatedNames);  // Cập nhật tên dịch vụ đã chọn
         tGiaDv.setText(String.valueOf(totalPrice));  // Cập nhật tổng giá dịch vụ
     }
 
     // Hàm này sẽ được gọi khi có sự thay đổi trong lựa chọn dịch vụ
-    public void onServiceSelected(String serviceName, int servicePrice) {
+    public void onServiceSelected(String serviceName,String id, int servicePrice) {
+        accumulatedid += id + "  ";
         accumulatedNames += serviceName + "  ";  // Thêm tên dịch vụ vào chuỗi
         totalPrice += servicePrice;  // Cộng giá dịch vụ vào tổng
 

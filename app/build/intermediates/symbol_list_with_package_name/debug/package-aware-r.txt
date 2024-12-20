@@ -3187,6 +3187,7 @@ id tv_trongluong_detail
 id tv_trongluong_giohang
 id tv_username_message
 id tv_welcome
+id tviddichvu
 id txtCanNang
 id txtChonGio
 id txtChonNgay

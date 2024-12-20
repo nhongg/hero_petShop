@@ -16,13 +16,11 @@ import java.text.DecimalFormat;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 public class ComBoServiceAdapter extends RecyclerView.Adapter<ComBoServiceAdapter.ServiceViewHolder> {
     private List<Service> serviceList;
     private Context context;
-    private StringBuilder selectedServiceNames = new StringBuilder();  // Dùng StringBuilder để nối chuỗi hiệu quả
-    private double totalPrice = 0;  // Biến lưu trữ tổng tiền dịch vụ đã chọn
-    private Set<Integer> selectedPositions = new HashSet<>();  // Set để lưu các vị trí item đã chọn
+    private double totalPrice = 0;
+    private Set<Integer> selectedPositions = new HashSet<>(); // Đảm bảo item không bị chọn trùng
 
     public ComBoServiceAdapter(List<Service> serviceList, Context context) {
         this.serviceList = serviceList;
@@ -58,48 +56,70 @@ public class ComBoServiceAdapter extends RecyclerView.Adapter<ComBoServiceAdapte
 
         public void bind(Service service, int position) {
             txtServiceName.setText(service.getTenDichVu());
-            itemView.setBackgroundColor(Color.parseColor("#66CCFF"));  // Màu khi chưa chọn
 
-            // Kiểm tra xem item đã được chọn hay chưa để thay đổi màu nền
+            // Cập nhật màu nền dựa trên trạng thái đã chọn
+            if (selectedPositions.contains(position)) {
+                itemView.setBackgroundColor(Color.parseColor("#FF6600")); // Màu khi chọn
+            } else {
+                itemView.setBackgroundColor(Color.parseColor("#66CCFF")); // Màu mặc định
+            }
 
-
-            // Xử lý khi người dùng click vào item
+            // Xử lý sự kiện click
             itemView.setOnClickListener(v -> {
                 if (selectedPositions.contains(position)) {
-                    // Nếu đã chọn, bỏ chọn
+                    // Bỏ chọn
                     selectedPositions.remove(position);
-                    // Loại bỏ tên dịch vụ khỏi chuỗi đã chọn
-                    selectedServiceNames.delete(selectedServiceNames.indexOf(service.getTenDichVu()),
-                            selectedServiceNames.indexOf(service.getTenDichVu()) + service.getTenDichVu().length() + 3);  // Xóa " + "
                     totalPrice -= service.getGia();
                 } else {
-                    // Nếu chưa chọn, chọn nó
+                    // Chọn item
                     selectedPositions.add(position);
-                    // Thêm tên dịch vụ vào chuỗi đã chọn
-                    selectedServiceNames.append(service.getTenDichVu()).append("  ");
                     totalPrice += service.getGia();
                 }
 
-                // Cập nhật lại giao diện người dùng
+                // Cập nhật giao diện
                 updateUI();
-                if (selectedPositions.contains(position)) {
-                    itemView.setBackgroundColor(Color.parseColor("#FF6600"));  // Màu khi chọn
-                } else {
-                    itemView.setBackgroundColor(Color.parseColor("#66CCFF"));  // Màu khi chưa chọn
-                }
+                notifyItemChanged(position); // Thông báo cập nhật màu nền cho item
             });
         }
 
-        // Cập nhật lại TextView hiển thị tên dịch vụ và tổng tiền
         private void updateUI() {
-            // Cập nhật danh sách dịch vụ đã chọn
-            TextView tvSelectedServices = ((TaoComboDichVu) context).findViewById(R.id.tvSelectedServices);
-            tvSelectedServices.setText( selectedServiceNames.toString());
+            // Danh sách tên dịch vụ đã chọn
+            StringBuilder selectedServiceNames = new StringBuilder();
+            StringBuilder selectedServiceIDs = new StringBuilder();
 
-            // Định dạng và hiển thị tổng tiền
-            DecimalFormat df = new DecimalFormat("#.##");
-            TextView tvTotalPrice = ((TaoComboDichVu) context).findViewById(R.id.tvTotalPrice);
-            tvTotalPrice.setText(df.format(totalPrice));  // Sử dụng DecimalFormat để định dạng đúng
+            for (int position : selectedPositions) {
+                Service selectedService = serviceList.get(position);
+                selectedServiceNames.append(selectedService.getTenDichVu()).append(", ");
+                selectedServiceIDs.append(selectedService.getIdDichVu()).append(", ");
+            }
+
+            // Xóa dấu phẩy cuối cùng
+            if (selectedServiceNames.length() > 0) {
+                selectedServiceNames.setLength(selectedServiceNames.length() - 2);
+            }
+            if (selectedServiceIDs.length() > 0) {
+                selectedServiceIDs.setLength(selectedServiceIDs.length() - 2);
+            }
+
+            // Cập nhật TextView
+            if (context instanceof TaoComboDichVu) {
+                TaoComboDichVu activity = (TaoComboDichVu) context;
+
+                TextView tvSelectedServices = activity.findViewById(R.id.tvSelectedServices);
+                TextView tvServiceIDs = activity.findViewById(R.id.tviddichvu);
+                TextView tvTotalPrice = activity.findViewById(R.id.tvTotalPrice);
+
+                if (tvSelectedServices != null) {
+                    tvSelectedServices.setText(selectedServiceNames.toString());
+                }
+                if (tvServiceIDs != null) {
+                    tvServiceIDs.setText(selectedServiceIDs.toString());
+                }
+                if (tvTotalPrice != null) {
+                    DecimalFormat df = new DecimalFormat("#.##");
+                    tvTotalPrice.setText(df.format(totalPrice));
+                }
+            }
         }
     }
 }

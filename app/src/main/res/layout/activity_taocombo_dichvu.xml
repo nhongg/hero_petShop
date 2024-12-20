@@ -99,6 +99,29 @@
         />
 </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id: "
+                android:textColor="#F20606"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tviddichvu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#F20606"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
 
 
     </LinearLayout>

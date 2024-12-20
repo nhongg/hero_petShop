@@ -2,11 +2,12 @@ package com.example.heroPetShop.Booking;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 public class CTHDBooking implements Serializable {
     private String idcthdbooking;
     private String iduser;
-    private String serviceId;
+    private List<String> serviceIds; // Chuyển từ String thành List<String>
     private String tenDichVu;
     private double giaDichVu;
     private String tenKhachHang;
@@ -54,12 +55,12 @@ public class CTHDBooking implements Serializable {
         this.idcthdbooking = idcthdbooking;
     }
 
-    public String getServiceId() {
-        return serviceId;
+    public List<String> getServiceIds() {
+        return serviceIds;
     }
 
-    public void setServiceId(String serviceId) {
-        this.serviceId = serviceId;
+    public void setServiceIds(List<String> serviceIds) {
+        this.serviceIds = serviceIds;
     }
 
     public String getTenDichVu() {
@@ -126,4 +127,3 @@ public class CTHDBooking implements Serializable {
         this.trangThai = trangThai;
     }
 }
-

@@ -22,8 +22,11 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 public class BookingActivity extends AppCompatActivity {
     private EditText edtTenThuCung, edtCanNang, edtLoaiThuCung;
@@ -108,6 +111,9 @@ public class BookingActivity extends AppCompatActivity {
         // Nhận dữ liệu từ DetailServiceActivity (Tên dịch vụ)
         tenDichVu = getIntent().getStringExtra("tenDichVu");
         String serviceId = getIntent().getStringExtra("serviceId");
+
+        String[] serviceIdArray = serviceId.split(",\\s*");
+        List<String> serviceIdList = new ArrayList<>(Arrays.asList(serviceIdArray));
         // Lấy thời gian hiện tại
         Calendar currentCalendar = Calendar.getInstance();
         long currentTimeMillis = currentCalendar.getTimeInMillis();
@@ -260,7 +266,7 @@ public class BookingActivity extends AppCompatActivity {
                                                                 // Tạo đối tượng CTHDBooking
                                                                 CTHDBooking cthdBooking = new CTHDBooking();
                                                                 cthdBooking.setIduser(userId);
-                                                                cthdBooking.setServiceId(serviceId);
+                                                                cthdBooking.setServiceIds(serviceIdList );
                                                                 cthdBooking.setIdBooking(idBooking);
                                                                 cthdBooking.setTenDichVu(tenDichVu);
                                                                 cthdBooking.setGiaDichVu(finalGiaDichVu);

@@ -744,6 +744,10 @@
         "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\profile2.png"
     },
     {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_taocombo_dichvu.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_taocombo_dichvu.xml"
+    },
+    {
         "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_fg.jpg.flat",
         "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\fg.jpg"
     },
@@ -1254,10 +1258,6 @@
     {
         "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_update_trangthai.xml.flat",
         "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_update_trangthai.xml"
-    },
-    {
-        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_cart.xml.flat",
-        "source": "com.example.heroPetShop.app-main-35:/layout/activity_cart.xml"
     },
     {
         "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_shape_yellow.xml.flat",

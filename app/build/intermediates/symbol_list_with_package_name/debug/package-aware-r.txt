@@ -2889,6 +2889,7 @@ id recyclerViewBooking
 id recyclerViewBookings
 id recyclerViewBookingsAdm
 id recyclerViewCart
+id recyclerViewServices
 id recyclerViewdv
 id recycler_view
 id recycler_view_chat
@@ -3402,6 +3403,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_add_service
 layout dialog_add_users
+layout dialog_booking_detail
 layout dialog_danhgia
 layout dialog_info_users
 layout dialog_profile

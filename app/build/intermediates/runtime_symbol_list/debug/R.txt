@@ -2364,6 +2364,12 @@ int id btnAddImage 0x7f080077
 int id btnAddService 0x7f080078
 int id btnBack 0x7f080079
 int id btnBuyNow 0x7f08007a
+int id btnCa1 0x7f0803fe
+int id btnCa2 0x7f0803ff
+int id btnCa3 0x7f080400
+int id btnCa4 0x7f080401
+int id btnCa5 0x7f080402
+int id btnCa6 0x7f080403
 int id btnChangePassword 0x7f08007b
 int id btnDatLich 0x7f08007c
 int id btnHome 0x7f08007d

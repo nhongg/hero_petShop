@@ -12,11 +12,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.example.heroPetShop.R;
+import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.SimpleDateFormat;
@@ -41,6 +49,8 @@ public class BookingActivity1 extends AppCompatActivity {
     private String userId; // ID người dùng
     Date thoiGianDatLichCt;
 
+    private Button btnca1, btnca2,btnca3,btnca4,btnca5,btnca6;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +60,63 @@ public class BookingActivity1 extends AppCompatActivity {
         edtTenThuCung = findViewById(R.id.edtTenThuCung);
         edtCanNang = findViewById(R.id.edtCanNang);
         TextView weightWarningText = findViewById(R.id.weightWarningText);
+
+        btnca1= findViewById(R.id.btnCa1);
+        btnca2= findViewById(R.id.btnCa2);
+        btnca3= findViewById(R.id.btnCa3);
+        btnca4= findViewById(R.id.btnCa4);
+        btnca5= findViewById(R.id.btnCa5);
+        btnca6= findViewById(R.id.btnCa6);
+
+
+
+        btnca1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "08:00";
+                Toast.makeText(BookingActivity1.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "10:00";
+                Toast.makeText(BookingActivity1.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        }); btnca3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "12:00";
+                Toast.makeText(BookingActivity1.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "14:00";
+                Toast.makeText(BookingActivity1.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "16:00";
+                Toast.makeText(BookingActivity1.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "18:00";
+                Toast.makeText(BookingActivity1.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
 
         edtCanNang.addTextChangedListener(new TextWatcher() {
             @Override
@@ -115,10 +182,6 @@ public class BookingActivity1 extends AppCompatActivity {
 
 
         // Lấy thời gian hiện tại
-        Calendar currentCalendar = Calendar.getInstance();
-        long currentTimeMillis = currentCalendar.getTimeInMillis();
-
-// Chọn ngày
         txtChonNgay.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
             selectedYear = calendar.get(Calendar.YEAR);
@@ -134,8 +197,9 @@ public class BookingActivity1 extends AppCompatActivity {
 
                 // Kiểm tra nếu ngày chọn là quá khứ
                 Calendar selectedCalendar = Calendar.getInstance();
-                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, 0, 0, 0); // Chỉ lấy ngày, không có giờ phút
                 long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+                long currentTimeMillis = System.currentTimeMillis();
 
                 if (selectedTimeMillis < currentTimeMillis) {
                     // Nếu thời gian chọn là quá khứ, yêu cầu chọn lại
@@ -143,11 +207,46 @@ public class BookingActivity1 extends AppCompatActivity {
                     txtChonNgay.setText("");  // Xóa ngày đã chọn
                 } else {
                     txtChonNgay.setText("Ngày đặt: " + selectedDate);
+
+                    // Chuyển ngày chọn thành Timestamp
+                    Calendar startCalendar = Calendar.getInstance();
+                    startCalendar.set(selectedYear, selectedMonth, selectedDay, 8, 0, 0); // 8h sáng
+                    Timestamp startTimestamp = new Timestamp(startCalendar.getTime());
+
+                    Calendar endCalendar = Calendar.getInstance();
+                    endCalendar.set(selectedYear, selectedMonth, selectedDay, 10, 0, 0); // 10h sáng
+                    Timestamp endTimestamp = new Timestamp(endCalendar.getTime());
+
+                    // Thực hiện truy vấn Firestore
+                    FirebaseFirestore db = FirebaseFirestore.getInstance();
+                    db.collection("CTHDBooking")
+                            .whereGreaterThanOrEqualTo("thoiGianDatLich", startTimestamp)
+                            .whereLessThanOrEqualTo("thoiGianDatLich", endTimestamp)
+                            .get()
+                            .addOnCompleteListener(task -> {
+                                if (task.isSuccessful()) {
+                                    int numberOfInvoices = task.getResult().size();
+                                    Toast.makeText(BookingActivity1.this, "Số hóa đơn trong khoảng thời gian từ 8-10h: " + numberOfInvoices, Toast.LENGTH_SHORT).show();
+                                    if (numberOfInvoices > 3) {
+                                        btnca1.setBackgroundColor(ContextCompat.getColor(BookingActivity1.this, R.color.Red)); // Thay đổi màu sang đỏ
+                                    } else {
+                                        btnca1.setBackgroundColor(ContextCompat.getColor(BookingActivity1.this, R.color.colorAccent)); // Màu mặc định
+                                    }
+
+
+
+                                } else {
+                                    Toast.makeText(BookingActivity1.this, "Lỗi khi truy vấn: " + task.getException(), Toast.LENGTH_SHORT).show();
+                                }
+                            });
                 }
             }, selectedYear, selectedMonth, selectedDay);
 
             datePickerDialog.show();
         });
+
+
+
 
 // Chọn giờ
         txtChonGio.setOnClickListener(v -> {

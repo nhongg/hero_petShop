@@ -59,8 +59,8 @@ public class CTHDBooking implements Serializable {
         return serviceIds;
     }
 
-    public void setServiceIds(List<String> serviceIds) {
-        this.serviceIds = serviceIds;
+    public void setServiceIds(List<String> serviceId) {
+        this.serviceIds = serviceId;
     }
 
     public String getTenDichVu() {

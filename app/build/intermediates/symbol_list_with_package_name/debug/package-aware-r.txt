@@ -2365,6 +2365,12 @@ id btnAddImage
 id btnAddService
 id btnBack
 id btnBuyNow
+id btnCa1
+id btnCa2
+id btnCa3
+id btnCa4
+id btnCa5
+id btnCa6
 id btnChangePassword
 id btnDatLich
 id btnHome

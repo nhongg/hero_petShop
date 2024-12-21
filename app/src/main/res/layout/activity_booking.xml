@@ -172,6 +172,97 @@
                 android:textSize="16sp"
                 android:padding="8dp" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chọn giờ:"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_marginTop="10dp">
+
+                    <!-- Ca 8h - 10h -->
+                    <Button
+                        android:id="@+id/btnCa1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="ca1"
+                        android:backgroundTint="#AED9D8D8"
+                        android:textColor="#000000"/>
+
+                    <!-- Ca 10h - 12h -->
+                    <Button
+                        android:id="@+id/btnCa2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="ca2"
+                        android:backgroundTint="#AED9D8D8"
+                        android:textColor="#000000"/>
+
+                    <!-- Ca 12h - 14h -->
+                    <Button
+                        android:id="@+id/btnCa3"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="ca3"
+                        android:backgroundTint="#AED9D8D8"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_marginTop="10dp">
+
+                    <!-- Ca 14h - 16h -->
+                    <Button
+                        android:id="@+id/btnCa4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="ca4"
+                        android:backgroundTint="#AED9D8D8"
+                        android:textColor="#000000"/>
+
+                    <!-- Ca 16h - 18h -->
+                    <Button
+                        android:id="@+id/btnCa5"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="ca5"
+                        android:backgroundTint="#AED9D8D8"
+                        android:textColor="#000000"/>
+
+                    <!-- Ca 18h - 20h -->
+                    <Button
+                        android:id="@+id/btnCa6"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="ca6"
+                        android:backgroundTint="#AED9D8D8"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
             <!-- Hiển thị giờ đặt lịch -->
             <TextView
                 android:layout_marginTop="10dp"
@@ -182,6 +273,7 @@
                 android:text="Chưa chọn giờ"
                 android:textSize="16sp"
                 android:padding="8dp" />
+
 
             <Button
                 android:id="@+id/btnDatLich"

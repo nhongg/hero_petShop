@@ -14,9 +14,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.example.heroPetShop.R;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -44,6 +46,8 @@ public class BookingActivity extends AppCompatActivity {
     String tenNguoiDung;
     String sdtNguoiDung;
 
+    private Button btnca1, btnca2,btnca3,btnca4,btnca5,btnca6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,9 +55,64 @@ public class BookingActivity extends AppCompatActivity {
 
         edtTenThuCung = findViewById(R.id.edtTenThuCung);
         edtCanNang = findViewById(R.id.edtCanNang);
+        btnca1= findViewById(R.id.btnCa1);
+        btnca2= findViewById(R.id.btnCa2);
+        btnca3= findViewById(R.id.btnCa3);
+        btnca4= findViewById(R.id.btnCa4);
+        btnca5= findViewById(R.id.btnCa5);
+        btnca6= findViewById(R.id.btnCa6);
 
 
         TextView weightWarningText = findViewById(R.id.weightWarningText);
+
+        btnca1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "08:00";
+                Toast.makeText(BookingActivity.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "10:00";
+                Toast.makeText(BookingActivity.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        }); btnca3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "12:00";
+                Toast.makeText(BookingActivity.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "14:00";
+                Toast.makeText(BookingActivity.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "16:00";
+                Toast.makeText(BookingActivity.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        btnca6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedTime = "18:00";
+                Toast.makeText(BookingActivity.this, ""+selectedTime, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
 
         edtCanNang.addTextChangedListener(new TextWatcher() {
             @Override
@@ -119,6 +178,36 @@ public class BookingActivity extends AppCompatActivity {
         long currentTimeMillis = currentCalendar.getTimeInMillis();
 
 // Chọn ngày
+//        txtChonNgay.setOnClickListener(v -> {
+//            Calendar calendar = Calendar.getInstance();
+//            selectedYear = calendar.get(Calendar.YEAR);
+//            selectedMonth = calendar.get(Calendar.MONTH);
+//            selectedDay = calendar.get(Calendar.DAY_OF_MONTH);
+//
+//            DatePickerDialog datePickerDialog = new DatePickerDialog(
+//                    BookingActivity.this, (view, year, month, dayOfMonth) -> {
+//                selectedYear = year;
+//                selectedMonth = month;
+//                selectedDay = dayOfMonth;
+//                selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
+//
+//                // Kiểm tra nếu ngày chọn là quá khứ
+//                Calendar selectedCalendar = Calendar.getInstance();
+//                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+//                long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+//
+//                if (selectedTimeMillis < currentTimeMillis) {
+//                    // Nếu thời gian chọn là quá khứ, yêu cầu chọn lại
+//                    Toast.makeText(BookingActivity.this, "Thời gian không hợp lệ. Vui lòng chọn thời gian trong tương lai.", Toast.LENGTH_SHORT).show();
+//                    txtChonNgay.setText("");  // Xóa ngày đã chọn
+//                } else {
+//                    txtChonNgay.setText("Ngày đặt: " + selectedDate);
+//                }
+//            }, selectedYear, selectedMonth, selectedDay);
+//
+//            datePickerDialog.show();
+//        });
+
         txtChonNgay.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
             selectedYear = calendar.get(Calendar.YEAR);
@@ -134,8 +223,9 @@ public class BookingActivity extends AppCompatActivity {
 
                 // Kiểm tra nếu ngày chọn là quá khứ
                 Calendar selectedCalendar = Calendar.getInstance();
-                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute);
+                selectedCalendar.set(selectedYear, selectedMonth, selectedDay, 0, 0, 0); // Chỉ lấy ngày, không có giờ phút
                 long selectedTimeMillis = selectedCalendar.getTimeInMillis();
+              //  long currentTimeMillis = System.currentTimeMillis();
 
                 if (selectedTimeMillis < currentTimeMillis) {
                     // Nếu thời gian chọn là quá khứ, yêu cầu chọn lại
@@ -143,11 +233,71 @@ public class BookingActivity extends AppCompatActivity {
                     txtChonNgay.setText("");  // Xóa ngày đã chọn
                 } else {
                     txtChonNgay.setText("Ngày đặt: " + selectedDate);
+
+                    // Chuyển ngày chọn thành Timestamp cho thời gian 8h sáng
+                    Calendar startCalendar1 = Calendar.getInstance();
+                    startCalendar1.set(selectedYear, selectedMonth, selectedDay, 7, 59, 59); // 8h sáng
+                    Timestamp startTimestamp1 = new Timestamp(startCalendar1.getTime());
+
+                    // Chuyển ngày chọn thành Timestamp cho thời gian 10h sáng
+                    Calendar endCalendar1 = Calendar.getInstance();
+                    endCalendar1.set(selectedYear, selectedMonth, selectedDay, 10, 0, 0); // 10h sáng
+                    Timestamp endTimestamp1 = new Timestamp(endCalendar1.getTime());
+
+                    // Chuyển ngày chọn thành Timestamp cho thời gian 10h sáng
+                    Calendar startCalendar2 = Calendar.getInstance();
+                    startCalendar2.set(selectedYear, selectedMonth, selectedDay, 9, 59, 59); // 10h sáng
+                    Timestamp startTimestamp2 = new Timestamp(startCalendar2.getTime());
+
+                    // Chuyển ngày chọn thành Timestamp cho thời gian 12h trưa
+                    Calendar endCalendar2 = Calendar.getInstance();
+                    endCalendar2.set(selectedYear, selectedMonth, selectedDay, 12, 0, 0); // 12h trưa
+                    Timestamp endTimestamp2 = new Timestamp(endCalendar2.getTime());
+
+                    // Thực hiện truy vấn Firestore cho khoảng thời gian từ 8h-10h
+                    FirebaseFirestore db = FirebaseFirestore.getInstance();
+                    db.collection("CTHDBooking")
+                            .whereGreaterThanOrEqualTo("thoiGianDatLich", startTimestamp1)
+                            .whereLessThanOrEqualTo("thoiGianDatLich", endTimestamp1)
+                            .get()
+                            .addOnCompleteListener(task -> {
+                                if (task.isSuccessful()) {
+                                    int numberOfInvoices1 = task.getResult().size();
+                                    Toast.makeText(BookingActivity.this, "Số hóa đơn trong khoảng thời gian từ 8-10h: " + numberOfInvoices1, Toast.LENGTH_SHORT).show();
+                                    if (numberOfInvoices1 > 3) {
+                                        btnca1.setBackgroundColor(ContextCompat.getColor(BookingActivity.this, R.color.Red)); // Thay đổi màu sang đỏ
+                                        btnca1.setEnabled(false);
+                                    } else {
+                                        btnca1.setBackgroundColor(ContextCompat.getColor(BookingActivity.this, R.color.bg_color_url)); // Màu mặc định
+                                        btnca1.setEnabled(true);
+                                    }
+
+
+
+                                } else {
+                                    Toast.makeText(BookingActivity.this, "Lỗi khi truy vấn (8-10h): " + task.getException(), Toast.LENGTH_SHORT).show();
+                                }
+                            });
+
+                    // Thực hiện truy vấn Firestore cho khoảng thời gian từ 10h-12h
+                    db.collection("CTHDBooking")
+                            .whereGreaterThanOrEqualTo("thoiGianDatLich", startTimestamp2)
+                            .whereLessThanOrEqualTo("thoiGianDatLich", endTimestamp2)
+                            .get()
+                            .addOnCompleteListener(task -> {
+                                if (task.isSuccessful()) {
+                                    int numberOfInvoices2 = task.getResult().size();
+                                    Toast.makeText(BookingActivity.this, "Số hóa đơn trong khoảng thời gian từ 10-12h: " + numberOfInvoices2, Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Toast.makeText(BookingActivity.this, "Lỗi khi truy vấn (10-12h): " + task.getException(), Toast.LENGTH_SHORT).show();
+                                }
+                            });
                 }
             }, selectedYear, selectedMonth, selectedDay);
 
             datePickerDialog.show();
         });
+
 
 // Chọn giờ
         // Chọn giờ

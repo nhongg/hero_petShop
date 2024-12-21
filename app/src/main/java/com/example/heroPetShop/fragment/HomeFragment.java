@@ -253,21 +253,21 @@ public class HomeFragment extends Fragment {
         firestore.collection("Favorite").document(FirebaseAuth.getInstance().getCurrentUser().getUid())
                 .collection("ALL")
                 .get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                if (queryDocumentSnapshots.size() > 0){
-                    int num = 0;
-                    Log.d("numCart", "Number: " + queryDocumentSnapshots.size());
-                    for (QueryDocumentSnapshot q : queryDocumentSnapshots){
-                        num++;
-                        tvNumberCart.setVisibility(View.VISIBLE);
-                        tvNumberCart.setText(num+"");
+                    @Override
+                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                        if (queryDocumentSnapshots.size() > 0){
+                            int num = 0;
+                            Log.d("numCart", "Number: " + queryDocumentSnapshots.size());
+                            for (QueryDocumentSnapshot q : queryDocumentSnapshots){
+                                num++;
+                                tvNumberCart.setVisibility(View.VISIBLE);
+                                tvNumberCart.setText(num+"");
+                            }
+                        } else {
+                            tvNumberCart.setVisibility(View.GONE);
+                        }
                     }
-                } else {
-                    tvNumberCart.setVisibility(View.GONE);
-                }
-            }
-        });
+                });
     }
 
     private void replace(Fragment fragment){
@@ -286,22 +286,22 @@ public class HomeFragment extends Fragment {
         firestore.collection("User").document(FirebaseAuth.getInstance().getCurrentUser().getUid())
                 .collection("Profile")
                 .get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    DocumentSnapshot documentSnapshot = queryDocumentSnapshots.getDocuments().get(0);
-                    if(documentSnapshot!=null){
-                        try{
-                            if(documentSnapshot.getString("avatar").length()>0){
-                                Picasso.get().load(documentSnapshot.getString("avatar").trim()).into(cirToolbarProfile);
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            DocumentSnapshot documentSnapshot = queryDocumentSnapshots.getDocuments().get(0);
+                            if(documentSnapshot!=null){
+                                try{
+                                    if(documentSnapshot.getString("avatar").length()>0){
+                                        Picasso.get().load(documentSnapshot.getString("avatar").trim()).into(cirToolbarProfile);
+                                    }
+                                }catch (Exception e){
+                                    Log.d("ERROR",e.getMessage());
+                                }
                             }
-                        }catch (Exception e){
-                            Log.d("ERROR",e.getMessage());
                         }
                     }
-                }
-            }
-        });
+                });
         cirToolbarProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -506,32 +506,32 @@ public class HomeFragment extends Fragment {
         firestore.collection("SanPham").
                 whereEqualTo("type",3).
                 get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        // lấy id trên firebase
-                        arr_sp_du.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productDUAdapter = new ProductAdapter(getContext(), arr_sp_du, 3, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            for(QueryDocumentSnapshot d : queryDocumentSnapshots){
+                                // lấy id trên firebase
+                                arr_sp_du.add(new Product(d.getId(),d.getString("tensp"),
+                                        d.getLong("giatien"),d.getString("hinhanh"),
+                                        d.getString("loaisp"),d.getString("mota"),
+                                        d.getLong("soluong"),d.getString("hansudung"),
+                                        d.getLong("type"),d.getString("trongluong")));
+                            }
+                            productDUAdapter = new ProductAdapter(getContext(), arr_sp_du, 3, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
 
-                            // Do something
-                            product = arr_sp_du.get(position);
-                            TruyenData();
-                        }
-                    });
+                                    // Do something
+                                    product = arr_sp_du.get(position);
+                                    TruyenData();
+                                }
+                            });
 //                    rcvSPDoUong.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
 //                    rcvSPDoUong.setAdapter(productDUAdapter);
-                }
+                        }
 
-            }
-        });
+                    }
+                });
     }
 
     // Sản phẩm Hàn Quốc
@@ -539,158 +539,158 @@ public class HomeFragment extends Fragment {
         firestore.collection("SanPham").
                 whereEqualTo("type",4).
                 get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        // lấy id trên firebase
-                        arr_sp_hq.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productHQAdapter = new ProductAdapter(getContext(), arr_sp_hq, 4, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            for(QueryDocumentSnapshot d : queryDocumentSnapshots){
+                                // lấy id trên firebase
+                                arr_sp_hq.add(new Product(d.getId(),d.getString("tensp"),
+                                        d.getLong("giatien"),d.getString("hinhanh"),
+                                        d.getString("loaisp"),d.getString("mota"),
+                                        d.getLong("soluong"),d.getString("hansudung"),
+                                        d.getLong("type"),d.getString("trongluong")));
+                            }
+                            productHQAdapter = new ProductAdapter(getContext(), arr_sp_hq, 4, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
 
-                            // Do something
-                            product = arr_sp_hq.get(position);
-                            TruyenData();
-                        }
-                    });
+                                    // Do something
+                                    product = arr_sp_hq.get(position);
+                                    TruyenData();
+                                }
+                            });
 //                    rcvSPHQ.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
 //                    rcvSPHQ.setAdapter(productHQAdapter);
-                }
+                        }
 
-            }
-        });
+                    }
+                });
     }
     // Sản phẩm Mì cay
     public  void  GetDataSPMiCay(){
         firestore.collection("SanPham").
                 whereEqualTo("type",5).
                 get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        arr_sp_mc.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productMCAdapter = new ProductAdapter(getContext(), arr_sp_mc, 5, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            for(QueryDocumentSnapshot d : queryDocumentSnapshots){
+                                arr_sp_mc.add(new Product(d.getId(),d.getString("tensp"),
+                                        d.getLong("giatien"),d.getString("hinhanh"),
+                                        d.getString("loaisp"),d.getString("mota"),
+                                        d.getLong("soluong"),d.getString("hansudung"),
+                                        d.getLong("type"),d.getString("trongluong")));
+                            }
+                            productMCAdapter = new ProductAdapter(getContext(), arr_sp_mc, 5, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
 
-                            // Do something
-                            product = arr_sp_mc.get(position);
-                            TruyenData();
-                        }
-                    });
+                                    // Do something
+                                    product = arr_sp_mc.get(position);
+                                    TruyenData();
+                                }
+                            });
 //                    rcvSPMC.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
 //                    rcvSPMC.setAdapter(productMCAdapter);
-                }
+                        }
 
-            }
-        });
+                    }
+                });
     }
     // Sản phẩm Yêu thích
     public  void  GetDataSPYeuThich(){
         firestore.collection("SanPham").
                 whereEqualTo("type",6).
                 get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        // lấy id trên firebase
-                        arr_sp_yt.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productYTAdapter = new ProductAdapter(getContext(), arr_sp_yt, 6, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
-                            // Do something
-                            product = arr_sp_yt.get(position);
-                            TruyenData();
-                        }
-                    });
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            for(QueryDocumentSnapshot d : queryDocumentSnapshots){
+                                // lấy id trên firebase
+                                arr_sp_yt.add(new Product(d.getId(),d.getString("tensp"),
+                                        d.getLong("giatien"),d.getString("hinhanh"),
+                                        d.getString("loaisp"),d.getString("mota"),
+                                        d.getLong("soluong"),d.getString("hansudung"),
+                                        d.getLong("type"),d.getString("trongluong")));
+                            }
+                            productYTAdapter = new ProductAdapter(getContext(), arr_sp_yt, 6, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
+                                    // Do something
+                                    product = arr_sp_yt.get(position);
+                                    TruyenData();
+                                }
+                            });
 //                    rcvSPYT.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
 //                    rcvSPYT.setAdapter(productYTAdapter);
-                }
+                        }
 
-            }
-        });
+                    }
+                });
     }
     // Sản phẩm Lẩu
     public  void  GetDataSPLau(){
         firestore.collection("SanPham").
                 whereEqualTo("type",7).
                 get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        // lấy id trên firebase
-                        arr_sp_lau.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productLauAdapter = new ProductAdapter(getContext(), arr_sp_lau, 7, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            for(QueryDocumentSnapshot d : queryDocumentSnapshots){
+                                // lấy id trên firebase
+                                arr_sp_lau.add(new Product(d.getId(),d.getString("tensp"),
+                                        d.getLong("giatien"),d.getString("hinhanh"),
+                                        d.getString("loaisp"),d.getString("mota"),
+                                        d.getLong("soluong"),d.getString("hansudung"),
+                                        d.getLong("type"),d.getString("trongluong")));
+                            }
+                            productLauAdapter = new ProductAdapter(getContext(), arr_sp_lau, 7, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
 
-                            // Do something
-                            product = arr_sp_lau.get(position);
-                            TruyenData();
-                        }
-                    });
+                                    // Do something
+                                    product = arr_sp_lau.get(position);
+                                    TruyenData();
+                                }
+                            });
 //                    rcvSPLau.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
 //                    rcvSPLau.setAdapter(productLauAdapter);
-                }
+                        }
 
-            }
-        });
+                    }
+                });
     }
     // Sản phẩm Gợi ý
     public  void  GetDataSPGoiY(){
         firestore.collection("SanPham").
                 whereEqualTo("type",8).
                 get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    for(QueryDocumentSnapshot d : queryDocumentSnapshots){
-                        // lấy id trên firebase
-                        arr_sp_gy.add(new Product(d.getId(),d.getString("tensp"),
-                                d.getLong("giatien"),d.getString("hinhanh"),
-                                d.getString("loaisp"),d.getString("mota"),
-                                d.getLong("soluong"),d.getString("hansudung"),
-                                d.getLong("type"),d.getString("trongluong")));
-                    }
-                    productGYAdapter = new ProductAdapter(getContext(), arr_sp_gy, 8, new IClickOpenBottomSheet() {
-                        @Override
-                        public void onClickOpenBottomSheet(int position) {
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            for(QueryDocumentSnapshot d : queryDocumentSnapshots){
+                                // lấy id trên firebase
+                                arr_sp_gy.add(new Product(d.getId(),d.getString("tensp"),
+                                        d.getLong("giatien"),d.getString("hinhanh"),
+                                        d.getString("loaisp"),d.getString("mota"),
+                                        d.getLong("soluong"),d.getString("hansudung"),
+                                        d.getLong("type"),d.getString("trongluong")));
+                            }
+                            productGYAdapter = new ProductAdapter(getContext(), arr_sp_gy, 8, new IClickOpenBottomSheet() {
+                                @Override
+                                public void onClickOpenBottomSheet(int position) {
 
-                            // Do something
-                            product = arr_sp_gy.get(position);
-                            TruyenData();
-                        }
-                    });
+                                    // Do something
+                                    product = arr_sp_gy.get(position);
+                                    TruyenData();
+                                }
+                            });
 //                    rcvSPGY.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.VERTICAL,false));
 //                    rcvSPGY.setAdapter(productGYAdapter);
-                }
+                        }
 
-            }
-        });
+                    }
+                });
     }
 
 
@@ -741,25 +741,25 @@ public class HomeFragment extends Fragment {
         firestore.collection("User").document(FirebaseAuth.getInstance().getCurrentUser().getUid())
                 .collection("Profile")
                 .get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            @Override
-            public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
-                if(queryDocumentSnapshots.size()>0){
-                    DocumentSnapshot documentSnapshot = queryDocumentSnapshots.getDocuments().get(0);
-                    if(documentSnapshot!=null){
-                        try{
-                            tvNameHome.setText(documentSnapshot.getString("hoten").length()>0 ?
-                                    documentSnapshot.getString("hoten") : "");
+                    @Override
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
+                        if(queryDocumentSnapshots.size()>0){
+                            DocumentSnapshot documentSnapshot = queryDocumentSnapshots.getDocuments().get(0);
+                            if(documentSnapshot!=null){
+                                try{
+                                    tvNameHome.setText(documentSnapshot.getString("hoten").length()>0 ?
+                                            documentSnapshot.getString("hoten") : "");
 
-                            if(documentSnapshot.getString("avatar").length()>0){
-                                Picasso.get().load(documentSnapshot.getString("avatar").trim()).into(cirAvatarHome);
+                                    if(documentSnapshot.getString("avatar").length()>0){
+                                        Picasso.get().load(documentSnapshot.getString("avatar").trim()).into(cirAvatarHome);
+                                    }
+                                }catch (Exception e){
+                                    Log.d("ERROR",e.getMessage());
+                                }
                             }
-                        }catch (Exception e){
-                            Log.d("ERROR",e.getMessage());
                         }
                     }
-                }
-            }
-        });
+                });
     }
 
     private void InitWidget() {

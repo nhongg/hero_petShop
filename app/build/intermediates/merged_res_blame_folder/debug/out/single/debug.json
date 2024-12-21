@@ -1,1582 +1,1578 @@
 [
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_baseline_notifications_none_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_baseline_notifications_none_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_mapicon.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/mapicon.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_baner_logo.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\baner_logo.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_add_cart.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_add_cart.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_hoadon_dagiao.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_hoadon_dagiao.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_logopetshop2.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/logopetshop2.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_taocombo_dichvu.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_taocombo_dichvu.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_detail_spactivity.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_detail_spactivity.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\baseline_favorite_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_circle_image.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/circle_image.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_heropetshop2.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_heropetshop2.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_yeuthich.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_yeuthich.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_food2_foreground.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner3.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner3.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_border5.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\border5.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_message.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_message.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_thongbao.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_thongbao.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_plus.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/plus.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_1.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_1.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_btn_background4.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\btn_background4.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_tune.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_tune.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\menu_customer_nav.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\menu\\customer_nav.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_sp_lau.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_sp_lau.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_cart.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_cart.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_ds_product.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_ds_product.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_user.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_user.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_cart_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/cart_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_error_image.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\error_image.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_baseline_home_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_user.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\user.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_do_uong.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_do_uong.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_demo_layout2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/demo_layout2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_hoanhang.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_hoanhang.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_cart_background2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/cart_background2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_image_slider_item.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/image_slider_item.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_addimg2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\addimg2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_boder2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/boder2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_cart2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_cart2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_action_name.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_image_tia_long.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\image_tia_long.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_heropetshop2_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_heropetshop2_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_giohang.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_giohang.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_booking_detail.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_booking_detail.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_loai_product.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_loai_product.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_circle_radius_selected.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/circle_radius_selected.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_prott.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\prott.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_admin_product.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_admin_product.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_promo.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\promo.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_splat.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/splat.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icondate.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icondate.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner_pet_3.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner_pet_3.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner_pet_2.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner_pet_2.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_circle_shape.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/circle_shape.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_email.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner1.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner1.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_radius_unselected.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\circle_radius_unselected.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_user.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_user.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_favorite_50.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_favorite_50.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_baseline_notifications_none_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_baseline_notifications_none_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_user.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_user.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_heropetshop.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_4.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_4.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_sign_up.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_item_schedule.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/item_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_sign_in.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_favorite_50.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_favorite_50.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ctr_bg.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ctr_bg.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_search_product.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_search_product.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_blue.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_blue.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_order_success.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_order_success.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_heropetshop2_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_heropetshop2_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_facebook.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/facebook.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_heropetshop2_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_heropetshop2_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_splatbackground.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/splatbackground.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_add_cart.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_add_cart.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_heropetshop2_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_heropetshop2_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_header_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\header_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_bill_main.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_bill_main.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_location_30.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_location_30.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_test.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_test.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_cthd_admin.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_cthd_admin.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_location_30.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_location_30.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_gd.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_gd.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_custom_button.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/custom_button.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_rating.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/rating.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star_off_2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star_off_2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_home3.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_home3.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_profile_menu_layout.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\profile_menu_layout.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_heropetshop2_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_heropetshop2_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_dang_giao.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_dang_giao.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_danh_gia.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_danh_gia.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_bill.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_bill.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_hot.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\hot.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_item_schedule.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\item_schedule.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_info_users.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_info_users.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_user.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_user.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_admin_product.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_admin_product.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_arrow_back_black_24dp.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_arrow_back_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_item_service_khachhang.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\item_service_khachhang.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_signin.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/signin.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_x3.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\x3.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_goiy.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_goiy.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_image_tam_rua.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/image_tam_rua.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_add_product_admin.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_add_product_admin.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_circle_red.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/circle_red.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_hoadon.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_hoadon.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner_pet_1.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner_pet_1.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_heropetshop2_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_heropetshop2_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_img_gofood.gif.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/img_gofood.gif"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_discount_balloons.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\discount_balloons.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_schedule_list.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_schedule_list.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_user.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_user.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_schedule.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_image_tam_rua.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\image_tam_rua.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_food1.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/food1.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_custom_button.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\custom_button.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_camera.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/camera.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_baseline_description_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_baseline_description_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_custom_progress_bar.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/custom_progress_bar.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ratingbar_full_filled.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ratingbar_full_filled.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_item_service.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/item_service.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_heropetshop.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_binhluan.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_binhluan.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_cart.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_cart.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_favorite_red.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_favorite_red.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_btn_background6.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\btn_background6.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_action_name.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_action_name.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_profile.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/profile.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_chart_bill.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_chart_bill.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_heropetshop2_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_heropetshop2_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_custom_edt_shape.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\custom_edt_shape.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_like.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_like.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_com.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\com.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_item_combo_dv.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/item_combo_dv.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_comment.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_comment.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_loading.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_loading.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_hj.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/hj.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_success.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_success.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_food2_foreground.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_lichsu_search.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_lichsu_search.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_genderlogo.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\genderlogo.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_edittext.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/edittext.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_contact.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_contact.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_splat2.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/splat2.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_contact.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_contact.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_border3.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/border3.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_cthdactivity.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_cthdactivity.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star_on.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star_on.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_3.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_3.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_pl.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/pl.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_promc.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\promc.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_thanhtoan.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_thanhtoan.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_thanhtoan.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_thanhtoan.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner_pet_4.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner_pet_4.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_baseline_description_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_baseline_description_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_iconpromo.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\iconpromo.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_contact.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_contact.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_dang_giao.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_dang_giao.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_food2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_item_service.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\item_service.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_x2.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/x2.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_success.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_success.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_admin_users.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_admin_users.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_bill.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/bill.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_iphone_se_30.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_iphone_se_30.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_addimg.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/addimg.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_food2_round.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_food2_round.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_background_right.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/background_right.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_booking_list.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_booking_list.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_mancho.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/mancho.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_food2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_brcq.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/brcq.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_pl.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\pl.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_profile_menu_layout.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/profile_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_hoadon_khac.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_hoadon_khac.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_discount_balloons.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/discount_balloons.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_home3.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_home3.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_check_black_24dp.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_check_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_boder1.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\boder1.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_rating.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_rating.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_heropetshop.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_baseline_logout_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_baseline_logout_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_heropetshop2_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_heropetshop2_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_chart_bill.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_chart_bill.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_food2_foreground.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_dang_xu_ly.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_dang_xu_ly.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_red.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\circle_red.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_cthd_admin.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_cthd_admin.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_chat_item_right.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\chat_item_right.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_user.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_user.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_img_gofood.gif.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\img_gofood.gif"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_notify.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_notify.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_heropetshop2_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_heropetshop2_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_btn_background5.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/btn_background5.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_add_users.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_add_users.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_service.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_service.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_success2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_success2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_hoanhang.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_hoanhang.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_add_service.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_add_service.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_goiy.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_goiy.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_profile.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_banner4.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/banner4.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_booking_list.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_booking_list.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_user_item.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/user_item.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_next.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_next.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_custom_edittext.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/custom_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_da_giao.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_da_giao.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_btn_background6.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/btn_background6.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_sp_lau.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_sp_lau.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_logo_heropetshop2_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_logo_heropetshop2_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\menu_toolbar_menu.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\menu\\toolbar_menu.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_favorite.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_chitiet_hoadon.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_chitiet_hoadon.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_all_comment.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_all_comment.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_favorite.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\menu_schedule_menu.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\menu\\schedule_menu.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_placeholder.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/placeholder.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_top_background.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\top_background.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_heropetshop2_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_heropetshop2_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_map.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\map.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_x3.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/x3.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_manage_images.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_manage_images.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_sign_out.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_sign_out.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_back_white.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_back_white.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\menu_menu_love.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\menu\\menu_love.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_top_background.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/top_background.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_orange_button.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\orange_button.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/menu_customer_nav.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/menu/customer_nav.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_message.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_message.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_shutdown.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_shutdown.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_item_booking.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\item_booking.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_hoadon_dagiao.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_hoadon_dagiao.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_food2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icon_star.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icon_star.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_search.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_logo_heropetshop2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_logo_heropetshop2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_heropetshop.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_gender.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_gender.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_food2_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_baner_logo.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/baner_logo.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_boder2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\boder2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_discount.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_discount.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star_off_ver2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star_off_ver2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_baseline_favorite_border_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\baseline_home_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_neutral.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/neutral.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_mapicon.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\mapicon.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/menu_schedule_menu.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/menu/schedule_menu.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_logo_heropetshop2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_logo_heropetshop2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_calendar.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_calendar.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_user_item.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\user_item.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_toggle_selector.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/toggle_selector.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_button.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\button.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star_off_3.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star_off_3.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_info_users.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_info_users.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_image_tia_long.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/image_tia_long.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_layout_bg3.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\layout_bg3.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_product.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_product.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_google.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\google.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_5.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_5.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_dashboard2.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\dashboard2.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_refresh_black_24dp.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_refresh_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_all_comment.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_all_comment.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_update_trangthai.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_update_trangthai.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_logo.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\logo.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star_off_ver2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star_off_ver2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner2.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner2.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_hoadon_khac.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_hoadon_khac.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_loadingxxml.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_loadingxxml.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_logo_heropetshop2_round.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_logo_heropetshop2_round.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_user.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_user.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_item_service_khachhang.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/item_service_khachhang.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_banner4.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\banner4.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_do_uong.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_do_uong.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_shadow_imageview.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\shadow_imageview.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_next.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_next.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_backgroundpet1.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\backgroundpet1.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/menu_menu_love.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/menu/menu_love.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_splat2.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\splat2.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_baseline_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_category.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_category.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_heropetshop2.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_heropetshop2.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_bill_main.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_bill_main.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_profile.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_profile.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_camera.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_camera.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_heropetshop_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_heropetshop_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_avatar_default.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_avatar_default.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_edittext2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/edittext2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_gender.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_gender.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_custom_edittext.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\custom_edittext.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icondate.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icondate.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_neutral.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\neutral.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_profile.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_danhgia.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_danhgia.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_detail_service.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_detail_service.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_notify.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_notify.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_booking_list.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_booking_list.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_card_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\card_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_da_giao.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_da_giao.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_banner.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_banner.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_curve_bottom.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/curve_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_weight.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_weight.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star_off_2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star_off_2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_minus.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\minus.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_gd.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_gd.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_add_spactivity.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_add_spactivity.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_prott.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/prott.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_rcq.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\rcq.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_add_users.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_add_users.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_custom_ratingbar_selector.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\custom_ratingbar_selector.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_com.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/com.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_background_signin_user.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\background_signin_user.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_minus.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/minus.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_logo_heropetshop_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_logo_heropetshop_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_baseline_supervised_user_circle_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/baseline_supervised_user_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_layout_bg4.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\layout_bg4.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_user_demochat.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_user_demochat.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_shutdown.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_shutdown.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_arrow_drop_down_black_24dp.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_arrow_drop_down_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_cart_background2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\cart_background2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_x1.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/x1.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_item_combo_dv.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\item_combo_dv.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_x1.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\x1.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_paypay.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_paypay.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_thongke.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_thongke.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ratingbar_full_empty.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ratingbar_full_empty.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner1.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner1.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_loadingxxml.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_loadingxxml.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_logodasua2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\logodasua2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_loading.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_loading.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_category.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_category.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_iphone_se_30.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_iphone_se_30.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_favorite.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_favorite.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_promo.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/promo.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_favorite.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_favorite.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_heropetshop2.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_heropetshop2.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_baseline_edit_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_baseline_edit_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_thongbao.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_thongbao.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_layout_bg.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\layout_bg.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_hoadon.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_hoadon.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_search_product.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_search_product.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_baseline_signal_cellular_connected_no_internet_4_bar_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_profile2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\profile2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_backgroundpet1.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/backgroundpet1.png"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_shadow_imageview.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/shadow_imageview.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_orange_button.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/orange_button.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_thongke.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_thongke.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_blue.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_blue.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_food2_foreground.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_food2_foreground.png"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_bill.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_bill.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_1.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_1.png"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_add_service.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_add_service.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_food2_foreground.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_food2_foreground.png"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_logo_heropetshop_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_logo_heropetshop_background.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_food2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_food2.png"
+    },
+    {
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_dashboard2.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/dashboard2.jpg"
     },
     {
         "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_taocombo_dichvu.xml.flat",
         "source": "com.example.heroPetShop.app-main-35:/layout/activity_taocombo_dichvu.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_fg.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\fg.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_dl_test.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_dl_test.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icon_star_off.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icon_star_off.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_boder_score.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/boder_score.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_food2_foreground.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_hot.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/hot.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_yeuthich.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_yeuthich.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_back_white.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_back_white.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_pop_1.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\pop_1.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner_pet_4.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner_pet_4.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_mancho.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\mancho.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_chat.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_chat.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner2.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner2.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_gd2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_gd2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_heropetshop2.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_heropetshop2.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_home.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icon_banner.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icon_banner.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_test.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_test.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_btn_background5.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\btn_background5.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_heropetshop2_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_heropetshop2_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_splash.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_test.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_test.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_addimg.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\addimg.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_card_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/card_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_background_right.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\background_right.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_logo.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/logo.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_qr.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_qr.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_toolbar_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/toolbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_placeholder.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\placeholder.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_sign_up.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_sign_up.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star_off_3.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star_off_3.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_admin.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_admin.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_heropetshop.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_x2.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\x2.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_category.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_category.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_rating.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_rating.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/menu_toolbar_menu.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/menu/toolbar_menu.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_toolbar_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\toolbar_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_baseline_edit_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_arrow_back_black_24dp.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_arrow_back_black_24dp.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_card.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_card.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_logo_heropetshop_round.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_logo_heropetshop_round.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_cart.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_success2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_success2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_chat.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star_off.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star_off.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_weight.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_weight.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_plus.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\plus.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_booking_list.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_booking_list.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star_on_ver2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star_on_ver2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_danhgia.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_danhgia.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_food2_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_bcakground_title_article.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/bcakground_title_article.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_message.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_message.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_iconpromo.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/iconpromo.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_detail_spactivity.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_detail_spactivity.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icon_like.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icon_like.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_calendar.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_calendar.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_banner_pet_2.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/banner_pet_2.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_email.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_email.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_food_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_food_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_cart3.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_cart3.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_clear.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_heropetshop.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_heropetshop.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_curve_bottom.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\curve_bottom.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_heropetshop_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_heropetshop_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_food_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_food_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_logo_heropetshop_round.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_logo_heropetshop_round.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_pizzahead.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\pizzahead.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_sp_goiy.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_sp_goiy.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_edit_schedule.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_edit_schedule.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_background_left.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/background_left.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_lichsu_search.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_lichsu_search.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_bill.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_bill.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_product.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_product.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_food2_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_order_success.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_order_success.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_rcq.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/rcq.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_logo_heropetshop2_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_logo_heropetshop2_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_manage_images.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_manage_images.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_users.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_users.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_camera.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_camera.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_4.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_4.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_notification.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_notification.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_discount.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_discount.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_home.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_home.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_like.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_like.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_food2_foreground.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star_on.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star_on.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_heropetshop.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_food2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_heropetshop2.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_heropetshop2.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_admin_users.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_admin_users.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_3.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_3.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icon_banner.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icon_banner.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_home2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_home2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_circle_radius_unselected.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/circle_radius_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_boder1.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/boder1.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star_off.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star_off.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_banner.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_banner.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_sp_hanquoc.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_sp_hanquoc.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_flashs.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\flashs.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_food2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_facebook.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\facebook.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_image_dieu_tri.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/image_dieu_tri.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_forgot_password.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_genderlogo.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/genderlogo.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_clear.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_clear.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_pop_1.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/pop_1.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_layout_bg2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\layout_bg2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_food2_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner_pet_3.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner_pet_3.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_food2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_food2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_profile.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_profile.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_demo_layout1.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/demo_layout1.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_toggle_selector.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\toggle_selector.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_danh_gia.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_danh_gia.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner3.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner3.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_contact.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_contact.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_image_dieu_tri.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\image_dieu_tri.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_favorite.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_sign_up.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_sign_up.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_splash.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_edittext.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\edittext.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icon_star_off.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icon_star_off.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_main.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_user.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/user.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_gd2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_gd2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_service.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_service.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_heropetshop2_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_heropetshop2_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_food2_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_food2_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_food2_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_food2_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_dang_xu_ly.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_dang_xu_ly.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_test.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/test.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_favorite.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_favorite.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_add_spactivity.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_add_spactivity.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_heropetshop2.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_heropetshop2.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_chat_item_right.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/chat_item_right.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_button2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\button2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_demo_layout2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\demo_layout2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_users.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_users.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_user_demochat.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_user_demochat.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_promc.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/promc.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_logopetshop2.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\logopetshop2.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dialog_profile.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dialog_profile.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_radius_selected.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\circle_radius_selected.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_food2_foreground.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_logo_heropetshop2_round.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_logo_heropetshop2_round.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_cart3.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_cart3.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_comment.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_comment.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_baseline_favorite_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/baseline_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_diachi.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\diachi.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_addimg2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/addimg2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_image.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\circle_image.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_account_30.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_account_30.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_add_loai_spactivity.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_add_loai_spactivity.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_chat_item_left.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/chat_item_left.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_bill.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\bill.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_layout_bg2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/layout_bg2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_product_noibat.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_product_noibat.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_sp_yeuthich.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_sp_yeuthich.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_paypay.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_paypay.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_kem.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/kem.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_bill.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_bill.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_btn_background4.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/btn_background4.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_unlike.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_unlike.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_cart4.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_cart4.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ratingbar_full_empty.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ratingbar_full_empty.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_food2_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_custom_progress_bar.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\custom_progress_bar.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_edt_search.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_edt_search.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_profile2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/profile2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_boder_score.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\boder_score.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_map.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/map.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_detail_service.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_detail_service.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_cart.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_cart.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_loai_product.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_loai_product.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_test.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\test.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_avatar_default.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_avatar_default.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_refresh_black_24dp.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_refresh_black_24dp.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_qr.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_qr.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_mapppp.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\mapppp.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_google.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/google.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_food1.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\food1.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_button.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/button.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_admin_home.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_admin_home.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_add_product_admin.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_add_product_admin.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_bcakground_title_article.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\bcakground_title_article.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_heropetshop.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icon_like.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icon_like.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_layout_bg3.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/layout_bg3.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_rating.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\rating.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_food2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_bill.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_bill.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_header_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/header_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_cart_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\cart_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_search_view_bg.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/search_view_bg.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_admin3.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_admin3.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_food2_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_sp_goiy.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_sp_goiy.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_heropetshop2_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_heropetshop2_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_hj.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\hj.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_custom_ratingbar_selector.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/custom_ratingbar_selector.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icon_unlike.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icon_unlike.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_chitiet_hoadon.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_chitiet_hoadon.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_background_left.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\background_left.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_heropetshop2.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_heropetshop2.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_cthdactivity.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_cthdactivity.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ctr_bg.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ctr_bg.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_check_black_24dp.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_check_black_24dp.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_binhluan.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_binhluan.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_logo_heropetshop2.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_logo_heropetshop2.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_circle_shape_yellow.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/circle_shape_yellow.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_btn.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_btn.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_pizzahead.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/pizzahead.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_sign_out.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_sign_out.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_persistent_bottom_sheet.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_persistent_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_da_huy.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_da_huy.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_cthdactivity.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_cthdactivity.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_demo_layout1.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\demo_layout1.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_product_noibat.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_product_noibat.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_profile.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_profile.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_cart.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_heropetshop_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_heropetshop_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_shadow_gradient.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/shadow_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_home2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_home2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_home.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_heropetshop2.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_heropetshop2.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_edt_search.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_edt_search.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_btn_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\btn_background.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_back.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_back.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_tune.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_tune.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_edit_schedule.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_edit_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_image_slider_item.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\image_slider_item.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_mic.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_mic.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_persistent_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_persistent_bottom_sheet.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_food2_round.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_food2_round.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dialog_update_trangthai.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dialog_update_trangthai.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_item_booking.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/item_booking.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_shape_yellow.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\circle_shape_yellow.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_custom_dong_auto_text.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/custom_dong_auto_text.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_header_8.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_header_8.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_home.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_user.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_user.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_logo_user.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_logo_user.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_yeuthich.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_yeuthich.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ratingbar_full_filled.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ratingbar_full_filled.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_bill.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_bill.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_email.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_edittext2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\edittext2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_bg_round.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\bg_round.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_btn_background3.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/btn_background3.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_kem.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\kem.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_money.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_money.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_goodbye.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_goodbye.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_logo_user.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_logo_user.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_ds_product.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_ds_product.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_cart2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_cart2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_star.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_star.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_home.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_home.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_sp_micay.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_sp_micay.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_cthdactivity.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_cthdactivity.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_favorite_red.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_favorite_red.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_search.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_search.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_splat.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\splat.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_food2_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_custom_dong_auto_text.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\custom_dong_auto_text.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_message.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_message.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_dl_test.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_dl_test.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_sp_micay.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_sp_micay.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_layout_home.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\layout_home.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_logo_heropetshop.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_test.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_test.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xhdpi_ic_logo_heropetshop2_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xhdpi/ic_logo_heropetshop2_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_food2_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_layout_goodbye.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/layout_goodbye.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_profile.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\profile.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_btn.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_btn.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_heropetshop2_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_heropetshop2_round.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_search.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_mic.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_mic.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_password_change.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_password_change.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_error_image.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/error_image.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_password_change.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_password_change.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_fg.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/fg.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_diachi.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/diachi.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_notification.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_notification.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_category.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_category.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_back.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_back.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_heropetshop2_foreground.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_heropetshop2_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_food2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_food2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_user.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_user.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_fragment_schedule.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\fragment_schedule.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-anydpi-v26_ic_logo_heropetshop.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-anydpi-v26/ic_logo_heropetshop.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_sp_hanquoc.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_sp_hanquoc.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_btn_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/btn_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_heropetshop_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_heropetshop_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_border5.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/border5.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icon_back_white.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icon_back_white.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_edittext_background.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/edittext_background.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_booking.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_booking.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_layout_bg.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/layout_bg.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_dong_sp_yeuthich.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\dong_sp_yeuthich.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxxhdpi_ic_food2_foreground.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxxhdpi/ic_food2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_baseline_pie_chart_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_baseline_pie_chart_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_food2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_food2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_heropetshop2_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_heropetshop2_foreground.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icon_back_white.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icon_back_white.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_baseline_favorite_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_heropetshop.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_heropetshop.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-hdpi_ic_logo_user.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-hdpi\\ic_logo_user.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_dong_giohang.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/dong_giohang.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_food2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icons8_email.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icons8_email.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icons8_account_30.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icons8_account_30.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_layout_bg4.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/layout_bg4.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_admin.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_admin.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_mappp.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/mappp.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_btn_background2.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\btn_background2.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_button2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/button2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_baseline_supervised_user_circle_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\baseline_supervised_user_circle_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_item_image.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/item_image.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_food2_foreground.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_food2_foreground.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_schedule_list.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_schedule_list.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_btn_background2.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/btn_background2.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_unlike.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_unlike.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_logo_heropetshop2.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_logo_heropetshop2.webp"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_background_signin_user.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/background_signin_user.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_icon_star.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\icon_star.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_ic_baseline_pie_chart_24.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/ic_baseline_pie_chart_24.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_baseline_favorite_border_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_baseline_favorite_border_24.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_bg_round.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/bg_round.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_search_view_bg.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\search_view_bg.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_booking.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_booking.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_admin3.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_admin3.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-anydpi-v26_ic_logo_heropetshop.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-anydpi-v26\\ic_logo_heropetshop.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_star_on_ver2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_star_on_ver2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_5.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_5.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_home.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_mapppp.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/mapppp.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-mdpi_ic_food2.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-mdpi\\ic_food2.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_logodasua2.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/logodasua2.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_btn_background3.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\btn_background3.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_logo3.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/logo3.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_camera.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\camera.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable-v24_custom_edt_shape.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable-v24/custom_edt_shape.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_background_header_8.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/background_header_8.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_cart4.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_cart4.png"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_da_huy.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_da_huy.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_ic_money.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\ic_money.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_ic_yeuthich.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/ic_yeuthich.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_signin.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\signin.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-xxhdpi_ic_logo_heropetshop2_round.webp.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-xxhdpi/ic_logo_heropetshop2_round.webp"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_search.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_search.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_flashs.jpg.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/flashs.jpg"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_border3.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\border3.xml"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/drawable_icon_unlike.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/drawable/icon_unlike.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_banner_pet_1.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\banner_pet_1.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_fragment_cart.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/fragment_cart.xml"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_brcq.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\brcq.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/mipmap-hdpi_ic_food2_round.png.flat",
+        "source": "com.example.heroPetShop.app-main-35:/mipmap-hdpi/ic_food2_round.png"
     },
     {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_circle_shape.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\circle_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_heropetshop2_round.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_heropetshop2_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_arrow_drop_down_black_24dp.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_arrow_drop_down_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_chat_item_left.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\chat_item_left.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_activity_booking_detail.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\activity_booking_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable-v24_ic_baseline_logout_24.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable-v24\\ic_baseline_logout_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_edittext_background.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\edittext_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_mappp.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\mappp.png"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_shadow_gradient.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\shadow_gradient.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_logo3.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\logo3.png"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_background_card.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\background_card.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xhdpi_ic_food2_round.png.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xhdpi\\ic_food2_round.png"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\mipmap-xxxhdpi_ic_logo_heropetshop2_foreground.webp.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\mipmap-xxxhdpi\\ic_logo_heropetshop2_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\layout_item_image.xml.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\layout\\item_image.xml"
-    },
-    {
-        "merged": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-merged_res-33:\\drawable_splatbackground.jpg.flat",
-        "source": "C:\\Users\\whyso\\.gradle\\daemon\\8.8\\com.example.heroPetShop.app-main-35:\\drawable\\splatbackground.jpg"
+        "merged": "com.example.heroPetShop.app-merged_res-33:/layout_activity_admin_add_loai_spactivity.xml.flat",
+        "source": "com.example.heroPetShop.app-main-35:/layout/activity_admin_add_loai_spactivity.xml"
     }
 ]

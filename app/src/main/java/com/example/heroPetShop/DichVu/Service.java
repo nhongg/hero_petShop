@@ -10,6 +10,8 @@ public class Service {
     private long thoiGian;        // Thời gian thực hiện dịch vụ (phút)
     private boolean hoatDong;     // Trạng thái hoạt động (true = đang mở, false = ngừng cung cấp)
 
+    private String img;
+
     // Constructor rỗng (bắt buộc cho Firestore)
     public Service() {}
 
@@ -21,9 +23,20 @@ public class Service {
         this.gia = gia;
         this.thoiGian = thoiGian;
         this.hoatDong = hoatDong;
+        this.img = img;
     }
 
     // Getters và Setters
+
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
     public String getIdDichVu() {
         return idDichVu;
     }

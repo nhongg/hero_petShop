@@ -2671,6 +2671,7 @@ id img_chat
 id img_cthd
 id img_danhgia
 id img_detail
+id img_dichvu
 id img_dong_all_cmt
 id img_dong_danhgia
 id img_favorite
@@ -2702,6 +2703,7 @@ id labeled
 id layout
 id layout_add
 id layout_category
+id layout_dichvu
 id layout_favorite
 id layout_hoadon
 id layout_logout
@@ -3105,6 +3107,7 @@ id tv_gia_detail
 id tv_gia_favorite
 id tv_gia_search
 id tv_giatien_cthd
+id tv_giatien_dichvu
 id tv_giatien_dong_danhgia
 id tv_giatien_giohang
 id tv_giatien_product
@@ -3170,6 +3173,7 @@ id tv_ten_admin
 id tv_ten_bottom
 id tv_ten_category
 id tv_ten_cthd
+id tv_ten_dichvu
 id tv_ten_favorite
 id tv_ten_giohang
 id tv_ten_product

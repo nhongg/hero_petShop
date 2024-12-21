@@ -6,13 +6,19 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.heroPetShop.R;
+import com.google.firebase.database.annotations.NotNull;
+import com.squareup.picasso.Picasso;
 
+import java.security.Provider;
 import java.util.List;
 
 public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.ServiceViewHolder> {
@@ -42,11 +48,19 @@ public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.Se
     }
 
     public class ServiceViewHolder extends RecyclerView.ViewHolder {
-        private TextView txtServiceName;
+
+        private TextView tvTenDV, tvGiaDV, tvTrongluongDV, tvSoluongDV;
+        private ImageView imgDV;
+        private LinearLayout layoutDV;
 
         public ServiceViewHolder(View itemView) {
             super(itemView);
-            txtServiceName = itemView.findViewById(R.id.tDichVu);
+            tvTenDV = itemView.findViewById(R.id.tv_ten_dichvu);
+            tvGiaDV = itemView.findViewById(R.id.tv_giatien_dichvu);
+            imgDV = itemView.findViewById(R.id.img_dichvu);
+
+
+            layoutDV = itemView.findViewById(R.id.layout_dichvu);
 
             // Xử lý click item
             itemView.setOnClickListener(v -> {
@@ -70,7 +84,12 @@ public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.Se
         }
 
         public void bind(Service service) {
-            txtServiceName.setText(service.getTenDichVu());
+            tvTenDV.setText(service.getTenDichVu());
+            tvGiaDV.setText(String.valueOf(service.getGia()));
+            Picasso.get().load(service.getImg()).into(imgDV);
         }
     }
+
+
+
 }

@@ -66,6 +66,12 @@ public class TaoComboDichVu extends AppCompatActivity {
             }
 
         });
+
+
+
+
+
+
         // Tìm Button và xử lý sự kiện click
         Button btnSendToBooking = findViewById(R.id.btnSendToBooking);
         btnSendToBooking.setOnClickListener(new View.OnClickListener() {
@@ -135,7 +141,7 @@ public class TaoComboDichVu extends AppCompatActivity {
 
     private void setupDichVu() {
         rcv_dv = findViewById(R.id.recyclerView);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(TaoComboDichVu.this, LinearLayoutManager.HORIZONTAL, false);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(TaoComboDichVu.this, LinearLayoutManager.VERTICAL, false);
         rcv_dv.setLayoutManager(layoutManager);
 
         serviceAdapter = new ComBoServiceAdapter(serviceList, TaoComboDichVu.this);

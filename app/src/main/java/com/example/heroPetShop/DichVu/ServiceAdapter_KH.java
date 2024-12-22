@@ -19,6 +19,7 @@ import com.google.firebase.database.annotations.NotNull;
 import com.squareup.picasso.Picasso;
 
 import java.security.Provider;
+import java.text.DecimalFormat;
 import java.util.List;
 
 public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.ServiceViewHolder> {
@@ -85,8 +86,14 @@ public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.Se
 
         public void bind(Service service) {
             tvTenDV.setText(service.getTenDichVu());
-            tvGiaDV.setText(String.valueOf(service.getGia()));
             Picasso.get().load(service.getImg()).into(imgDV);
+            double price = service.getGia();
+            DecimalFormat df = new DecimalFormat("#,###.##"); // Định dạng số
+            String formattedPrice = df.format(price); // Định dạng giá
+
+            // Thêm "VND" vào cuối
+            tvGiaDV.setText(formattedPrice);
+
         }
     }
 

@@ -54,6 +54,12 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         holder.txtThoiGian.setText(formatDate(booking.getThoiGianDatLich().getTime()));
         holder.txtTrangThai.setText(booking.getTrangThai());
 
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, BookingDetailActivity.class);
+            intent.putExtra("bookingDetail", booking);  // Truyền booking đến Activity chi tiết
+            context.startActivity(intent);
+        });
+
 
         // Kiểm tra trạng thái của booking, nếu là "Hoàn thành" thì không cho phép long-click
         if (!"Hoàn thành".equals(booking.getTrangThai())) {

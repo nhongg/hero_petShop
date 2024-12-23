@@ -77,6 +77,7 @@ public class ServiceAdapter_KH extends RecyclerView.Adapter<ServiceAdapter_KH.Se
                     intent.putExtra("thoiGian", clickedService.getThoiGian());
                     intent.putExtra("hoatDong", clickedService.isHoatDong());
                     intent.putExtra("serviceId", clickedService.getIdDichVu());
+                    intent.putExtra("img", clickedService.getImg());
 
                     context.startActivity(intent);
 

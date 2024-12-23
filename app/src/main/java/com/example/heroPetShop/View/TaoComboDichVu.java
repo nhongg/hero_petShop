@@ -67,11 +67,6 @@ public class TaoComboDichVu extends AppCompatActivity {
 
         });
 
-
-
-
-
-
         // Tìm Button và xử lý sự kiện click
         Button btnSendToBooking = findViewById(R.id.btnSendToBooking);
         btnSendToBooking.setOnClickListener(new View.OnClickListener() {

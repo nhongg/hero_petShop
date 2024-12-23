@@ -93,7 +93,7 @@ public class ComBoServiceAdapter extends RecyclerView.Adapter<ComBoServiceAdapte
                 intent.putExtra("gia", service.getGia());
                 intent.putExtra("thoiGian", service.getThoiGian());
                 intent.putExtra("hoatDong", service.isHoatDong());
-                intent.putExtra("imgDichVu", service.getImg());
+                intent.putExtra("img", service.getImg());
                 intent.putExtra("serviceId", service.getIdDichVu());
 
                 context.startActivity(intent); // Mở Activity chi tiết

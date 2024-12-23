@@ -1,176 +1,272 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    >
+    tools:context=".View.DetailSPActivity"
+    android:backgroundTint="#2196F3"
+    android:background="@drawable/ctr_bg">
 
-    <RelativeLayout
-        android:id="@+id/RelativeLayout"
-        android:background="#0000BCD4"
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        >
-        <ImageView
-            android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"
-            android:id="@+id/img_back_banner"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_back"
-            app:tint="#00B1FF" />
-        <TextView
-            android:textSize="22sp"
-            android:layout_centerInParent="true"
-            android:id="@+id/text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Chi tiết dịch vụ"
-            android:textColor="#03A9F4"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-medium" />
-    </RelativeLayout>
+        android:fitsSystemWindows="true"
+        android:layout_height="280dp">
 
-    <LinearLayout
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:background="@drawable/ctr_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@style/CollapsingToolbarLayoutExpandedTextStyle"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Gà rang muối"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            android:id="@+id/collapsing_toolbar">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- ImageView hiển thị hình ảnh -->
+                <ImageView
+                    android:id="@+id/imagedichvuDV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/banner2"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="2dp"
+                    app:layout_collapseMode="parallax" />
+
+                <!-- Lớp phủ (fade mờ) -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/shadow_gradient" />
+            </FrameLayout>
+
+            <androidx.appcompat.widget.AppCompatToggleButton
+                android:textOn=""
+                android:textOff=""
+                android:id="@+id/toogle_btn_favorite"
+                android:layout_margin="10dp"
+                android:layout_gravity="end"
+                android:background="@drawable/toggle_selector"
+                android:onClick="onDefaultToggleClick"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_detail"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:layout_gravity="center|bottom"
+        android:id="@+id/view_end_animation"
+        android:visibility="invisible"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:background="@drawable/layout_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/imagedichvu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-
-            android:src="@drawable/image_tam_rua" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-   android:paddingRight="10dp"
-    android:paddingLeft="10dp"
-    android:orientation="vertical">
-
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:text="Dịch Vụ: "
-                android:textColor="#000000"
-                android:layout_marginTop="16dp" />
-            <TextView
-                android:id="@+id/txtServiceName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="#4CAF50"
-                android:text="Tên Dịch Vụ"
-                android:layout_marginTop="16dp" />
-        </LinearLayout>
-
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <!-- Cột "Giá" bên trái -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="18dp"
-                android:text="Giá: "
-                android:textColor="#FF5722"
-                android:textStyle="bold" />
-            <TextView
-                android:id="@+id/txtPrice"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="35dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Giá dịch vụ"
-                android:textColor="#FF5722"
-                android:textSize="16dp"
-                android:textStyle="bold" />
-        </LinearLayout>
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giá: "
+                    android:textSize="16sp"/>
+                <TextView
+                    android:id="@+id/txtPrice"
+                    android:textColor="#F44336"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="76.000"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:textColor="#F44336"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" VNĐ"
+                    android:textSize="16sp"/>
+            </LinearLayout>
 
-        <!-- Cột "Thời gian" bên phải -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="end"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="35dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="18dp"
-                android:text="Thời gian: "
-                android:textColor="#444444" />
-            <TextView
-                android:id="@+id/txtTime"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="16dp"
-                android:text="Thời gian"
-                android:textColor="#444444" />
-        </LinearLayout>
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thời gian: "/>
 
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 tiếng"/>
+            </LinearLayout>
 
 
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
-            <TextView
+
+
+            <View
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#03A9F4"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_alignParentBottom="true">
+
+                <!-- Button Đặt Lịch -->
+                <Button
+                    android:id="@+id/btn_datlich2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Đặt Lịch"
+                    android:textColor="#ffffff"
+                    android:backgroundTint="#23A85C"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    />
+
+                <!-- Button Thêm vào Giỏ Hàng -->
+                <Button
+                    android:id="@+id/btn_add_to_cart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chọn thêm dịch vụ"
+                    android:textColor="#ffffff"
+                    android:backgroundTint="#FFC107"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="3dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:text="Mô tả : "
-                android:textColor="#000000" />
+                android:text="Mô tả"
+                android:textStyle="bold"
+                android:textColor="#03A9F4"/>
+
             <TextView
                 android:id="@+id/txtDescription"
+                android:textSize="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:text="Mô tả dịch vụ"
-                android:textColor="#666666" />
+                android:text="Các món ngon từ gà có nhiều vô số kể, với đa dạng cách chế biến hấp dẫn, thơm ngon, đậm đà đầy lôi cuốn.Vậy bạn đã biết đến công thức gà rang muối chuẩn vị, dễ thực hiện này chưa. Cùng tôi vào bếp và thực hiện ngay món ăn bổ dưỡng này nhé." />
 
-            <Button
-            android:id="@+id/btnDatLich"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="Đặt Lịch"
-            android:layout_gravity="center"
-            android:backgroundTint="#00B0FF"
-            android:textColor="@android:color/white"
-            android:textSize="15sp"
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:background="@color/colorGray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mọi người nhận xét"/>
 
-            android:layout_marginBottom="16dp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv_binhluan"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:id="@+id/linear_show_all_cmt"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Xem tất cả bình luận" />
+
+                    <ImageView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_next"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
 
 
-    </LinearLayout>
-</LinearLayout>
 
-    </LinearLayout>
-</LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <ImageView
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom"
+        android:layout_marginRight="30dp"
+        android:id="@+id/view_animation"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

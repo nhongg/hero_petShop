@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="290dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_cancel_dialog"
+            android:layout_gravity="end"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Vui lòng xác thực mã otp qua số điện thoại hoăc email của bạn để có thể đặt lịch!"/>
+
+        <TextView
+            android:id="@+id/txt_sdt_email_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="8dp"
+            android:text="098765421"/>
+
+        <EditText
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:hint="Xác nhận mã OTP"
+            android:inputType="number"
+            android:background="@drawable/bg_otp"
+            android:maxLength="6"
+            android:id="@+id/edt_otp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/txt_countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có thể gửi lại sau: 30 giây"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:visibility="invisible"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="15dp"
+            android:gravity="center">
+
+            <Button
+                android:elevation="5dp"
+                android:id="@+id/btn_guiOTP"
+                android:layout_gravity="center"
+                android:text="Gửi"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_blue"
+                android:layout_width="120dp"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:elevation="5dp"
+                android:id="@+id/btn_xacthuc"
+                android:layout_gravity="center"
+                android:text="Xác nhận"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_blue"
+                android:layout_width="120dp"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

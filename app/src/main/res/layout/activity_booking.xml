@@ -283,10 +283,22 @@
                     android:textSize="16sp"
                     android:padding="8dp" />
 
+                <RadioButton
+                    android:id="@+id/rdoXacNhanOTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chưa xác thực danh tính"
+                    android:layout_marginTop="10dp"
+                    android:enabled="false"
+                    android:clickable="false"
+                    android:textStyle="italic|bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/Red"
+                    android:buttonTint="@color/Red"/>
 
                 <Button
                     android:id="@+id/btnDatLich"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFC107"

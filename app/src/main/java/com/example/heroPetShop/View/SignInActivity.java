@@ -8,6 +8,7 @@ import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
@@ -114,6 +115,9 @@ public class SignInActivity extends AppCompatActivity {
                                                 @Override
                                                 public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                                                     if (task.isSuccessful()){
+                                                        // Lưu email vào SharedPreferences
+                                                        saveUserEmail(strEmail);
+
                                                         Intent intent = new Intent(SignInActivity.this, MainActivity.class);
                                                         startActivity(intent);
                                                         finishAffinity();
@@ -206,4 +210,13 @@ public class SignInActivity extends AppCompatActivity {
         super.onPause();
         LocalBroadcastManager.getInstance(this).unregisterReceiver(MyReceiver);
     }
+
+    // lưu email người dùng
+    private void saveUserEmail(String email) {
+        SharedPreferences sharedPreferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("user_email", email);
+        editor.apply();
+    }
+
 }

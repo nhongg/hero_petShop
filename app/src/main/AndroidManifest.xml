@@ -75,6 +75,9 @@
             android:name=".Booking.BookingDetailActivity"
             android:exported="true" />
         <activity
+            android:name=".Booking.OrderSuccessdv"
+            android:exported="true" />
+        <activity
             android:name=".NotifyActivity"
             android:exported="true" />
         <activity

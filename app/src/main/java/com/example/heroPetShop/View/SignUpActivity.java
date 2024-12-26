@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,7 +29,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.annotations.NotNull;
 import com.google.firebase.firestore.FirebaseFirestore;
-
+import com.google.firebase.messaging.FirebaseMessaging;
 
 
 import java.util.HashMap;
@@ -38,6 +39,8 @@ public class SignUpActivity extends AppCompatActivity {
     private EditText edtSignUpEmail, edtSignUpPassword, edtSignUpConfirm;
     private Button btnSignUpDangKy;
     private TextView tvLoginUser;
+
+    private final String[] token = {""};
 
     DatabaseReference reference1, reference2;
 
@@ -64,50 +67,81 @@ public class SignUpActivity extends AppCompatActivity {
                 String email = edtSignUpEmail.getText().toString().trim();
                 String pass = edtSignUpPassword.getText().toString().trim();
                 String confirm = edtSignUpConfirm.getText().toString().trim();
-                if (email.length() > 0){
-                    if (pass.length() > 0){
-                        if (pass.equals(confirm)){
+
+                if (email.length() > 0) {
+                    if (pass.length() > 0) {
+                        if (pass.equals(confirm)) {
                             FirebaseAuth auth = FirebaseAuth.getInstance();
+
+                            // Đăng ký người dùng mới với FirebaseAuth
                             auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
-                                    if (task.isSuccessful()){
-                                        HashMap<String,String> hashMap =  new HashMap<>();
-                                        hashMap.put("iduser",FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                    if (task.isSuccessful()) {
+                                        // Tạo HashMap lưu thông tin người dùng
+                                        HashMap<String, String> hashMap = new HashMap<>();
+                                        String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                                        hashMap.put("iduser", iduser);
                                         hashMap.put("email", email);
-                                        FirebaseFirestore db = FirebaseFirestore.getInstance();
-                                        db.collection("IDUser").add(hashMap);
 
-                                        // Realtime Firebase: Tạo 1 database có tên Users, id tự động đặt cho tài khoản
-                                        String username= "any name";
-                                        reference1 = FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
-                                        HashMap<String, String> mapRealtime = new HashMap<>();
-                                        mapRealtime.put("iduser", FirebaseAuth.getInstance().getCurrentUser().getUid());
-                                        mapRealtime.put("name", username);
-                                        mapRealtime.put("avatar", "default");
-                                        mapRealtime.put("status", "online");
-                                        mapRealtime.put("search", username.toLowerCase());
-                                        reference1.setValue(mapRealtime);
+                                        // Lấy FCM Token và lưu vào Firestore, SharedPreferences
+                                        FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task1 -> {
+                                            if (task1.isSuccessful()) {
+                                                String userToken = task1.getResult();
+                                                hashMap.put("user_token", userToken); // Thêm token vào HashMap
 
-                                        reference2 = FirebaseDatabase.getInstance().getReference("Chatlist").child("WvPK8OV0erKJP8w2KZNp")
-                                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
-                                        HashMap<String, String> mapRealtime2 = new HashMap<>();
-                                        mapRealtime2.put("id", FirebaseAuth.getInstance().getCurrentUser().getUid());
-                                        reference2.setValue(mapRealtime2);
+                                                // Lưu token vào SharedPreferences
+                                                saveUserToken(userToken); // Hàm lưu token vào SharedPreferences hoặc gửi lên server
+                                                Log.d("FCM_TOKEN", "Token: " + userToken);
 
+                                                // Lưu thông tin người dùng vào Firestore
+                                                FirebaseFirestore db = FirebaseFirestore.getInstance();
+                                                db.collection("IDUser").add(hashMap)
+                                                        .addOnSuccessListener(documentReference -> {
+                                                            // Thực hiện các công việc sau khi lưu thông tin vào Firestore thành công
 
-                                        Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
-                                        startActivity(intent);
-                                        User user = new User();
-                                        user.setIduser(auth.getUid());
-                                        user.setEmail(email);
-                                        finishAffinity();
-                                        Toast.makeText(SignUpActivity.this, "Đăng ký thành công", Toast.LENGTH_SHORT).show();
-                                    } else if (!isEmailValid(email)){
+                                                            // Lưu thông tin người dùng vào Realtime Database (Firebase)
+                                                            String username = "any name";
+                                                            reference1 = FirebaseDatabase.getInstance().getReference("Users")
+                                                                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                                            HashMap<String, String> mapRealtime = new HashMap<>();
+                                                            mapRealtime.put("iduser", FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                                            mapRealtime.put("name", username);
+                                                            mapRealtime.put("avatar", "default");
+                                                            mapRealtime.put("status", "online");
+                                                            mapRealtime.put("search", username.toLowerCase());
+                                                            reference1.setValue(mapRealtime);
+
+                                                            // Lưu vào Chatlist
+                                                            reference2 = FirebaseDatabase.getInstance().getReference("Chatlist")
+                                                                    .child("WvPK8OV0erKJP8w2KZNp")
+                                                                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                                            HashMap<String, String> mapRealtime2 = new HashMap<>();
+                                                            mapRealtime2.put("id", FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                                            reference2.setValue(mapRealtime2);
+
+                                                            // Chuyển sang màn hình chính
+                                                            Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                                                            startActivity(intent);
+                                                            finishAffinity();
+
+                                                            // Thông báo đăng ký thành công
+                                                            Toast.makeText(SignUpActivity.this, "Đăng ký thành công", Toast.LENGTH_SHORT).show();
+                                                        })
+                                                        .addOnFailureListener(e -> {
+                                                            Toast.makeText(SignUpActivity.this, "Lỗi khi lưu thông tin người dùng", Toast.LENGTH_SHORT).show();
+                                                        });
+
+                                            } else {
+                                                Log.w("FCM_TOKEN", "Fetching FCM registration token failed", task1.getException());
+                                            }
+                                        });
+
+                                    } else if (!isEmailValid(email)) {
                                         Toast.makeText(SignUpActivity.this, "Email định dạng không đúng", Toast.LENGTH_SHORT).show();
                                     } else {
                                         Toast.makeText(SignUpActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
-                                        Log.w("signup","failed", task.getException());
+                                        Log.w("signup", "failed", task.getException());
                                     }
                                 }
                             });
@@ -117,11 +151,9 @@ public class SignUpActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(SignUpActivity.this, "Bạn chưa nhập mật khẩu", Toast.LENGTH_SHORT).show();
                     }
-
                 } else {
                     Toast.makeText(SignUpActivity.this, "Bạn chưa nhập Email", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
 
@@ -156,5 +188,13 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         unregisterReceiver(MyReceiver);
+    }
+
+    private void saveUserToken(String token) {
+        SharedPreferences sharedPreferences = getSharedPreferences("AppPreferences", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("user_token", token);
+        editor.apply();
+
     }
 }

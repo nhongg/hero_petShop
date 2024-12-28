@@ -33,6 +33,7 @@ import com.google.firebase.database.annotations.NotNull;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.firestore.SetOptions;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 
@@ -120,6 +121,17 @@ public class SignInActivity extends AppCompatActivity {
                                                     if (task.isSuccessful()){
                                                         // Lưu email vào SharedPreferences
                                                         saveUserEmail(strEmail);
+
+                                                        // Lấy FCM Token và lưu vào SharedPreferences
+                                                        FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task1 -> {
+                                                            if (task1.isSuccessful()) {
+                                                                String userToken = task1.getResult();
+                                                                saveUserToken(userToken, strEmail); // Hàm lưu token vào SharedPreferences hoặc gửi lên server
+                                                                Log.d("FCM_TOKEN", "Token: " + userToken);
+                                                            } else {
+                                                                Log.w("FCM_TOKEN", "Fetching FCM registration token failed", task1.getException());
+                                                            }
+                                                        });
 
                                                         Intent intent = new Intent(SignInActivity.this, MainActivity.class);
                                                         startActivity(intent);
@@ -221,6 +233,27 @@ public class SignInActivity extends AppCompatActivity {
         editor.putString("user_email", email);
         editor.apply();
     }
+    private void saveUserToken(String token, String email) {
+        HashMap<String,String> hashMap = new HashMap<>();
+        String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        hashMap.put("iduser", iduser);
+        hashMap.put("email", email);
+        hashMap.put("user_token", token);
 
+        Log.d("hashMap", "hashMap: " + hashMap);
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        // Sử dụng SetOptions.merge() để cập nhật token mà không ghi đè dữ liệu
+        db.collection("IDUser").document(iduser)
+                .set(hashMap, SetOptions.merge())
+                .addOnSuccessListener(aVoid -> Log.d("Firestore", "Token updated successfully"))
+                .addOnFailureListener(e -> Log.w("Firestore", "Error updating token", e));
+
+        // Lưu token vào SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("AppPreferences", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("user_token", token);
+        editor.apply();
+    }
 
 }

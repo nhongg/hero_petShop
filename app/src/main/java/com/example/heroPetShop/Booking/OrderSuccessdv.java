@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import com.example.heroPetShop.MainActivity;
 import com.example.heroPetShop.R;
 public class OrderSuccessdv extends AppCompatActivity {
     private TextView tvIDHoadon, tvDateHoadon, tvSanphamHoadon,
@@ -40,7 +41,8 @@ public class OrderSuccessdv extends AppCompatActivity {
         btnHoanthanhHoadon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Intent intent = new Intent(OrderSuccessdv.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 

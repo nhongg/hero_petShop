@@ -856,15 +856,17 @@ public class BookingActivity extends AppCompatActivity {
                                                                                     db.collection("CTHDBooking").document(idCthdBooking)
                                                                                             .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
                                                                                             .addOnSuccessListener(aVoid1 -> {
+                                                                                                String time = formatDate(thoiGianDatLichCt.getTime());
                                                                                                 //   Toast.makeText(BookingActivity.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
                                                                                                 Intent intent = new Intent(BookingActivity.this, OrderSuccessdv.class);
                                                                                                 intent.putExtra("idhoadon", idCthdBooking);
                                                                                                 intent.putExtra("hoten", tenKhachHang);
-                                                                                                intent.putExtra("ngaydat", thoiGianDatLichCt);
+                                                                                                intent.putExtra("ngaydat", time);
                                                                                                 intent.putExtra("sdt", sdt);
                                                                                                 intent.putExtra("tendv", tenDichVu);
                                                                                                 intent.putExtra("tongtien", String.valueOf(finalGiaDichVu));
                                                                                                 intent.putExtra("phuongthuc", "Thanh toán MOMO");
+                                                                                                startActivity(intent);
                                                                                                 finish();  // Quay lại màn hình trước
                                                                                             })
                                                                                             .addOnFailureListener(e -> {
@@ -901,6 +903,10 @@ public class BookingActivity extends AppCompatActivity {
             }
         }
 
+    }
+    private String formatDate(long timestamp) {
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+        return sdf.format(timestamp);
     }
 
 }

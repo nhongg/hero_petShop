@@ -16,11 +16,14 @@ import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -60,6 +63,9 @@ public class BookingActivity extends AppCompatActivity {
     private ImageButton btnback;
     private FirebaseFirestore db;
     private FirebaseAuth mAuth;
+
+    private Spinner spnLoaiThuCung;
+
     private FirebaseUser currentUser;
     private int selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute;
     private String selectedDate, selectedTime,selectedTime1;
@@ -193,7 +199,29 @@ public class BookingActivity extends AppCompatActivity {
         });
 
 
-        edtLoaiThuCung = findViewById(R.id.edtLoaiThuCung);
+        spnLoaiThuCung = findViewById(R.id.spnLoaiThuCung);
+
+// Danh sách các loại thú cưng
+        List<String> petTypes = Arrays.asList("Chó", "Mèo");
+
+// Tạo Adapter cho Spinner
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, petTypes);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnLoaiThuCung.setAdapter(adapter);
+
+// Xử lý sự kiện khi chọn loại thú cưng
+        spnLoaiThuCung.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String selectedPetType = petTypes.get(position);
+                Log.d("BookingActivity", "Loại thú cưng được chọn: " + selectedPetType);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Log.d("BookingActivity", "Không có loại thú cưng nào được chọn.");
+            }
+        });
         txtChonNgay = findViewById(R.id.txtChonNgay);
         txtChonGio = findViewById(R.id.txtChonGio);
         btnDatLich = findViewById(R.id.btnDatLich);
@@ -548,7 +576,7 @@ public class BookingActivity extends AppCompatActivity {
 
         String tenThuCung = edtTenThuCung.getText().toString();
         String canNangStr = edtCanNang.getText().toString();
-        String loaiThuCung = edtLoaiThuCung.getText().toString();
+        String loaiThuCung = spnLoaiThuCung.getSelectedItem().toString();
         double canNang = Double.parseDouble(canNangStr);
         String serviceId = getIntent().getStringExtra("serviceId");
         db.collection("services").document(serviceId).get()
@@ -763,7 +791,9 @@ public class BookingActivity extends AppCompatActivity {
 
                     String tenThuCung = edtTenThuCung.getText().toString();
                     String canNangStr = edtCanNang.getText().toString();
-                    String loaiThuCung = edtLoaiThuCung.getText().toString();
+                    String loaiThuCung = spnLoaiThuCung.getSelectedItem().toString();
+
+
 
                     // Kiểm tra dữ liệu
                     if (tenThuCung.isEmpty() || canNangStr.isEmpty() || loaiThuCung.isEmpty() ||

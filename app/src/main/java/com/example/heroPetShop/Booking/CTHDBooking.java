@@ -19,8 +19,18 @@ public class CTHDBooking implements Serializable {
     private String sdtNguoiDung;  // Thêm trường số điện thoại người dùng
     private String idBooking;
 
+    private String lyDoHuy;
+
     // Constructor, Getter, Setter
     public CTHDBooking() {
+    }
+
+    public String getLyDoHuy() {
+        return lyDoHuy;
+    }
+
+    public void setLyDoHuy(String lyDoHuy) {
+        this.lyDoHuy = lyDoHuy;
     }
 
     public String getSdtNguoiDung() {

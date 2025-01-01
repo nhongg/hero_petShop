@@ -13,12 +13,14 @@ public class Booking {
     private Date thoiGianDatLich;   // Thời gian đặt lịch (timestamp)
     private String trangThai;        // Trạng thái (Chưa xác nhận, Thành công, Hủy)
 
+    private String huy;
+
     // Constructor rỗng (bắt buộc cho Firestore)
     public Booking() {}
 
     // Constructor đầy đủ
     public Booking(String idBooking, String tenDichVu, String idUser, String tenThuCung,
-                   double canNang, String loaiThuCung, Date thoiGianDatLich, String trangThai) {
+                   double canNang, String loaiThuCung, Date thoiGianDatLich, String trangThai,String huy) {
         this.idBooking = idBooking;
         this.tenDichVu = tenDichVu;
         this.idUser = idUser;
@@ -27,6 +29,7 @@ public class Booking {
         this.loaiThuCung = loaiThuCung;
         this.thoiGianDatLich = thoiGianDatLich;
         this.trangThai = trangThai;
+        this.huy = huy;
     }
 
     // Getters và Setters
@@ -92,5 +95,13 @@ public class Booking {
 
     public void setTrangThai(String trangThai) {
         this.trangThai = trangThai;
+    }
+
+    public String getHuy() {
+        return huy;
+    }
+
+    public void setHuy(String huy) {
+        this.huy = huy;
     }
 }

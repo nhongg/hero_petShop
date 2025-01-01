@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -118,21 +119,41 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
     // Hủy đặt lịch
     private static void cancelBooking(Context context, CTHDBooking booking) {
         if (booking.getIdcthdbooking() == null || booking.getIdcthdbooking().isEmpty()) {
-            Toast.makeText(context, "Không thể xác định lịch để hủy"+booking.getIdcthdbooking(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Không thể xác định lịch để hủy", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-        db.collection("CTHDBooking").document(booking.getIdcthdbooking())
-                .update("trangThai", "Đã hủy")
-                .addOnSuccessListener(aVoid -> {
-                    Toast.makeText(context, "Đã hủy đặt lịch", Toast.LENGTH_SHORT).show();
+        // Hiển thị dialog để nhập lý do hủy
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Nhập lý do hủy");
 
-                })
-                .addOnFailureListener(e -> {
-                    Toast.makeText(context, "Không thể hủy đặt lịch", Toast.LENGTH_SHORT).show();
-                });
+        // Thêm EditText vào dialog
+        final EditText input = new EditText(context);
+        input.setHint("Lý do hủy...");
+        builder.setView(input);
 
+        builder.setPositiveButton("Xác nhận", (dialog, which) -> {
+            String reason = input.getText().toString().trim();
+            if (reason.isEmpty()) {
+                Toast.makeText(context, "Vui lòng nhập lý do hủy", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Cập nhật Firestore với lý do hủy và trạng thái
+            FirebaseFirestore db = FirebaseFirestore.getInstance();
+            db.collection("CTHDBooking").document(booking.getIdcthdbooking())
+                    .update("trangThai", "Đã hủy", "lyDoHuy", reason)
+                    .addOnSuccessListener(aVoid -> {
+                        Toast.makeText(context, "Đã hủy đặt lịch với lý do: " + reason, Toast.LENGTH_SHORT).show();
+                    })
+                    .addOnFailureListener(e -> {
+                        Toast.makeText(context, "Không thể hủy đặt lịch", Toast.LENGTH_SHORT).show();
+                    });
+        });
+
+        builder.setNegativeButton("Hủy", (dialog, which) -> dialog.dismiss());
+
+        builder.create().show();
     }
 
     // Mở Activity để sửa thông tin

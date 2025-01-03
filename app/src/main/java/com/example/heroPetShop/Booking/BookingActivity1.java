@@ -1,42 +1,55 @@
 package com.example.heroPetShop.Booking;
 
+import static android.content.ContentValues.TAG;
+
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.util.Patterns;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import com.example.heroPetShop.R;
+import com.example.heroPetShop.ultil.OtpSender;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
+
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
+import vn.momo.momo_partner.AppMoMoLib;
 
 public class BookingActivity1 extends AppCompatActivity {
     private EditText edtTenThuCung, edtCanNang, edtLoaiThuCung;
@@ -56,6 +69,7 @@ public class BookingActivity1 extends AppCompatActivity {
     private String userId; // ID người dùng
     Date thoiGianDatLichCt;
 
+    private RadioButton rdoXacNhanOTP;
     private Button btnca1, btnca2,btnca3,btnca4,btnca5,btnca6;
 
 
@@ -74,7 +88,7 @@ public class BookingActivity1 extends AppCompatActivity {
         btnca4= findViewById(R.id.btnCa4);
         btnca5= findViewById(R.id.btnCa5);
         btnca6= findViewById(R.id.btnCa6);
-
+        rdoXacNhanOTP = findViewById(R.id.rdoXacNhanOTP);
 
 
 
@@ -510,140 +524,372 @@ public class BookingActivity1 extends AppCompatActivity {
 
 
         btnDatLich.setOnClickListener(v -> {
-            String tenThuCung = edtTenThuCung.getText().toString();
-            String canNangStr = edtCanNang.getText().toString();
-            String loaiThuCung = spnLoaiThuCung.getSelectedItem().toString();
-
-
-            // Kiểm tra dữ liệu
-            if (tenThuCung.isEmpty() || canNangStr.isEmpty() || loaiThuCung.isEmpty() ||
-                    selectedDate == null || selectedTime == null) {
-                Toast.makeText(BookingActivity1.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
-                return;
+            if(rdoXacNhanOTP.isChecked()){
+                requestPayment();
+            }else{
+                openDialog();
             }
-
-            double canNang = Double.parseDouble(canNangStr);
-            if(canNang>15){
-                giaDichvu += 50000;
-                Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
-
-            }
-            // Truy vấn thông tin từ Firestore
-            double finalGiaDichVu = giaDichvu;
-
-
-            // Lấy số điện thoại người dùng từ FirebaseUser
-            String sdtNguoiDung = currentUser != null ? currentUser.getPhoneNumber() : null;
-
-            // Tạo đối tượng Booking mới
-            Booking booking = new Booking();
-            booking.setTenDichVu("Dịch vụ "+tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
-            booking.setTenThuCung(tenThuCung);
-            booking.setCanNang(canNang);
-            booking.setLoaiThuCung(loaiThuCung);
-            booking.setTrangThai("Chưa xác nhận");
-
-            // Tạo thời gian đặt lịch
-            try {
-                SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
-                Date thoiGianDatLich = sdf.parse(selectedDate + " " + selectedTime);
-                thoiGianDatLichCt = thoiGianDatLich;
-                booking.setThoiGianDatLich(thoiGianDatLich);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-            booking.setTrangThai("Chưa xác nhận");
-            booking.setIdUser(userId); // ID người dùng
-
-            // Lưu vào Firestore
-            db.collection("bookings")
-                    .add(booking)
-                    .addOnSuccessListener(documentReference -> {
-                        // Gán ID từ Firestore vào booking
-                        String idBooking = documentReference.getId();
-                        db.collection("bookings").document(idBooking)
-                                .update("idBooking", idBooking) // Thêm idBooking vào tài liệu
-                                .addOnSuccessListener(aVoid -> {
-                                    Toast.makeText(BookingActivity1.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
-
-                                    // Lấy thông tin dịch vụ từ Firestore
-                                    // Truy vấn thông tin từ Firestore
-                                    db.collection("User").document(userId).collection("Profile").get()
-                                            .addOnSuccessListener(querySnapshot -> {
-                                                if (!querySnapshot.isEmpty()) {
-                                                    // Lấy tài liệu đầu tiên trong collection "Profile"
-                                                    String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
-
-                                                    // Lấy tên khách hàng từ FirebaseUser
-                                                    String tenKhachHang = currentUser.getDisplayName();
-
-                                                    // Tạo đối tượng CTHDBooking
-                                                    CTHDBooking cthdBooking = new CTHDBooking();
-                                                    cthdBooking.setIduser(userId);
-                                                    cthdBooking.setServiceIds(serviceIdList);
-                                                    cthdBooking.setIdBooking(idBooking);
-                                                    cthdBooking.setTenDichVu(tenDichVu);
-                                                    cthdBooking.setGiaDichVu(finalGiaDichVu);
-                                                    cthdBooking.setTenKhachHang(tenKhachHang);
-                                                    cthdBooking.setTenThuCung(tenThuCung);
-                                                    cthdBooking.setLoaiThuCung(loaiThuCung);
-                                                    cthdBooking.setCanNang(canNang);
-                                                    cthdBooking.setThoiGianDatLich(thoiGianDatLichCt);
-                                                    cthdBooking.setTrangThai("Chưa xác nhận");
-                                                    cthdBooking.setSdtNguoiDung(sdt); // Gắn số điện thoại vào CTHDBooking
-
-                                                    // Thêm CTHDBooking vào Firestore
-                                                    db.collection("CTHDBooking")
-                                                            .add(cthdBooking)
-                                                            .addOnSuccessListener(cthdDocRef -> {
-                                                                // Cập nhật ID do Firebase tự tạo vào CTHDBooking
-                                                                String idCthdBooking = cthdDocRef.getId();
-                                                                db.collection("CTHDBooking").document(idCthdBooking)
-                                                                        .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
-                                                                        .addOnSuccessListener(aVoid1 -> {
-                                                                            String time = formatDate(thoiGianDatLichCt.getTime());
-                                                                            // Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thành công", Toast.LENGTH_SHORT).show();
-                                                                            Intent intent = new Intent(BookingActivity1.this, OrderSuccessdv.class);
-                                                                            intent.putExtra("idhoadon", idCthdBooking);
-                                                                            intent.putExtra("hoten", tenKhachHang);
-                                                                            intent.putExtra("ngaydat", time);
-                                                                            intent.putExtra("sdt", sdt);
-                                                                            intent.putExtra("tendv", tenDichVu);
-                                                                            intent.putExtra("tongtien", String.valueOf(finalGiaDichVu));
-                                                                            intent.putExtra("phuongthuc", "Thanh toán MOMO");
-                                                                            startActivity(intent);
-                                                                            finish();  // Quay lại màn hình trước
-                                                                        })
-                                                                        .addOnFailureListener(e -> {
-                                                                            //   Toast.makeText(BookingActivity1.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
-                                                                        });
-                                                            })
-                                                            .addOnFailureListener(e -> {
-                                                                //  Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
-                                                            });
-                                                } else {
-                                                    Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
-                                                }
-                                            })
-                                            .addOnFailureListener(e -> {
-                                                Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
-                                            });
-
-                                })
-
-                                .addOnFailureListener(e -> {
-                                    Toast.makeText(BookingActivity1.this, "Cập nhật ID thất bại", Toast.LENGTH_SHORT).show();
-                                });
-                    })
-                    .addOnFailureListener(e -> {
-                        Toast.makeText(BookingActivity1.this, "Đặt lịch thất bại", Toast.LENGTH_SHORT).show();
-                    });
+//            requestPayment();
         });
 
 
 
     }
+
+    private void requestPayment() {
+
+        String tenThuCung = edtTenThuCung.getText().toString();
+        String canNangStr = edtCanNang.getText().toString();
+        String loaiThuCung = spnLoaiThuCung.getSelectedItem().toString();
+        double canNang = Double.parseDouble(canNangStr);
+        String serviceId = getIntent().getStringExtra("serviceId");
+        tenDichVu = getIntent().getStringExtra("ten");
+
+        giaDichvu= getIntent().getDoubleExtra("gia",0.0);
+
+
+                    if(canNang>15){
+                        giaDichvu += 50000;
+//                        Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
+
+                    }
+                    // Truy vấn thông tin từ Firestore
+                    double finalGiaDichVu = giaDichvu;
+                    AppMoMoLib.getInstance().setEnvironment(AppMoMoLib.ENVIRONMENT.DEVELOPMENT);
+                    AppMoMoLib.getInstance().setAction(AppMoMoLib.ACTION.MAP);
+                    AppMoMoLib.getInstance().setAction(AppMoMoLib.ACTION.PAYMENT);
+                    AppMoMoLib.getInstance().setActionType(AppMoMoLib.ACTION_TYPE.GET_TOKEN);
+                    Map<String, Object> eventValue = new HashMap<>();
+                    //client Required
+                    long mahd =   System.currentTimeMillis();
+
+                    int intValue = (int) Math.round(finalGiaDichVu);
+
+
+
+
+                    eventValue.put("merchantname", "Afforda Company - Nguyen Van Chinh"); //Tên đối tác. được đăng ký tại https://business.momo.vn. VD: Google, Apple, Tiki , CGV Cinemas
+                    eventValue.put("merchantcode", "MOMO1NRV20220112"); //Mã đối tác, được cung cấp bởi MoMo tại https://business.momo.vn
+                    eventValue.put("amount", Integer.parseInt(String.valueOf(intValue))); //Kiểu integer
+                    eventValue.put("orderId", "order"+mahd); //uniqueue id cho Bill order, giá trị duy nhất cho mỗi đơn hàng
+                    eventValue.put("orderLabel", "Mã đơn hàng"); //gán nhãn
+
+                    //client Optional - bill info
+                    eventValue.put("merchantnamelabel", "Dịch vụ");//gán nhãn
+
+                    eventValue.put("fee", Integer.parseInt(String.valueOf(intValue))); //Kiểu integer
+                    eventValue.put("description", tenDichVu); //mô tả đơn hàng - short description
+
+                    //client extra data
+                    eventValue.put("requestId",  "MOMO1NRV20220112"+"merchant_billId_"+System.currentTimeMillis());
+                    eventValue.put("partnerCode", "MOMO1NRV20220112");
+                    Log.d("end", "end1");
+                    //Example extra data
+                    JSONObject objExtraData = new JSONObject();
+                    try {
+                        objExtraData.put("site_code", "008");
+                        objExtraData.put("site_name", "Thanh Toán Food");
+                        objExtraData.put("screen_code", 0);
+                        objExtraData.put("screen_name", "Đặc Biệt");
+
+
+                        objExtraData.put("movie_name", tenDichVu);
+                        objExtraData.put("movie_format", "Đồ ăn");
+                        Log.d("end", "end2");
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        Log.d("end", "Lỗi: " + e);
+                    }
+                    eventValue.put("extraData", objExtraData.toString());
+                    eventValue.put("extra", "");
+                    Log.d("end", "end3");
+                    AppMoMoLib.getInstance().requestMoMoCallBack(BookingActivity1.this, eventValue);
+                    Log.d("end", "end4");
+    }
+
+    private void openDialog() {
+        // Inflate layout cho dialog
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View dialogView = inflater.inflate(R.layout.dialog_xacnhan_otp, null);
+
+        // Tạo AlertDialog
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(dialogView);
+
+        // Tìm các view trong layout của dialog
+        EditText edtOtp = dialogView.findViewById(R.id.edt_otp);
+        Button btnGuiOTP = dialogView.findViewById(R.id.btn_guiOTP);
+        Button btnXacthuc = dialogView.findViewById(R.id.btn_xacthuc);
+        TextView txt_sdt_email_user = dialogView.findViewById(R.id.txt_sdt_email_user);
+        ImageView imgCancel = dialogView.findViewById(R.id.img_cancel_dialog);
+        TextView txtCountdown = dialogView.findViewById(R.id.txt_countdown); // Thêm TextView để hiển thị đếm ngược
+
+        // Tạo dialog và hiển thị
+        AlertDialog dialog = builder.create();
+        dialog.show();
+
+        // Lấy email từ SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+        String email = sharedPreferences.getString("user_email", "Email không khả dụng");
+
+        // Hiển thị email lên TextView
+        txt_sdt_email_user.setText(email);
+        OtpSender otpSender = new OtpSender();
+
+        // Tạo bộ đếm ngược 30 giây
+        CountDownTimer countDownTimer = new CountDownTimer(30000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                // Hiển thị thời gian còn lại
+                txtCountdown.setText("Bạn có thể gửi lại sau: " + millisUntilFinished / 1000 + " giây");
+            }
+
+            @Override
+            public void onFinish() {
+                // Khi đếm ngược hoàn thành, thay đổi nút "Gửi" thành màu xanh và kích hoạt lại
+                btnGuiOTP.setEnabled(true);
+                btnGuiOTP.setBackground(getDrawable(R.drawable.background_blue));
+                txtCountdown.setText("Có thể gửi lại OTP");
+
+            }
+        };
+
+        // Sự kiện khi bấm nút "Gửi"
+        btnGuiOTP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    // Vô hiệu hóa nút gửi và thay đổi màu sắc
+
+                    txtCountdown.setVisibility(View.VISIBLE);
+                    btnGuiOTP.setEnabled(false);
+                    btnGuiOTP.setBackgroundColor(getResources().getColor(android.R.color.darker_gray)); // Màu xám
+
+                    // Bắt đầu đếm ngược
+                    countDownTimer.start();
+
+                    // Gửi OTP qua Firebase Functions
+                    otpSender.sendOtp(email, BookingActivity1.this, new OtpSender.Callback() {
+                        @Override
+                        public void onSuccess(int otp) {
+                            Toast.makeText(BookingActivity1.this, "OTP đã gửi đến email: " + email, Toast.LENGTH_SHORT).show();
+                        }
+
+                        @Override
+                        public void onFailure(Exception e) {
+                            Toast.makeText(BookingActivity1.this, "Gửi OTP thất bại: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                } else {
+                    Toast.makeText(BookingActivity1.this, "Email không hợp lệ!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btnXacthuc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String otp = edtOtp.getText().toString().trim();
+                if (otp.isEmpty()) {
+                    Toast.makeText(BookingActivity1.this, "Vui lòng nhập mã OTP!", Toast.LENGTH_SHORT).show();
+                } else {
+                    // Kiểm tra OTP
+                    if (otpSender.verifyOtp(BookingActivity1.this, Integer.parseInt(otp))) {
+                        Log.d(TAG, "OTP xác nhận thành công");
+                        rdoXacNhanOTP.setChecked(true);
+                        rdoXacNhanOTP.setText("Đã xác thực danh tính");
+                        // Thay đổi màu của nút RadioButton
+                        rdoXacNhanOTP.setButtonTintList(ContextCompat.getColorStateList(BookingActivity1.this, R.color.purple_700));
+                        rdoXacNhanOTP.setTextColor(ContextCompat.getColor(BookingActivity1.this, R.color.purple_700));
+
+                        otpSender.clearOtp(BookingActivity1.this);
+//                        NotificationHelper.showNotification(BookingActivity1.this, "Xác thực  thành công", "Cảm ơn bạn đã đặt lịch. Chi tiết trong ứng dụng!");
+
+                        dialog.dismiss();
+                        Toast.makeText(BookingActivity1.this, "OTP xác nhận thành công", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Log.d(TAG, "OTP không chính xác");
+                        Toast.makeText(BookingActivity1.this, "Mã OTP không chính xác. Vui lòng thử lại!", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
+
+
+
+        // Sự kiện khi bấm nút đóng dialog
+        imgCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+    }
+
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        Log.d("CHECKED","checked1");
+        if(requestCode == AppMoMoLib.getInstance().REQUEST_CODE_MOMO && resultCode == -1) {
+            Log.d("CHECKED", "checked2");
+            if (data != null) {
+                Log.d("CHECKED", "checked3");
+                if (data.getIntExtra("status", -1) == 0) {
+                    //TOKEN IS AVAILABLE
+                    Log.d("Messagesss", "message: " + "Get token " + data.getStringExtra("message"));
+                    String checked = data.getStringExtra("message");
+                    Log.d("CHECKED", checked);
+                    Calendar calendar = Calendar.getInstance();
+                    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+
+
+                    String tenThuCung = edtTenThuCung.getText().toString();
+                    String canNangStr = edtCanNang.getText().toString();
+                    String loaiThuCung = spnLoaiThuCung.getSelectedItem().toString();
+
+                    tenDichVu = getIntent().getStringExtra("ten");
+
+                    giaDichvu= getIntent().getDoubleExtra("gia",0.0);
+                    id = getIntent().getStringExtra("id");
+                    //String serviceId = getIntent().getStringExtra("serviceId");
+                    String[] serviceIdArray = id.split(",\\s*");
+                    List<String> serviceIdList = new ArrayList<>(Arrays.asList(serviceIdArray));
+
+                    // Kiểm tra dữ liệu
+                    if (tenThuCung.isEmpty() || canNangStr.isEmpty() || loaiThuCung.isEmpty() ||
+                            selectedDate == null || selectedTime == null) {
+                        Toast.makeText(BookingActivity1.this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
+                    double canNang = Double.parseDouble(canNangStr);
+                    if(canNang>15){
+                        giaDichvu += 50000;
+                        Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
+
+                    }
+                    // Truy vấn thông tin từ Firestore
+                    double finalGiaDichVu = giaDichvu;
+
+
+                    // Lấy số điện thoại người dùng từ FirebaseUser
+                    String sdtNguoiDung = currentUser != null ? currentUser.getPhoneNumber() : null;
+
+                    // Tạo đối tượng Booking mới
+                    Booking booking = new Booking();
+                    booking.setTenDichVu("Dịch vụ "+tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
+                    booking.setTenThuCung(tenThuCung);
+                    booking.setCanNang(canNang);
+                    booking.setLoaiThuCung(loaiThuCung);
+                    booking.setTrangThai("Chưa xác nhận");
+
+                    // Tạo thời gian đặt lịch
+                    try {
+                        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+                        Date thoiGianDatLich = sdf.parse(selectedDate + " " + selectedTime);
+                        thoiGianDatLichCt = thoiGianDatLich;
+                        booking.setThoiGianDatLich(thoiGianDatLich);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                    booking.setTrangThai("Chưa xác nhận");
+                    booking.setIdUser(userId); // ID người dùng
+
+                    // Lưu vào Firestore
+                    db.collection("bookings")
+                            .add(booking)
+                            .addOnSuccessListener(documentReference -> {
+                                // Gán ID từ Firestore vào booking
+                                String idBooking = documentReference.getId();
+                                db.collection("bookings").document(idBooking)
+                                        .update("idBooking", idBooking) // Thêm idBooking vào tài liệu
+                                        .addOnSuccessListener(aVoid -> {
+                                            Toast.makeText(BookingActivity1.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
+
+                                            // Lấy thông tin dịch vụ từ Firestore
+                                            // Truy vấn thông tin từ Firestore
+                                            db.collection("User").document(userId).collection("Profile").get()
+                                                    .addOnSuccessListener(querySnapshot -> {
+                                                        if (!querySnapshot.isEmpty()) {
+                                                            // Lấy tài liệu đầu tiên trong collection "Profile"
+                                                            String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
+
+                                                            // Lấy tên khách hàng từ FirebaseUser
+                                                            String tenKhachHang = currentUser.getDisplayName();
+
+                                                            // Tạo đối tượng CTHDBooking
+                                                            CTHDBooking cthdBooking = new CTHDBooking();
+                                                            cthdBooking.setIduser(userId);
+                                                            cthdBooking.setServiceIds(serviceIdList);
+                                                            cthdBooking.setIdBooking(idBooking);
+                                                            cthdBooking.setTenDichVu(tenDichVu);
+                                                            cthdBooking.setGiaDichVu(finalGiaDichVu);
+                                                            cthdBooking.setTenKhachHang(tenKhachHang);
+                                                            cthdBooking.setTenThuCung(tenThuCung);
+                                                            cthdBooking.setLoaiThuCung(loaiThuCung);
+                                                            cthdBooking.setCanNang(canNang);
+                                                            cthdBooking.setThoiGianDatLich(thoiGianDatLichCt);
+                                                            cthdBooking.setTrangThai("Chưa xác nhận");
+                                                            cthdBooking.setSdtNguoiDung(sdt); // Gắn số điện thoại vào CTHDBooking
+
+                                                            // Thêm CTHDBooking vào Firestore
+                                                            db.collection("CTHDBooking")
+                                                                    .add(cthdBooking)
+                                                                    .addOnSuccessListener(cthdDocRef -> {
+                                                                        // Cập nhật ID do Firebase tự tạo vào CTHDBooking
+                                                                        String idCthdBooking = cthdDocRef.getId();
+                                                                        db.collection("CTHDBooking").document(idCthdBooking)
+                                                                                .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
+                                                                                .addOnSuccessListener(aVoid1 -> {
+                                                                                    String time = formatDate(thoiGianDatLichCt.getTime());
+                                                                                    // Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thành công", Toast.LENGTH_SHORT).show();
+                                                                                    Intent intent = new Intent(BookingActivity1.this, OrderSuccessdv.class);
+                                                                                    intent.putExtra("idhoadon", idCthdBooking);
+                                                                                    intent.putExtra("hoten", tenKhachHang);
+                                                                                    intent.putExtra("ngaydat", time);
+                                                                                    intent.putExtra("sdt", sdt);
+                                                                                    intent.putExtra("tendv", tenDichVu);
+                                                                                    intent.putExtra("tongtien", String.valueOf(finalGiaDichVu));
+                                                                                    intent.putExtra("phuongthuc", "Thanh toán MOMO");
+                                                                                    startActivity(intent);
+                                                                                    finish();  // Quay lại màn hình trước
+                                                                                })
+                                                                                .addOnFailureListener(e -> {
+                                                                                    //   Toast.makeText(BookingActivity1.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
+                                                                                });
+                                                                    })
+                                                                    .addOnFailureListener(e -> {
+                                                                        //  Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
+                                                                    });
+                                                        } else {
+                                                            Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
+                                                        }
+                                                    })
+                                                    .addOnFailureListener(e -> {
+                                                        Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
+                                                    });
+
+                                        })
+
+                                        .addOnFailureListener(e -> {
+                                            Toast.makeText(BookingActivity1.this, "Cập nhật ID thất bại", Toast.LENGTH_SHORT).show();
+                                        });
+                            })
+                            .addOnFailureListener(e -> {
+                                Toast.makeText(BookingActivity1.this, "Đặt lịch thất bại", Toast.LENGTH_SHORT).show();
+                            });
+
+
+            }
+
+
+            }
+        }
+
+    }
+
     private String formatDate(long timestamp) {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
         return sdf.format(timestamp);

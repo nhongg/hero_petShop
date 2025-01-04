@@ -74,64 +74,51 @@ public class TaoComboDichVu extends AppCompatActivity {
             public void onClick(View view) {
                 // Lấy giá trị từ TextView khi người dùng nhấn nút
                 String ten = tTenDv.getText().toString();  // Lấy tên dịch vụ đã chọn
-                double gia = Double.parseDouble(tGiaDv.getText().toString());  // Lấy tổng giá dịch vụ
-                String id = tIDDv.getText().toString();
+                String id = tIDDv.getText().toString();   // Lấy ID dịch vụ đã chọn
 
-                if (ten.isEmpty() || gia <= 0 || Double.isNaN(gia) || Double.isInfinite(gia)) {
-                    // Xử lý khi tên dịch vụ hoặc giá không hợp lệ
-                    Toast.makeText(TaoComboDichVu.this, "Vui lòng chọn ít nhất một dịch vụ khi tạo combo của chúng tôi", Toast.LENGTH_SHORT).show();
+                // Kiểm tra nếu chưa chọn dịch vụ
+                if (ten.isEmpty() || id.isEmpty()) {
+                    Toast.makeText(TaoComboDichVu.this, "Vui lòng chọn ít nhất một dịch vụ", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                // Xử lý logic xác nhận thông tin người dùng
+                mAuth = FirebaseAuth.getInstance();
+                db = FirebaseFirestore.getInstance();
+                currentUser = mAuth.getCurrentUser();
+                if (currentUser != null) {
+                    userId = currentUser.getUid(); // Lấy ID người dùng
                 } else {
+                    Toast.makeText(TaoComboDichVu.this, "Bạn cần đăng nhập.", Toast.LENGTH_SHORT).show();
+                    return;
+                }
 
+                db.collection("User").document(userId).collection("Profile").get()
+                        .addOnSuccessListener(querySnapshot -> {
+                            if (!querySnapshot.isEmpty()) {
+                                // Lấy tài liệu đầu tiên trong collection "Profile"
+                                String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
+                                String tenKhachHang = currentUser.getDisplayName();
 
-                    mAuth = FirebaseAuth.getInstance();
-                    db = FirebaseFirestore.getInstance();
-                    currentUser = mAuth.getCurrentUser();
-                    if (currentUser != null) {
-                        userId = currentUser.getUid(); // Lấy ID người dùng
-                    } else {
-                        Toast.makeText(TaoComboDichVu.this, "Bạn cần đăng nhập", Toast.LENGTH_SHORT).show();
-                        return;
-                    }
-
-                    db.collection("User").document(userId).collection("Profile").get()
-                            .addOnSuccessListener(querySnapshot -> {
-                                if (!querySnapshot.isEmpty()) {
-                                    // Lấy tài liệu đầu tiên trong collection "Profile"
-                                    String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
-
-                                    // Lấy tên khách hàng từ FirebaseUser
-                                    String tenKhachHang = currentUser.getDisplayName();
-
-                                    if(sdt.isEmpty()||tenKhachHang.isEmpty()){
-
-                                        Toast.makeText(TaoComboDichVu.this, "Bạn cần cập nhập thông tin cá nhân trước khi đặt lịch", Toast.LENGTH_SHORT).show();
-
-                                    }else {
-                                        Intent intent = new Intent(TaoComboDichVu.this, BookingActivity1.class);
-
-                                        // Đưa dữ liệu vào Intent
-                                        intent.putExtra("ten", ten);
-                                        intent.putExtra("gia", gia);
-                                        intent.putExtra("id", id);
-
-                                        // Mở BookingActivity1
-                                        startActivity(intent);
-                                    }
-
-
+                                if (sdt == null || sdt.isEmpty() || tenKhachHang == null || tenKhachHang.isEmpty()) {
+                                    Toast.makeText(TaoComboDichVu.this, "Bạn cần cập nhật thông tin cá nhân trước khi đặt lịch.", Toast.LENGTH_SHORT).show();
                                 } else {
-                                    Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
+                                    // Chuyển dữ liệu sang màn hình BookingActivity1
+                                    Intent intent = new Intent(TaoComboDichVu.this, BookingActivity1.class);
+                                    intent.putExtra("ten", ten);
+                                    intent.putExtra("id", id);
+                                    startActivity(intent);
                                 }
-                            })
-                            .addOnFailureListener(e -> {
-                                Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
-                            });
-
-
-
-                }
-                }
+                            } else {
+                                Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
+                            }
+                        })
+                        .addOnFailureListener(e -> {
+                            Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
+                        });
+            }
         });
+
     }
 
     private void setupDichVu() {

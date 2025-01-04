@@ -1,21 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:orientation="vertical">
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/ic_back"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chi Tiết Lịch Đặt"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textColor="#03A9F4"/>
+        android:textColor="#000000"/>
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -28,163 +29,167 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:layout_height="match_parent">
 
-
-
-
-    <TextView
-        android:layout_marginTop="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tên Dịch vụ:"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-    <TextView
-        android:id="@+id/txtTenDichVu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tên dịch vụ:"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Giá Dịch vụ:"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-    <TextView
-        android:id="@+id/txtGiaDichVu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Giá dịch vụ:"
-        android:textSize="18sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Tên khách hàng:"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-    <TextView
-        android:id="@+id/txtTenKhachHang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tên khách hàng:"
-        android:textSize="18sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tên thú cưng:"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-    <TextView
-        android:id="@+id/txtTenThuCung"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tên thú cưng:"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Loại thú cưng:"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-    <TextView
-        android:id="@+id/txtLoaiThuCung"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Loại thú cưng:"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cân nặng:"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-    <TextView
-        android:id="@+id/txtCanNang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cân nặng:"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thời gian:"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-
-    <TextView
-        android:id="@+id/txtThoiGianDatLich"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thời gian đặt lịch:"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Trạng thái:"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-    <TextView
-        android:id="@+id/txtTrangThai"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Trạng thái:"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Số điện thoại:"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/black"
-        android:textSize="18dp"/>
-
-    <TextView
-        android:id="@+id/txtSdtNguoiDung"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SĐT người dùng:"
-        android:textSize="18sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lí do hủy:"
-            android:layout_marginTop="5dp"
-            android:textColor="@color/black"
-            android:textSize="18dp"/>
+            android:padding="20dp"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/txtHuy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SĐT người dùng:"
-            android:textSize="18sp"/>
-    </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên Dịch vụ:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtTenDichVu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên dịch vụ:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Giá Dịch vụ:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtGiaDichVu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá dịch vụ:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tên khách hàng:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtTenKhachHang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên khách hàng:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tên thú cưng:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtTenThuCung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên thú cưng:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Loại thú cưng:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtLoaiThuCung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loại thú cưng:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Cân nặng:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtCanNang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cân nặng:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Thời gian:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/txtThoiGianDatLich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian đặt lịch:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Trạng thái:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtTrangThai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Số điện thoại:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtSdtNguoiDung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SĐT người dùng:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblLyDoHuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Lí do hủy:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtHuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SĐT người dùng:"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

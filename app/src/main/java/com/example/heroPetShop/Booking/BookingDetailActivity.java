@@ -4,6 +4,7 @@ package com.example.heroPetShop.Booking;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -49,10 +50,22 @@ public class BookingDetailActivity extends AppCompatActivity {
         // Cài đặt LayoutManager
         recyclerViewServices.setLayoutManager(new LinearLayoutManager(this));
 
-
-
+        TextView txtHuy = findViewById(R.id.txtHuy);
+        TextView lblLyDoHuy = findViewById(R.id.lblLyDoHuy); // TextView tiêu đề "Lý do hủy"
         // Nhận dữ liệu từ Intent
         CTHDBooking booking = (CTHDBooking) getIntent().getSerializableExtra("bookingDetail");
+
+        if (booking != null) {
+            // Kiểm tra lý do hủy
+            if (booking.getLyDoHuy() != null && !booking.getLyDoHuy().isEmpty()) {
+                txtHuy.setText(booking.getLyDoHuy());
+                txtHuy.setVisibility(View.VISIBLE); // Hiển thị lý do hủy
+                lblLyDoHuy.setVisibility(View.VISIBLE); // Hiển thị tiêu đề "Lý do hủy"
+            } else {
+                txtHuy.setVisibility(View.GONE); // Ẩn lý do hủy
+                lblLyDoHuy.setVisibility(View.GONE); // Ẩn tiêu đề "Lý do hủy"
+            }
+        }
 
         // Hiển thị thông tin chi tiết
         if (booking != null) {

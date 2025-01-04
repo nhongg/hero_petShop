@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,21 +6,21 @@
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
+
     <RelativeLayout
         android:id="@+id/RelativeLayout"
         android:background="#0000BCD4"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        >
+        android:layout_height="?attr/actionBarSize">
+
         <ImageView
             android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="5dp"
             android:id="@+id/img_back_banner"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_back"
             app:tint="#000000" />
-
     </RelativeLayout>
 
     <androidx.cardview.widget.CardView
@@ -40,8 +39,7 @@
                 android:layout_width="match_parent"
                 android:gravity="center"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -49,142 +47,136 @@
                     android:layout_weight="3"
                     android:text="Vui lòng chọn dịch vụ để đặt lịch"
                     android:textSize="25dp"
-                    android:textColor="@color/Orange"
-                    />
+                    android:textColor="@color/Orange" />
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:clipToOutline="true"
                     android:src="@drawable/logopetshop2"
                     android:background="@drawable/circle_shape"
-                    android:layout_marginRight="10dp"/>
+                    android:layout_marginRight="10dp" />
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/Orange"
                 android:padding="10dp"
-                android:text="Nhấn giữ vào dịch vụ để xem chi tiết"
-                />
-
+                android:text="Nhấn giữ vào dịch vụ để xem chi tiết" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-    <LinearLayout
+
+    <!-- Bao nội dung ScrollView trong một LinearLayout -->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Chọn dịch vụ: "
-            android:textStyle="bold"
-            android:textSize="18dp"
-            android:paddingBottom="20dp"
-            android:textColor="#000000"/>
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:orientation="vertical"
-
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:padding="10dp"
             android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
             <TextView
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dịch vụ đã chọn: "
-                android:textColor="@color/black"
+                android:text="Chọn dịch vụ: "
                 android:textStyle="bold"
-                android:textSize="16sp"
-                />
-            <TextView
-                android:id="@+id/tvSelectedServices"
-                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                android:textColor="#000000" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
                 android:layout_marginTop="20dp"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                />
-        </LinearLayout>
-        </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="10dp" >
+                android:orientation="vertical">
 
-    <TextView
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tổng số tiền phải thanh toán : "
-        android:layout_marginTop="10dp"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        />
-    <TextView
-        android:id="@+id/tvTotalPrice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textColor="#4CAF50"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="VND"
-        android:textStyle="bold"
-        android:textColor="#4CAF50"
-        android:textSize="16sp"
-        />
-</LinearLayout>
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dịch vụ đã chọn: "
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/tvSelectedServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:layout_marginTop="10dp" >
-
-            <TextView
-
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="id: "
-                android:textColor="#F20606"
-                android:textSize="16sp"
-                />
-            <TextView
-                android:id="@+id/tviddichvu"
-                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tổng số tiền phải thanh toán : "
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/tvTotalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="VND"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="10dp">
 
-                android:textColor="#F20606"
-                android:textSize="16sp"
-                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="id: "
+                    android:textColor="#F20606"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/tviddichvu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F20606"
+                    android:textSize="16sp" />
+            </LinearLayout>
         </LinearLayout>
-
-
-
-    </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/btnSendToBooking"
@@ -193,9 +185,5 @@
         android:text="Đặt lịch"
         android:backgroundTint="#FFC107"
         android:layout_gravity="center"
-        android:layout_below="@id/tvTotalPrice"
-        android:layout_marginTop="16dp"
-        android:layout_centerHorizontal="true"/>
-
-
+        android:layout_marginTop="16dp" />
 </LinearLayout>

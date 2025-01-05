@@ -64,7 +64,7 @@ public class BookingActivity1 extends AppCompatActivity {
     private int selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute;
     private String selectedDate, selectedTime,selectedTime1;
     private String tenDichVu; // Dịch vụ từ DetailServiceActivity
-    private double giaDichvu;
+    private String giaDichvu;
     private  String id;
     private String userId; // ID người dùng
     Date thoiGianDatLichCt;
@@ -237,7 +237,6 @@ public class BookingActivity1 extends AppCompatActivity {
         // Nhận dữ liệu từ DetailServiceActivity (Tên dịch vụ)
         tenDichVu = getIntent().getStringExtra("ten");
 
-        giaDichvu= getIntent().getDoubleExtra("gia",0.0);
         id = getIntent().getStringExtra("id");
         //String serviceId = getIntent().getStringExtra("serviceId");
         String[] serviceIdArray = id.split(",\\s*");
@@ -545,16 +544,16 @@ public class BookingActivity1 extends AppCompatActivity {
         String serviceId = getIntent().getStringExtra("serviceId");
         tenDichVu = getIntent().getStringExtra("ten");
 
-        giaDichvu= getIntent().getDoubleExtra("gia",0.0);
+        giaDichvu= getIntent().getStringExtra("gia");
 
+        double giaDouble = Integer.parseInt(giaDichvu) ;
 
                     if(canNang>15){
-                        giaDichvu += 50000;
-//                        Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
+                        giaDouble += 50000;
 
                     }
                     // Truy vấn thông tin từ Firestore
-                    double finalGiaDichVu = giaDichvu;
+                    double finalGiaDichVu = giaDouble;
                     AppMoMoLib.getInstance().setEnvironment(AppMoMoLib.ENVIRONMENT.DEVELOPMENT);
                     AppMoMoLib.getInstance().setAction(AppMoMoLib.ACTION.MAP);
                     AppMoMoLib.getInstance().setAction(AppMoMoLib.ACTION.PAYMENT);
@@ -750,7 +749,7 @@ public class BookingActivity1 extends AppCompatActivity {
 
                     tenDichVu = getIntent().getStringExtra("ten");
 
-                    giaDichvu= getIntent().getDoubleExtra("gia",0.0);
+                    giaDichvu= getIntent().getStringExtra("gia");
                     id = getIntent().getStringExtra("id");
                     //String serviceId = getIntent().getStringExtra("serviceId");
                     String[] serviceIdArray = id.split(",\\s*");
@@ -763,14 +762,14 @@ public class BookingActivity1 extends AppCompatActivity {
                         return;
                     }
 
+                    double giaDouble = Integer.parseInt(giaDichvu);
                     double canNang = Double.parseDouble(canNangStr);
                     if(canNang>15){
-                        giaDichvu += 50000;
-                        Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
+                        giaDouble += 50000;
 
                     }
                     // Truy vấn thông tin từ Firestore
-                    double finalGiaDichVu = giaDichvu;
+                    double finalGiaDichVu = giaDouble;
 
 
                     // Lấy số điện thoại người dùng từ FirebaseUser
@@ -843,6 +842,7 @@ public class BookingActivity1 extends AppCompatActivity {
                                                                         db.collection("CTHDBooking").document(idCthdBooking)
                                                                                 .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
                                                                                 .addOnSuccessListener(aVoid1 -> {
+                                                                                    int tongtien = (int) finalGiaDichVu;
                                                                                     String time = formatDate(thoiGianDatLichCt.getTime());
                                                                                     // Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thành công", Toast.LENGTH_SHORT).show();
                                                                                     Intent intent = new Intent(BookingActivity1.this, OrderSuccessdv.class);
@@ -851,7 +851,7 @@ public class BookingActivity1 extends AppCompatActivity {
                                                                                     intent.putExtra("ngaydat", time);
                                                                                     intent.putExtra("sdt", sdt);
                                                                                     intent.putExtra("tendv", tenDichVu);
-                                                                                    intent.putExtra("tongtien", String.valueOf(finalGiaDichVu));
+                                                                                    intent.putExtra("tongtien", String.valueOf(tongtien));
                                                                                     intent.putExtra("phuongthuc", "Thanh toán MOMO");
                                                                                     startActivity(intent);
                                                                                     finish();  // Quay lại màn hình trước

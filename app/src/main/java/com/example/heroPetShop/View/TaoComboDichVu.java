@@ -43,7 +43,6 @@ public class TaoComboDichVu extends AppCompatActivity {
     private String accumulatedNames = "";
     private String accumulatedid = "";
     private int totalPrice = 0;
-
     TextView tTenDv;
     TextView tGiaDv;
     TextView tIDDv;
@@ -75,12 +74,15 @@ public class TaoComboDichVu extends AppCompatActivity {
                 // Lấy giá trị từ TextView khi người dùng nhấn nút
                 String ten = tTenDv.getText().toString();  // Lấy tên dịch vụ đã chọn
                 String id = tIDDv.getText().toString();   // Lấy ID dịch vụ đã chọn
+                String gia = tGiaDv.getText().toString();
+
 
                 // Kiểm tra nếu chưa chọn dịch vụ
                 if (ten.isEmpty() || id.isEmpty()) {
                     Toast.makeText(TaoComboDichVu.this, "Vui lòng chọn ít nhất một dịch vụ", Toast.LENGTH_SHORT).show();
                     return;
                 }
+
 
                 // Xử lý logic xác nhận thông tin người dùng
                 mAuth = FirebaseAuth.getInstance();
@@ -107,6 +109,7 @@ public class TaoComboDichVu extends AppCompatActivity {
                                     Intent intent = new Intent(TaoComboDichVu.this, BookingActivity1.class);
                                     intent.putExtra("ten", ten);
                                     intent.putExtra("id", id);
+                                    intent.putExtra("gia", gia);
                                     startActivity(intent);
                                 }
                             } else {
@@ -151,7 +154,9 @@ public class TaoComboDichVu extends AppCompatActivity {
     public void updateUI() {
         tIDDv.setText(accumulatedid);
         tTenDv.setText(accumulatedNames);  // Cập nhật tên dịch vụ đã chọn
-        tGiaDv.setText(String.valueOf(totalPrice));  // Cập nhật tổng giá dịch vụ
+        tGiaDv.setText(String.valueOf(totalPrice));
+        // Cập nhật tổng giá dịch vụ
+
     }
 
     // Hàm này sẽ được gọi khi có sự thay đổi trong lựa chọn dịch vụ

@@ -27,6 +27,11 @@
         android:padding="8dp"
         android:scrollbars="vertical" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#EF2626"
+        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -36,27 +41,18 @@
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tên Dịch vụ:"
-                android:textColor="@color/black"
-                android:textSize="18dp" />
-
-            <TextView
-                android:id="@+id/txtTenDichVu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tên dịch vụ:"
-                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Giá Dịch vụ:"
+                android:text="Tổng giá Dịch vụ: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -66,12 +62,18 @@
                 android:layout_height="wrap_content"
                 android:text="Giá dịch vụ:"
                 android:textSize="18sp" />
+        </LinearLayout>
 
-            <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Tên khách hàng:"
+                android:text="Tên khách hàng: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -81,12 +83,17 @@
                 android:layout_height="wrap_content"
                 android:text="Tên khách hàng:"
                 android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-            <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Tên thú cưng:"
+                android:text="Tên thú cưng: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -96,12 +103,17 @@
                 android:layout_height="wrap_content"
                 android:text="Tên thú cưng:"
                 android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-            <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Loại thú cưng:"
+                android:text="Loại thú cưng: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -111,12 +123,19 @@
                 android:layout_height="wrap_content"
                 android:text="Loại thú cưng:"
                 android:textSize="18sp" />
+        </LinearLayout>
 
-            <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Cân nặng:"
+                android:text="Cân nặng: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -126,12 +145,17 @@
                 android:layout_height="wrap_content"
                 android:text="Cân nặng:"
                 android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-            <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Thời gian:"
+                android:text="Thời gian: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -142,12 +166,19 @@
                 android:layout_height="wrap_content"
                 android:text="Thời gian đặt lịch:"
                 android:textSize="18sp" />
+        </LinearLayout>
 
-            <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Trạng thái:"
+                android:text="Trạng thái: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -158,11 +189,18 @@
                 android:text="Trạng thái:"
                 android:textSize="18sp" />
 
-            <TextView
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Số điện thoại:"
+                android:text="Số điện thoại: "
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -172,12 +210,18 @@
                 android:layout_height="wrap_content"
                 android:text="SĐT người dùng:"
                 android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-            <TextView
+
+        <TextView
                 android:id="@+id/lblLyDoHuy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:text="Lí do hủy:"
                 android:textColor="@color/black"
                 android:textSize="18dp"
@@ -190,6 +234,7 @@
                 android:text="SĐT người dùng:"
                 android:textSize="18sp"
                 android:visibility="gone" />
+        </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

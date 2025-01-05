@@ -26,7 +26,7 @@ public class BookingDetailActivity extends AppCompatActivity {
     private RecyclerView recyclerViewServices;
     private CTHDAdapter cthdAdapter;
 
-    private TextView txtHuy, txtTenDichVu, txtGiaDichVu, txtTenKhachHang, txtTenThuCung, txtLoaiThuCung, txtCanNang, txtThoiGianDatLich, txtTrangThai, txtSdtNguoiDung;
+    private TextView txtHuy, txtGiaDichVu, txtTenKhachHang, txtTenThuCung, txtLoaiThuCung, txtCanNang, txtThoiGianDatLich, txtTrangThai, txtSdtNguoiDung;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,6 @@ public class BookingDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_booking_detail); // Layout chi tiết, bạn cần tạo layout này
 
         // Ánh xạ các TextView
-        txtTenDichVu = findViewById(R.id.txtTenDichVu);
         txtGiaDichVu = findViewById(R.id.txtGiaDichVu);
         txtTenKhachHang = findViewById(R.id.txtTenKhachHang);
         txtTenThuCung = findViewById(R.id.txtTenThuCung);
@@ -106,14 +105,15 @@ public class BookingDetailActivity extends AppCompatActivity {
                             Log.e("FirebaseError", "Error loading service: " + e.getMessage());
                         });
             }
+            int soNguyen = (int)booking.getGiaDichVu();
+            int canNang = (int)booking.getCanNang();
 
             // Hiển thị thông tin khác từ booking
-            txtTenDichVu.setText(booking.getTenDichVu());
-            txtGiaDichVu.setText(String.valueOf(booking.getGiaDichVu()));
+            txtGiaDichVu.setText(String.valueOf(soNguyen));
             txtTenKhachHang.setText(booking.getTenKhachHang());
             txtTenThuCung.setText(booking.getTenThuCung());
             txtLoaiThuCung.setText(booking.getLoaiThuCung());
-            txtCanNang.setText(String.valueOf(booking.getCanNang()));
+            txtCanNang.setText(String.valueOf(canNang));
             txtThoiGianDatLich.setText(formatDate(booking.getThoiGianDatLich().getTime()));
             txtTrangThai.setText(booking.getTrangThai());
             txtSdtNguoiDung.setText(booking.getSdtNguoiDung());

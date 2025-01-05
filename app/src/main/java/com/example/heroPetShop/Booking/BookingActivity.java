@@ -848,7 +848,6 @@ public class BookingActivity extends AppCompatActivity {
                                                         double giaDichVu = serviceDocument.getDouble("gia");
                                                         if(canNang>15){
                                                             giaDichVu += 50000;
-                                                            Toast.makeText(this, "can nặng lớn hơn 15", Toast.LENGTH_SHORT).show();
 
                                                         }
                                                         // Truy vấn thông tin từ Firestore
@@ -886,6 +885,7 @@ public class BookingActivity extends AppCompatActivity {
                                                                                     db.collection("CTHDBooking").document(idCthdBooking)
                                                                                             .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
                                                                                             .addOnSuccessListener(aVoid1 -> {
+                                                                                                int tongtien = (int) finalGiaDichVu;
                                                                                                 String time = formatDate(thoiGianDatLichCt.getTime());
                                                                                                 //   Toast.makeText(BookingActivity.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
                                                                                                 Intent intent = new Intent(BookingActivity.this, OrderSuccessdv.class);
@@ -894,7 +894,7 @@ public class BookingActivity extends AppCompatActivity {
                                                                                                 intent.putExtra("ngaydat", time);
                                                                                                 intent.putExtra("sdt", sdt);
                                                                                                 intent.putExtra("tendv", tenDichVu);
-                                                                                                intent.putExtra("tongtien", String.valueOf(finalGiaDichVu));
+                                                                                                intent.putExtra("tongtien", String.valueOf(tongtien));
                                                                                                 intent.putExtra("phuongthuc", "Thanh toán MOMO");
                                                                                                 startActivity(intent);
                                                                                                 finish();  // Quay lại màn hình trước

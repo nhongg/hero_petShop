@@ -1,8 +1,11 @@
 package com.example.heroPetShop.View;
 
+import static android.content.ContentValues.TAG;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,21 +14,27 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Log;
+import android.util.Patterns;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.heroPetShop.Adapter.GiohangAdapter;
+import com.example.heroPetShop.Booking.BookingActivity;
 import com.example.heroPetShop.DichVu.DetailServiceActivity;
 import com.example.heroPetShop.MainActivity;
 import com.example.heroPetShop.Models.Chat;
@@ -33,6 +42,8 @@ import com.example.heroPetShop.Models.Product;
 import com.example.heroPetShop.Presenter.GioHangPresenter;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.my_interface.GioHangView;
+import com.example.heroPetShop.ultil.NotificationHelper;
+import com.example.heroPetShop.ultil.OtpSender;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -68,7 +79,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
     private ScrollView scrollViewCart;
     private TextView tvNullCart;
     private View view;
-
+    private RadioButton rdoXacNhanOTP;
     private RecyclerView rcvGioHang;
     private GiohangAdapter giohangAdapter;
     private GioHangPresenter gioHangPresenter;
@@ -116,6 +127,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
     }
 
     private void InitWidget() {
+        rdoXacNhanOTP = findViewById(R.id.rdoXacNhanOTP);
 
         scrollViewCart = findViewById(R.id.scrollView_cart);
         tvNullCart = findViewById(R.id.tv_null_cart);
@@ -135,11 +147,17 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
     }
 
     private void Event() {
+
         btnThanhToan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(listGiohang.size()>0){
-                    DiaLogThanhToan();
+                    if(rdoXacNhanOTP.isChecked()){
+                        DiaLogThanhToan();
+                    }else{
+                        openDialog();
+                    }
+
                 }else{
                     Toast.makeText(CartActivity.this, "Giỏ hàng của bạn đang trống !", Toast.LENGTH_SHORT).show();
                 }
@@ -153,6 +171,125 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
             }
         });
     }
+
+    private void openDialog() {
+        // Inflate layout cho dialog
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View dialogView = inflater.inflate(R.layout.dialog_xacnhan_otp, null);
+
+        // Tạo AlertDialog
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(dialogView);
+
+        // Tìm các view trong layout của dialog
+        EditText edtOtp = dialogView.findViewById(R.id.edt_otp);
+        Button btnGuiOTP = dialogView.findViewById(R.id.btn_guiOTP);
+        Button btnXacthuc = dialogView.findViewById(R.id.btn_xacthuc);
+        TextView txt_sdt_email_user = dialogView.findViewById(R.id.txt_sdt_email_user);
+        ImageView imgCancel = dialogView.findViewById(R.id.img_cancel_dialog);
+        TextView txtCountdown = dialogView.findViewById(R.id.txt_countdown); // Thêm TextView để hiển thị đếm ngược
+
+        // Tạo dialog và hiển thị
+        AlertDialog dialog = builder.create();
+        dialog.show();
+
+        // Lấy email từ SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+        String email = sharedPreferences.getString("user_email", "Email không khả dụng");
+
+        // Hiển thị email lên TextView
+        txt_sdt_email_user.setText(email);
+        OtpSender otpSender = new OtpSender();
+
+        // Tạo bộ đếm ngược 30 giây
+        CountDownTimer countDownTimer = new CountDownTimer(30000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                // Hiển thị thời gian còn lại
+                txtCountdown.setText("Bạn có thể gửi lại sau: " + millisUntilFinished / 1000 + " giây");
+            }
+
+            @Override
+            public void onFinish() {
+                // Khi đếm ngược hoàn thành, thay đổi nút "Gửi" thành màu xanh và kích hoạt lại
+                btnGuiOTP.setEnabled(true);
+                btnGuiOTP.setBackground(getDrawable(R.drawable.background_blue));
+                txtCountdown.setText("Có thể gửi lại OTP");
+
+            }
+        };
+
+        // Sự kiện khi bấm nút "Gửi"
+        btnGuiOTP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    // Vô hiệu hóa nút gửi và thay đổi màu sắc
+
+                    txtCountdown.setVisibility(View.VISIBLE);
+                    btnGuiOTP.setEnabled(false);
+                    btnGuiOTP.setBackgroundColor(getResources().getColor(android.R.color.darker_gray)); // Màu xám
+
+                    // Bắt đầu đếm ngược
+                    countDownTimer.start();
+
+                    // Gửi OTP qua Firebase Functions
+                    otpSender.sendOtp(email, CartActivity.this, new OtpSender.Callback() {
+                        @Override
+                        public void onSuccess(int otp) {
+                            Toast.makeText(CartActivity.this, "OTP đã gửi đến email: " + email, Toast.LENGTH_SHORT).show();
+                        }
+
+                        @Override
+                        public void onFailure(Exception e) {
+                            Toast.makeText(CartActivity.this, "Gửi OTP thất bại: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                } else {
+                    Toast.makeText(CartActivity.this, "Email không hợp lệ!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btnXacthuc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String otp = edtOtp.getText().toString().trim();
+                if (otp.isEmpty()) {
+                    Toast.makeText(CartActivity.this, "Vui lòng nhập mã OTP!", Toast.LENGTH_SHORT).show();
+                } else {
+                    // Kiểm tra OTP
+                    if (otpSender.verifyOtp(CartActivity.this, Integer.parseInt(otp))) {
+                        Log.d(TAG, "OTP xác nhận thành công");
+                        rdoXacNhanOTP.setChecked(true);
+                        rdoXacNhanOTP.setText("Đã xác thực danh tính");
+                        // Thay đổi màu của nút RadioButton
+                        rdoXacNhanOTP.setButtonTintList(ContextCompat.getColorStateList(CartActivity.this, R.color.purple_700));
+                        rdoXacNhanOTP.setTextColor(ContextCompat.getColor(CartActivity.this, R.color.purple_700));
+
+                        otpSender.clearOtp(CartActivity.this);
+
+                        dialog.dismiss();
+                        Toast.makeText(CartActivity.this, "OTP xác nhận thành công", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Log.d(TAG, "OTP không chính xác");
+                        Toast.makeText(CartActivity.this, "Mã OTP không chính xác. Vui lòng thử lại!", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
+
+
+
+        // Sự kiện khi bấm nút đóng dialog
+        imgCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+    }
+
 
     private void DiaLogThanhToan() {
         Dialog dialog = new Dialog(CartActivity.this);
@@ -290,6 +427,9 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
                                                                                                                                         TongTienGioHang();
                                                                                                                                         scrollViewCart.setVisibility(View.INVISIBLE);
                                                                                                                                         tvNullCart.setVisibility(View.VISIBLE);
+
+                                                                                                                                        NotificationHelper.showNotification(CartActivity.this, "Đặt hàng thành công", "Cảm ơn bạn đã đặt hàng tại Hero PetShop!");
+
                                                                                                                                     } else {
                                                                                                                                         Toast.makeText(CartActivity.this, "Thất bại", Toast.LENGTH_SHORT).show();
                                                                                                                                     }

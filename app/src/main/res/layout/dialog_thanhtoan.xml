@@ -132,7 +132,6 @@
                 android:textSize="13sp"/>
         </LinearLayout>
 
-
         <Button
             app:backgroundTint="#FF5722"
             android:id="@+id/btn_xacnhan"

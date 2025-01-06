@@ -742,7 +742,6 @@ public class BookingActivity extends AppCompatActivity {
                         rdoXacNhanOTP.setTextColor(ContextCompat.getColor(BookingActivity.this, R.color.purple_700));
 
                         otpSender.clearOtp(BookingActivity.this);
-//                        NotificationHelper.showNotification(BookingActivity.this, "Xác thực  thành công", "Cảm ơn bạn đã đặt lịch. Chi tiết trong ứng dụng!");
 
                         dialog.dismiss();
                         Toast.makeText(BookingActivity.this, "OTP xác nhận thành công", Toast.LENGTH_SHORT).show();
@@ -897,6 +896,8 @@ public class BookingActivity extends AppCompatActivity {
                                                                                                 intent.putExtra("tongtien", String.valueOf(tongtien));
                                                                                                 intent.putExtra("phuongthuc", "Thanh toán MOMO");
                                                                                                 startActivity(intent);
+                                                                                                NotificationHelper.showNotification(BookingActivity.this, "Đặt lịch thành công", "Cảm ơn bạn đã đặt lịch!");
+
                                                                                                 finish();  // Quay lại màn hình trước
                                                                                             })
                                                                                             .addOnFailureListener(e -> {

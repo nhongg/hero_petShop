@@ -5,6 +5,7 @@ package com.example.heroPetShop.Booking;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +27,7 @@ public class BookingDetailActivity extends AppCompatActivity {
     private RecyclerView recyclerViewServices;
     private CTHDAdapter cthdAdapter;
 
+    private ImageButton btn_back;
     private TextView txtHuy, txtGiaDichVu, txtTenKhachHang, txtTenThuCung, txtLoaiThuCung, txtCanNang, txtThoiGianDatLich, txtTrangThai, txtSdtNguoiDung;
 
     @Override
@@ -43,9 +45,16 @@ public class BookingDetailActivity extends AppCompatActivity {
         txtTrangThai = findViewById(R.id.txtTrangThai);
         txtSdtNguoiDung = findViewById(R.id.txtSdtNguoiDung);
         txtHuy = findViewById(R.id.txtHuy);
+        btn_back = findViewById(R.id.btn_back);
         recyclerViewServices = findViewById(R.id.rvDichVu);
 
 
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         // Cài đặt LayoutManager
         recyclerViewServices.setLayoutManager(new LinearLayoutManager(this));
 

@@ -4,16 +4,20 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.heroPetShop.R;
+import com.example.heroPetShop.ultil.NotificationHelper;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.SimpleDateFormat;
@@ -50,10 +54,12 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
     public void onBindViewHolder(BookingViewHolder holder, int position) {
         CTHDBooking booking = bookingList.get(position);
 
-        holder.txtTenDichVu.setText(booking.getTenDichVu());
-        holder.txtTenThuCung.setText(booking.getTenThuCung());
+        holder.txtID.setText("Mã : "+booking.getIdBooking());
+        holder.txtTenDichVu.setText("Dịch vụ sử dụng : "+booking.getTenDichVu());
+        holder.txtTenThuCung.setText("Thú cưng : "+booking.getTenThuCung() + " - " + booking.getLoaiThuCung());
         holder.txtThoiGian.setText(formatDate(booking.getThoiGianDatLich().getTime()));
         holder.txtTrangThai.setText(booking.getTrangThai());
+
 
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, BookingDetailActivity.class);
@@ -63,7 +69,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
 
 
         // Kiểm tra trạng thái của booking, nếu là "Hoàn thành" thì không cho phép long-click
-        if (!"Hoàn thành".equals(booking.getTrangThai())) {
+        if ("Chưa xác nhận".equals(booking.getTrangThai()) || "Đã xác nhận".equals(booking.getTrangThai())) {
             holder.itemView.setOnLongClickListener(v -> {
                 if (listener != null) {
                     listener.onItemLongClick(booking);  // Trigger the long-click action
@@ -87,7 +93,8 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
     }
 
     public class BookingViewHolder extends RecyclerView.ViewHolder {
-        TextView txtTenDichVu, txtTenThuCung, txtThoiGian,txtTrangThai;
+        TextView txtTenDichVu, txtTenThuCung, txtThoiGian,txtTrangThai,txtID;
+        LinearLayout itemln;
 
         public BookingViewHolder(View itemView) {
             super(itemView);
@@ -95,6 +102,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
             txtTenThuCung = itemView.findViewById(R.id.txtTenThuCung);
             txtThoiGian = itemView.findViewById(R.id.txtThoiGian);
             txtTrangThai = itemView.findViewById(R.id.txtTrangThai);
+            txtID = itemView.findViewById(R.id.txtID);
         }
     }
 
@@ -106,10 +114,9 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
                     switch (which) {
                         case 0:  // Hủy đặt lịch
                             cancelBooking(context, booking);
+
                             break;
-//                        case 1:  // Sửa thông tin
-////                            editBooking(context, booking);
-//                            break;
+
                     }
                 })
                 .create()
@@ -145,6 +152,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
                     .update("trangThai", "Đã hủy", "lyDoHuy", reason)
                     .addOnSuccessListener(aVoid -> {
                         Toast.makeText(context, "Đã hủy đặt lịch với lý do: " + reason, Toast.LENGTH_SHORT).show();
+                        NotificationHelper.showNotification(context, "Lịch đặt của bạn đã được huỷ", "Bạn vừa xác nhận huỷ lịch đặt "+booking.getIdBooking()+" với lý do : "+ reason);
                     })
                     .addOnFailureListener(e -> {
                         Toast.makeText(context, "Không thể hủy đặt lịch", Toast.LENGTH_SHORT).show();

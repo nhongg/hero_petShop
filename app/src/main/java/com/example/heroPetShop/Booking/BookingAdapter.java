@@ -130,15 +130,36 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
             return;
         }
 
-        // Hiển thị dialog để nhập lý do hủy
+        // Tạo AlertDialog
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Nhập lý do hủy");
 
-        // Thêm EditText vào dialog
+        // Tạo LinearLayout để chứa EditText và TextView
+        LinearLayout layout = new LinearLayout(context);
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setPadding(50, 40, 50, 10); // Thiết lập padding (px)
+
+        // Tạo EditText để nhập lý do hủy
         final EditText input = new EditText(context);
         input.setHint("Lý do hủy...");
-        builder.setView(input);
+        input.setTextSize(16); // Thiết lập kích thước chữ
+        input.setPadding(20, 20, 20, 20); // Padding trong EditText
+        input.setBackgroundColor(Color.parseColor("#F0F0F0")); // Màu nền
+        layout.addView(input); // Thêm EditText vào layout
 
+        // Tạo TextView để hiển thị dòng "Xem chính sách hủy lịch"
+        final TextView txtPolicy = new TextView(context);
+        txtPolicy.setText("Xem chính sách hủy lịch");
+        txtPolicy.setTextColor(Color.BLUE); // Màu chữ xanh
+        txtPolicy.setTextSize(14); // Kích thước chữ
+        txtPolicy.setPadding(20, 20, 20, 20);
+        txtPolicy.setClickable(true);
+        txtPolicy.setOnClickListener(v -> showPolicyDialog(context)); // Gắn sự kiện click
+        layout.addView(txtPolicy); // Thêm TextView vào layout
+
+        builder.setView(layout); // Gắn layout vào dialog
+
+        // Xử lý nút "Xác nhận"
         builder.setPositiveButton("Xác nhận", (dialog, which) -> {
             String reason = input.getText().toString().trim();
             if (reason.isEmpty()) {
@@ -162,6 +183,46 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         builder.setNegativeButton("Hủy", (dialog, which) -> dialog.dismiss());
 
         builder.create().show();
+    }
+
+    // Hiển thị dialog chính sách hủy
+    private static void showPolicyDialog(Context context) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Chính sách hủy lịch")
+                .setMessage("Các chính sách hủy đơn hàng của cửa hàng spa thú cưng có thể thay đổi tùy thuộc vào từng cửa hàng cụ thể, nhưng thông thường sẽ bao gồm một số yếu tố sau để đảm bảo quyền lợi cho cả khách hàng và cửa hàng:\n" +
+                        "\n" +
+                        "Thời gian hủy đơn hàng:\n"+
+                        "Cửa hàng thường yêu cầu khách hàng hủy đơn hàng ít nhất 24-48 giờ trước khi lịch hẹn dịch vụ diễn ra để tránh việc lãng phí tài nguyên và thời gian.\n" +
+                        "Nếu hủy sau thời gian quy định, cửa hàng có thể yêu cầu khách hàng đóng phí hủy hoặc mất phí một phần dịch vụ.\n" +
+                        "\n" +
+                        "Phí hủy đơn hàng:\n" +
+                        "Tùy vào chính sách của cửa hàng, nếu khách hàng hủy đơn quá sát giờ, cửa hàng có thể thu phí hủy đơn. Phí này có thể từ 10% - 50% giá trị của dịch vụ đã đặt.\n" +
+                        "Trong một số trường hợp đặc biệt như đặt dịch vụ spa cho thú cưng vào các dịp lễ hoặc thời điểm cao điểm, cửa hàng có thể áp dụng mức phí hủy cao hơn.\n" +
+                        "\n" +
+                        "Yêu cầu thay đổi lịch hẹn:\n" +
+                        "Cửa hàng cũng có thể yêu cầu khách hàng thông báo về việc thay đổi lịch hẹn trước một khoảng thời gian nhất định, ví dụ như 24 giờ. Thay đổi này có thể không bị tính phí nếu thực hiện đúng thời gian quy định.\n" +
+
+                        "\n" +
+                        "Lý do hủy:\n" +
+                        "Nếu khách hàng hủy vì lý do khẩn cấp như bệnh tật, cửa hàng có thể linh động và không tính phí, nhưng cần có giấy tờ chứng minh (ví dụ: chứng nhận y tế cho thú cưng hoặc giấy tờ liên quan).\n" +
+                        "Nếu khách hàng hủy mà không có lý do chính đáng, cửa hàng có thể thu một khoản phí.\n" +
+                        "\n" +
+                        "Thời gian trả tiền lại:\n" +
+                        "Nếu cửa hàng đã nhận tiền trước khi hủy, việc hoàn tiền có thể sẽ phụ thuộc vào thời gian hủy và chính sách của cửa hàng. Thường sẽ mất một vài ngày làm việc để xử lý hoàn tiền.\n" +
+                        "\n" +
+                        "Đặt cọc trước:\n" +
+                        "Một số cửa hàng yêu cầu đặt cọc trước khi đặt lịch hẹn dịch vụ spa cho thú cưng. Nếu hủy đơn hàng, tiền đặt cọc có thể sẽ không được hoàn lại, hoặc hoàn lại một phần tùy theo chính sách.\n" +
+                        "\n" +
+                        "Điều kiện đặc biệt:\n" +
+                        "Các trường hợp hủy do thời tiết xấu (ví dụ: bão, lũ lụt) hay trường hợp bất khả kháng khác có thể được miễn phí hoặc linh động hơn về phí hủy.\n" +
+                        "Cửa hàng cần cung cấp thông tin rõ ràng và minh bạch về chính sách hủy đơn hàng trên website hoặc thông qua các phương tiện liên lạc (email, tin nhắn, gọi điện) để khách hàng hiểu và tuân thủ.\n"+
+                        "\n" +
+                        "1. Hủy lịch trước 24 giờ không mất phí.\n"
+                        + "2. Hủy lịch trong vòng 24 giờ sẽ mất từ 30.000đ - 50.000đ chi phí dịch vụ.\n"
+                        + "3. Vui lòng liên hệ bộ phận hỗ trợ nếu có thắc mắc ( 0978357121 ).")
+                .setPositiveButton("Đóng", (dialog, which) -> dialog.dismiss())
+                .create()
+                .show();
     }
 
     // Mở Activity để sửa thông tin

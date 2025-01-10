@@ -19,8 +19,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.heroPetShop.R;
 import com.example.heroPetShop.ultil.NotificationHelper;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingViewHolder> {
@@ -106,14 +108,14 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         }
     }
 
-    // Hiển thị Dialog với các tùy chọn "Hủy" và "Sửa"
-    public static void showOptionsDialog(Context context, CTHDBooking booking) {
+    // Hiển thị Dialog với các tùy chọn "Hủy"
+    public static void showOptionsDialog(Context context, CTHDBooking booking, List<CTHDBooking> bookingList) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Chọn hành động")
                 .setItems(new CharSequence[]{"Hủy đặt lịch"}, (dialog, which) -> {
                     switch (which) {
                         case 0:  // Hủy đặt lịch
-                            cancelBooking(context, booking);
+                            cancelBooking(context, booking,bookingList);
 
                             break;
 
@@ -123,8 +125,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
                 .show();
     }
 
-    // Hủy đặt lịch
-    private static void cancelBooking(Context context, CTHDBooking booking) {
+    private static void cancelBooking(Context context, CTHDBooking booking, List<CTHDBooking> bookingList) {
         if (booking.getIdcthdbooking() == null || booking.getIdcthdbooking().isEmpty()) {
             Toast.makeText(context, "Không thể xác định lịch để hủy", Toast.LENGTH_SHORT).show();
             return;
@@ -132,20 +133,12 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
 
         // Tạo AlertDialog
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("Nhập lý do hủy");
+        builder.setTitle("Chọn lý do hủy");
 
         // Tạo LinearLayout để chứa EditText và TextView
         LinearLayout layout = new LinearLayout(context);
         layout.setOrientation(LinearLayout.VERTICAL);
         layout.setPadding(50, 40, 50, 10); // Thiết lập padding (px)
-
-        // Tạo EditText để nhập lý do hủy
-        final EditText input = new EditText(context);
-        input.setHint("Lý do hủy...");
-        input.setTextSize(16); // Thiết lập kích thước chữ
-        input.setPadding(20, 20, 20, 20); // Padding trong EditText
-        input.setBackgroundColor(Color.parseColor("#F0F0F0")); // Màu nền
-        layout.addView(input); // Thêm EditText vào layout
 
         // Tạo TextView để hiển thị dòng "Xem chính sách hủy lịch"
         final TextView txtPolicy = new TextView(context);
@@ -157,32 +150,93 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
         txtPolicy.setOnClickListener(v -> showPolicyDialog(context)); // Gắn sự kiện click
         layout.addView(txtPolicy); // Thêm TextView vào layout
 
-        builder.setView(layout); // Gắn layout vào dialog
+        // Tạo radio button cho các lý do hủy
+        final String[] reasons = {"Do có việc bận không đến được", "Đổi ý không sử dụng dịch vụ nữa", "Đặt nhầm (ngày/ca)", "Khác (Nhập lý do)"};
 
-        // Xử lý nút "Xác nhận"
+        builder.setSingleChoiceItems(reasons, -1, (dialog, which) -> {
+            // Lấy lý do hủy từ radio button được chọn
+            int selectedPosition = ((AlertDialog) dialog).getListView().getCheckedItemPosition();
+            String reason = reasons[selectedPosition];
+
+            if (reason.equals("Khác (Nhập lý do)")) {
+                // Hiển thị dialog để người dùng nhập lý do
+                showCustomReasonDialog(context, booking);
+                loadListBooking(context,bookingList);
+                dialog.dismiss();
+            } else {
+                // Xử lý hủy lịch với lý do đã chọn
+                updateBookingStatus(context, booking, reason);
+                loadListBooking(context,bookingList);
+                dialog.dismiss();
+            }
+
+        });
+
+        builder.setNegativeButton("Hủy", (dialog, which) -> dialog.dismiss());
+        builder.setView(layout);
+        // Hiển thị dialog
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+
+    }
+
+    // Hiển thị dialog để người dùng nhập lý do hủy
+    private static void showCustomReasonDialog(Context context, CTHDBooking booking) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("Nhập lý do hủy");
+
+        // Thêm EditText vào dialog
+        final EditText input = new EditText(context);
+        input.setHint("Lý do hủy...");
+        builder.setView(input);
+
         builder.setPositiveButton("Xác nhận", (dialog, which) -> {
             String reason = input.getText().toString().trim();
             if (reason.isEmpty()) {
                 Toast.makeText(context, "Vui lòng nhập lý do hủy", Toast.LENGTH_SHORT).show();
-                return;
+            } else {
+                updateBookingStatus(context, booking, reason);
             }
-
-            // Cập nhật Firestore với lý do hủy và trạng thái
-            FirebaseFirestore db = FirebaseFirestore.getInstance();
-            db.collection("CTHDBooking").document(booking.getIdcthdbooking())
-                    .update("trangThai", "Đã hủy", "lyDoHuy", reason)
-                    .addOnSuccessListener(aVoid -> {
-                        Toast.makeText(context, "Đã hủy đặt lịch với lý do: " + reason, Toast.LENGTH_SHORT).show();
-                        NotificationHelper.showNotification(context, "Lịch đặt của bạn đã được huỷ", "Bạn vừa xác nhận huỷ lịch đặt "+booking.getIdBooking()+" với lý do : "+ reason);
-                    })
-                    .addOnFailureListener(e -> {
-                        Toast.makeText(context, "Không thể hủy đặt lịch", Toast.LENGTH_SHORT).show();
-                    });
         });
 
         builder.setNegativeButton("Hủy", (dialog, which) -> dialog.dismiss());
 
         builder.create().show();
+    }
+
+    // Cập nhật trạng thái lịch đặt vào Firestore
+    private static void updateBookingStatus(Context context, CTHDBooking booking, String reason) {
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("CTHDBooking").document(booking.getIdcthdbooking())
+                .update("trangThai", "Đã hủy", "lyDoHuy", reason)
+                .addOnSuccessListener(aVoid -> {
+                    Toast.makeText(context, "Đã hủy đặt lịch với lý do: " + reason, Toast.LENGTH_SHORT).show();
+                    NotificationHelper.showNotification(context, "Lịch đặt của bạn đã được huỷ", "Bạn vừa xác nhận huỷ lịch đặt " + booking.getIdBooking() + " với lý do : " + reason);
+                })
+                .addOnFailureListener(e -> {
+                    Toast.makeText(context, "Không thể hủy đặt lịch", Toast.LENGTH_SHORT).show();
+                });
+    }
+
+    // Hàm để load lại danh sách đặt lịch
+    public static void loadListBooking(Context context, List<CTHDBooking> bookingList) {
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        // Query để lấy danh sách đặt lịch sau khi cập nhật
+        db.collection("CTHDBooking")
+                .get()
+                .addOnSuccessListener(queryDocumentSnapshots -> {
+                    List<CTHDBooking> bookings = new ArrayList<CTHDBooking>();
+                    for (QueryDocumentSnapshot document : queryDocumentSnapshots) {
+                        CTHDBooking booking = document.toObject(CTHDBooking.class);
+                        bookings.add(booking);
+                    }
+                    bookingList.clear();
+                    bookingList.addAll(bookings);
+                })
+                .addOnFailureListener(e -> {
+                    Toast.makeText(context, "Không thể tải danh sách đặt lịch", Toast.LENGTH_SHORT).show();
+                });
     }
 
     // Hiển thị dialog chính sách hủy

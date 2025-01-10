@@ -72,15 +72,14 @@ public class BookingFragment extends Fragment {
             @Override
             public void onItemLongClick(CTHDBooking booking) {
                 // Hiển thị dialog khi long-click vào item
-                BookingAdapter.showOptionsDialog(getContext(), booking);
-                bookingAdapter.notifyDataSetChanged();
+                BookingAdapter.showOptionsDialog(getContext(), booking, bookingList);
             }
         });
 
         return view;
     }
 
-    private void getBookingsFromFirestore() {
+    public void getBookingsFromFirestore() {
         // Lọc booking theo userId
         db.collection("CTHDBooking")
            .whereEqualTo("iduser", userId) // Lọc theo userId
@@ -100,4 +99,6 @@ public class BookingFragment extends Fragment {
                     }
                 });
     }
+
+
 }

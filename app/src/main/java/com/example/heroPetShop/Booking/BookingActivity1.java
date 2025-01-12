@@ -34,7 +34,10 @@ import com.example.heroPetShop.ultil.OtpSender;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 
 import org.json.JSONException;
@@ -518,21 +521,13 @@ public class BookingActivity1 extends AppCompatActivity {
             timePickerDialog.show();
         });
 
-
-
-
-
         btnDatLich.setOnClickListener(v -> {
             if(rdoXacNhanOTP.isChecked()){
                 requestPayment();
             }else{
                 openDialog();
             }
-//            requestPayment();
         });
-
-
-
     }
 
     private void requestPayment() {
@@ -764,7 +759,7 @@ public class BookingActivity1 extends AppCompatActivity {
 
                     double giaDouble = Integer.parseInt(giaDichvu);
                     double canNang = Double.parseDouble(canNangStr);
-                    if(canNang>15){
+                    if(canNang > 15){
                         giaDouble += 50000;
 
                     }
@@ -859,10 +854,53 @@ public class BookingActivity1 extends AppCompatActivity {
                                                                                 .addOnFailureListener(e -> {
                                                                                     //   Toast.makeText(BookingActivity1.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
                                                                                 });
+
+                                                                        for (int i = 0; i < serviceIdList.size(); i++) {
+                                                                            String serviceId = serviceIdList.get(i);
+                                                                            db.collection("services")
+                                                                                    .document(serviceId)
+                                                                                    .get()
+                                                                                    .addOnCompleteListener(task -> {
+                                                                                        if (task.isSuccessful()) {
+                                                                                            DocumentSnapshot service = task.getResult();
+                                                                                            if (service.exists()) {
+                                                                                                // Lấy thông tin từ document
+                                                                                                String serviceName = service.getString("tenDichVu"); // Tên dịch vụ
+                                                                                                Double servicePrice = service.getDouble("gia"); // Giá dịch vụ
+                                                                                                String serviceImage = service.getString("img"); // URL hình ảnh (nếu có)
+
+                                                                                                // Tạo đối tượng CTBooking
+                                                                                                CTBooking ctBooking = new CTBooking();
+                                                                                                ctBooking.setIdcthdbooking(idCthdBooking);
+                                                                                                ctBooking.setTenDichVu(serviceName);
+                                                                                                ctBooking.setGiaDichVu(servicePrice != null ? servicePrice : 0.0); // Kiểm tra null
+                                                                                                ctBooking.setImage(serviceImage != null ? serviceImage : ""); // Kiểm tra null
+
+                                                                                                // Lưu vào Firestore
+                                                                                                db.collection("CTBooking")
+                                                                                                        .add(ctBooking)
+                                                                                                        .addOnSuccessListener(documentRefer -> {
+                                                                                                            Log.d("CTBooking", "Thêm CTBooking thành công với ID: " + documentRefer.getId());
+                                                                                                        })
+                                                                                                        .addOnFailureListener(e -> {
+                                                                                                            Log.e("CTBooking", "Thêm CTBooking thất bại: ", e);
+                                                                                                        });
+                                                                                            } else {
+                                                                                                Log.w("CTBooking", "Document không tồn tại: " + serviceId);
+                                                                                            }
+                                                                                        } else {
+                                                                                            Log.e("CTBooking", "Lỗi khi lấy dữ liệu service: ", task.getException());
+                                                                                        }
+                                                                                    });
+                                                                        }
+
                                                                     })
                                                                     .addOnFailureListener(e -> {
                                                                         //  Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
                                                                     });
+
+
+
                                                         } else {
                                                             Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
                                                         }
@@ -880,8 +918,6 @@ public class BookingActivity1 extends AppCompatActivity {
                             .addOnFailureListener(e -> {
                                 Toast.makeText(BookingActivity1.this, "Đặt lịch thất bại", Toast.LENGTH_SHORT).show();
                             });
-
-
             }
 
 

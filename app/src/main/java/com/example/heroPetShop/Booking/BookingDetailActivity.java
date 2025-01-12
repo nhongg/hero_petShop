@@ -16,24 +16,32 @@ import com.example.heroPetShop.Adapter.CTHDAdapter;
 import com.example.heroPetShop.Booking.CTHDBooking;
 import com.example.heroPetShop.DichVu.Service;
 import com.example.heroPetShop.R;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 public class BookingDetailActivity extends AppCompatActivity {
-
+    private List<CTBooking> serviceList = new ArrayList<>();
+    private FirebaseFirestore db;
     private RecyclerView recyclerViewServices;
     private CTHDAdapter cthdAdapter;
 
     private ImageButton btn_back;
+    private String idcthdbooking;
     private TextView txtHuy, txtGiaDichVu, txtTenKhachHang, txtTenThuCung, txtLoaiThuCung, txtCanNang, txtThoiGianDatLich, txtTrangThai, txtSdtNguoiDung;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking_detail); // Layout chi tiết, bạn cần tạo layout này
+
+        db = FirebaseFirestore.getInstance(); // Khởi tạo Firestore
 
         // Ánh xạ các TextView
         txtGiaDichVu = findViewById(R.id.txtGiaDichVu);
@@ -55,8 +63,7 @@ public class BookingDetailActivity extends AppCompatActivity {
                 finish();
             }
         });
-        // Cài đặt LayoutManager
-        recyclerViewServices.setLayoutManager(new LinearLayoutManager(this));
+
 
         TextView txtHuy = findViewById(R.id.txtHuy);
         TextView lblLyDoHuy = findViewById(R.id.lblLyDoHuy); // TextView tiêu đề "Lý do hủy"
@@ -75,65 +82,52 @@ public class BookingDetailActivity extends AppCompatActivity {
             }
         }
 
-        // Hiển thị thông tin chi tiết
-        if (booking != null) {
-            FirebaseFirestore db = FirebaseFirestore.getInstance();
-            List<Service> serviceList = new ArrayList<>();
-            List<String> serviceIds = booking.getServiceIds();
+        int soNguyen = (int)booking.getGiaDichVu();
+        int canNang = (int)booking.getCanNang();
 
-            for (String serviceId : serviceIds) {
-                db.collection("services")
-                        .document(serviceId)
-                        .get()
-                        .addOnSuccessListener(documentSnapshot -> {
-                            if (documentSnapshot.exists()) {
-                                // Lấy dữ liệu từ Firestore
-                                String tenDichVu = documentSnapshot.getString("tenDichVu");
-                                String moTa = documentSnapshot.getString("moTa");
-                                Double gia = documentSnapshot.getDouble("gia");
-                                Long thoiGian = documentSnapshot.getLong("thoiGian");
-                                Boolean hoatDong = documentSnapshot.getBoolean("hoatDong");
-                                String img = documentSnapshot.getString("img");
+        idcthdbooking = booking.getIdcthdbooking();
+        // Hiển thị thông tin khác từ booking
+        txtGiaDichVu.setText(String.valueOf(soNguyen));
+        txtTenKhachHang.setText(booking.getIdcthdbooking());
+        txtTenThuCung.setText(booking.getTenThuCung());
+        txtLoaiThuCung.setText(booking.getLoaiThuCung());
+        txtCanNang.setText(String.valueOf(canNang));
+        txtThoiGianDatLich.setText(formatDate(booking.getThoiGianDatLich().getTime()));
+        txtTrangThai.setText(booking.getTrangThai());
+        txtSdtNguoiDung.setText(booking.getSdtNguoiDung());
+        txtHuy.setText(String.valueOf(booking.getLyDoHuy()));
 
-                                // Khởi tạo đối tượng Service
-                                Service service = new Service(serviceId, tenDichVu, moTa, gia != null ? gia : 0.0, thoiGian != null ? thoiGian : 0, hoatDong != null ? hoatDong : false);
-                                service.setImg(img);
+        // Cài đặt LayoutManager
+        recyclerViewServices.setLayoutManager(new LinearLayoutManager(this));
+        cthdAdapter = new CTHDAdapter(getApplicationContext(),serviceList);
+        recyclerViewServices.setAdapter(cthdAdapter);
 
-                                // Thêm vào danh sách
-                                serviceList.add(service);
-
-                                // Nếu đã tải xong toàn bộ danh sách
-                                if (serviceList.size() == serviceIds.size()) {
-                                    // Thiết lập adapter cho RecyclerView
-                                    cthdAdapter = new CTHDAdapter(serviceList);
-                                    recyclerViewServices.setAdapter(cthdAdapter);
-                                }
-                            }
-                        })
-                        .addOnFailureListener(e -> {
-                            Log.e("FirebaseError", "Error loading service: " + e.getMessage());
-                        });
-            }
-            int soNguyen = (int)booking.getGiaDichVu();
-            int canNang = (int)booking.getCanNang();
-
-            // Hiển thị thông tin khác từ booking
-            txtGiaDichVu.setText(String.valueOf(soNguyen));
-            txtTenKhachHang.setText(booking.getTenKhachHang());
-            txtTenThuCung.setText(booking.getTenThuCung());
-            txtLoaiThuCung.setText(booking.getLoaiThuCung());
-            txtCanNang.setText(String.valueOf(canNang));
-            txtThoiGianDatLich.setText(formatDate(booking.getThoiGianDatLich().getTime()));
-            txtTrangThai.setText(booking.getTrangThai());
-            txtSdtNguoiDung.setText(booking.getSdtNguoiDung());
-            txtHuy.setText(String.valueOf(booking.getLyDoHuy()));
-
-
-        }}
+        // Hiển thị thông tin các dịch vụ sử dụng
+        getServices();
+    }
     // Định dạng thời gian
     private String formatDate(long timestamp) {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
         return sdf.format(timestamp);
+    }
+
+    public void getServices() {
+        // Lọc booking theo userId
+        db.collection("CTBooking")
+                .whereEqualTo("idcthdbooking", idcthdbooking) // Lọc theo idcthdbooking
+                .get()
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        QuerySnapshot querySnapshot = task.getResult();
+                        if (querySnapshot != null) {
+                            for (QueryDocumentSnapshot document : querySnapshot) {
+                                CTBooking service = document.toObject(CTBooking.class);
+                                serviceList.add(service);
+                            }
+                            cthdAdapter.notifyDataSetChanged();
+                        }
+                    }
+                });
     }
     }
 

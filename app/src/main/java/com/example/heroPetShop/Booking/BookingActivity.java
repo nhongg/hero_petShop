@@ -69,8 +69,9 @@ public class BookingActivity extends AppCompatActivity {
     private FirebaseUser currentUser;
     private int selectedYear, selectedMonth, selectedDay, selectedHour, selectedMinute;
     private String selectedDate, selectedTime,selectedTime1;
-    private String tenDichVu; // Dịch vụ từ DetailServiceActivity
+    private String tenDichVu, image; // Dịch vụ từ DetailServiceActivity
     private String userId; // ID người dùng
+    private Double gia;
     Date thoiGianDatLichCt;
     String tenNguoiDung;
     String sdtNguoiDung;
@@ -513,8 +514,6 @@ public class BookingActivity extends AppCompatActivity {
             datePickerDialog.show();
         });
 
-
-// Chọn giờ
         // Chọn giờ
         txtChonGio.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
@@ -560,7 +559,9 @@ public class BookingActivity extends AppCompatActivity {
             }else{
                 openDialog();
             }
+
         });
+
 
         btnback = findViewById(R.id.btnBack);
 
@@ -781,8 +782,8 @@ public class BookingActivity extends AppCompatActivity {
                     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 //                    gioHangPresenter.HandleAddHoaDon(ghichu,simpleDateFormat.format(calendar.getTime()),diachi,hoten,sdt,spinnerPhuongthuc.getSelectedItem().toString(),tienthanhtoan,listGiohang);
 
-
                     tenDichVu = getIntent().getStringExtra("tenDichVu");
+
                     String serviceId = getIntent().getStringExtra("serviceId");
 
                     String[] serviceIdArray = serviceId.split(",\\s*");
@@ -791,7 +792,6 @@ public class BookingActivity extends AppCompatActivity {
                     String tenThuCung = edtTenThuCung.getText().toString();
                     String canNangStr = edtCanNang.getText().toString();
                     String loaiThuCung = spnLoaiThuCung.getSelectedItem().toString();
-
 
 
                     // Kiểm tra dữ liệu
@@ -808,7 +808,7 @@ public class BookingActivity extends AppCompatActivity {
 
                     // Tạo đối tượng Booking mới
                     Booking booking = new Booking();
-                    booking.setTenDichVu("Dịch vụ "+tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
+                    booking.setTenDichVu("Dịch vụ " + tenDichVu); // Dịch vụ đã nhận từ DetailServiceActivity
                     booking.setTenThuCung(tenThuCung);
                     booking.setCanNang(canNang);
                     booking.setLoaiThuCung(loaiThuCung);
@@ -824,7 +824,6 @@ public class BookingActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
 
-                    booking.setTrangThai("Chưa xác nhận");
                     booking.setIdUser(userId); // ID người dùng
 
                     // Lưu vào Firestore
@@ -838,86 +837,75 @@ public class BookingActivity extends AppCompatActivity {
                                         .addOnSuccessListener(aVoid -> {
                                             Toast.makeText(BookingActivity.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
 
-                                            // Lấy thông tin dịch vụ từ Firestore
-                                            db.collection("services").document(serviceId).get()
-                                                    .addOnSuccessListener(serviceDocument -> {
-                                                        String tenDichVu = serviceDocument.getString("tenDichVu");
+                                            // Truy vấn thông tin từ Firestore
+                                            db.collection("User").document(userId).collection("Profile").get()
+                                                    .addOnSuccessListener(querySnapshot -> {
+                                                        if (!querySnapshot.isEmpty()) {
+                                                            // Lấy tài liệu đầu tiên trong collection "Profile"
+                                                            String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
+
+                                                            // Lấy tên khách hàng từ FirebaseUser
+                                                            String tenKhachHang = currentUser.getDisplayName();
+                                                            gia = getIntent().getDoubleExtra("giaDichVu", 0);
+                                                            image = getIntent().getStringExtra("image");
+                                                            if (canNang > 15) {
+                                                                gia += 50000;
+                                                            }
+                                                            // Tạo đối tượng CTHDBooking
+                                                            CTHDBooking cthdBooking = new CTHDBooking();
+                                                            cthdBooking.setIduser(userId);
+                                                            cthdBooking.setServiceIds(serviceIdList);
+                                                            cthdBooking.setIdBooking(idBooking);
+                                                            cthdBooking.setTenDichVu(tenDichVu);
+                                                            cthdBooking.setGiaDichVu(gia);
+                                                            cthdBooking.setTenKhachHang(tenKhachHang);
+                                                            cthdBooking.setTenThuCung(tenThuCung);
+                                                            cthdBooking.setLoaiThuCung(loaiThuCung);
+                                                            cthdBooking.setCanNang(canNang);
+                                                            cthdBooking.setThoiGianDatLich(thoiGianDatLichCt);
+                                                            cthdBooking.setTrangThai("Chưa xác nhận");
+                                                            cthdBooking.setSdtNguoiDung(sdt); // Gắn số điện thoại vào CTHDBooking
+
+                                                            // Thêm CTHDBooking vào Firestore
+                                                            db.collection("CTHDBooking")
+                                                                    .add(cthdBooking)
+                                                                    .addOnSuccessListener(cthdDocRef -> {
+                                                                        // Cập nhật ID do Firebase tự tạo vào CTHDBooking
+                                                                        String idCthdBooking = cthdDocRef.getId();
+                                                                        db.collection("CTHDBooking").document(idCthdBooking)
+                                                                                .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
+                                                                                .addOnSuccessListener(aVoid1 -> {
 
 
-                                                        double giaDichVu = serviceDocument.getDouble("gia");
-                                                        if(canNang>15){
-                                                            giaDichVu += 50000;
-
-                                                        }
-                                                        // Truy vấn thông tin từ Firestore
-                                                        double finalGiaDichVu = giaDichVu;
-                                                        db.collection("User").document(userId).collection("Profile").get()
-                                                                .addOnSuccessListener(querySnapshot -> {
-                                                                    if (!querySnapshot.isEmpty()) {
-                                                                        // Lấy tài liệu đầu tiên trong collection "Profile"
-                                                                        String sdt = querySnapshot.getDocuments().get(0).getString("sdt");
-
-                                                                        // Lấy tên khách hàng từ FirebaseUser
-                                                                        String tenKhachHang = currentUser.getDisplayName();
-
-                                                                        // Tạo đối tượng CTHDBooking
-                                                                        CTHDBooking cthdBooking = new CTHDBooking();
-                                                                        cthdBooking.setIduser(userId);
-                                                                        cthdBooking.setServiceIds(serviceIdList );
-                                                                        cthdBooking.setIdBooking(idBooking);
-                                                                        cthdBooking.setTenDichVu(tenDichVu);
-                                                                        cthdBooking.setGiaDichVu(finalGiaDichVu);
-                                                                        cthdBooking.setTenKhachHang(tenKhachHang);
-                                                                        cthdBooking.setTenThuCung(tenThuCung);
-                                                                        cthdBooking.setLoaiThuCung(loaiThuCung);
-                                                                        cthdBooking.setCanNang(canNang);
-                                                                        cthdBooking.setThoiGianDatLich(thoiGianDatLichCt);
-                                                                        cthdBooking.setTrangThai("Chưa xác nhận");
-                                                                        cthdBooking.setSdtNguoiDung(sdt); // Gắn số điện thoại vào CTHDBooking
-
-                                                                        // Thêm CTHDBooking vào Firestore
-                                                                        db.collection("CTHDBooking")
-                                                                                .add(cthdBooking)
-                                                                                .addOnSuccessListener(cthdDocRef -> {
-                                                                                    // Cập nhật ID do Firebase tự tạo vào CTHDBooking
-                                                                                    String idCthdBooking = cthdDocRef.getId();
-                                                                                    db.collection("CTHDBooking").document(idCthdBooking)
-                                                                                            .update("idcthdbooking", idCthdBooking) // Gán idcthdbooking
-                                                                                            .addOnSuccessListener(aVoid1 -> {
-                                                                                                int tongtien = (int) finalGiaDichVu;
-                                                                                                String time = formatDate(thoiGianDatLichCt.getTime());
-                                                                                                //   Toast.makeText(BookingActivity.this, "Đặt lịch thành công", Toast.LENGTH_SHORT).show();
-                                                                                                Intent intent = new Intent(BookingActivity.this, OrderSuccessdv.class);
-                                                                                                intent.putExtra("idhoadon", idCthdBooking);
-                                                                                                intent.putExtra("hoten", tenKhachHang);
-                                                                                                intent.putExtra("ngaydat", time);
-                                                                                                intent.putExtra("sdt", sdt);
-                                                                                                intent.putExtra("tendv", tenDichVu);
-                                                                                                intent.putExtra("tongtien", String.valueOf(tongtien));
-                                                                                                intent.putExtra("phuongthuc", "Thanh toán MOMO");
-                                                                                                startActivity(intent);
-                                                                                                NotificationHelper.showNotification(BookingActivity.this, "Đặt lịch thành công", "Cảm ơn bạn đã đặt lịch!");
-
-                                                                                                finish();  // Quay lại màn hình trước
-                                                                                            })
-                                                                                            .addOnFailureListener(e -> {
-                                                                                                // Toast.makeText(BookingActivity.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
-                                                                                            });
                                                                                 })
                                                                                 .addOnFailureListener(e -> {
-                                                                                    //  Toast.makeText(BookingActivity.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
+                                                                                    // Toast.makeText(BookingActivity.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
                                                                                 });
-                                                                    } else {
-                                                                        Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
-                                                                    }
-                                                                })
-                                                                .addOnFailureListener(e -> {
-                                                                    Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
-                                                                });
 
+                                                                        CTBooking ctBooking = new CTBooking();
+                                                                        ctBooking.setIdcthdbooking(idCthdBooking);
+                                                                        ctBooking.setGiaDichVu(gia);
+                                                                        ctBooking.setTenDichVu(tenDichVu);
+                                                                        ctBooking.setImage(image);
+                                                                        db.collection("CTBooking")
+                                                                                .add(ctBooking)
+                                                                                .addOnSuccessListener(documentReference1 -> {
+                                                                                    Log.d("CTBooking", "Thêm dữ liệu CTBooking thành công với ID: " + documentReference1.getId());
+                                                                                })
+                                                                                .addOnFailureListener(e -> {
+                                                                                    Log.e("CTBooking", "Thêm dữ liệu CTBooking thất bại: ", e);
+                                                                                });
+
+                                                                    })
+                                                                    .addOnFailureListener(e -> {
+                                                                        //  Toast.makeText(BookingActivity.this, "Lưu thông tin vào CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
+                                                                    });
+                                                        } else {
+                                                            Log.d("Firestore", "Không tìm thấy thông tin Profile của userId: " + userId);
+                                                        }
                                                     })
                                                     .addOnFailureListener(e -> {
-                                                        Toast.makeText(BookingActivity.this, "Lỗi khi lấy thông tin dịch vụ", Toast.LENGTH_SHORT).show();
+                                                        Log.e("Firestore", "Lỗi khi truy vấn thông tin", e);
                                                     });
                                         })
                                         .addOnFailureListener(e -> {
@@ -927,10 +915,7 @@ public class BookingActivity extends AppCompatActivity {
                             .addOnFailureListener(e -> {
                                 Toast.makeText(BookingActivity.this, "Đặt lịch thất bại", Toast.LENGTH_SHORT).show();
                             });
-
                 }
-
-
             }
         }
 

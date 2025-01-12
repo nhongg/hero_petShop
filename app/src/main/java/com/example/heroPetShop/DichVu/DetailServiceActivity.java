@@ -126,6 +126,8 @@ public class DetailServiceActivity extends AppCompatActivity {
                             } else {
                                 Intent intent = new Intent(DetailServiceActivity.this, BookingActivity.class);
                                 intent.putExtra("tenDichVu", service.getTenDichVu());
+                                intent.putExtra("giaDichVu", service.getGia());
+                                intent.putExtra("image", service.getImg());
                                 intent.putExtra("serviceId", serviceId); // Gửi ID dịch vụ
                                 startActivity(intent);
                             }

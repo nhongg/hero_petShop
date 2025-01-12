@@ -72,6 +72,7 @@ public class BookingActivity extends AppCompatActivity {
     private String tenDichVu, image; // Dịch vụ từ DetailServiceActivity
     private String userId; // ID người dùng
     private Double gia;
+    private Double gia2;
     Date thoiGianDatLichCt;
     String tenNguoiDung;
     String sdtNguoiDung;
@@ -851,6 +852,7 @@ public class BookingActivity extends AppCompatActivity {
                                                             if (canNang > 15) {
                                                                 gia += 50000;
                                                             }
+
                                                             // Tạo đối tượng CTHDBooking
                                                             CTHDBooking cthdBooking = new CTHDBooking();
                                                             cthdBooking.setIduser(userId);
@@ -882,9 +884,24 @@ public class BookingActivity extends AppCompatActivity {
                                                                                     // Toast.makeText(BookingActivity.this, "Cập nhật ID CTHDBooking thất bại", Toast.LENGTH_SHORT).show();
                                                                                 });
 
+                                                                        double finalGiaDichVu = gia;
+                                                                        int tongtien = (int) finalGiaDichVu;
+                                                                        String time = formatDate(thoiGianDatLichCt.getTime());
+                                                                        // Toast.makeText(BookingActivity1.this, "Lưu thông tin vào CTHDBooking thành công", Toast.LENGTH_SHORT).show();
+                                                                        Intent intent = new Intent(BookingActivity.this, OrderSuccessdv.class);
+                                                                        intent.putExtra("idhoadon", idCthdBooking);
+                                                                        intent.putExtra("hoten", tenKhachHang);
+                                                                        intent.putExtra("ngaydat", time);
+                                                                        intent.putExtra("sdt", sdt);
+                                                                        intent.putExtra("tendv", tenDichVu);
+                                                                        intent.putExtra("tongtien", String.valueOf(tongtien));
+                                                                        intent.putExtra("phuongthuc", "Thanh toán MOMO");
+                                                                        startActivity(intent);
+                                                                        finish();
+                                                                        gia2 = getIntent().getDoubleExtra("giaDichVu", 0);
                                                                         CTBooking ctBooking = new CTBooking();
                                                                         ctBooking.setIdcthdbooking(idCthdBooking);
-                                                                        ctBooking.setGiaDichVu(gia);
+                                                                        ctBooking.setGiaDichVu(gia2);
                                                                         ctBooking.setTenDichVu(tenDichVu);
                                                                         ctBooking.setImage(image);
                                                                         db.collection("CTBooking")

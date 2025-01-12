@@ -88,7 +88,7 @@ public class BookingDetailActivity extends AppCompatActivity {
         idcthdbooking = booking.getIdcthdbooking();
         // Hiển thị thông tin khác từ booking
         txtGiaDichVu.setText(String.valueOf(soNguyen));
-        txtTenKhachHang.setText(booking.getIdcthdbooking());
+        txtTenKhachHang.setText(booking.getTenKhachHang());
         txtTenThuCung.setText(booking.getTenThuCung());
         txtLoaiThuCung.setText(booking.getLoaiThuCung());
         txtCanNang.setText(String.valueOf(canNang));

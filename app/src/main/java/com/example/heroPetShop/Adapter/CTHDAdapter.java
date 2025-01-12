@@ -39,8 +39,9 @@ public class CTHDAdapter extends RecyclerView.Adapter<CTHDAdapter.CTHDViewHolder
     public void onBindViewHolder(@NonNull CTHDViewHolder holder, int position) {
         CTBooking service = services.get(position);
         Log.d("CTAdapter", "Image URL: " + service.getImage());
+        int result = (int) (service.getGiaDichVu() );
         holder.txtServiceName.setText(service.getTenDichVu());
-        holder.txtServicePrice.setText(String.valueOf(service.getGiaDichVu()));
+        holder.txtServicePrice.setText(String.valueOf(result));
         Glide.with(holder.itemView.getContext())
                 .load(service.getImage()) // URL ảnh
                 .error(R.drawable.error_image) // Hình ảnh hiển thị khi lỗi

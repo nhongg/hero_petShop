@@ -208,10 +208,19 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.BookingV
     private static void updateBookingStatus(Context context, CTHDBooking booking, String reason) {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         db.collection("CTHDBooking").document(booking.getIdcthdbooking())
-                .update("trangThai", "Đã hủy", "lyDoHuy", reason,"trangThaiHuy","false")
+                .update(
+                        "trangThai", "Đã hủy",
+                        "lyDoHuy", reason,
+                        "trangThaiHuy", true,
+                        "tienHuy", 30000
+                )
                 .addOnSuccessListener(aVoid -> {
                     Toast.makeText(context, "Đã hủy đặt lịch với lý do: " + reason, Toast.LENGTH_SHORT).show();
-                    NotificationHelper.showNotification(context, "Lịch đặt của bạn đã được huỷ", "Bạn vừa xác nhận huỷ lịch đặt " + booking.getIdBooking() + " với lý do : " + reason);
+                    NotificationHelper.showNotification(
+                            context,
+                            "Lịch đặt của bạn đã được huỷ",
+                            "Bạn vừa xác nhận huỷ lịch đặt " + booking.getIdBooking() + " với lý do: " + reason
+                    );
                 })
                 .addOnFailureListener(e -> {
                     Toast.makeText(context, "Không thể hủy đặt lịch", Toast.LENGTH_SHORT).show();
